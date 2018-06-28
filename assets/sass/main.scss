@@ -4,7 +4,6 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
 /*
@@ -1028,7 +1027,7 @@
 
 	#footer {
 		background-attachment:		scroll;
-		background-color:			_palette(accent1, bg);
+		background-color:			_palette(accent3, bg);
 		background-image:			url('images/bottom-3200.svg');
 		background-position:		top center;
 		background-repeat:			repeat-x;
