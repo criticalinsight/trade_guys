@@ -47,15 +47,15 @@
 
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
-		display: block;
+		display: inline;
 	}
 
 	body {
-		line-height: 1;
+		line-height: 4;
 	}
 
 	ol, ul {
-		list-style:none;
+		list-style:circle;
 	}
 
 	blockquote,	q {
