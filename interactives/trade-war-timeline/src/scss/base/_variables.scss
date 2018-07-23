@@ -1,0 +1,51 @@
+// Variables
+$white: #fff;
+$black: #000;
+$red: #ed392a;
+$dark-red: #c42d21;
+$green: #58a897;
+$bright-green: #8cb561;
+$light-blue: #83badc;
+$blue: #3b75bb;
+$purple: #a483a8;
+$dark-purple: #69518d;
+$orange: #f7890e;
+$yellow: #e7ae3f;
+$blue-gray: #728c99;
+$off-white: #f1f1f1;
+$gray: #333;
+$tooltip-gray: #808081;
+$select-blue: #455a64;
+$select-font-color: #555;
+$disabled-button-color: #4a4a4a;
+$disabled-button-bg: $off-white;
+$form-focus: $off-white;
+$dark-gray: #d4d0cb;
+$dark-blue: #1D435E;
+$grid-lines: #c5c5c5;
+$color__text-button-blue: $blue-gray;
+$color__background-button-blue: #2b3d46;
+$color__background-button-gray: #d6d6d6;
+$color__no-data: #efefef;
+
+$color__legend-text: #9b9b9b;
+$color__highlighted-line: darken($grid-lines, 25%);
+$color__highlighted-group: rgba($blue-gray, .17);
+
+/*----------  Fonts  ----------*/
+$font-hind: 'Hind', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+
+/*----------  Custom  ----------*/
+$indicators: (
+    indicator_overall: $select-blue,
+    subindex_1: $bright-green,
+    subindex_2: $yellow,
+    subindex_3: $purple,
+    subindex_4: $blue
+);
+
+$country-select: (
+	country_0: $red,
+	country_1: #5599d1
+);

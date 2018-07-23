@@ -1,0 +1,93 @@
+// General
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-no-data: $color__no-data;
+}
+
+body {
+  font-family: $font-hind;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: $gray;
+  --china-color: $red;
+  --breakpoint: "xsmall";
+
+  @include breakpoint("small") {
+      --breakpoint: "small";
+  }
+
+  @include breakpoint("medium") {
+      --breakpoint: "medium";
+  }
+
+  @include breakpoint("large") {
+      --breakpoint: "large";
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $red;
+  @include transition(all .3s ease-in-out);
+
+  &:hover {
+    -webkit-box-shadow: inset 0px -2px 0px 0 $dark-gray;
+    -moz-box-shadow: inset 0px -2px 0px 0 $dark-gray;
+    box-shadow: inset 0px -2px 0px 0 $dark-gray;
+  }
+}
+
+// .container {
+//   max-width: 95%;
+//   margin: 0 auto;
+// }
+
+.title {
+  font-family: $font-roboto;
+  margin: 1rem auto;
+  @include fontSize(23px);
+  font-weight: 400;
+  line-height: 1.36;
+  color: $black;
+  text-align: center;
+
+  @include breakpoint("medium") {
+    @include fontSize(25px);
+  }
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+.desc {
+  line-height: 1.8;
+
+  sup {
+    text-decoration: none;
+    color: $red;
+    @include transition(all .3s ease-in-out);
+
+    &:hover {
+      -webkit-box-shadow: inset 0px -2px 0px 0 $dark-gray;
+      -moz-box-shadow: inset 0px -2px 0px 0 $dark-gray;
+      box-shadow: inset 0px -2px 0px 0 $dark-gray;
+    }
+  }
+}
+
+p.instructions {
+  margin-bottom: 2rem;
+}
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
