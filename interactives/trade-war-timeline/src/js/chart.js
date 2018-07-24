@@ -21,6 +21,14 @@ function drawChart() {
   const margin = { top: 0, right: 20, bottom: 70, left: 70 }
   let width = 0
   let height = 0
+  let groups
+
+  var x = d3
+    .scaleBand()
+    .paddingInner(0.05)
+    .align(0.1)
+
+  var y = d3.scaleLinear()
 
   function enter({ container, data }) {
     const svg = container.selectAll('svg').data([data])
@@ -33,7 +41,15 @@ function drawChart() {
 
   function exit({ container, data }) {}
 
-  function updateScales({ data }) {}
+  function updateScales({ data }) {
+    groups = data.map(d => d.group)
+
+    x.domain(groups).rangeRound([0, width])
+
+    y.domain([0, 263])
+      .nice()
+      .rangeRound([height, 0])
+  }
 
   function updateDom({ container, data }) {
     let svg = container
@@ -51,6 +67,28 @@ function drawChart() {
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
     let plot = g.select('.g-plot')
+
+    let stack = d3.stack().keys(data.map(d => d.category))(data)
+    console.log(stack)
+
+    plot
+      .append('g')
+      .selectAll('.column')
+      .data(stack)
+      .enter()
+      .append('g')
+      // .attr("fill", function(d) { return z(d.key); })
+      .selectAll('rect')
+      .data(d => d)
+      .enter()
+      .append('rect')
+      .attr('x', d => {
+        // console.log(d)
+        return x(d.data.group)
+      })
+      .attr('y', d => y(d[1]))
+      .attr('height', d => y(d[0]) - y(d[1]))
+      .attr('width', x.bandwidth())
   }
 
   function updateAxes({ container, data }) {}

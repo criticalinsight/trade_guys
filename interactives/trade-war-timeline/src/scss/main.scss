@@ -1,3 +1,137 @@
-div {
-    color: red;
-  }
+/* demo */
+
+#intro {
+	margin-bottom: 2rem;
+}
+
+/* scrollama */
+
+#scroll {
+	position: relative;
+	// border-top: 1px dashed #000;
+	// border-bottom: 1px dashed #000;
+}
+
+.scroll__graphic {
+	position: -webkit-sticky;
+	position: sticky;
+	float: right;
+	top: 0;
+	right: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.chart {
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	-moz-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	// background-color: #ddd;
+	// border: 1px solid #000;
+}
+
+.chart p {
+	text-align: center;
+	padding: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 8rem;
+	font-weight: 900;
+	color: #666;
+}
+
+.scroll__text {
+	position: relative;
+	padding: 0 1rem;
+	max-width: 30rem;
+	width: 33%;
+	border-left: 5px solid #ccc;
+}
+
+.step {
+	position: relative;
+	margin: 2rem auto;
+	visibility: hidden;
+	// height: 50vh;
+
+	// &[data-step='1'] {
+	// 	padding-top: 50%;
+	// }
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 1.75rem;
+		left: -1rem;
+		display: block;
+		width: 25%;
+		height: 5px;
+		background-color: #ccc;
+	}
+}
+
+.step.is-active {
+	visibility: visible;
+}
+
+.step p {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.stack {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.gridlines {
+	display: none;
+	position: absolute;
+	left: 0;
+}
+
+.group {
+	display: flex;
+	flex-direction: column-reverse;
+	margin: 0.5rem 0;
+	width: 50%;
+	align-items: center;
+}
+
+.block {
+	width: 40%;
+	order: 1;
+	margin-bottom: 0.1rem;
+	visibility: hidden;
+	opacity: 0;
+
+	&.is-visible {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.label {
+	order: 0;
+	border-top: 1px solid black;
+	width: 100%;
+	text-align: center;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+.count {
+	order: 2;
+}

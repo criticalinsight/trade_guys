@@ -1,35 +1,22 @@
-function parseData ({data, categories}) {
-  let dataObj = {
-    years: [],
-    countries: [],
-    points: {},
-    totals: {}
-  }
+function parseData({ data }) {
+  let dataObj = []
 
-  data.forEach(function (row, i) {
-    if (!dataObj.years.includes(row.year)) {
-      dataObj.years.push(row.year)
-      dataObj.points[row.year] = []
-      dataObj.totals[row.year] = {}
+  data.forEach(function(row, i) {
+    // dataObj.steps[row.step] = dataObj.steps[row.step] || []
+    //
+
+    row.id = row.country + '-' + row.category
+
+    row.group = 'Exports'
+    if (row.country === 'USA') {
+      row.group = 'Imports'
     }
-
-    if (!dataObj.countries.includes(row.country)) {
-      dataObj.countries.push(row.country)
-    }
-
-    dataObj.totals[row.year][row.country] = row
-
-    categories.forEach(category => {
-      dataObj.points[row.year].push({
-        id: row.country + '-' + category,
-        country: row.country,
-        year: row.year,
-        value: row[category] || 0,
-        category: category
-      })
-    })
+    dataObj.push(row)
+    // dataObj.steps[row.step].push(row)
   })
-  dataObj.years.sort((a, b) => b - a)
+  dataObj.sort((a, b) => a.step - b.step)
+
+  console.log(dataObj)
 
   return dataObj
 }
