@@ -154,7 +154,7 @@ function calcTotalAdded(dataset) {
 function drawChart() {
 	let dataset = dataSVG.steps[current_step]
 
-	calcTotalAdded(dataset)
+	// calcTotalAdded(dataset)
 
 	chart.init({
 		data: dataset,
