@@ -10,6 +10,7 @@ import './scss/main.scss'
 let current_step = 1
 let totalImports = 0
 let totalExports = 0
+let totalAdded = 0
 var container = d3.select('#scroll')
 var graphic = container.select('.scroll__graphic')
 var chartContainer = graphic.select('.chart')
