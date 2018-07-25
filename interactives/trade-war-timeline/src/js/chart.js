@@ -9,6 +9,7 @@ const formatPercentage = d3.format(',.2%')
 
 let windowWidth = window.innerWidth
 let el
+let categories
 
 function resize() {
   const sz = Math.min(el.node().offsetWidth, window.innerHeight)
@@ -18,7 +19,7 @@ function resize() {
 
 function drawChart() {
   const colors = ['#455a64', '#8cb561', '#e7ae3f', '#a483a8', '#3b75bb']
-  const margin = { top: 0, right: 20, bottom: 70, left: 70 }
+  const margin = { top: 15, right: 20, bottom: 70, left: 70 }
   let width = 0
   let height = 0
   let groups
@@ -30,13 +31,17 @@ function drawChart() {
 
   var y = d3.scaleLinear()
 
+  var colorScale = d3.scaleOrdinal().range(colors)
+
   function enter({ container, data }) {
     const svg = container.selectAll('svg').data([data])
     const svgEnter = svg.enter().append('svg')
     svgEnter.append('rect').attr('class', 'rect')
     const gEnter = svgEnter.append('g')
-    gEnter.append('g').attr('class', 'axis axis--categories')
     gEnter.append('g').attr('class', 'g-plot')
+    gEnter.append('g').attr('class', 'axis axis--x')
+    gEnter.append('g').attr('class', 'axis axis--y')
+    gEnter.append('g').attr('class', 'legend')
   }
 
   function exit({ container, data }) {}
@@ -49,6 +54,8 @@ function drawChart() {
     y.domain([0, 263])
       .nice()
       .rangeRound([height, 0])
+
+    colorScale.domain(categories)
   }
 
   function updateDom({ container, data }) {
@@ -68,30 +75,95 @@ function drawChart() {
 
     let plot = g.select('.g-plot')
 
-    let stack = d3.stack().keys(data.map(d => d.category))(data)
-    console.log(stack)
+    let stack = d3.stack().keys(categories)
 
-    plot
-      .append('g')
-      .selectAll('.column')
-      .data(stack)
-      .enter()
-      .append('g')
-      // .attr("fill", function(d) { return z(d.key); })
-      .selectAll('rect')
-      .data(d => d)
-      .enter()
-      .append('rect')
-      .attr('x', d => {
-        // console.log(d)
-        return x(d.data.group)
-      })
-      .attr('y', d => y(d[1]))
-      .attr('height', d => y(d[0]) - y(d[1]))
-      .attr('width', x.bandwidth())
+    categories.forEach(function(key, key_index) {
+      var bar = plot
+        .selectAll('.bar-' + key)
+        .data(stack(data)[key_index], function(d) {
+          return d.data.group + '-' + key
+        })
+
+      bar.exit().remove()
+
+      bar
+        .enter()
+        .append('rect')
+        .attr('class', function(d) {
+          return 'bar bar-' + key
+        })
+        .attr('fill', function(d) {
+          return colorScale(key)
+        })
+        .attr('x', d => x(d.data.group))
+        .attr('y', height)
+        .merge(bar)
+        .transition()
+        .attr('x', function(d) {
+          return x(d.data.group)
+        })
+        .attr('y', function(d) {
+          return y(d[1])
+        })
+        .attr('height', function(d) {
+          return y(d[0]) - y(d[1])
+        })
+        .attr('width', x.bandwidth())
+    })
   }
 
-  function updateAxes({ container, data }) {}
+  function updateAxes({ container, data }) {
+    let axisX = d3.axisBottom(x).tickFormat(d => {
+      if (d == 'Imports') {
+        return 'USA'
+      }
+      return 'China/EU/Canada/Mexico'
+    })
+    container
+      .select('.axis--x')
+      .attr('transform', 'translate(0,' + height + ')')
+      .call(axisX)
+
+    container
+      .select('.axis--y')
+      .call(d3.axisLeft(y).ticks(null, 's'))
+      .append('text')
+      .attr('x', 2)
+      .attr('y', y(y.ticks().pop()) + 0.5)
+      .attr('dy', '0.32em')
+      .attr('fill', '#000')
+      .attr('font-weight', 'bold')
+      .attr('text-anchor', 'start')
+  }
+
+  function updateLegend({ container, data }) {
+    var legend = container
+      .select('.legend')
+      .attr('font-family', 'sans-serif')
+      .attr('font-size', 10)
+      .attr('text-anchor', 'end')
+      .selectAll('g')
+      .data(categories)
+      .enter()
+      .append('g')
+      .attr('transform', function(d, i) {
+        return 'translate(0,' + i * 20 + ')'
+      })
+
+    legend
+      .append('rect')
+      .attr('x', width - 19)
+      .attr('width', 19)
+      .attr('height', 19)
+      .attr('fill', d => colorScale(d))
+
+    legend
+      .append('text')
+      .attr('x', width - 24)
+      .attr('y', 9.5)
+      .attr('dy', '0.32em')
+      .text(d => d)
+  }
 
   function chart(container) {
     const data = container.datum()
@@ -101,6 +173,7 @@ function drawChart() {
     updateScales({ container, data })
     updateDom({ container, data })
     updateAxes({ container, data })
+    updateLegend({ container, data })
   }
 
   chart.width = function(...args) {
@@ -125,6 +198,7 @@ function drawChart() {
 function init(args) {
   el = d3.select(args.container)
   el.datum(args.data)
+  categories = args.categories
   resize(args)
 }
 

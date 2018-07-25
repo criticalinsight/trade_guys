@@ -1,23 +1,23 @@
-﻿date,category,country,value,step
-3/23/18,Industrial Products / Technology,USA,3,1
-3/8/18,Industrial Products / Technology,USA,10,1
-4/2/18,Agriculture,China,2,2
-4/2/18,Industrial Products / Technology,China,1,2
-5/18/18,Agriculture,EU,4,3
-5/18/18,Industrial Products / Technology,EU,3,3
-5/18/18,Transport,EU,1,3
-5/31/18,Agriculture,Canada,4,4
-5/31/18,Industrial Products / Technology,Canada,7,4
-5/31/18,Transport,Canada,1,4
-6/5/18,Agriculture,Mexico,2.5,5
-6/5/18,Industrial Products / Technology,Mexico,0.5,5
-6/15/18,Industrial Products / Technology,USA,25,6
-6/15/18,Energy,USA,20,6
-6/15/18,Agriculture,USA,5,6
-6/15/18,Industrial Products / Technology,China,40,7
-6/15/18,Energy,China,5,7
-6/15/18,Transport,China,5,7
-7/10/18,Industrial Products / Technology,USA,125,8
-7/10/18,Agriculture,USA,40,8
-7/10/18,Transport,USA,15,8
-7/10/18,Energy,USA,20,8
+﻿date,category,country,group,value,step
+3/23/18,Industrial Products / Technology,USA,exports,3,1
+3/23/18,Agriculture,USA,exports,10,1
+4/2/18,Agriculture,China,imports,2,2
+4/2/18,Industrial Products / Technology,China,imports,1,2
+5/18/18,Agriculture,EU,imports,4,3
+5/18/18,Industrial Products / Technology,EU,imports,3,3
+5/18/18,Transport,EU,imports,1,3
+5/31/18,Agriculture,Canada,imports,4,4
+5/31/18,Industrial Products / Technology,Canada,imports,7,4
+5/31/18,Transport,Canada,imports,1,4
+6/5/18,Agriculture,Mexico,imports,2.5,5
+6/5/18,Industrial Products / Technology,Mexico,imports,0.5,5
+6/15/18,Industrial Products / Technology,USA,exports,25,6
+6/15/18,Energy,USA,exports,20,6
+6/15/18,Agriculture,USA,exports,5,6
+6/15/18,Industrial Products / Technology,China,imports,40,7
+6/15/18,Energy,China,imports,5,7
+6/15/18,Transport,China,imports,5,7
+7/10/18,Industrial Products / Technology,USA,exports,125,8
+7/10/18,Agriculture,USA,exports,40,8
+7/10/18,Transport,USA,exports,15,8
+7/10/18,Energy,USA,exports,20,8

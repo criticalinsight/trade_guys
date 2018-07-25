@@ -1,19 +1,32 @@
 import * as d3 from 'd3'
 import chart from './js/chart'
-import scrollInit from './js/scrolling'
+// import scrollInit from './js/scrolling'
+import 'intersection-observer'
+import scrollama from 'scrollama'
 import parseData from './js/data'
 import DataCSV from './data/dummy.csv'
 import './scss/main.scss'
 
 let current_step = 1
+let totalImports = 0
+let totalExports = 0
+var container = d3.select('#scroll')
+var graphic = container.select('.scroll__graphic')
+var chartContainer = graphic.select('.chart')
+var text = container.select('.scroll__text')
+var step = text.selectAll('.step')
 
-const data = parseData({
+const data = parseData.parseData({
+	data: DataCSV
+})
+
+const dataSVG = parseData.parseDataSVG({
 	data: DataCSV
 })
 
 function init() {
 	hideLoading()
-	flexBox()
+	// flexBox()
 	scrollInit()
 	// drawChart()
 }
@@ -118,13 +131,125 @@ function flexBox() {
 		.text(d => d)
 }
 
-function drawChart() {
-	let dataset = data
+function calcTotalAdded(dataset) {
+	let totalStepSum = dataset
+		.map(d => d.sum)
+		.reduce((total, num) => total + num, 0)
 
-	// chart.init({
-	// 	data: dataset,
-	// 	container: '.chart-primary'
-	// })
+	if (current_step == 1) {
+		totalAdded = totalStepSum
+		return
+	}
+
+	let totalPrevStepSum = dataSVG.steps[current_step - 1]
+		.map(d => d.sum)
+		.reduce((total, num) => total + num, 0)
+
+	totalAdded = totalStepSum - totalAdded
+
+	console.log(totalAdded)
+}
+
+function drawChart() {
+	let dataset = dataSVG.steps[current_step]
+
+	calcTotalAdded(dataset)
+
+	chart.init({
+		data: dataset,
+		categories: dataSVG.categories,
+		container: '.chart-primary'
+	})
+}
+
+// initialize the scrollama
+var scroller = scrollama()
+
+// generic window resize listener event
+function handleResize() {
+	// 1. update height of step elements
+	var stepHeight = Math.floor(window.innerHeight * 0.75)
+	step.style('height', stepHeight + 'px')
+
+	// 2. update width/height of graphic element
+	var bodyWidth = d3.select('body').node().offsetWidth
+	var textWidth = text.node().offsetWidth
+
+	var graphicWidth = bodyWidth - textWidth
+
+	graphic
+		.style('width', graphicWidth + 'px')
+		.style('height', window.innerHeight + 'px')
+
+	var chartMargin = 32
+	var chartWidth = graphic.node().offsetWidth - chartMargin
+
+	chartContainer
+		.style('width', chartWidth + 'px')
+		.style('height', Math.floor(window.innerHeight / 2) + 'px')
+
+	// 3. tell scrollama to update new element dimensions
+	scroller.resize()
+}
+
+// scrollama event handlers
+function handleStepEnter(response) {
+	// response = { element, direction, index }
+
+	// add color to current step only
+	step.classed('is-active', function(d, i) {
+		return i === response.index
+	})
+
+	let stepNum = response.index + 1
+	current_step = stepNum
+
+	// update graphic based on step
+	// step.select('.amount-added').text('+$' + totalAdded + 'billion')
+	chartContainer
+		.selectAll('.block')
+		.classed('is-visible', d => d.step <= stepNum)
+
+	drawChart()
+}
+
+function handleContainerEnter(response) {
+	// response = { direction }
+}
+
+function handleContainerExit(response) {
+	// response = { direction }
+}
+
+function setupStickyfill() {
+	d3.selectAll('.sticky').each(function() {
+		Stickyfill.add(this)
+	})
+}
+
+function scrollInit() {
+	// setupStickyfill()
+
+	// 1. force a resize on load to ensure proper dimensions are sent to scrollama
+	handleResize()
+
+	// 2. setup the scroller passing options
+	// this will also initialize trigger observations
+	// 3. bind scrollama event handlers (this can be chained like below)
+	scroller
+		.setup({
+			container: '#scroll',
+			graphic: '.scroll__graphic',
+			text: '.scroll__text',
+			step: '.scroll__text .step',
+			debug: false
+		})
+		.onStepEnter(handleStepEnter)
+		.onContainerEnter(handleContainerEnter)
+		.onContainerExit(handleContainerExit)
+
+	// setup resize event
+	window.addEventListener('resize', handleResize)
 }
 
 init()
