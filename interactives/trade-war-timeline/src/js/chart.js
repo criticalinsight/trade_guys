@@ -183,10 +183,7 @@ function drawChart() {
   }
 
   chart.height = function() {
-    height = 700
-    if (breakpoints.isMobile()) {
-      height = 400
-    }
+    height = Math.floor(window.innerHeight / 2)
     return chart
   }
 
