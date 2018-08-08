@@ -126,6 +126,17 @@ textarea {
 	letter-spacing: 1.3px;
 }
 
+%link-hover-background {
+	background-image: linear-gradient(to top, $yellow 75%, transparent 0%);
+    background-position: unset;
+    background-repeat: repeat-x;
+    background-size: 0% 0%;
+
+    &:hover {
+    	background-size: 100% 100%;
+    }
+}
+
 /*================================
 =            Headings            =
 ================================*/

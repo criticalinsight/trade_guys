@@ -4,6 +4,7 @@
   @extend %btn;
   text-align: center;
   color: $white;
+  transition: all .3s ease-in-out;
 
   &:hover {
     background-color: $dark-gray;

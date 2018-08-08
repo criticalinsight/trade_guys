@@ -50,6 +50,7 @@ module.exports = {
     includes: '_includes',
     layouts:  '_layouts',
     posts:    '_posts',
+    data:     '_data',
   },
 
   js: {

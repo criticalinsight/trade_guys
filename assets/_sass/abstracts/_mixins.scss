@@ -100,3 +100,15 @@ $breakpoint-xsmall: 25em;
         left: calc(100% - 1px);
     }
 }
+
+@mixin wipe-link-hover-background ( $background-color ) {
+    background-image: linear-gradient(to top, $background-color 75%, transparent 0%);
+    background-position: unset;
+    background-repeat: repeat-x;
+    background-size: 100% 0%;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}

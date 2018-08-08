@@ -1,4 +1,4 @@
-title: "CSIS Jekyll Starter Project"
+title: "The Trade Guys"
 email: jnschrag@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Quick starter project for Jekyll including full setup for gulp, Sass, Autoprefixer, Bourbon/Neat/Bitters, Browserify, imagemin, Browsersync, PostCSS etc. Built on top of Frasco

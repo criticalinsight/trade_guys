@@ -27,6 +27,7 @@ gulp.task('watch', function () {
       config.jekyll.includes + '/**/*',
       config.jekyll.layouts + '/**/*',
       config.jekyll.posts + '/**/*',
+      config.jekyll.data + '/**/*',
       config.assets + '/' + config.sass.dest + '/**/*',
       config.assets + '/' + config.js.dest + '/**/*',
       config.assets + '/' + config.imagemin.dest + '/**/*'

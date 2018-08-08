@@ -1,0 +1,53 @@
+/*=========================================
+=            Header Navigation            =
+=========================================*/
+.site-nav {
+	margin-left: auto;
+
+	#nav-trigger {
+		display: none;
+	}
+
+	.menu-icon {
+
+		@include breakpoint("medium") {
+			display: none;
+		}
+	}
+
+	.main-menu {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		line-height: 1.3;
+	}
+
+	$menu-space: 1rem;
+
+	.menu-item:not(.contact) {
+		margin: 0 #{$menu-space};
+		font-family: $font_inconsolata;
+		@include fontSize(16px);
+		line-height: 1.31;
+	  	letter-spacing: 1.3px;
+	  	text-transform: uppercase;
+
+	  	a {
+	  		@include wipe-link-hover-background ($yellow);
+	  	}
+	}
+
+	.menu-item.contact {
+		margin-left: #{$menu-space};
+
+		a {
+			display: block;
+			@extend .btn;
+			text-transform: uppercase;
+		}
+	}
+}
+

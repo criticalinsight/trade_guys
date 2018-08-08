@@ -1,0 +1,26 @@
+/*==============================
+=            Header            =
+==============================*/
+.site-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: $white;
+	padding: 1rem 0;
+	
+	.wrapper {
+		display: flex;
+		align-items: center;
+	}
+
+	.site-title {
+		flex: 0 1 auto;
+		flex-basis: 40%;
+	}
+
+	.site-logo {
+		max-width: 350px;
+		height: auto;
+	}
+}
+

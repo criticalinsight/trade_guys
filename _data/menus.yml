@@ -1,0 +1,18 @@
+header:
+- identifier: about
+  url: "/podcast"
+  weight: 2
+  title: Podcast
+- identifier: trade-explained
+  url: "/trade-explained"
+  weight: 3
+  title: Trade Explained
+- identifier: about
+  url: "/about"
+  weight: 4
+  title: About
+- identifier: contact
+  url: "/contact"
+  weight: 5
+  title: Ask a Question
+  class: 'contact'
