@@ -1,0 +1,11 @@
+.btn {
+  padding: 10px 30px;
+  background-color: $black;
+  @extend %btn;
+  text-align: center;
+  color: $white;
+
+  &:hover {
+    background-color: $dark-gray;
+  }
+}

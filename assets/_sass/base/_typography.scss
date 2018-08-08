@@ -1,0 +1,296 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $black;
+	font-family: $font_source;
+	@include fontSize(16px);
+	line-height: 1.5;
+
+	@include breakpoint("medium") {
+		@include fontSize(18px);
+		line-height: 1.78;
+	}
+}
+
+/*====================================
+=            Placeholders            =
+====================================*/
+%page-title {
+	font-family: $font_source;
+	@include fontSize(30px);
+	line-height: 0.97;
+	font-weight: 600;
+	letter-spacing: 1.1px;
+
+	@include breakpoint("medium") {
+		@include fontSize(72px);
+		line-height: 0.88;
+	}
+}
+
+%page-description {
+	font-family: $font_source;
+	@include fontSize(22px);
+	line-height: 1.45;
+}
+
+%single-post-title {
+	font-family: $font_source;
+	@include fontSize(30px);
+	line-height: 1.13;
+	font-weight: 600;
+	letter-spacing: 1.1px;
+
+	@include breakpoint("medium") {
+		@include fontSize(48px);
+		letter-spacing: 1.1px;
+	}
+}
+
+%archive-post-title {
+	font-family: $font_source;
+	@include fontSize(18px);
+	line-height: 1.22;
+	font-weight: 600;
+	color: $black;
+
+	@include breakpoint("medium") {
+		@include fontSize(28px);
+		line-height: 1;
+	}
+}
+
+%archive-feature-post-title {
+	font-family: $font_source;
+	@include fontSize(24px);
+	font-weight: 600;
+	color: $black;
+
+	@include breakpoint("medium") {
+		@include fontSize(36px);
+	}
+}
+
+%post-description {
+	font-family: $font_source;
+	@include fontSize(14px);
+	line-height: 1.71;
+
+	@include breakpoint("medium") {
+		@include fontSize(18px);
+		line-height: 1.56;
+	}
+}
+
+%post-meta {
+	font-family: $font_source;
+	@include fontSize(14px);
+	letter-spacing: 1.2px;
+	color: $gray;
+
+	@include breakpoint("medium") {
+		@include fontSize(16px);
+		letter-spacing: 1.3px;
+	}
+}
+
+%label {
+	font-family: $font_inconsolata;
+	@include fontSize(16px);
+	line-height: 1.31;
+  	letter-spacing: 1.3px;
+
+	@include breakpoint("medium") {
+		@include fontSize(20px);
+		letter-spacing: 1.4px;
+	}
+}
+
+%related-post-title {
+	font-family: $font_source;
+	@include fontSize(18px);
+	line-height: 1.22;
+	font-weight: 600;
+
+	@include breakpoint("medium") {
+		@include fontSize(24px);
+		line-height: 1.13;
+	}
+}
+
+%btn {
+	font-family: $font_inconsolata;
+	@include fontSize(16px);
+	letter-spacing: 1.3px;
+}
+
+/*================================
+=            Headings            =
+================================*/
+
+%h1 {
+	@extend %single-post-title;
+}
+
+%h2 {
+	font-family: $font_inconsolata;
+	@include fontSize(28px);
+	font-weight: normal;
+	letter-spacing: 1.6px;
+	color: $black;
+
+	@include breakpoint("medium") {
+		@include fontSize(35px);
+		letter-spacing: 2px;
+	}
+}
+
+%h3 {
+	font-family: $font_source;
+	@include fontSize(24px);
+	line-height: 1.33;
+	font-weight: 600;
+	color: $black;
+
+	@include breakpoint("medium") {
+		@include fontSize(28px);
+		line-height: 1.14;
+	}
+}
+
+%h4 {
+	font-family: $font_source;
+	@include fontSize(18px);
+	font-weight: 600;
+	color: $black;
+
+	@include breakpoint("medium") {
+		@include fontSize(20px);
+		line-height: 1.14;
+	}
+}
+
+h1 { @extend %h1 }
+h2 { @extend %h2 }
+h3 { @extend %h3 }
+h4 { @extend %h4 }
+
+/*============================
+=            Copy            =
+============================*/
+
+p {
+	margin: 0 0 1rem;
+	line-height: 1.78;
+}
+
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6
+{
+	margin-top: 2rem;
+}
+
+hr {
+	background-color: $black;
+	border: 0;
+	height: 1px;
+	margin: 2rem 0;
+}
+
+b, strong {
+	font-weight: 600;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+
+%blockquote-source {
+	display: block;
+	@include fontSize(18px);
+	line-height: 1.4;
+	font-weight: 600;
+	font-style: normal;
+	margin-top: 1.5rem;
+	margin-bottom: 0;
+}
+
+blockquote {
+	float: right;
+	max-width: 300px;
+	padding: 1rem;
+
+	@include breakpoint("medium") {
+		max-width: 350px;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	cite {
+		@extend %blockquote-source;
+
+		.source-desc {
+			display: block;
+			font-style: italic;
+
+			.easy-footnote {
+				font-style: normal;
+			}
+		}
+	}
+}
+
+blockquote, blockquote p {
+}
+
+blockquote, q {
+	quotes: "" "";
+
+	&:before,
+	&:after {
+		content: "";
+	}
+}
+
+address {
+	font-style: normal;
+	margin: 0 0 1rem;
+}
+
+big {
+	font-size: 125%;
+}
+
+
+/*=============================
+=            Links            =
+=============================*/
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: all .3s ease-in-out;
+
+	&:visited {
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		border: 0;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
