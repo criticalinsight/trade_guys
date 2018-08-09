@@ -30,6 +30,15 @@ fields:
       type: datafiles
       file: _data-content_types-yaml
   label: Content Type
-  default: 
+  default: content_types
+- type: list
+  name: series
+  label: Series
+  description: The series this article belongs to
+  config:
+    use_select: true
+    source:
+      type: datafiles
+      file: _data-series-yaml
 pages:
 - _posts/test.md
