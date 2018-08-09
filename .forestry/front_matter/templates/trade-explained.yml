@@ -1,0 +1,11 @@
+---
+label: Trade Explained
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  name: authors
+  config:
+    source:
+      type: datafiles
+  label: Author(s)
