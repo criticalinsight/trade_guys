@@ -11,3 +11,5 @@ fields:
       file: _data-authors-yml
   label: Author(s)
   default: Authors
+pages:
+- _posts/test.md
