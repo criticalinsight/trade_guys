@@ -11,28 +11,27 @@ html {
 body {
     background: $white;
     /* Fallback for when there is no custom background color defined. */
-    --breakpoint: "xsmall";
+    --breakpoint: 'xsmall';
 
-    @include breakpoint("small") {
-        --breakpoint: "small";
+    @include breakpoint('small') {
+        --breakpoint: 'small';
     }
 
-    @include breakpoint("medium") {
-        --breakpoint: "medium";
+    @include breakpoint('medium') {
+        --breakpoint: 'medium';
     }
 
-    @include breakpoint("large") {
-        --breakpoint: "large";
+    @include breakpoint('large') {
+        --breakpoint: 'large';
     }
 }
 
 .wrapper {
-
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
         max-width: $size_container-max-width;
         margin-left: auto;
         margin-right: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
-
-

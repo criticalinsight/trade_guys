@@ -4,7 +4,38 @@ description: >- # this means to ignore newlines until "baseurl:"
   Quick starter project for Jekyll including full setup for gulp, Sass, Autoprefixer, Bourbon/Neat/Bitters, Browserify, imagemin, Browsersync, PostCSS etc. Built on top of Frasco
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ixkaito
+
+collections:
+  posts:
+    title: Trade Explained
+    output: true
+    permalink: "/:path/trade-explained/"
+  podcast:
+    title: Podcast
+    output: true
+    path: "/:path/podcast/"
+defaults:
+- scope:
+    path: ''
+    type: 'posts'
+  values:
+    layout: post
+    permalink: "/trade-explained/:slug/"
+    author: []
+    excerpt: []
+    notes: []
+    content_type: []
+    series: []
+- scope:
+    path: ''
+    type: 'podcast'
+  values:
+    layout: podcast
+    permalink: "/podcast/:slug/"
+    episode_num:
+    soundcloud_url:
+    transcript_url:
+
 
 # Build settings
 markdown: kramdown
@@ -33,3 +64,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - yarn.lock
+  - prettier.config.js
