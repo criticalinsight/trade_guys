@@ -8,4 +8,5 @@ fields:
   config:
     source:
       type: datafiles
+      file: _data-authors-yml
   label: Author(s)
