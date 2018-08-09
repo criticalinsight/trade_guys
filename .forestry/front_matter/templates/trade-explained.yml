@@ -10,3 +10,4 @@ fields:
       type: datafiles
       file: _data-authors-yml
   label: Author(s)
+  default: Authors
