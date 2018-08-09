@@ -1,3 +1,4 @@
-- name: Bill Reinsch
-  title: Senior Adviser and Scholl Chair in International Business
-  organization: CSIS
+authors:
+  - name: Bill Reinsch
+    title: Senior Adviser and Scholl Chair in International Business
+    organization: CSIS

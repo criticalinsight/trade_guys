@@ -1,8 +1,9 @@
-- id: analysis
-  title: Analysis
-- id: video
-  title: Video
-- id: interactive
-  title: Interactive
-- id: external
-  title: External Commentary
+content_types:
+  - id: analysis
+    title: Analysis
+  - id: video
+    title: Video
+  - id: interactive
+    title: Interactive
+  - id: external
+    title: External Commentary
