@@ -9,7 +9,7 @@ fields:
   name: title
 - type: datetime
   label: Publish Date
-  name: publish_date
+  name: date
   description: Date this article should be made public
 - type: select
   name: authors
