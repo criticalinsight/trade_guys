@@ -3,13 +3,33 @@ label: Trade Explained
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  default: ''
+  label: Title
+  name: title
+- type: datetime
+  label: Publish Date
+  name: publish_date
+  description: Date this article should be made public
 - type: select
   name: authors
   config:
     source:
       type: datafiles
-      file: _data-authors-yml
+      file: _data-menus-yml
+      section: jekyll-posts
   label: Author(s)
-  default: Authors
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Keywords
+- type: select
+  name: content_type
+  config:
+    source:
+      type: datafiles
+      file: _data-content_types-yaml
+  label: Content Type
+  default: 
 pages:
 - _posts/test.md
