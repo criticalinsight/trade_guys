@@ -1,37 +1,19 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
+<footer class="site-footer wrapper">
+  <section class="site-footer-contact">
+    <img class="csis-logo" src="{{ 'assets/images/logos/csis_logo_white.svg' | relative_url }}" alt="{{ Center for Strategic and International Studies }}" title="{{ Center for Strategic and International Studies }}" />
+    <address>{{ site.data.language.address }}</address>
+    <a href="mailto:{{ site.data.language.email }}?Subject=Trade Guys">{{ site.data.language.email }}</a>
+  </section>
+  <section class="site-footer-desc">
+    <p><span class="p-label">{{ site.data.language.footer_about_heading }}</span> {{ site.data.language.footer_desc | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+  </section>
+  <section class="site-footer-subscribe">
+    {% include podcast-subscribe.html %}
+    {% include podcast-apple-logo.html color='white' %}
+  </section>
+  <section class="site-footer-copyright">
+    &copy;{{ site.time | date: '%Y' }} by the Center for Strategic and International Studies. All rights reserved. | <a href="https://www.csis.org/privacy-policy" target="_blank">Privacy Policy</a>
+  </section>
 </footer>
 
 <script src="{{ "/assets/js/bundle.js" | relative_url }}" type="text/javascript"></script>

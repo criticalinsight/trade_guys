@@ -1,0 +1,113 @@
+/*==============================
+=            Footer            =
+==============================*/
+
+%grid-padding {
+	padding: 1rem;
+
+	@include breakpoint('medium') {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+}
+
+.site-footer {
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+
+	@include breakpoint('medium') {
+		grid-template-columns: 1fr 1.3fr 1fr;
+		grid-template-rows: repeat(2, auto);
+	}
+
+	p {
+		@include fontSize(16px);
+		line-height: 1.5;
+	}
+
+	&-contact,
+	&-desc {
+		background-color: $dark-gray;
+		@extend %grid-padding;
+	}
+
+	&-contact {
+		grid-row: 1;
+		padding-top: 1rem;
+		@include fontSize(16px);
+		line-height: 1.5;
+		color: $color_footer-contact-text;
+
+		@include breakpoint('medium') {
+			padding-top: 2rem;
+			padding-right: 2rem;
+			padding-left: 2rem;
+		}
+
+		.csis-logo {
+			margin-bottom: 2rem;
+			max-width: 400px;
+		}
+	}
+
+	&-desc {
+		grid-row: 2;
+		color: $white;
+
+		@include breakpoint('medium') {
+			grid-row: 1;
+			padding-right: 3rem;
+			padding-left: 2rem;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.p-label {
+			letter-spacing: 1px;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+	}
+
+	&-subscribe {
+		grid-row: 3;
+		background-color: $black;
+		@extend %grid-padding;
+		color: $off-white;
+
+		@include breakpoint('medium') {
+			grid-row: 1;
+			padding-left: 3rem;
+			padding-right: 3rem;
+		}
+
+		i {
+			color: $yellow;
+		}
+
+		p a {
+			font-weight: bold;
+			@include link-underline-background($white);
+
+			&:hover {
+				color: $yellow;
+				@include link-underline-background($yellow);
+			}
+		}
+	}
+
+	&-copyright {
+		grid-row: 4;
+		grid-column: span 3;
+		padding: 0.25rem;
+		@include fontSize(12px);
+		line-height: 1.33;
+		color: $color_footer-copyright-text;
+
+		@include breakpoint('medium') {
+			grid-row: 2;
+		}
+	}
+}
