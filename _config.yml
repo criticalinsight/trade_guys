@@ -21,20 +21,12 @@ defaults:
   values:
     layout: post
     permalink: "/trade-explained/:slug/"
-    author: []
-    excerpt: []
-    notes: []
-    content_type: []
-    series: []
 - scope:
     path: ''
     type: 'podcast'
   values:
     layout: podcast
     permalink: "/podcast/:slug/"
-    episode_num:
-    soundcloud_url:
-    transcript_url:
 
 
 # Build settings
