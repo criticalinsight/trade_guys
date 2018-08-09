@@ -20,5 +20,9 @@ fields:
   name: transcript_url
   label: Transcript URL
   description: URL to the transcript PDF
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Keywords
 pages:
 - _podcast/to-be-or-not-to-be-in-the-tpp.md
