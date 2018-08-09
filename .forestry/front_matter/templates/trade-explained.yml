@@ -40,5 +40,13 @@ fields:
     source:
       type: datafiles
       file: _data-series-yaml
+- type: textarea
+  name: notes
+  label: Notes
+  description: Any additional notes for the article, such as endnotes or resources.
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - _posts/test.md
