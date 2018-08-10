@@ -8,3 +8,8 @@ fields:
   label: Title
   config:
     required: true
+- type: boolean
+  name: is_featured
+  label: Is a featured series?
+  description: If yes, this series will appear on the home page and trade explained
+    archive page
