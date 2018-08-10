@@ -30,11 +30,6 @@ fields:
   name: tags
   label: Tags
   description: Keywords
-- type: text
-  name: content_type
-  label: Content Type
-  hidden: true
-  default: video
 - type: select
   name: series
   config:
@@ -42,5 +37,10 @@ fields:
       type: pages
       section: series
   label: Series
+- type: text
+  name: content_type
+  label: Content Type
+  hidden: true
+  default: video
 pages:
 - _posts/test.md
