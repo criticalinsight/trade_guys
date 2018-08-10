@@ -13,3 +13,5 @@ fields:
   label: Is a featured series?
   description: If yes, this series will appear on the home page and trade explained
     archive page
+pages:
+- _series/trade-terms-explained.md
