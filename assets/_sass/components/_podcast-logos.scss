@@ -1,0 +1,25 @@
+/*=====================================
+=            Podcast Logos            =
+=====================================*/
+
+.podcast-logo {
+  max-width: 350px;
+}
+
+.itunes-logo,
+.soundcloud-logo {
+  display: block;
+
+  img {
+    max-width: 175px;
+    min-height: 25px;
+
+    @include breakpoint('medium') {
+      max-width: 150px;
+    }
+  }
+}
+
+.itunes-logo + .soundcloud-logo {
+  margin-top: 0.25rem;
+}

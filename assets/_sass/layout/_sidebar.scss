@@ -14,4 +14,50 @@
     background-color: $white;
     padding: 0;
   }
+
+  &.podcast {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1rem;
+
+    @include breakpoint('medium') {
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+    }
+
+    p {
+      @include fontSize(16px);
+      line-height: 1.69;
+
+      a {
+        font-weight: bold;
+      }
+    }
+
+    .podcast-desc {
+      font-weight: 600;
+      margin-bottom: 0;
+
+      @include breakpoint('medium') {
+        grid-column: span 2;
+      }
+    }
+
+    .podcast-logo {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+
+      @include breakpoint('medium') {
+        grid-column: 1;
+      }
+    }
+
+    .podcast-subscribe {
+      @include breakpoint('medium') {
+        grid-column: 2;
+      }
+    }
+  }
 }

@@ -1,0 +1,7 @@
+<p class="podcast-desc">{{ site.data.language.podcast_short_desc | escape }}</p>
+<img class="podcast-logo" src="{{ 'assets/images/Podcast_TradeGuys_cover-small.png' | relative_url }}" alt="{{ site.title | escape }}" title="{{ site.title | escape }}" />
+<div class="podcast-subscribe">
+  {{ site.data.language.subscribe | markdownify }}
+  {% include podcast-apple-logo.html color='black' %}
+  {% include podcast-soundcloud-logo.html color='black' %}
+</div>
