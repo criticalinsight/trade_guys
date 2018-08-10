@@ -35,5 +35,12 @@ fields:
   label: Content Type
   hidden: true
   default: video
+- type: select
+  name: series
+  config:
+    source:
+      type: pages
+      section: series
+  label: Series
 pages:
 - _posts/test.md
