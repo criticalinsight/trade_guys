@@ -16,6 +16,16 @@ sections:
   label: Podcast
   create: all
   match: "**/*"
+- type: directory
+  path: _series
+  label: Series
+  create: all
+  match: "**/*"
+- type: directory
+  path: _authors
+  label: Authors
+  create: all
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
