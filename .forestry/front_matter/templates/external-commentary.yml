@@ -31,5 +31,3 @@ fields:
     required: false
   hidden: true
   default: external_commentary
-pages:
-- _posts/2018-08-10-test-video.md
