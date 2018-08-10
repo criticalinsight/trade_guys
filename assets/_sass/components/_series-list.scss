@@ -1,0 +1,32 @@
+/*===================================
+=            Series List            =
+===================================*/
+.series-list {
+  &-heading {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
+
+  &-post-title {
+    margin: 0 0 0.5rem 0;
+  }
+
+  a {
+    @include link-underline-background;
+  }
+
+  p {
+    @extend %post-description;
+    margin-bottom: 0;
+  }
+}
