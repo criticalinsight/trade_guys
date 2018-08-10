@@ -43,5 +43,4 @@ fields:
   hidden: true
   default: video
 pages:
-- _posts/test.md
 - _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
