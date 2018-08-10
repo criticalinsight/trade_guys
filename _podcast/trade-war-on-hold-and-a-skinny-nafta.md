@@ -7,3 +7,4 @@ transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/18073
 tags: []
 
 ---
+In this episode of The Trade Guys, Scott Miller and Bill Reinsch tackle two big stories: what came out of the latest U.S.-China trade talks, and what’s happening with the North American Free Trade Agreement. On the U.S.-China trade dialogue, the Trade Guys deconstruct what it means to halt a trade war. They also discuss what exactly the president meant when he tweeted that on China, barriers and tariffs are to “come down for the first time.” On NAFTA, the Trade Guys explain why the administration might be falling behind schedule to renegotiate the deal. They also give you the skinny on an alternative that some members of Congress are proposing. Hosted by H. Andrew Schwartz and produced by the Center for Strategic and International Studies in Washington.
