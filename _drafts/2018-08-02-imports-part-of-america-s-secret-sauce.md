@@ -9,4 +9,4 @@ tags: []
 series: _series/trade-terms-explained.md
 
 ---
-The U.S. is slapping tariffs on imports from other countries. But what do we import and who are imports for? Trade Guy Scott Miller explains. 
+The U.S. is slapping tariffs on imports from other countries. But what do we import and who are imports for? Trade Guy Scott Miller explains.
