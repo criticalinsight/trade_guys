@@ -1,0 +1,37 @@
+---
+label: Video
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Publish Date
+  config:
+    required: true
+- type: text
+  name: youtube_url
+  label: Youtube URL
+  config:
+    required: true
+- type: textarea
+  name: excerpt
+  label: Excerpt
+  description: Short description of the video that will appear on the archive pages
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: tag_list
+  name: tags
+  label: Tags
+  description: Keywords
+- type: text
+  name: content_type
+  label: Content Type
+  hidden: true
+  default: video
