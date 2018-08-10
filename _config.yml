@@ -14,6 +14,14 @@ collections:
     title: Podcast
     output: true
     path: "/:path/podcast/"
+  authors:
+    title: Authors
+    output: true
+    path: "/:path/author/"
+  series:
+    title: Series
+    output: true
+    path: "/:path/series/"
 defaults:
 - scope:
     path: ''
@@ -27,6 +35,18 @@ defaults:
   values:
     layout: podcast
     permalink: "/podcast/:slug/"
+- scope:
+    path: ''
+    type: 'author'
+  values:
+    layout: archive
+    permalink: "/author/:slug/"
+- scope:
+    path: ''
+    type: 'series'
+  values:
+    layout: archive
+    permalink: "/series/:slug/"
 
 soundcloud_client_id: e1b9039f824fdaf6ec1fc594037c1ac7
 
