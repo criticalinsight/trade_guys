@@ -3,11 +3,11 @@ module.exports = {
 
   tasks: {
     browsersync: true,
-    eslint:      true,
-    imagemin:    true,
-    sass:        true,
-    watch:       true,
-    webpack:     true,
+    eslint: true,
+    imagemin: true,
+    sass: true,
+    watch: true,
+    webpack: true
   },
 
   assets: './assets',
@@ -23,61 +23,58 @@ module.exports = {
       // "Safari",
       // "Opera",
       // "Opera Developer",
-    ],
+    ]
   },
 
   eslintLoader: {
-    enforce: "pre",
-    test:    /\.js$/,
+    enforce: 'pre',
+    test: /\.js$/,
     exclude: /node_modules/,
-    loader:  "eslint-loader",
+    loader: 'eslint-loader'
   },
 
   imagemin: {
-    src:         '_images',
-    dest:        'images',
+    src: '_images',
+    dest: 'images',
     progressive: true,
-    svgoPlugins: [{removeViewBox: false}],
+    svgoPlugins: [{ removeViewBox: false }]
   },
 
   jekyll: {
     config: {
-      default:     '_config.yml',
+      default: '_config.yml',
       development: '_config_development.yml',
-      production:  '',
+      production: ''
     },
-    dest:     '_site',
+    dest: '_site',
     includes: '_includes',
-    layouts:  '_layouts',
-    posts:    '_posts',
-    data:     '_data',
+    layouts: '_layouts',
+    posts: '_posts',
+    data: '_data',
+    podcast: '_podcast',
+    authors: '_authors',
+    series: '_series'
   },
 
   js: {
-    src:   '_js',
-    dest:  'js',
-    entry: [
-      'bundle.js'
-    ],
+    src: '_js',
+    dest: 'js',
+    entry: ['bundle.js']
   },
 
   sass: {
-    src:          '_sass',
-    dest:         'css',
-    outputStyle:  'compressed',
+    src: '_sass',
+    dest: 'css',
+    outputStyle: 'compressed',
     autoprefixer: {
-      browsers: [
-        '> 1%',
-        'last 2 versions',
-        'Firefox ESR',
-      ],
-    },
+      browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']
+    }
   },
 
   webpack: {
-    mode:   'production',
+    mode: 'production',
     module: {
-      rules: [],
-    },
-  },
+      rules: []
+    }
+  }
 }

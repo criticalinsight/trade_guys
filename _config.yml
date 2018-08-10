@@ -17,7 +17,7 @@ collections:
   authors:
     title: Authors
     output: true
-    path: "/:path/author/"
+    path: "/:path/authors/"
   series:
     title: Series
     output: true
@@ -37,10 +37,10 @@ defaults:
     permalink: "/podcast/:slug/"
 - scope:
     path: ''
-    type: 'author'
+    type: 'authors'
   values:
     layout: archive
-    permalink: "/author/:slug/"
+    permalink: "/authors/:slug/"
 - scope:
     path: ''
     type: 'series'
