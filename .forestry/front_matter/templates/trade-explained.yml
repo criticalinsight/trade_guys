@@ -1,5 +1,5 @@
 ---
-label: Trade Explained
+label: Article
 hide_body: false
 is_partial: false
 fields:
@@ -23,14 +23,6 @@ fields:
   name: tags
   label: Tags
   description: Keywords
-- type: select
-  name: content_type
-  config:
-    source:
-      type: datafiles
-      file: _data-content_types-yaml
-  label: Content Type
-  default: content_types
 - type: list
   name: series
   label: Series
@@ -48,5 +40,10 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: text
+  name: content_type
+  label: Content Type
+  hidden: true
+  default: article
 pages:
 - _posts/test.md
