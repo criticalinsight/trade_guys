@@ -12,6 +12,8 @@ body {
     background: $white;
     /* Fallback for when there is no custom background color defined. */
     --breakpoint: 'xsmall';
+    --header-height: 100px;
+    --header-footer-border-width: #{$size_page-header-footer-border-width-mobile};
 
     @include breakpoint('small') {
         --breakpoint: 'small';
@@ -19,6 +21,8 @@ body {
 
     @include breakpoint('medium') {
         --breakpoint: 'medium';
+        --header-height: #{$size_header-height-desktop};
+        --header-footer-border-width: #{$size_page-header-footer-border-width-desktop};
     }
 
     @include breakpoint('large') {
@@ -34,4 +38,8 @@ body {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+}
+
+.page-content {
+    margin-top: $size_header-height-desktop;
 }

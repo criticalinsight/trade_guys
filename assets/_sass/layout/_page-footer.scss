@@ -1,0 +1,14 @@
+/*===================================
+=            Page Footer            =
+===================================*/
+.page-footer {
+    padding-right: var(--header-footer-border-width);
+    padding-left: var(--header-footer-border-width);
+    padding-bottom: 1rem;
+
+    @include breakpoint('medium') {
+        border-left: var(--header-footer-border-width) solid $yellow;
+        padding-right: 0;
+        padding-left: 1rem;
+    }
+}
