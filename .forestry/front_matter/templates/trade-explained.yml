@@ -22,8 +22,8 @@ fields:
   config:
     use_select: true
     source:
-      type: datafiles
-      file: _data-series-yaml
+      type: pages
+      file: _data-language-yml
 - type: textarea
   name: notes
   label: Notes
