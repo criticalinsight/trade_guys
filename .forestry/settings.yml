@@ -4,16 +4,20 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
+- type: jekyll-posts
+  label: Trade Explained
   create: all
+  templates:
+  - trade-explained
+  - video
+  - external-commentary
 - type: directory
   path: _podcast
   label: Podcast
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
+- type: jekyll-pages
+  label: Pages
   create: all
 upload_dir: uploads
 public_path: "/uploads"
