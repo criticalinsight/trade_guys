@@ -35,5 +35,3 @@ fields:
   label: Content Type
   hidden: true
   default: video
-pages:
-- _posts/test-video.md
