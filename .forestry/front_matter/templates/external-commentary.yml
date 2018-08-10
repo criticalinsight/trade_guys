@@ -1,0 +1,33 @@
+---
+label: External Commentary
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Publish Date
+  config:
+    required: true
+- type: text
+  name: external_url
+  label: External URL
+  description: URL to redirect users to if they wish to continue reading
+  config:
+    required: true
+- type: text
+  name: external_site_name
+  label: External Site Name
+  description: Name of the external site the full commentary is posted on
+  default: CSIS.org
+- type: text
+  name: content_type
+  label: Content Type
+  config:
+    required: false
+  hidden: true
+  default: external_commentary
