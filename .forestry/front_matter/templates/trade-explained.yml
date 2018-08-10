@@ -45,5 +45,3 @@ fields:
   label: Content Type
   hidden: true
   default: article
-pages:
-- _posts/test.md
