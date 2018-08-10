@@ -1,0 +1,101 @@
+/*===================================
+=            Page Header            =
+===================================*/
+.page-header {
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+	grid-template-columns: repeat(2, auto);
+	align-items: flex-end;
+	background-color: $yellow;
+	min-height: 150px;
+	margin-bottom: 0.5rem;
+	padding-top: 4rem;
+
+	@include breakpoint('medium') {
+		margin-bottom: 2rem;
+	}
+
+	.arrow-cutout {
+		--arrow-padding: 1.5rem;
+		--top-padding: 0.5rem;
+
+		position: relative;
+		grid-row: 1;
+		grid-column: 2;
+		justify-self: flex-end;
+		width: calc(#{$size_sidebar-width} + var(--header-footer-border-width));
+		min-height: var(--arrow-padding);
+		margin-right: var(--header-footer-border-width);
+		padding-top: var(--top-padding);
+		padding-right: 3rem;
+		background-color: $white;
+
+		@include breakpoint('medium') {
+			--arrow-padding: 2.5rem;
+			min-height: calc(var(--arrow-padding) / 2);
+		}
+
+		&::before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			top: calc(var(--arrow-padding) / -2);
+			right: 100%;
+			border-top: var(--arrow-padding) solid transparent;
+			border-right: calc(var(--arrow-padding) + 1rem) solid $white;
+			border-bottom: var(--arrow-padding) solid transparent;
+		}
+	}
+
+	&-primary {
+		grid-row: 1;
+		grid-column: 1;
+
+		.page-title {
+			margin: 0 0 -4px 0;
+			@extend %page-title;
+
+			@include breakpoint('medium') {
+				margin-bottom: -6px;
+			}
+		}
+	}
+
+	&-secondary {
+		grid-row: 2;
+		grid-column: span 2;
+		background-color: $white;
+		margin-right: var(--header-footer-border-width);
+		padding-top: 1.5rem;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		padding-bottom: 0.5rem;
+
+		@include breakpoint('medium') {
+			padding-top: 4rem;
+			padding-right: calc(
+				#{$size_sidebar-width} - var(--header-footer-border-width)
+			);
+			padding-left: 0;
+			padding-bottom: 0;
+		}
+
+		.page-title {
+			@extend %single-post-title;
+			margin: 0;
+		}
+
+		p {
+			@extend %page-description;
+			margin-bottom: 0;
+		}
+	}
+
+	.share {
+		display: none;
+
+		@include breakpoint('medium') {
+			display: block;
+		}
+	}
+}

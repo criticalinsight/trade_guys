@@ -1,0 +1,19 @@
+<header class="page-header">
+	<div class="page-header-primary">
+		{% if page.breadcrumbs %}
+			Breadcrumbs
+		{% else %}
+			<h1 class="page-title">{{ page.title | escape }}</h1>
+		{% endif %}
+	</div>
+	<div class="arrow-cutout">
+		<div class="share">Share</div>
+	</div>
+	<div class="page-header-secondary">
+		{% if page.breadcrumbs %}
+			<h1 class="page-title">{{ page.title | escape }}</h1>
+		{% else %}
+			{{ content }}
+		{% endif %}
+	</div>
+</header>

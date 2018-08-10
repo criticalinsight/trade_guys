@@ -29,12 +29,14 @@ defaults:
   values:
     layout: post
     permalink: "/trade-explained/:slug/"
+    breadcrumbs: true
 - scope:
     path: ''
     type: 'podcast'
   values:
     layout: podcast
     permalink: "/podcast/:slug/"
+    breadcrumbs: true
 - scope:
     path: ''
     type: 'authors'

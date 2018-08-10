@@ -21,8 +21,9 @@ textarea {
 	font-family: $font_source;
 	@include fontSize(30px);
 	line-height: 0.97;
-	font-weight: 600;
+	font-weight: bold;
 	letter-spacing: 1.1px;
+	text-transform: uppercase;
 
 	@include breakpoint('medium') {
 		@include fontSize(72px);
@@ -32,8 +33,13 @@ textarea {
 
 %page-description {
 	font-family: $font_source;
-	@include fontSize(22px);
-	line-height: 1.45;
+	@include fontSize(14px);
+	line-height: 1.71;
+
+	@include breakpoint('medium') {
+		@include fontSize(22px);
+		line-height: 1.45;
+	}
 }
 
 %single-post-title {
