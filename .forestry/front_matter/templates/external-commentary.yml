@@ -13,6 +13,15 @@ fields:
   label: Publish Date
   config:
     required: true
+- type: list
+  default: []
+  label: Author(s)
+  name: authors
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
 - type: text
   name: external_url
   label: External URL
