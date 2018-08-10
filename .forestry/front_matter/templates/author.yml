@@ -1,0 +1,18 @@
+---
+label: Author
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Name
+  config:
+    required: true
+- type: text
+  name: job_title
+  label: Title
+  description: Job title
+- type: text
+  name: organization
+  label: Organization
+  default: CSIS
