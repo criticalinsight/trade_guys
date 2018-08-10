@@ -9,6 +9,18 @@ layout: default
 
   {{ content }}
 
+  <script src="http://connect.soundcloud.com/sdk.js"></script>
+    <script>
+      SC.initialize({
+  client_id: 'e1b9039f824fdaf6ec1fc594037c1ac7'
+});
+    // SC.get('/resolve?url=' + 'https://soundcloud.com/csis-57169780/i-smell-a-trade-war', function(track){
+    //     SC.stream(track.stream_url, function(sound){
+    //         sound.play();
+    //     });
+    // });
+    </script>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">

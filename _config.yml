@@ -28,6 +28,7 @@ defaults:
     layout: podcast
     permalink: "/podcast/:slug/"
 
+soundcloud_client_id: e1b9039f824fdaf6ec1fc594037c1ac7
 
 # Build settings
 markdown: kramdown

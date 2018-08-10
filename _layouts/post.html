@@ -16,7 +16,9 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {{ page.content_type }}
     {{ content }}
+    
   </div>
 
   {%- if site.disqus.shortname -%}
