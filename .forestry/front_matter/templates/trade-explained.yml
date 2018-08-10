@@ -11,14 +11,6 @@ fields:
   label: Publish Date
   name: date
   description: Date this article should be made public
-- type: select
-  name: authors
-  config:
-    source:
-      type: datafiles
-      file: _data-authors-yml
-      section: jekyll-posts
-  label: Author(s)
 - type: tag_list
   name: tags
   label: Tags
@@ -45,3 +37,11 @@ fields:
   label: Content Type
   hidden: true
   default: article
+- type: list
+  name: authors
+  label: Author(s)
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
