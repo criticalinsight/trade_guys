@@ -40,3 +40,11 @@ fields:
     required: false
   hidden: true
   default: external_commentary
+- type: list
+  name: series
+  label: Series
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: series
