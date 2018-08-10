@@ -34,7 +34,6 @@ fields:
   label: Tags
   description: Keywords
 pages:
-- _podcast/are-tariffs-the-greatest.md
 - _podcast/zte-and-tweetable-deliverables.md
 - _podcast/trade-war-on-hold-and-a-skinny-nafta.md
 - _podcast/u-s-protectionism-and-the-eu-japan-trade-deal.md
@@ -44,3 +43,4 @@ pages:
 - _podcast/goodbye-to-harley-davidson-and-the-wto.md
 - _podcast/counting-down-to-tariff-time.md
 - _podcast/hearing-from-the-heartland.md
+- _podcast/are-tariffs-the-greatest.md
