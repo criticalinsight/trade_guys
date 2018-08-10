@@ -74,7 +74,7 @@
 		@include breakpoint('medium') {
 			padding-top: 4rem;
 			padding-right: calc(
-				#{$size_sidebar-width} - var(--header-footer-border-width)
+				#{$size_sidebar-width} - calc(var(--header-footer-border-width) * 2)
 			);
 			padding-left: 0;
 			padding-bottom: 0;

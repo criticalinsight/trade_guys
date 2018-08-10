@@ -323,7 +323,6 @@ a {
 	}
 
 	p & {
-		@include wipe-link-hover-background($yellow);
 		@include link-underline-background;
 	}
 }
