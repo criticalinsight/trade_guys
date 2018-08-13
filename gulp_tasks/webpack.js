@@ -15,16 +15,22 @@ for (var i = 0; i <= config.js.entry.length - 1; i++) {
 
 if (config.tasks.eslint) config.webpack.module.rules.push(config.eslintLoader);
 
-config.webpack.watch = argv.watch;
+config.webpack.watch = true;
+// config.webpack.watch = argv.watch;
 config.webpack.mode = argv.mode || config.webpack.mode;
+config.webpack.devtool = 'source-map'
 
 gulp.task('webpack', function () {
   return gulp.src(entry)
     .pipe(plumber())
     .pipe(named())
-    .pipe(babel())
+    .pipe(babel({
+      presets: ['env']
+    }))
+    .pipe(uglify().on('error', function(e){
+         console.log(e);
+    }))
     .pipe(webpackStream(config.webpack, webpack))
-    .pipe(uglify())
     .pipe(gulp.dest(config.assets + '/' + config.js.dest));
 });
 

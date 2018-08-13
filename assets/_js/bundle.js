@@ -1,3 +1,3 @@
-import { hello } from './test' // or './module'
-let val = hello()
-console.log(val)
+import Pagination from './pagination'
+
+window.addEventListener('DOMContentLoaded', Pagination)

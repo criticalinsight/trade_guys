@@ -28,10 +28,10 @@ gulp.task('watch', function () {
       config.jekyll.layouts + '/**/*',
       config.jekyll.posts + '/**/*',
       config.jekyll.data + '/**/*',
+      // config.assets + '/search.json',
       config.assets + '/' + config.sass.dest + '/**/*',
       config.assets + '/' + config.js.dest + '/**/*',
-      config.assets + '/' + config.imagemin.dest + '/**/*',
-      config.assets + '/search.json'
+      config.assets + '/' + config.imagemin.dest + '/**/*'
     ], function () {
       gulp.start('browser-reload');
     });
