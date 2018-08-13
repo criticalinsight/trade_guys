@@ -4,7 +4,8 @@ layout: default
 <article class="archive">
 	{% include page-header.html %}
 	<div class="post-content">
-		{{ content }}
+    {% assign posts = site.posts %}
+    {% for post in posts %}{% include post-list.html %}{% endfor %}
 	</div>
   {% include sidebar.html %}
 	{% include page-footer.html %}

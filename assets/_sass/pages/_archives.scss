@@ -11,7 +11,7 @@
     grid-template-columns: auto calc(
         #{$size_sidebar-width} - var(--header-footer-border-width)
       );
-    grid-gap: var(--header-footer-border-width);
+    grid-column-gap: var(--header-footer-border-width);
   }
 
   .page-header {
@@ -24,9 +24,15 @@
 
   .post-content {
     grid-row: 2;
+    border-top: 6px solid $black;
+    padding-top: 1rem;
+    margin-left: var(--header-footer-border-width);
+    margin-right: var(--header-footer-border-width);
 
     @include breakpoint('medium') {
       grid-column: span 1;
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 

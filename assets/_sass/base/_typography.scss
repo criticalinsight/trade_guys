@@ -64,7 +64,7 @@ textarea {
 
 	@include breakpoint('medium') {
 		@include fontSize(28px);
-		line-height: 1;
+		line-height: 1.14;
 	}
 }
 
