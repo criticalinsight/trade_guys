@@ -34,12 +34,23 @@
 
     a {
       @include wipe-link-hover-background ($yellow);
+
+      &:hover i {
+        color: $dark-yellow;
+      }
     }
   }
 
   &-title {
     @extend %archive-post-title;
     margin: 0;
+
+    i {
+      margin-right: 0.75rem;
+      @include fontSize(22px);
+      color: $yellow;
+      transition: color 0.1s ease-in-out;
+    }
   }
 
   &-content {
