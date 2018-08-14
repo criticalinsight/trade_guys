@@ -5,62 +5,106 @@ const Pagination = {
   totalNumPosts: 0,
   numberOfPages: 0,
   currentPage: 1,
-  numberPerPage: 4,
+  numberPerPage: 3,
   getPosts() {
     const posts = this.postsContainer.querySelectorAll('.post-list')
-    console.log(posts)
     this.postsList = Array.from(posts)
     this.totalNumPosts = this.postsList.length
-    this.numberOfPages = this.totalNumPosts / this.numberPerPage
+    this.numberOfPages = Math.ceil(this.totalNumPosts / this.numberPerPage)
   },
-  getNumberOfPages() {
-    return Math.ceil(this.events.length / this.numberPerPage)
+  setCurrentPage() {
+    const params = this.getURLParams(window.location.href)
+    let page = 1
+    if (params.page && params.page <= this.numberOfPages) {
+      page = params.page
+    }
+    this.currentPage = +page
   },
-  nextPage() {
-    this.currentPage += 1
-    this.loadList()
+  setupPaginationBtns() {
+    let btnHTML = `<button class='pagination-page pagination-prev' data-page='${this
+      .currentPage - 1}'>Previous</button>`
+    for (let i = 1; i <= this.numberOfPages; i++) {
+      let btnClass = ''
+      if (i == this.currentPage) {
+        btnClass = ' is-active'
+      }
+      btnHTML += `<button class='pagination-page page-num${btnClass}' data-page='${i}'>${i}</button>`
+    }
+    btnHTML += `<button class='pagination-page pagination-next' data-page='${this
+      .currentPage + 1}'>Next</button>`
+    this.paginationContainer.innerHTML = btnHTML
+
+    this.paginationContainer
+      .querySelectorAll('.pagination-page')
+      .forEach(el => {
+        el.addEventListener('click', Pagination.changePage)
+      })
   },
-  previousPage() {
-    this.currentPage -= 1
-    this.loadList()
+  updatePaginationBtns() {
+    const oldActiveBtn = this.paginationContainer.querySelector(
+      '.page-num.is-active'
+    )
+    oldActiveBtn.disabled = false
+    oldActiveBtn.classList.remove('is-active')
+
+    const newActiveBtn = this.paginationContainer.querySelector(
+      '.page-num[data-page="' + this.currentPage + '"]'
+    )
+    newActiveBtn.disabled = true
+    newActiveBtn.classList.add('is-active')
+
+    const prevBtn = this.paginationContainer.querySelector('.pagination-prev')
+    prevBtn.disabled = this.currentPage == 1 ? true : false
+    prevBtn.setAttribute('data-page', this.currentPage - 1)
+    const nextBtn = this.paginationContainer.querySelector('.pagination-next')
+    nextBtn.disabled = this.currentPage == this.numberOfPages ? true : false
+    nextBtn.setAttribute('data-page', this.currentPage + 1)
   },
-  firstPage() {
-    this.currentPage = 1
-    this.loadList()
+  updatePostList() {
+    const startVisiblePosts = (this.currentPage - 1) * this.numberPerPage
+    const endVisiblePosts = startVisiblePosts + this.numberPerPage
+    for (let i = 0; i <= this.totalNumPosts - 1; i++) {
+      if (i >= startVisiblePosts && i < endVisiblePosts) {
+        this.postsList[i].classList.add('is-visible')
+      } else {
+        this.postsList[i].classList.remove('is-visible')
+      }
+    }
   },
-  lastPage() {
-    this.currentPage = this.numberOfPages
-    this.loadList()
+  changePage() {
+    let pageNum = this.getAttribute('data-page')
+    if (history.pushState) {
+      history.pushState(null, null, '?page=' + pageNum)
+    } else {
+      location.hash = '?page=' + pageNum
+    }
+    Pagination.setCurrentPage()
+    Pagination.updatePaginationBtns()
+    Pagination.updatePostList()
   },
-  loadList() {
-    // var begin = ((this.currentPage - 1) * this.numberPerPage);
-    // var end = begin + numberPerPage;
-    // for (i = 0; i < pageList.length; i++) {
-    //   pageList[i].classList.add("not-visible"); // make the old list invisible
-    // }
-    // pageList = events.slice(begin, end);
-    // drawList();
-    // check();
-  },
-  drawList() {
-    // for (i = 0; i < pageList.length; i++) {
-    //   pageList[i].classList.remove("not-visible");
-    // }
-  },
-  check() {
-    // document.getElementById("next").disabled = this.currentPage == numberOfPages ? true : false;
-    // document.getElementById("previous").disabled = this.currentPage == 1 ? true : false;
-    // document.getElementById("first").disabled = this.currentPage == 1 ? true : false;
-    // document.getElementById("last").disabled = this.currentPage == numberOfPages ? true : false;
-  },
-  paginationBtns() {
-    console.log('test')
+  getURLParams(url) {
+    let params = {}
+    const parser = document.createElement('a')
+    parser.href = url
+    const query = parser.search.substring(1)
+    const vars = query.split('&')
+    for (let i = 0; i < vars.length; i++) {
+      const pair = vars[i].split('=')
+      params[pair[0]] = decodeURIComponent(pair[1])
+    }
+    return params
   }
 }
 
-function archivePagination() {
+function paginationInit() {
+  if (!document.querySelector('.archive')) {
+    return
+  }
   Pagination.getPosts()
-  Pagination.paginationContainer.innerHTML = Pagination.totalNumPosts
+  Pagination.setCurrentPage()
+  Pagination.setupPaginationBtns()
+  Pagination.updatePaginationBtns()
+  Pagination.updatePostList()
 }
 
-export default archivePagination
+export default paginationInit

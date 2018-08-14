@@ -1,3 +1,3 @@
-import Pagination from './pagination'
+import PaginationInit from './pagination'
 
-window.addEventListener('DOMContentLoaded', Pagination)
+window.addEventListener('DOMContentLoaded', PaginationInit)
