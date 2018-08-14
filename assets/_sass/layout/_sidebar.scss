@@ -17,11 +17,10 @@
 
   &.podcast {
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: min-content auto;
     grid-gap: 1rem;
 
     @include breakpoint('medium') {
-      grid-template-rows: repeat(3, auto);
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 2rem;
     }

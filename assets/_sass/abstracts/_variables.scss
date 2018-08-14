@@ -8,10 +8,11 @@ $yellow: #eae134;
 $dark-yellow: #cfc83a;
 $gray: #4a4a4a;
 $dark-gray: #353535;
+$disabled-gray: #b3b3b3;
 
 $color_footer-contact-text: #e0e1e2;
 $color_footer-copyright-text: #090909;
-$color_post-list-border: #b3b3b3;
+$color_post-list-border: $disabled-gray;
 
 /*==================================
 =            Typography            =
@@ -25,6 +26,7 @@ $fontello_url: '../fonts/';
 =================================*/
 
 $size_container-max-width: 1440px;
+$size_post-list-desc-max-width: 700px;
 $size_header-height-desktop: 72px;
 $size_page-header-footer-border-width-mobile: 1rem;
 $size_page-header-footer-border-width-desktop: 4rem;

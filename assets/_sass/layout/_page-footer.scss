@@ -9,7 +9,7 @@
 
   @include breakpoint('medium') {
     border-left: var(--header-footer-border-width) solid $yellow;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding-right: 0;
     padding-left: 1rem;
   }

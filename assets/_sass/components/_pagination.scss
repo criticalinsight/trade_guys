@@ -61,7 +61,11 @@
     }
 
     &:disabled {
-      color: $color_post-list-border;
+      color: $disabled-gray;
+
+      &::after {
+        background-color: $disabled-gray;
+      }
     }
   }
 

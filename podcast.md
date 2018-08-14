@@ -2,8 +2,10 @@
 layout: archive
 title: Podcast Episodes
 permalink: /podcast/
+collection_type: podcast
 sidebar: sidebar-podcast.html
 sidebar_class: podcast
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices nunc eget quam commodo mollis. Maecenas scelerisque metus lectus, ac convallis ex facilisis eget. 
+*The Trade Guys* is hosted every week by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+ 
