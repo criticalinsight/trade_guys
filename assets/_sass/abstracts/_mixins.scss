@@ -106,8 +106,8 @@ $breakpoint-xsmall: 25em;
     background-size: 100% 100%;
 }
 
-@mixin wipe-link-hover-background($background-color: $yellow) {
-    width: 100%;
+@mixin wipe-link-hover-background($background-color: $yellow, $width: 100%) {
+    width: $width;
     background-image: linear-gradient(
         transparent calc(20%),
         $background-color 20%
@@ -134,4 +134,37 @@ $breakpoint-xsmall: 25em;
         transparent 55%
     );
     @extend %link-underline;
+}
+
+@mixin pagination-arrows($direction: left) {
+    $opposite: left;
+    @if $direction == left {
+        $opposite: right;
+    }
+    margin-#{$direction}: var(--pagination-prev-next-spacing);
+    margin-#{$opposite}: 2rem;
+
+    i {
+      @extend %arrow-icon;
+      #{$opposite}: 100%;
+
+      &::after {
+        @extend %arrow-line;
+        #{$opposite}: -1px;
+      }
+    }
+
+    &::after {
+      @extend %arrow-bg;
+      #{$opposite}: 100%;
+    }
+
+    &:not(:disabled):hover i {
+      #{$opposite}: calc(100% + 1rem);
+
+      &::after {
+        width: calc(2rem - 1px);
+        #{$opposite}: -1rem;
+      }
+    }
 }

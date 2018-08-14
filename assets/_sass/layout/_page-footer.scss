@@ -2,13 +2,14 @@
 =            Page Footer            =
 ===================================*/
 .page-footer {
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-right: var(--header-footer-border-width);
   padding-left: var(--header-footer-border-width);
   padding-bottom: 1rem;
 
   @include breakpoint('medium') {
     border-left: var(--header-footer-border-width) solid $yellow;
+    margin-top: 2rem;
     padding-right: 0;
     padding-left: 1rem;
   }

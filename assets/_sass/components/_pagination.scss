@@ -1,0 +1,121 @@
+/*==================================
+=            Pagination            =
+==================================*/
+
+.archive-pagination {
+  --pagination-prev-next-spacing: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+
+  @include breakpoint("medium") {
+    --pagination-prev-next-spacing: 3rem;
+    margin-top: 2rem;
+    display: block;
+  }
+
+  button {
+    background-color: transparent;
+    border: 0;
+  }
+
+  .pagination-total-pages {
+    @extend %btn;
+    text-transform: uppercase;
+
+    @include breakpoint("medium") {
+      display: none;
+    }
+  }
+
+  .page-num {
+    display: none;
+
+    @include breakpoint("medium") {
+      display: inline-block;
+      @include fontSize(18px);
+      line-height: 1;
+      margin: 0 1rem;
+    }
+    
+    &:not(.is-active) {
+      @include wipe-link-hover-background($yellow, fit-content);
+    }
+
+    &.is-active {
+      font-weight: bold;
+    }
+  }
+
+  .pagination-prev,
+  .pagination-next {
+    flex: 1 0 auto;
+    position: relative;
+    @extend %btn;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+
+    &:not(:disabled):hover {
+      @include breakpoint("medium") {
+        background-color: $yellow;
+      }
+    }
+
+    &:disabled {
+      color: $color_post-list-border;
+    }
+  }
+
+  %arrow-icon {
+    position: absolute;
+    z-index: 10;
+    top: 1px;
+    color: $white;
+    transition: all 0.2s ease-in-out;
+
+    @include breakpoint("medium") {
+      top: 2px;
+    }
+  }
+
+  %arrow-line {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(50% - 1px);
+    width: 1rem;
+    height: 1px;
+    background-color: $white;
+    transition: all 0.2s ease-in-out;
+  }
+
+  %arrow-bg {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: $black;
+    width: 2rem;
+    height: 100%;
+  }
+
+  .pagination-prev {
+    @include pagination-arrows(left);
+
+    @include breakpoint("medium") {
+      &::before {
+        content: 'Previous';
+      }
+    }
+  }
+
+  .pagination-next {
+    @include pagination-arrows(right);
+
+    @include breakpoint("medium") {
+      &::before {
+        content: 'Next';
+      }
+    }
+  }
+}
+

@@ -22,7 +22,10 @@ const Pagination = {
   },
   setupPaginationBtns() {
     let btnHTML = `<button class='pagination-page pagination-prev' data-page='${this
-      .currentPage - 1}'>Previous</button>`
+      .currentPage - 1}'><i class="icon-angle-left"></i></button>`
+    btnHTML += `<span class="pagination-total-pages">Page
+    <span class="pagination-current-page">${this.currentPage}</span> of 
+    ${this.numberOfPages}</span>`
     for (let i = 1; i <= this.numberOfPages; i++) {
       let btnClass = ''
       if (i == this.currentPage) {
@@ -31,7 +34,7 @@ const Pagination = {
       btnHTML += `<button class='pagination-page page-num${btnClass}' data-page='${i}'>${i}</button>`
     }
     btnHTML += `<button class='pagination-page pagination-next' data-page='${this
-      .currentPage + 1}'>Next</button>`
+      .currentPage + 1}'><i class="icon-angle-right"></i></button>`
     this.paginationContainer.innerHTML = btnHTML
 
     this.paginationContainer
@@ -59,15 +62,19 @@ const Pagination = {
     const nextBtn = this.paginationContainer.querySelector('.pagination-next')
     nextBtn.disabled = this.currentPage == this.numberOfPages ? true : false
     nextBtn.setAttribute('data-page', this.currentPage + 1)
+
+    this.paginationContainer.querySelector(
+      '.pagination-current-page'
+    ).innerHTML = this.currentPage
   },
   updatePostList() {
     const startVisiblePosts = (this.currentPage - 1) * this.numberPerPage
     const endVisiblePosts = startVisiblePosts + this.numberPerPage
     for (let i = 0; i <= this.totalNumPosts - 1; i++) {
       if (i >= startVisiblePosts && i < endVisiblePosts) {
-        this.postsList[i].classList.add('is-visible')
+        this.postsList[i].classList.remove('is-hidden')
       } else {
-        this.postsList[i].classList.remove('is-visible')
+        this.postsList[i].classList.add('is-hidden')
       }
     }
   },
