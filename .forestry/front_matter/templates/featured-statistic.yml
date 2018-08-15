@@ -1,0 +1,14 @@
+---
+label: Featured Statistic
+hide_body: true
+is_partial: true
+fields:
+- type: number
+  name: statistic_number
+  label: Statistic Number
+- type: textarea
+  name: statistic_text
+  label: Statistic Text
+- type: text
+  name: statistic_source
+  label: Statistic Source
