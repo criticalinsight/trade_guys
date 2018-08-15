@@ -1,5 +1,5 @@
 ---
-title: Whither, or Wither, WTO?”
+title: Whither, or Wither, WTO?
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
