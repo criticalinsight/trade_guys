@@ -42,6 +42,11 @@ fields:
   label: Content Type
   hidden: true
   default: video
+- type: blocks
+  template_types:
+  - featured-statistic
+  label: Featured Statistic
+  name: featured_statistic
 pages:
 - _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
 - _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
