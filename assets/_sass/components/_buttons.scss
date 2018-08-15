@@ -9,4 +9,13 @@
   &:hover {
     background-color: $dark-gray;
   }
+
+  &.btn-gray {
+    background-color: $off-white;
+    color: $black;
+
+    &:hover {
+      background-color: $off-white-dark;
+    }
+  }
 }
