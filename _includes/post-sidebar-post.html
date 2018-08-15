@@ -1,6 +1,11 @@
 <div class="post-meta">
-  {%- if page.author -%}
-    • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+  {%- if page.authors -%}
+  <ul class="post-authors">
+    {% for author in page.authors %}
+      {% assign author_info = site.authors | where: "relative_path", author %}
+      <li itemprop="author" itemscope itemtype="http://schema.org/Person"><a href="{{ author_info[0].url | relative_url }}" class="post-author h-card" itemprop="name">{{ author_info[0].title | escape }}</a></li>
+    {% endfor %}
+  </ul>
   {%- endif -%}
   <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
     {{ page.date | date: site.date_format }}

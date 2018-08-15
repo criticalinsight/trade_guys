@@ -1,0 +1,21 @@
+/*==========================================
+=            Post External Link            =
+==========================================*/
+.post-external-link {
+  display: block;
+  width: fit-content;
+  margin: 2rem 0;
+  padding: 0.25rem 0.75rem;
+  font-family: $font_source;
+  @include fontSize(18px);
+  color: $black;
+
+  @include breakpoint("medium") {
+    @include fontSize(20px);
+  }
+
+  .external-site-name {
+    font-weight: 600;
+  }
+}
+
