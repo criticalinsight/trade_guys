@@ -12,3 +12,5 @@ fields:
     required: true
   label: Featured Statistic Post
   default: _posts/2018-08-15-test-post.md
+pages:
+- index.md
