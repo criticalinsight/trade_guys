@@ -37,5 +37,11 @@ fields:
     name: on_homepage
     description: Toggle if their photo should appear on the homepage
     label: Are They On The Homepage ?
+  label: 'Trade Guy Details '
+  name: trade_guy_details_
+  description: Enter details for The People
+  config:
+    labelField: name
+    min: '3'
 data_files:
 - _data/trade_guys.yml
