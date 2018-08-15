@@ -32,6 +32,7 @@ defaults:
     layout: post
     permalink: "/trade-explained/:slug/"
     breadcrumbs: true
+    breadcrumbs_text: breadcrumbs_all_articles
     sidebar: post-sidebar-post.html
 - scope:
     path: ''
@@ -40,6 +41,7 @@ defaults:
     layout: post
     permalink: "/podcast/:slug/"
     breadcrumbs: true
+    breadcrumbs_text: breadcrumbs_all_podcast
     sidebar: post-sidebar-podcast.html
 - scope:
     path: ''

@@ -1,0 +1,47 @@
+/*========================================
+=            Post Breadcrumbs            =
+========================================*/
+.post-breadcrumbs {
+  position: relative;
+  left: 2rem;
+  display: block;
+  padding-left: 0.5rem;
+  @extend %labelsmall;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+  @include pagination-arrows(left);
+  margin: 0;
+
+  @include breakpoint("medium") {
+    line-height: 1.75;
+  }
+
+  .single-post:not(.podcast) & {
+    line-height: 1.75;
+  }
+
+  i {
+    color: $yellow;
+
+    &::after {
+      background-color: $yellow;
+    }
+
+    // Podcast text breaks onto two lines, so adjust the arrow positioning
+    .podcast & {
+      top: calc(25% + 1px);
+
+      @include breakpoint("medium") {
+        top: 1px;
+      }
+    }
+  }
+
+  br {
+    @include breakpoint("medium") {
+      display: none;
+    }
+  }
+}
+
