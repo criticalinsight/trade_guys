@@ -10,6 +10,7 @@ _site
 .jekyll-metadata
 /.bundle
 /vendor
+assets/css/*.css
 
 # Node.js
 node_modules/
@@ -22,7 +23,6 @@ node_modules/
 
 # Other unneeded files
 doc/
-*.css
 *.swp
 *~
 .project
