@@ -3,44 +3,30 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  <script src="http://connect.soundcloud.com/sdk.js"></script>
-    <script>
-      SC.initialize({
-  client_id: 'e1b9039f824fdaf6ec1fc594037c1ac7'
-});
-    // SC.get('/resolve?url=' + 'https://soundcloud.com/csis-57169780/i-smell-a-trade-war', function(track){
-    //     SC.stream(track.stream_url, function(sound){
-    //         sound.play();
-    //     });
-    // });
-    </script>
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+  <section class="site-title-main">
+    <h1>The<br />Trade<br />Guys</h1>
+    <div class="site-desc">
+      <p>Trade experts Scott Miller and Bill Reinsch break down the buzz around trade, how it affects policy, and how it impacts your day-to-day.</p>
+      {% include podcast-apple-logo.html color="black" %}
+      {% include podcast-soundcloud-logo.html color="black" %}
+    </div>
+  </section>
+  <section class="podcast-info">
+    <div class="podcast-subscribe">{% include podcast-subscribe.html %}</div>
+    <p>The Trade Guys is hosted every week by H. Andrew Schwartz at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.</p>
+    <div class="trade-guys">
+      Scott<br />
+      Bill<br />
+      Andrew<br />
+    </div>
+  </section>
+  <section class="podcast-list">
+    {% assign posts = site.podcast | sort: 'date' | reverse %}
+    {% for post in posts limit:3 %}{% include post-list.html %}{% endfor %}
+    <a href="/podcast" class="btn btn-all-caps see-more">All Episodes</a>
+  </section>
+  <img class="home-graphic" src="http://via.placeholder.com/558x344" alt="{{ site.title | escape }}" alt="{{ site.title | escape }}" />
+  {% include home-featured-stat.html %}
+  {% include home-featured-post-list.html %}
+  {% include home-contact.html %}
 </div>

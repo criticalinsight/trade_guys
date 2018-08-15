@@ -1,0 +1,35 @@
+/*=====================================
+=            Home: Contact            =
+=====================================*/
+
+.home-contact {
+  padding-bottom: 1rem;
+
+  @include breakpoint("medium") {
+    grid-row: 6;
+    grid-column: 1 / -1;
+  }
+
+  &-title {
+    display: block;
+    margin: 0;
+    background-color: $yellow;
+    padding: 3rem var(--outer-gutter) 0.5rem;
+    @extend %single-post-title;
+  }
+
+  &-graphic {
+    display: block;
+  }
+
+  &-desc {
+    padding: 1rem var(--outer-gutter);
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &-form {
+    padding: 0 var(--outer-gutter);
+  }
+}

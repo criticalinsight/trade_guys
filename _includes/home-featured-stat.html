@@ -1,0 +1,9 @@
+<section class="featured-stat-container">
+  <div class="featured-stat">
+    Featured Stat
+  </div>
+  <div class="featured-stat-post">
+    {% assign posts = site.posts | where: "relative_path", page.featured_statistic_post %}
+    {% for post in posts limit:1 %}{% include post-list.html %}{% endfor %}
+  </div>
+</section>

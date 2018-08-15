@@ -1,0 +1,9 @@
+<section class="featured-post-list">
+  {% assign tradeMainPage = site.pages | where: "path", "trade-explained.md" | first %}
+  <h2 class="featured-post-list-title">{{ tradeMainPage.title | escaped }}</h2>
+  <p>{{ tradeMainPage.content }}</p>
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts limit:2 %}{% include post-list.html %}{% endfor %}
+  <a href="/trade-explained" class="btn btn-all-caps see-more">View All</a>
+  {% include series-list.html %}
+</section>

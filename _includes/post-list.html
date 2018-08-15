@@ -9,6 +9,9 @@
     </span>
   </header>
   <main class="post-list-content">
-    {{ post.excerpt }}
+    {% if post.collection == 'podcast' and (page.layout == 'home' or forloop.first) %}
+      {% include audio-player.html soundcloud_url=post.soundcloud_url %}
+    {% endif %}
+    <p>{{ post.excerpt }}</p>
   </main>
 </article>

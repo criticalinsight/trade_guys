@@ -1,0 +1,58 @@
+/*===========================================
+=            Home: Featured Stat            =
+===========================================*/
+
+.featured-stat-container {
+  background-color: $dark-gray;
+  padding: 3rem var(--outer-gutter);
+
+  @include breakpoint("medium") {
+    position: relative;
+    z-index: 10;
+    grid-row: 4;
+    grid-column: 1 / -1;
+    overflow-y: visible;
+    overflow-x: hidden;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -3.5rem;
+      left: 10px;
+      right: -10px;
+      z-index: 5;
+      background-color: green;
+      height: 100%;
+      transform: rotate(-5deg);
+    }
+  }
+
+  .featured-stat {
+    display: none;
+
+    @include breakpoint("medium") {
+      display: block;
+    }
+  }
+
+  .featured-stat-post {
+    .post-list-title {
+      color: $white;
+    }
+
+    .post-list-content {
+      color: $off-white;
+
+      p {
+        @include fontSize(16px);
+        line-height: 1.5;
+      }
+    }
+
+    .post-list-img,
+    .post-meta {
+      display: none;
+    }
+  }
+}
