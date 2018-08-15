@@ -1,0 +1,11 @@
+<div class="pagination-single-post-item {{ include.type }}">
+  {% assign item = page[include.type] %}
+  <a class="pagination-{{ include.type }}" href="{{ item.url | relative_url }}"><i class="icon-arrow-{{ include.icon }}"></i>{{ include.type }}</a><br />
+  <a class="post-title" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+  <div class="post-meta">
+    {{ item.date | date: site.date_format }}
+    {% if item.episode_num %}
+    &mdash; {{ item.episode_num | prepend: 'Episode #' }}
+    {% endif %}
+  </div>
+</div>

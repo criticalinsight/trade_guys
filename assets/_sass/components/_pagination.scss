@@ -69,39 +69,6 @@
     }
   }
 
-  %arrow-icon {
-    position: absolute;
-    z-index: 10;
-    top: 1px;
-    color: $white;
-    transition: all 0.2s ease-in-out;
-
-    @include breakpoint("medium") {
-      top: 2px;
-    }
-  }
-
-  %arrow-line {
-    content: '';
-    display: block;
-    position: absolute;
-    top: calc(50% - 1px);
-    width: 1rem;
-    height: 1px;
-    background-color: $white;
-    transition: all 0.2s ease-in-out;
-  }
-
-  %arrow-bg {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    background-color: $black;
-    width: 2rem;
-    height: 100%;
-  }
-
   .pagination-prev {
     @include pagination-arrows(left);
 

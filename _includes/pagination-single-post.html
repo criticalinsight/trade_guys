@@ -1,0 +1,8 @@
+<div class="pagination-single-post">
+  {% if page.previous.url %}
+    {% include pagination-single-post-item.html type="previous" icon="left" %}
+  {% endif %}
+  {% if page.next.url %}
+    {% include pagination-single-post-item.html type="next" icon="right" %}
+  {% endif %}
+</div>
