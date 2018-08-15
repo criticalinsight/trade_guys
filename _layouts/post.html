@@ -13,6 +13,9 @@ layout: default
       {% endif %}
     <div class="post-body">
       {{ content }}
+      {% if page.notes %}
+        {% include post-notes.html %}
+      {% endif %}
     </div>
   </main>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>

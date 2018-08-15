@@ -1,0 +1,18 @@
+/*==================================
+=            Post Notes            =
+==================================*/
+.post-notes {
+  margin-top: 4rem;
+  border-top: $size_post-content-border-top solid $black;
+
+  &-heading {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  ul, ol {
+    margin-top: 0;
+    padding-left: 1.25rem;
+  }
+}
+
