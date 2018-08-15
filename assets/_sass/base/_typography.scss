@@ -102,6 +102,18 @@ textarea {
   }
 }
 
+%post-meta-label {
+  font-family: $font_source;
+  @include fontSize(12px);
+  letter-spacing: 1px;
+  font-weight: 600;
+
+  @include breakpoint("medium") {
+    @include fontSize(14px);
+    letter-spacing: 1.2px;
+  }
+}
+
 %label {
   font-family: $font_inconsolata;
   @include fontSize(16px);
@@ -313,6 +325,10 @@ big {
 /*=============================
 =            Links            =
 =============================*/
+
+%dashed-underline {
+  border-bottom: 1px dashed $black;
+}
 
 a {
   color: inherit;
