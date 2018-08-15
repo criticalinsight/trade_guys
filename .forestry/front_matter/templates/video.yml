@@ -37,16 +37,15 @@ fields:
       type: pages
       section: series
   label: Series
-- type: blocks
-  template_types:
-  - featured-statistic
-  label: Featured Statistic
-  name: featured_statistic
 - type: text
   name: content_type
   label: Content Type
   hidden: true
   default: video
+- type: include
+  name: featured_statistic
+  label: Featured Statistic
+  template: featured-statistic
 pages:
 - _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
 - _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
