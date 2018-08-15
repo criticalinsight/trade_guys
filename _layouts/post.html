@@ -9,8 +9,8 @@ layout: default
       {% include post-tags.html %}
     </aside>
     {% if page.collection == 'podcast' %}
-      <div class="audio-player">Audio Include Goes here</div>
-    {% endif %}
+        {% include audio-player.html soundcloud_url=page.soundcloud_url %}
+      {% endif %}
     <div class="post-body">
       {{ content }}
     </div>

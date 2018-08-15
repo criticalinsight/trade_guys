@@ -1,0 +1,91 @@
+.audio-player {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+
+  @include breakpoint('medium') {
+    flex-wrap: nowrap;
+  }
+
+  .audio-control {
+    max-width: 10%;
+    margin: 0 40px 0 0;
+    @include breakpoint('medium') {
+      order: -1;
+      -webkit-box-ordinal-group: -1;
+    }
+  }
+
+  .action {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .audio-control,
+  .secondary-info {
+    display: flex;
+
+    align-items: center;
+  }
+
+  .action,
+  .duration {
+    @extend %labelsmall;
+  }
+
+  .action {
+    margin: 0 40px 0 10px;
+  }
+
+  .duration {
+    margin: 0 10px 0 25px;
+  }
+
+  .progress-bar {
+    position: relative;
+    background-color: $color_audio-player-progress-bar;
+    width: 100%;
+    height: 8px;
+    margin-bottom: 8px;
+
+    @include breakpoint('medium') {
+      // width: calc(100% - 225px);
+      height: 4px;
+      margin-bottom: 0;
+    }
+  }
+
+  .progress-bar .progress {
+    height: 8px;
+    position: absolute;
+    background-color: $black;
+
+    @include breakpoint('medium') {
+      height: 4px;
+    }
+  }
+
+  i,
+  .progress-bar,
+  .action {
+    cursor: pointer;
+  }
+
+  i {
+    @include fontSize(20px);
+  }
+  i:hover,
+  .action:hover {
+    color: $yellow;
+    transition: 0.2s ease-in-out;
+  }
+
+  [class^='icon-']:before,
+  [class*=' icon-']:before {
+    width: unset;
+  }
+}
