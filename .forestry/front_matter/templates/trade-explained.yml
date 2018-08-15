@@ -45,3 +45,5 @@ fields:
     source:
       type: pages
       section: authors
+pages:
+- _posts/test-post.md
