@@ -1,3 +1,6 @@
 import PaginationInit from './pagination'
-
-window.addEventListener('DOMContentLoaded', PaginationInit)
+import AudioPlayer from './audio-player'
+window.addEventListener('DOMContentLoaded', () => {
+  PaginationInit()
+  AudioPlayer()
+})
