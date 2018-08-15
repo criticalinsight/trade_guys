@@ -1,0 +1,13 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+- type: select
+  name: featured_statistic_post
+  config:
+    source:
+      type: pages
+      section: jekyll-posts
+    required: true
+  label: Featured Statistic Post
