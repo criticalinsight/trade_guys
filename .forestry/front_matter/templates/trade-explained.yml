@@ -46,4 +46,4 @@ fields:
       type: pages
       section: authors
 pages:
-- _posts/test-post.md
+- _posts/2018-08-15-test-post.md
