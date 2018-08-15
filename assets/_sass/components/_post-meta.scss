@@ -7,6 +7,12 @@
   text-transform: uppercase;
 }
 
+.post-meta-label {
+  @extend %post-meta-label;
+  text-transform: uppercase;
+  color: $gray;
+}
+
 .dt-published {
   .podcast .post-info & {
     @include breakpoint("medium") {

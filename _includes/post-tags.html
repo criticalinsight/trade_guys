@@ -1,1 +1,10 @@
-<section class="post-tags">Tags go here</section>
+{% if page.tags.size > 0 %}
+<section class="post-tags">
+  <span class="post-meta-label">{{ site.data.language.tags || escape }}</span>
+  <ul class="post-tags-list">
+    {% for tag in page.tags %}
+    <li><a href="/tags/{{ tag }}/">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
