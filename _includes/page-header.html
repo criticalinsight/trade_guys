@@ -1,7 +1,7 @@
 <header class="page-header">
 	<div class="page-header-primary">
 		{% if page.breadcrumbs %}
-			Breadcrumbs
+			{% include post-breadcrumbs.html %}
 		{% else %}
 			<h1 class="page-title">{{ page.title | escape }}</h1>
 		{% endif %}
