@@ -3,39 +3,6 @@ label: Trade Guys
 hide_body: true
 is_partial: false
 fields:
-- type: text
-  name: name
-  label: Name
-  config:
-    required: true
-- type: text
-  name: title
-  label: title
-  hidden: false
-  config:
-    required: true
-- type: text
-  label: About Page Headshot URL
-  name: about_page_headshot_url
-  config:
-    required: true
-- type: text
-  name: front_page_headshot_url
-  label: Front Page Headshot URL
-  config:
-    required: true
-- type: textarea
-  name: bio
-  label: Bio
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: boolean
-  name: on_homepage
-  label: Are They On The Hompage ?
-  description: Toggle if their photo should appear on the homepage
 - type: field_group_list
   fields:
   - type: text
