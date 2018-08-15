@@ -48,3 +48,5 @@ fields:
     source:
       type: pages
       section: series
+pages:
+- _posts/whither-or-wither-wto.md
