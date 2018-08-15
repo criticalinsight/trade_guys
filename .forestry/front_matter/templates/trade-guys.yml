@@ -36,5 +36,39 @@ fields:
   name: on_homepage
   label: Are They On The Hompage ?
   description: Toggle if their photo should appear on the homepage
+- type: field_group_list
+  fields:
+  - type: text
+    name: name
+    label: Name
+    config:
+      required: true
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
+  - type: text
+    name: about_page_headshot_url
+    label: About Page Headshot URL
+    config:
+      required: true
+  - type: text
+    name: homepage_headshot_url
+    label: Homepage Headshot URL
+    config:
+      required: true
+  - type: textarea
+    label: BIO
+    name: bio
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: boolean
+    name: on_homepage
+    description: Toggle if their photo should appear on the homepage
+    label: Are They On The Homepage ?
 data_files:
 - _data/trade_guys.yml
