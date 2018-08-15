@@ -1,0 +1,37 @@
+---
+label: About
+hide_body: true
+is_partial: false
+fields:
+- type: textarea
+  name: introduction
+  label: Introduction
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
+- type: textarea
+  name: the_show
+  label: The Show
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  label: CSIS
+  name: csis
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: textarea
+  name: the_credits
+  label: The Credits
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
