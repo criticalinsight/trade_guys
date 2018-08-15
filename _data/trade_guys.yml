@@ -1,1 +1,32 @@
 ---
+trade_guy_details_:
+- name: Andrew Schwartz
+  title: Trade Guy Host
+  about_page_headshot_url: assets/images/about/Schwartz_Andrew.jpg
+  homepage_headshot_url: assets/images/home/trade-guys-home-photosAndrew.png
+  bio: Lorem ipsum dolor sit amet, scripta molestie signiferumque id est, pri augue
+    eripuit inciderint id, te usu duis civibus mnesarchum. Ad philosophia intellegebat
+    eum, has vero iisque ne. At tempor graeco debitis nec, graeci utamur et has. Diam
+    exerci torquatos mea ne, ex usu odio labore. Mei no affert albucius copiosae,
+    novum virtute recusabo vel ei.
+  on_homepage: true
+- name: Bill Reinsch
+  title: Trade Guy 2
+  about_page_headshot_url: assets/images/about/Reinsch_Bill.jpg
+  homepage_headshot_url: assets/images/home/trade-guys-home-photosBill.png
+  bio: Lorem ipsum dolor sit amet, scripta molestie signiferumque id est, pri augue
+    eripuit inciderint id, te usu duis civibus mnesarchum. Ad philosophia intellegebat
+    eum, has vero iisque ne. At tempor graeco debitis nec, graeci utamur et has. Diam
+    exerci torquatos mea ne, ex usu odio labore. Mei no affert albucius copiosae,
+    novum virtute recusabo vel ei.
+  on_homepage: true
+- name: Scott Miller
+  title: Trade Guy 1
+  about_page_headshot_url: assets/images/about/Miller_Scott.jpg
+  homepage_headshot_url: assets/images/home/trade-guys-home-photosScott.png
+  bio: Lorem ipsum dolor sit amet, scripta molestie signiferumque id est, pri augue
+    eripuit inciderint id, te usu duis civibus mnesarchum. Ad philosophia intellegebat
+    eum, has vero iisque ne. At tempor graeco debitis nec, graeci utamur et has. Diam
+    exerci torquatos mea ne, ex usu odio labore. Mei no affert albucius copiosae,
+    novum virtute recusabo vel ei.
+  on_homepage: true
