@@ -48,5 +48,8 @@ fields:
     source:
       type: pages
       section: series
+- type: tag_list
+  name: tags
+  label: Tags
 pages:
 - _posts/whither-or-wither-wto.md
