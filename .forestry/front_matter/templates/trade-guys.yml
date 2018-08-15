@@ -15,6 +15,14 @@ fields:
     label: Title
     config:
       required: true
+  - type: textarea
+    label: BIO
+    name: bio
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: about_page_headshot_url
     label: About Page Headshot URL
@@ -24,15 +32,7 @@ fields:
     name: homepage_headshot_url
     label: Homepage Headshot URL
     config:
-      required: true
-  - type: textarea
-    label: BIO
-    name: bio
-    config:
-      required: true
-      wysiwyg: true
-      schema:
-        format: markdown
+      required: false
   - type: boolean
     name: on_homepage
     description: Toggle if their photo should appear on the homepage
