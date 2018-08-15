@@ -7,6 +7,7 @@ content_type: external_commentary
 date: 2018-08-06 13:39:31 +0000
 external_url: https://www.csis.org/analysis/whither-or-wither-wto
 series: []
+tags: []
 
 ---
 The World Trade Organization is under attack and its future is in question. Negotiations have all but ground to a halt while countries flout their obligations. U.S. tariffs on steel, aluminum, and imports from China have put additional pressure on the WTO’s rules and relevancy. 
