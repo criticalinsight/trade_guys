@@ -9,7 +9,7 @@ layout: default
       {% include post-tags.html %}
     </aside>
     {% if page.collection == 'podcast' %}
-        {% include audio-player.html soundcloud_url=page.soundcloud_url %}
+        {% include audio-player.html soundcloud_url=page.soundcloud_url transcript_url=page.transcript_url %}
       {% endif %}
     <div class="post-body">
       {{ content }}

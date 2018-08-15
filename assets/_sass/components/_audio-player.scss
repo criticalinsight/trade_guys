@@ -26,15 +26,17 @@
   }
 
   .audio-control,
-  .secondary-info {
+  .secondary-info,
+  .transcript {
     display: flex;
-
     align-items: center;
   }
 
   .action,
-  .duration {
+  .duration,
+  .label-transcript {
     @extend %labelsmall;
+    white-space: nowrap;
   }
 
   .action {
@@ -68,23 +70,65 @@
     }
   }
 
+  .menu {
+    position: relative;
+    display: flex;
+  }
+
+  .transcript {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    position: absolute;
+    right: -1px;
+    z-index: 1;
+    height: 37px;
+    border-radius: calculate-rem(2px);
+    background-color: $color_audio-player-transcript-box;
+    @include box-shadow(
+      0,
+      2px,
+      4px,
+      0,
+      $color_audio-player-transcript-box-shadow,
+      false
+    );
+  }
+
+  .transcript,
+  .transcript * {
+    visibility: hidden;
+  }
+  .menu:hover .transcript,
+  .menu:hover .transcript * {
+    visibility: visible;
+  }
+
   i,
   .progress-bar,
-  .action {
+  .action,
+  .transcript {
     cursor: pointer;
   }
 
   i {
     @include fontSize(20px);
   }
-  i:hover,
+
+  i:not(.icon-transcript):hover,
   .action:hover {
     color: $yellow;
     transition: 0.2s ease-in-out;
   }
 
+  .icon-transcript:hover i {
+    color: $black;
+  }
+
   [class^='icon-']:before,
   [class*=' icon-']:before {
     width: unset;
+    margin: 0;
   }
 }
