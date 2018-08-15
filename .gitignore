@@ -22,6 +22,7 @@ node_modules/
 
 # Other unneeded files
 doc/
+*.css
 *.swp
 *~
 .project
