@@ -1,5 +1,6 @@
+---
 header:
-- identifier: about
+- identifier: podcast
   url: "/podcast"
   weight: 2
   title: Podcast
@@ -15,4 +16,4 @@ header:
   url: "/contact"
   weight: 5
   title: Ask a Question
-  class: 'contact'
+  class: contact
