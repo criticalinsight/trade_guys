@@ -24,6 +24,7 @@ fields:
     source:
       type: pages
       file: _data-language-yml
+      section: series
 - type: textarea
   name: notes
   label: Notes
