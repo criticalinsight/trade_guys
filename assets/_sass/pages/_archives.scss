@@ -24,7 +24,7 @@
 
   .post-content {
     grid-row: 2;
-    border-top: 6px solid $black;
+    border-top: $size_post-content-border-top solid $black;
     padding-top: 1rem;
     margin-left: var(--header-footer-border-width);
     margin-right: var(--header-footer-border-width);

@@ -1,0 +1,64 @@
+/*=====================================
+=            Posts: Single            =
+=====================================*/
+
+.single-post .post-content {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  margin-right: var(--header-footer-border-width);
+  margin-left: var(--header-footer-border-width);
+
+  @include breakpoint("medium") {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: minmax(auto, 20%) minmax(auto, $size_post-list-desc-max-width);
+    grid-column-gap: 4rem;
+    margin-right: 0;
+    margin-left: 2rem;
+  }
+
+  .post-info {
+    grid-row: 2;
+    margin-bottom: 2rem;
+
+    @include breakpoint("medium") {
+      grid-row: span 2;
+      grid-column: 1;
+      text-align: right;
+      padding-top: 0.5rem;
+      border-top: $size_post-content-border-top solid $black;
+    }
+
+    .post-meta {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .post-body {
+    grid-row: 1;
+    grid-column: 1;
+
+    @include breakpoint("medium") {
+      grid-column: 2;
+    }
+  }
+}
+
+.single-post.podcast {
+  .audio-player {
+    grid-row: 1;
+    grid-column: 1;
+
+    @include breakpoint("medium") {
+      grid-column: 2;
+    }
+
+    & + .post-body {
+      grid-row: 3;
+
+      @include breakpoint("medium") {
+        grid-row: 2;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<div class="post-meta">
+  {%- if page.author -%}
+    • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+  {%- endif -%}
+  <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+    {{ page.date | date: site.date_format }}
+  </time>
+</div>

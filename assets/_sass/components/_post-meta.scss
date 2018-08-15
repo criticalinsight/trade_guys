@@ -7,3 +7,28 @@
   text-transform: uppercase;
 }
 
+.dt-published {
+  .post-info & {
+    @include breakpoint("medium") {
+      font-weight: 600;
+    }
+  }
+}
+
+.episode-num {
+  .post-info & {
+
+    @include breakpoint("medium") {
+      display: block;
+    }
+
+    &::before {
+      content: '\2014';
+      margin-right: 0.25rem;
+
+      @include breakpoint("medium") {
+        content: '';
+      }
+    }
+  }
+}

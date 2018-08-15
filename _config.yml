@@ -32,13 +32,15 @@ defaults:
     layout: post
     permalink: "/trade-explained/:slug/"
     breadcrumbs: true
+    sidebar: post-sidebar-post.html
 - scope:
     path: ''
     type: 'podcast'
   values:
-    layout: podcast
+    layout: post
     permalink: "/podcast/:slug/"
     breadcrumbs: true
+    sidebar: post-sidebar-podcast.html
 - scope:
     path: ''
     type: 'authors'
