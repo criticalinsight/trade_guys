@@ -36,3 +36,5 @@ fields:
   name: on_homepage
   label: Are They On The Hompage ?
   description: Toggle if their photo should appear on the homepage
+data_files:
+- _data/trade_guys.yml
