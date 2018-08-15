@@ -115,12 +115,13 @@
   i {
     @include fontSize(20px);
   }
-  i:hover,
-  .action:hover,
-  .transcript:hover * {
+
+  i:not(.icon-transcript):hover,
+  .action:hover {
     color: $yellow;
     transition: 0.2s ease-in-out;
   }
+
   .icon-transcript:hover i {
     color: $black;
   }
