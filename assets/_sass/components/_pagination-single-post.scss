@@ -1,0 +1,72 @@
+/*==============================================
+=            Pagination Single Post            =
+==============================================*/
+.pagination-single-post {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+
+  @include breakpoint("medium") {
+    flex-wrap: nowrap;
+    margin-left: 1rem;
+  }
+
+  &-item {
+    --item-padding: 15%;
+    flex: 1 0 100%;
+
+    @include breakpoint("medium") {
+      flex-basis: 50%;
+    }
+
+    &.previous {
+      padding-right: var(--item-padding);
+      margin-bottom: 1rem;
+
+      @include breakpoint("medium") {
+        margin-bottom: 0;
+      }
+    }
+
+    &.next {
+      padding-left: var(--item-padding);
+      text-align: right;
+
+      .post-title {
+        margin-right: 0;
+        margin-left: auto;
+      }
+    }
+  }
+
+  .pagination-previous,
+  .pagination-next {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+    @extend %labelsmall;
+    line-height: 1.75;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $yellow;
+    }
+  }
+
+  .pagination-previous {
+    @include pagination-arrows(left);
+    margin-left: 2rem;
+  }
+
+  .pagination-next {
+    @include pagination-arrows(right);
+    margin-right: 2rem;
+  }
+
+  .post-title {
+    @extend %related-post-title;
+    @include wipe-link-hover-background ($yellow);
+  }
+}
+

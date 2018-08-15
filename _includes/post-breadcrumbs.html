@@ -1,1 +1,1 @@
-<a class="post-breadcrumbs"><i class="icon-angle-left"></i>{{ site.data.language[page.breadcrumbs_text] }}</a>
+<a class="post-breadcrumbs" href="{{ page.url | replace:'/',' ' | truncatewords: 1,"" | prepend: '/' | relative_url }}"><i class="icon-angle-left"></i>{{ site.data.language[page.breadcrumbs_text] }}</a>

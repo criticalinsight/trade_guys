@@ -1,8 +1,8 @@
 <div class="pagination-single-post">
   {% if page.previous.url %}
-    <a class="prev" href="{{ page.previous.url | relative_url }}">{{ page.previous.title | escape }}</a>
+    {% include pagination-single-post-item.html type="previous" icon="left" %}
   {% endif %}
   {% if page.next.url %}
-    <a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title | escape }}</a>
+    {% include pagination-single-post-item.html type="next" icon="right" %}
   {% endif %}
 </div>
