@@ -1,9 +1,60 @@
 ---
 layout: default
 ---
+
 <article class="page">
 	{% include page-header.html %}
-	<div class="post-content">
-		{{ content }}
+	{% if page.permalink == "/about/" %}
+		<div class="about">
+			<div class="post-content">
+
+				<div class="show">
+					<h2>{{site.data.language.about_the_show_heading}}</h2> {{content}}
+					<img src="{{page.image | relative_url}}" alt="the show">
+					<div class="show-description">
+						{{page.the_show | markdownify}}
+					</div>
+				</div>
+
+				<div class="csis-box">
+					<h3 class="csis-heading">{{site.data.language.about_csis_heading}}</h3>
+					<div class="csis-description">
+						{{page.csis | markdownify }}
+					</div>
+					<div class="related-links">
+						<h5>{{site.data.language.about_related_links_heading}}</h5> {% for item in site.data.related_links.header %}
+						<p class="related_link {{ item.class }}">
+							<a href="{{ item.url | relative_url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+						</p>
+						{% endfor %}
+					</div>
+				</div>
+
+				<div class="people">
+					<h2>{{site.data.language.about_the_people_heading}}</h2>
+					<div class="trade-guys">
+						{% for person in site.data.trade_guys.trade_guy_details_ %}
+						<div class="person">
+							<img src="{{person.about_page_headshot_url | relative_url}}" alt="{{ person.name }} headshot">
+							<div class="person-tag">
+								<div class="title">{{person.title}}</div>
+								<div class="name">{{person.name}}</div >
+							</div>
+							<p class="person-bio">{{person.bio}}</p>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+
+				<div class="credits">
+					<h2>{{site.data.language.about_the_credits_heading}}</h2>
+					{{page.the_credits | markdownify }}
+				</div>
+			</div>
+
+		{% else %}
+			{{ content }}
+		{% endif %}
 	</div>
+
 </article>

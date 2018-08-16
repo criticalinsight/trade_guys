@@ -20,19 +20,6 @@ the_credits: |-
   For 60 years, the Center for Strategic and International Studies (CSIS) has developed practical solutions to the world's greatest foreign policy and national security challenges. For the past five, we have also been creating innovative videos, websites, and interactive foreign policy tools.
 
   The Andreas C. Dracopoulos iDeas Lab enhances CSIS’s research and impact through creative digital experiences. CSIS experts partner with the iDeas Lab to create websites, interactive visuals, custom reports, graphics, videos, and podcasts that effectively communicate policy scholarship and recommendations to a global audience.
-undefined: "/uploads/Screen Shot 2018-08-15 at 5.13.21 PM.png"
 image: "/uploads/Group-2.jpg"
 
 ---
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll

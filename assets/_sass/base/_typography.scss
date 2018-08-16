@@ -108,7 +108,7 @@ textarea {
   letter-spacing: 1px;
   font-weight: 600;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     @include fontSize(14px);
     letter-spacing: 1.2px;
   }
@@ -213,6 +213,17 @@ textarea {
   }
 }
 
+%h5 {
+  font-family: $font_source;
+  @include fontSize(16px);
+  color: $black;
+
+  @include breakpoint('medium') {
+    @include fontSize(18px);
+    line-height: 1.14;
+  }
+}
+
 h1 {
   @extend %h1;
 }
@@ -224,6 +235,9 @@ h3 {
 }
 h4 {
   @extend %h4;
+}
+h5 {
+  @extend %h5;
 }
 
 /*============================

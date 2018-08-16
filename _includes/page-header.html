@@ -12,8 +12,15 @@
 	<div class="page-header-secondary">
 		{% if page.breadcrumbs %}
 			<h1 class="page-title">{{ page.title | escape }}</h1>
+
 		{% else %}
-			{{ content }}
+  		{% if page.permalink == "/about/" %}
+  			<p class="introduction">{{page.introduction}}</p>
+  			{% else %}
+  				{{ content }}
+  		{% endif %}
 		{% endif %}
+
+
 	</div>
 </header>
