@@ -14,6 +14,8 @@ fields:
   default: ''
 - type: file
   default: "/uploads/Screen Shot 2018-08-15 at 5.13.21 PM.png"
+  label: Image
+  name: image
 - type: textarea
   name: the_show
   label: The Show
