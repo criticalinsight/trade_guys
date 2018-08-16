@@ -1,0 +1,11 @@
+<div class="trade-guys">
+{% assign people = site.data.trade_guys | where: "on_homepage", true %}
+{% for person in people %}
+  <div class="trade-guy">
+    <img class="trade-guy-img" src="{{ person.homepage_headshot_url | relative_url }}" alt="{{ person.name | escape }}" alt="{{ person.name | escape }}" />
+    <span class="trade-guy-name-first">{{ person.first }}</span>
+    <span class="trade-guy-name-last">{{ person.last }}</span>
+    <span class="trade-guy-host">{{ person.title }}</span>
+  </div>
+{% endfor %}
+</div>

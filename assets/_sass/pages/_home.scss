@@ -5,12 +5,15 @@
   --outer-gutter: 1rem;
 
   @include breakpoint("medium") {
-    --outer-gutter: var(--header-footer-border-width);
+    --outer-gutter: 2rem;
     --secondary-column-width: 40%;
     display: grid;
-    // grid-template-rows: repeat(5, auto);
-    grid-template-columns: auto $size_post-list-desc-max-width;
+    grid-template-columns: minmax(40%, 450px) minmax(auto, $size_post-list-desc-max-width);
     grid-column-gap: 0;
+  }
+
+  @include breakpoint("xlarge") {
+    --outer-gutter: var(--header-footer-border-width);
   }
 
   .site-title-main {

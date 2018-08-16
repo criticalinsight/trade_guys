@@ -1,0 +1,70 @@
+/*========================================
+=            Home: Trade Guys            =
+========================================*/
+.trade-guys {
+
+  .trade-guy {
+    --max-image-size: 80px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: minmax(20%, var(--max-image-size)) minmax(auto, 50%);
+    grid-column-gap: 2rem;
+    align-items: end;
+    margin-bottom: 2rem;
+
+    @include breakpoint("medium") {
+      --max-image-size: 130px;
+      margin-bottom: 3rem;
+    }
+
+    &-img {
+      grid-row: 1 / -1;
+      grid-column: 1;
+    }
+
+    &-name-first,
+    &-name-last,
+    &-host {
+      display: block;
+      grid-column: 2;
+    }
+
+    %trade-guy-name {
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+    }
+
+    &-name-first {
+      grid-row: 2;
+      @include fontSize(18px);
+      line-height: 1.45;
+      @extend %trade-guy-name;
+
+      @include breakpoint("medium") {
+        @include fontSize(20px);
+      }
+    }
+
+    &-name-last {
+      grid-row: 3;
+      margin-bottom: 0.5rem;
+      @include fontSize(24px);
+      line-height: 0.89;
+      font-weight: 600;
+      @extend %trade-guy-name;
+
+      @include breakpoint("medium") {
+        @include fontSize(32px);
+      }
+    }
+
+    &-host {
+      grid-row: 4;
+      font-family: $font_inconsolata;
+      @include fontSize(16px);
+      line-height: 1.25;
+      color: $gray;
+    }
+  }
+}
+
