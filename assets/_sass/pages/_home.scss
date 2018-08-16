@@ -110,6 +110,7 @@
 
       @include breakpoint("medium") {
         display: block;
+        margin-bottom: var(--outer-gutter);
       }
     }
 

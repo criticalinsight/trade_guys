@@ -5,7 +5,7 @@
     <p>{{ tradeMainPage.content }}</p>
     {% assign posts = site.posts | sort: 'date' | reverse %}
     {% for post in posts limit:2 %}{% include post-list.html %}{% endfor %}
-    <a href="/trade-explained" class="btn btn-all-caps see-more">View All</a>
+    <a href="/trade-explained" class="btn btn-all-caps see-more">{{ site.data.language.all_posts }}</a>
   </div>
   {% include series-list.html %}
 </section>

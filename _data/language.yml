@@ -5,19 +5,26 @@ itunes_url: https://itunes.apple.com/us/podcast/the-trade-guys/id1380336613
 soundcloud_url: https://soundcloud.com/csis-57169780/sets/the-trade-guys
 
 # Home
+home_intro: Trade Guys Scott Miller and Bill Reinsch talk with H. Andrew Schwartz about trade in ways that everyone can understand.
+trade_guys_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+all_podcasts: All Episodes
+all_posts: View All
 contact_heading: Ask us a question
 contact_desc: We like to ponder your questions (there are no dumb ones!) Ask us. We've got the answers.
 contact_submit: Send
+contact_name: Name
+contact_email: Email
+contact_message: Message
 
 # Footer
 footer_about_heading: 'About this Podcast:'
-footer_desc: Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects policy, and how it impacts your day-to-day in ways that everyone can understand. *The Trade Guys* is hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+footer_desc: Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects policy, and how it impacts your day-to-day in ways that everyone can understand. The Trade Guys is hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 
 # Other
 series_heading: Ongoing Series
 podcast_short_desc: Trade experts Scott Miller and Bill Reinsch break down the buzz around trade, how it affects policy, and how it impacts your day-to-day.
 subscribe_heading: Subscribe Now
-subscribe: Fire up your favorite podcasting app, and subscribe to the podcast via [iTunes](https://itunes.apple.com/us/podcast/the-trade-guys/id1380336613) or [Soundcloud](https://soundcloud.com/csis-57169780/sets/the-trade-guys).
+subscribe: Subscribe to the podcast via [iTunes](https://itunes.apple.com/us/podcast/the-trade-guys/id1380336613) or [Soundcloud](https://soundcloud.com/csis-57169780/sets/the-trade-guys).
 notes: Notes
 external_continue_reading: Continue reading on
 tags: Tags
