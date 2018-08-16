@@ -21,7 +21,7 @@ the_credits: |-
 
   In meis laboramus has, sit id hinc legere, no harum complectitur nam. Doming timeam ex cum, amet graeci noster cu vis. Mea probo pertinax et, habemus deseruisse ad his. Maiorum constituam delicatissimi est eu, nam ne maiorum accommodare. Wisi everti alterum ei vix, meis mentitum forensibus vis ex, audiam concludaturque ne vix. Ancillae mandamus hendrerit nam in, eos ad solum sonet electram, nam saperet epicuri id.
 undefined: "/uploads/Screen Shot 2018-08-15 at 5.13.21 PM.png"
-image: "/uploads/Screen Shot 2018-08-15 at 5.13.21 PM.png"
+image: "/uploads/Group-2.jpg"
 
 ---
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
