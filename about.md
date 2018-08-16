@@ -4,14 +4,12 @@ title: About
 permalink: "/about/"
 introduction: Trade Guys Scott Miller and Bill Reinsch talk with H. Andrew Schwartz
   about trade in ways that everyone can understand.
-the_show: "International trade is making headlines a lot these days. And news changes
-  fast. A trade war with China? Bad blood between our closest allies and trading partners,
-  like Canada? It’s hard to keep up.\n\nTrade experts Scott Miller and Bill Reinsch
-  break down the buzz around trade. They get to the root of how it affects policy,
-  and lay out how it impacts your day-to-day. Most importantly, they talk about trade
-  in terms that everyone can understand.\n\n  \n_The Trade Guys_ is hosted every week
-  by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and
-  International Studies (CSIS), a nonpartisan think tank in Washington, D.C."
+the_show: |-
+  International trade is making headlines a lot these days. And news changes fast. A trade war with China? Bad blood between our closest allies and trading partners, like Canada? It’s hard to keep up.
+
+  Trade experts Scott Miller and Bill Reinsch break down the buzz around trade. They get to the root of how it affects policy, and lay out how it impacts your day-to-day. Most importantly, they talk about trade in terms that everyone can understand.
+
+  _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 csis: |-
   Established in Washington, D.C. over 50 years ago, the Center for Strategic and International Studies (CSIS) is a bipartisan, nonprofit policy research organization dedicated to providing strategic insights and policy solutions to help decision makers chart a course toward a better world.
 
