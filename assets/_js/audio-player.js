@@ -57,10 +57,14 @@ export default function AudioPlayer() {
         control.classList.toggle('icon-play')
 
         let action = player.querySelector('.action')
+        action.classList.toggle('pause')
+        action.classList.toggle('listen')
 
-        action.innerText.toUpperCase() === 'listen'.toUpperCase()
-          ? (action.innerText = 'pause')
-          : (action.innerText = 'listen')
+        let pause = player.querySelector('.pause') || {}
+        let listen = player.querySelector('.listen') || {}
+
+        pause.innerText = 'pause'
+        listen.innerText = 'listen'
 
         addSeeker(player, progressDisplay, i)
         if (scPlayers[i] && scPlayers[i].playing) {
