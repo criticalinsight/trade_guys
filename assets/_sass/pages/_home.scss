@@ -1,0 +1,183 @@
+/*================================
+=            Homepage            =
+================================*/
+.home {
+  --outer-gutter: 1rem;
+
+  @include breakpoint("medium") {
+    --outer-gutter: var(--header-footer-border-width);
+    --secondary-column-width: 40%;
+    display: grid;
+    // grid-template-rows: repeat(5, auto);
+    grid-template-columns: auto $size_post-list-desc-max-width;
+    grid-column-gap: 0;
+  }
+
+  .site-title-main {
+    $animation-duration: 1s;
+    $desc-width: 30%;
+    $desc-height: 222px;
+    position: relative;
+    background-color: $yellow;
+
+    @include breakpoint("medium") {
+      grid-row: 1;
+      grid-column: 1 / -1;
+      min-height: 600px;
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      display: block;
+      width: calc(#{$desc-width} - 2rem);
+      height: $size_post-content-border-top;
+      background-color: $dark-yellow;
+      animation: $animation-duration ease-out 0s 1 slideInFromRight;
+
+      @include breakpoint("medium") {
+        right: -2rem;
+      }
+    }
+
+    .site-desc {
+      margin-left: var(--outer-gutter);
+      margin-right: var(--outer-gutter);
+
+      @include breakpoint("medium") {
+        position: absolute;
+        right: 2rem;
+        top: calc(50% + 2rem);
+        width: $desc-width;
+        height: $desc-height;
+        overflow-y: hidden;
+        animation: $animation-duration ease-out 0s 1 slideInFromBottom;
+      }
+
+      p {
+        @include fontSize(18px);
+        line-height: 1.44;
+        margin-bottom: 2rem;
+
+        @include breakpoint("medium") {
+          @include fontSize(20px);
+          line-height: 1.5;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    @keyframes slideInFromBottom {
+      from {
+        margin-top: $desc-height;
+        height: 0;
+      }
+      to {
+        margin-top: 0;
+        height: $desc-height;
+      }
+    }
+
+    @keyframes slideInFromRight {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
+
+  .podcast-info {
+    background-color: $yellow;
+    margin-top: -1px; // Hide slight gap between sections
+    padding: 2rem var(--outer-gutter);
+
+    @include breakpoint("medium") {
+      grid-row: 2 / 4;
+      grid-column: 1;
+      margin-right: var(--header-footer-border-width);
+    }
+
+    .podcast-subscribe {
+      display: none;
+
+      @include breakpoint("medium") {
+        display: block;
+        margin-bottom: var(--outer-gutter);
+      }
+    }
+
+    p {
+      @extend %post-description;
+      margin-bottom: 0;
+    }
+
+    .trade-guys {
+      margin-top: 2rem;
+
+      &::before {
+        content: '';
+        position: relative;
+        top: 0;
+        left: calc(-1 * var(--outer-gutter));
+        display: block;
+        width: 80%;
+        height: $size_post-content-border-top;
+        margin-bottom: 2rem;
+        background-color: $dark-yellow;
+      }
+    }
+  }
+
+  .podcast-list {
+    border-top: $size_post-content-border-top solid $black;
+    padding: 2rem var(--outer-gutter);
+
+    @include breakpoint("medium") {
+      grid-row: 2;
+      grid-column: 2;
+      margin-top: var(--header-footer-border-width);
+      padding: 1rem 0 3rem;
+    }
+
+    .post-list {
+      &:not(:first-of-type) .post-list-content {
+        .audio-player {
+          margin-bottom: 0;
+        }
+
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .home-graphic {
+    display: block;
+
+    @include breakpoint("medium") {
+      position: relative;
+      z-index: 10;
+      grid-row: 3;
+      grid-column: 2;
+      max-width: 80%;
+      margin-left: calc(-1 * var(--header-footer-border-width));
+    }
+  }
+
+  .see-more {
+    display: block;
+    margin: 3rem auto 0;
+    width: fit-content;
+  }
+
+}
+

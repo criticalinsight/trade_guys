@@ -1,0 +1,56 @@
+/*================================================
+=            Home: Featured Post List            =
+================================================*/
+
+.featured-post-list {
+  padding: 3rem var(--outer-gutter) 2rem;
+
+  @include breakpoint("medium") {
+    grid-row: 5;
+    grid-column: 1 / -1;
+    display: flex;
+    padding: 0;
+  }
+
+  &-main {
+    @include breakpoint("medium") {
+      flex: 1 1 auto;
+      padding: 3rem 4rem 2rem 0;
+    }
+  }
+
+  &-title {
+    margin: 0 0 0.5rem;
+    @extend %single-post-title;
+    text-transform: uppercase;
+  }
+
+  .post-list:first-of-type {
+    border-top: $size_post-content-border-top solid $black;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .post-list {
+    &:first-of-type {
+      border-top: $size_post-content-border-top solid $black;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+    }
+
+    .post-list-content {
+      display: none;
+    }
+  }
+
+  .series-list {
+    display: none;
+
+    @include breakpoint("medium") {
+      display: block;
+      flex: 0 0 var(--secondary-column-width);
+      background-color: $off-white;
+      padding: 3rem 2rem 2rem 4rem;
+    }
+  }
+}

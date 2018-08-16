@@ -1,0 +1,13 @@
+<section class="featured-stat-container">
+  <div class="featured-stat-angle"></div>
+  {% assign posts = site.posts | where: "relative_path", page.featured_statistic_post %}
+  <div class="featured-stat">
+    <span class="featured-stat-number">{{ posts[0].statistic_number }}</span>
+    <p class="featured-stat-desc">{{ posts[0].statistic_text }}
+      <span class="featured-stat-source">{{ posts[0].statistic_source }}</span>
+    </p>
+  </div>
+  <div class="featured-stat-post">
+    {% for post in posts limit: 1 %}{% include post-list.html %}{% endfor %}
+  </div>
+</section>

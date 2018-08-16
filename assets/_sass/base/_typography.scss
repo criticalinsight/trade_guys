@@ -60,7 +60,7 @@ textarea {
   @include fontSize(18px);
   line-height: 1.22;
   font-weight: 600;
-  color: $black;
+  letter-spacing: 0;
 
   @include breakpoint('medium') {
     @include fontSize(28px);
@@ -72,7 +72,7 @@ textarea {
   font-family: $font_source;
   @include fontSize(24px);
   font-weight: 600;
-  color: $black;
+  letter-spacing: 0;
 
   @include breakpoint('medium') {
     @include fontSize(36px);
