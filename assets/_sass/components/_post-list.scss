@@ -57,7 +57,8 @@
     }
   }
 
-  :not(.featured-post-list) > &:first-of-type &-title {
+  .archive &:first-of-type &-title,
+  .home .podcast-list &:first-of-type &-title {
     @extend %archive-feature-post-title;
   }
 
@@ -99,6 +100,10 @@
     & ~ .post-list-content {
       @include breakpoint("medium") {
         grid-column: 1 / 2;
+      }
+
+      .featured-stat-post & {
+        grid-column: 1 / -1;
       }
     }
   }

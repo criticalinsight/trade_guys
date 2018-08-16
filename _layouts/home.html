@@ -25,7 +25,7 @@ layout: default
     {% for post in posts limit:3 %}{% include post-list.html %}{% endfor %}
     <a href="/podcast" class="btn btn-all-caps see-more">All Episodes</a>
   </section>
-  <img class="home-graphic" src="http://via.placeholder.com/558x344" alt="{{ site.title | escape }}" alt="{{ site.title | escape }}" />
+  <img class="home-graphic" src="{{ 'assets/images/home/Group-2.jpg' | relative_url }}" alt="{{ site.title | escape }}" alt="{{ site.title | escape }}" />
   {% include home-featured-stat.html %}
   {% include home-featured-post-list.html %}
   {% include home-contact.html %}

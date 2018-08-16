@@ -1,5 +1,6 @@
 ---
 layout: home
+body_class: body-home
 featured_statistic_post: _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

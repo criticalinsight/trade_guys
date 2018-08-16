@@ -1,0 +1,30 @@
+/*=====================================
+=            Form Elements            =
+=====================================*/
+
+%input {
+  background-color: $off-white;
+  border: 1px solid $disabled-gray;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.form-default {
+  label {
+    display: block;
+    @extend %label;
+    text-transform: uppercase;
+  }
+}
+
+
+.form-input {
+  @extend %input;
+}
+
+.form-textarea {
+  @extend %input;
+  height: 75%;
+}
+

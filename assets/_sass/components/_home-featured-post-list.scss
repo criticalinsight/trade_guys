@@ -8,6 +8,15 @@
   @include breakpoint("medium") {
     grid-row: 5;
     grid-column: 1 / -1;
+    display: flex;
+    padding: 0;
+  }
+
+  &-main {
+    @include breakpoint("medium") {
+      flex: 1 1 auto;
+      padding: 3rem 4rem 2rem 0;
+    }
   }
 
   &-title {
@@ -39,6 +48,9 @@
 
     @include breakpoint("medium") {
       display: block;
+      flex: 0 0 var(--secondary-column-width);
+      background-color: $off-white;
+      padding: 3rem 2rem 2rem 4rem;
     }
   }
 }

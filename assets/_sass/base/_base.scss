@@ -35,8 +35,9 @@ body {
         max-width: $size_container-max-width;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: $size_wrapper-padding;
+        padding-right: $size_wrapper-padding;
+        overflow-x: hidden;
     }
 }
 
