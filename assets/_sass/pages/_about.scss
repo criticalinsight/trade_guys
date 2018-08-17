@@ -68,9 +68,9 @@
     text-transform: uppercase;
   }
 
-  h5,
-  .post-content > div:not(.people) h2 {
-    margin-bottom: -1rem 0 calculate-rem(10px);
+  .post-content > div:not(.people) h2,
+  h5 {
+    margin-bottom: calculate-rem(10px);
   }
 
   h3 {
@@ -125,7 +125,7 @@
     grid-template-columns: 1fr;
 
     @include breakpoint('medium') {
-      grid-template-columns: minmax(100px, 150px) minmax(110px, 1fr);
+      grid-template-columns: minmax(90px, 150px) minmax(180px, auto);
       grid-template-rows: auto 1fr;
     }
   }
@@ -149,12 +149,15 @@
 
     @include breakpoint('medium') {
       display: grid;
-      grid-template-columns: 1.06fr 0.94fr;
       grid-gap: 0 calculate-rem(135px);
+      grid-template-columns: 1.06fr 0.94fr;
     }
   }
-  .csis-box p:last-of-type {
-    margin: 0;
+  .csis-description p:last-of-type {
+    margin: 0 0 2rem;
+    @include breakpoint('medium') {
+      margin: 0;
+    }
   }
 
   .csis-heading {
