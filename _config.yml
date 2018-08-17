@@ -52,6 +52,7 @@ defaults:
 - scope:
     path: ''
     type: 'series'
+    permalink: "/series/:slug/"
   values:
     layout: archive
     permalink: "/series/:slug/"
