@@ -4,7 +4,7 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: 0;
 
   @include breakpoint('medium') {
     flex-wrap: nowrap;
