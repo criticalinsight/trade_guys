@@ -26,3 +26,39 @@ layout: default
   {% include home-featured-post-list.html %}
   {% include home-contact.html %}
 </div>
+
+<script>
+  const homePageScroll = () => {
+    if (!document.querySelector('.body-home')) {
+      return
+    }
+    const featuredStatContainer = document.querySelector('.featured-stat-container')
+
+    window.addEventListener('scroll', function() {
+      let elVisibility = isInViewport(featuredStatContainer)
+      let isVisible = elVisibility.isVisible
+      if (!isVisible) {
+        return
+      }
+      featuredStatContainer.style.setProperty('--background-width', elVisibility.width - elVisibility.top + 'px')
+    })
+
+    function isInViewport (el) {
+      const { top, bottom, width } = el.getBoundingClientRect();
+      const vHeight = (window.innerHeight || document.documentElement.clientHeight);
+
+      return {
+        isVisible: (
+          (top > 0 || bottom > 0) &&
+          top < vHeight
+        ),
+        width: width,
+        top: top,
+      }
+    }
+
+  }
+  window.addEventListener('DOMContentLoaded', () => {
+    homePageScroll()
+  })
+</script>

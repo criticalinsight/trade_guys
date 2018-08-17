@@ -8,12 +8,41 @@
   padding: 3rem $size_wrapper-padding;
 
   @include breakpoint("medium") {
+    --background-width: 0;
     position: relative;
     grid-row: 4;
     grid-column: 1 / -1;
     display: flex;
     margin-left: calc(-1 * #{$size_wrapper-padding});
     margin-right: calc(-1 * #{$size_wrapper-padding});
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: calc(-1 * #{$size_wrapper-padding});
+      bottom: 0;
+      z-index: 1;
+      width: var(--background-width);
+      max-width: calc(100% - var(--secondary-column-width));
+      background-image: url('/assets/images/home-stat-arrow.svg');
+      background-repeat: repeat-x;
+      background-size: auto;
+      background-position: center right;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5;
+      width: calc(var(--secondary-column-width) + 6px);
+      background-color: green;
+    }
   }
 
   .featured-stat-angle {
@@ -48,6 +77,7 @@
       display: flex;
       flex: 1 1 auto;
       align-items: center;
+      padding-right: var(--outer-gutter);
 
       &-number {
         @include fontSize(150px);
