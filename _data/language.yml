@@ -7,6 +7,10 @@ soundcloud_url: https://soundcloud.com/csis-57169780/sets/the-trade-guys
 # Home
 home_intro: Trade Guys Scott Miller and Bill Reinsch talk with H. Andrew Schwartz about trade in ways that everyone can understand.
 trade_guys_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+trade_guys_explained: Make sense of complex trade trends, rules and lingo with short videos, hot takes, and interactive graphs.
+trade_terms_explained: Understand the lingo, rules, and history of trade policy.
+
+ask_us_question: We like to ponder your questions (there are no dumb ones!) Ask us. We've got the answers.
 all_podcasts: All Episodes
 all_posts: View All
 contact_heading: Ask us a question
@@ -19,6 +23,11 @@ contact_message: Message
 # Footer
 footer_about_heading: 'About this Podcast:'
 footer_desc: Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects policy, and how it impacts your day-to-day in ways that everyone can understand. The Trade Guys is hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+footer_email: TradeGuys@csis.org
+
+#Podcast Page
+podcast_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+sidebar_desc: Trade experts Scott Miller and Bill Reinsch break down the buzz around trade, how it affects policy, and how it impacts your day-to-day.
 
 # Other
 series_heading: Ongoing Series
