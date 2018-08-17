@@ -4,8 +4,8 @@
     <div class="series">
   	<span class="post-meta-label">series</span>
   	<ul class="post-tags-list">
-  		{% for series in page.series %} {% assign series_info = site.series | where: "relative_path", series %}
-  		<li><a href="{{ series_info[0].url }}">{{ series_info[0].title | escape }}</a></li>
+  		{% for series in page.series %}
+  		<li><a href="{{site.series[forloop.index0].url]}}">{{site.series[forloop.index0].title] || escape }}</a></li>
   		{% endfor %}
   	</ul>
   </div>
