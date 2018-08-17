@@ -14,11 +14,7 @@ layout: default
   <section class="podcast-info">
     <div class="podcast-subscribe">{% include podcast-subscribe.html %}</div>
     <p>{{ site.data.language.trade_guys_desc | markdownify }}</p>
-    <div class="trade-guys">
-      Scott<br />
-      Bill<br />
-      Andrew<br />
-    </div>
+    {% include home-trade-guys.html %}
   </section>
   <section class="podcast-list">
     {% assign posts = site.podcast | sort: 'date' | reverse %}

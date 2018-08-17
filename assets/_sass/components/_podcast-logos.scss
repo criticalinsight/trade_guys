@@ -23,3 +23,19 @@
 .itunes-logo + .soundcloud-logo {
   margin-top: 0.25rem;
 }
+
+.podcast-subscribe-heading {
+  font-family: $font_inconsolata;
+  @include fontSize(24px);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  & + p a {
+    font-weight: bold;
+  }
+}
+
+.subscribe-icon {
+  position: relative;
+  top: -2px;
+}
