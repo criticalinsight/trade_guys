@@ -38,7 +38,14 @@ $size_page-header-footer-border-width-mobile: 1rem;
 $size_page-header-footer-border-width-desktop: 4rem;
 $size_sidebar-width: 40%;
 $size_post-content-border-top: 6px;
+$size_home-unit-size: 6vw;
+$size_home-unit-size-desktop: 3vw;
 
-/*==============================
-=            Assets            =
-==============================*/
+/*=============================
+=            Other            =
+=============================*/
+
+$animation_home-main-logo-the: 0.5s;
+$animation_home-main-logo-trade: 0.2s;
+$animation_home-main-logo-guys: 0.4s;
+$animation_home-desc-delay: calc(#{$animation_home-main-logo-the} + #{$animation_home-main-logo-trade} + #{$animation_home-main-logo-guys});

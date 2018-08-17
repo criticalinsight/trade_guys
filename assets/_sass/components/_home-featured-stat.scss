@@ -25,23 +25,11 @@
       bottom: 0;
       z-index: 1;
       width: var(--background-width);
-      max-width: calc(100% - var(--secondary-column-width));
+      max-width: calc(100% - var(--secondary-column-width) + 1rem);
       background-image: url('/assets/images/home-stat-arrow.svg');
       background-repeat: repeat-x;
       background-size: auto;
       background-position: center right;
-    }
-
-    &::after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 5;
-      width: calc(var(--secondary-column-width) + 6px);
-      background-color: green;
     }
   }
 
