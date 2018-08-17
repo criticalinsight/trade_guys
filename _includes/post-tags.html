@@ -1,5 +1,6 @@
-{% if page.series.size > 0 or page.tags.size > 0%}
+{% if page.series.size > 0 or page.tags.size > 0 %}
   <section class="post-tags">
+
   {% if page.series.size > 0 %}
     <div class="series">
   	<span class="post-meta-label">series</span>
@@ -22,5 +23,6 @@
   	</ul>
   </div>
   {% endif %}
+  
   </section>
 {% endif %}
