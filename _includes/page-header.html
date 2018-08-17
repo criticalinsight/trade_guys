@@ -13,7 +13,7 @@
 		{% if page.breadcrumbs %}
 			<h1 class="page-title">{{ page.title | escape }}</h1>
 		{% else %}
-			{{ content }}
+			<p>{{ content | append: " " | append: include.content  | remove: "<p>" | remove: "</p>" }}</p>
 		{% endif %}
 	</div>
 </header>
