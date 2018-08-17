@@ -2,6 +2,13 @@
 =            Tags            =
 ============================*/
 .post-tags {
+  div:nth-of-type(2) {
+    margin-top: calculate-rem(12px);
+    @include breakpoint('medium') {
+      margin-top: calculate-rem(24px);
+    }
+  }
+
   &-list {
     list-style: none;
     margin: 0;
@@ -21,7 +28,7 @@
         content: '';
       }
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         display: block;
         @include fontSize(14px);
         letter-spacing: 1.2px;
@@ -34,7 +41,7 @@
       a {
         color: $gray;
         @extend %dashed-underline;
-        @include wipe-link-hover-background ($yellow);
+        @include wipe-link-hover-background($yellow);
 
         &:hover {
           color: $black;
@@ -43,4 +50,3 @@
     }
   }
 }
-

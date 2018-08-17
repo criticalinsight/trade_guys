@@ -1,10 +1,28 @@
-{% if page.tags.size > 0 %}
-<section class="post-tags">
-  <span class="post-meta-label">{{ site.data.language.tags || escape }}</span>
-  <ul class="post-tags-list">
-    {% for tag in page.tags %}
-    <li><a href="/tags/{{ tag }}/">{{ tag }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
+{% if page.series.size > 0 or page.tags.size > 0 %}
+  <section class="post-tags">
+
+  {% if page.series.size > 0 %}
+    <div class="series">
+  	<span class="post-meta-label">series</span>
+  	<ul class="post-tags-list">
+  		{% for series in page.series %}
+  		<li><a href="{{site.series[forloop.index0].url]}}">{{site.series[forloop.index0].title] || escape }}</a></li>
+  		{% endfor %}
+  	</ul>
+  </div>
+  {% endif %}
+
+
+  {% if page.tags.size > 0 %}
+  <div class="tags">
+  	<span class="post-meta-label">{{ site.data.language.tags || escape }}</span>
+  	<ul class="post-tags-list">
+  		{% for tag in page.tags %}
+  		<li><a href="/tags/{{ tag }}/">{{ tag }}</a></li>
+  		{% endfor %}
+  	</ul>
+  </div>
+  {% endif %}
+  
+  </section>
 {% endif %}
