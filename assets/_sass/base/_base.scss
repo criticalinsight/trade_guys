@@ -14,6 +14,8 @@ body {
     --breakpoint: 'xsmall';
     --header-height: 100px;
     --header-footer-border-width: #{$size_page-header-footer-border-width-mobile};
+    --home-logo-arrow-size: #{$size_home-unit-size};
+    --home-logo-row-height: calc(var(--home-logo-arrow-size) * 3);
 
     @include breakpoint('small') {
         --breakpoint: 'small';
@@ -23,6 +25,7 @@ body {
         --breakpoint: 'medium';
         --header-height: #{$size_header-height-desktop};
         --header-footer-border-width: #{$size_page-header-footer-border-width-desktop};
+        --home-logo-arrow-size: #{$size_home-unit-size-desktop};
     }
 
     @include breakpoint('large') {

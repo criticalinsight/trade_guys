@@ -1,0 +1,172 @@
+/*========================================
+=            Home: Main Title            =
+========================================*/
+
+.site-title-main {
+  svg {
+    position: relative;
+    display: block;
+    width: calc(var(--home-logo-arrow-size) * 18);
+    max-width: 100vw;
+    height: var(--home-logo-row-height);
+  }
+
+  .word-container {
+    display: block;
+    position: relative;
+    height: var(--home-logo-row-height);
+    width: 100%;
+    margin: 1rem 0;
+
+    @include breakpoint("medium") {
+      margin: 0.5rem 0;
+    }
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  #logo_the_container svg {
+    @include breakpoint("medium") {
+      left: -2px;
+    }
+  }
+
+  .header-words svg {
+    z-index: 3;
+  }
+
+  .in-view {
+    transition: transform 300ms linear;
+  }
+
+  .header_arrow {
+    position: absolute;
+    top: calc(var(--home-logo-arrow-size) * 1.1);
+
+    div {
+      z-index: 0;
+    }
+  }
+
+  #the_arrow,
+  #guys_arrow {
+    height: var(--home-logo-arrow-size);
+    width: 4rem;
+    position: relative;
+    background: $white;
+    margin-left: calc(var(--home-logo-arrow-size) * 1.5);
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
+      border-right: calc(var(--home-logo-arrow-size) * 1.5) solid $white;
+      border-bottom: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
+      position: relative;
+      right: calc(var(--home-logo-arrow-size) * 1.1);
+      bottom: calc(var(--home-logo-arrow-size) / 1.6);
+    }
+  }
+
+  #trade_arrow {
+    height: var(--home-logo-arrow-size);
+    width: calc(var(--home-logo-arrow-size) * 3.5);
+    position: relative;
+    background: $white;
+    margin-right: calc(var(--home-logo-arrow-size) * 1.5);
+
+    &::before {
+      content: "";
+      display: flex;
+      width: 0;
+      height: 0;
+      border-top: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
+      border-left: calc(var(--home-logo-arrow-size) * 1.5) solid $white;
+      border-bottom: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
+      position: relative;
+      left: 100%;
+      bottom: calc(var(--home-logo-arrow-size) / 1.6);
+    }
+  }
+
+  #the_arrow {
+    height: var(--home-logo-arrow-size);
+    width: 100vw;
+    position: relative;
+    background: $white;
+    left: 100%;
+    animation: init-the_arrow $animation_home-main-logo-the linear forwards;
+  }
+
+  g#the_word {
+    animation: the_word 0.2s 0.35s linear forwards;
+  }
+
+  #trade_arrow {
+    left: -105%;
+    animation: init-trade_arrow $animation_home-main-logo-trade 0.5s linear forwards;
+  }
+
+  g#trade_word {
+    animation: trade_word 0.2s 0.7s linear forwards;
+  }
+
+  #guys_arrow {
+    width: calc(var(--home-logo-arrow-size) * 7);
+    left: 100vw;
+    animation: init-guys_arrow $animation_home-main-logo-guys 0.9s linear forwards;
+  }
+
+  g#guys_word {
+    animation: guys_word 0.2s 1.2s linear forwards;
+  }
+
+  @keyframes init-the_arrow {
+    80% {
+      left: calc(var(--home-logo-arrow-size) * 11);
+    }
+    100% {
+      left: calc(var(--home-logo-arrow-size) * 7.5);
+    }
+  }
+
+  @keyframes the_word {
+    100% {
+      transform: translate(-40%, 0);
+    }
+  }
+
+  @keyframes init-trade_arrow {
+    80% {
+      left: -50%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  @keyframes trade_word {
+    100% {
+      transform: translate(20%, 0);
+    }
+  }
+
+  @keyframes init-guys_arrow {
+    80% {
+      left: calc(var(--home-logo-arrow-size) * 12);
+    }
+    100% {
+      left: calc(var(--home-logo-arrow-size) * 11.5);
+    }
+  }
+
+  @keyframes guys_word {
+    100% {
+      transform: translate(-18%, 0);
+    }
+  }
+}
