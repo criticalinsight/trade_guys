@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: "/about/"
 introduction: Trade Guys Scott Miller and Bill Reinsch talk with H. Andrew Schwartz
