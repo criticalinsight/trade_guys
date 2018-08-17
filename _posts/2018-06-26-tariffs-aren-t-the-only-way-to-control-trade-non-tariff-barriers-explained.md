@@ -9,6 +9,13 @@ tags:
 - 232 tariffs
 - tariffs
 series: _series/trade-terms-explained.md
+statistic_number: 30
+statistic_text: 'percent of South Korea’s steel exports to the U.S. were cut in 2018
+  in a quota agreement between the two countries that allowed South Korea to avoid
+  hefty tariffs.
+
+'
+statistic_source: Reuters
 
 ---
 Tariffs are making news headlines a lot these day. But, Trade Guys Scott Miller and Bill Reinsch want you to know that the U.S. government has more tools than just tariffs at its fingertips. In this video, Scott explains non-tariff barriers to trade. Sanctioning Iran and limiting steel exports from South Korea are just two examples of how the U.S. government curbs the flow of trade, without using tariffs. Learn more. Watch this video.
