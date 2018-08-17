@@ -9,10 +9,10 @@ tags:
 - WTO
 - tariffs
 series: ''
-statistic_number: ''
-statistic_text: 48 percent of US imports in 2015 consisted of capital goods (such
-  as machinery or equipment) and industrial supplies (like chemicals and metals) to
-  be used by manufacturers to make finished products.
+statistic_number: 48
+statistic_text: percent of US imports in 2015 consisted of capital goods (such as
+  machinery or equipment) and industrial supplies (like chemicals and metals) to be
+  used by manufacturers to make finished products.
 statistic_source: U.S. Department of Commerce
 
 ---
