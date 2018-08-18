@@ -12,10 +12,12 @@ layout: default
       {% include audio-player.html soundcloud_url=page.soundcloud_url transcript_url=page.transcript_url %}
     {% endif %}
     <div class="post-body">
+      {% include post-feature-image.html %}
       {% if page.youtube_url %}
         {% include post-video-embed.html %}
       {% endif %}
       {{ content }}
+      <div class="clearfix"></div>
       {% if page.external_url %}
         {% include post-external-link.html %}
       {% endif %}

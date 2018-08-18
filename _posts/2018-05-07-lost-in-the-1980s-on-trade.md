@@ -11,6 +11,9 @@ tags:
 - USTR
 - China
 - Japan
+image: "/assets/images/Podcast_TradeGuys_cover-small.png"
+image_caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+image_credit: Getty Images
 
 ---
 Robert Lighthizer, the U.S. Trade Representative, is dusting off his playbook from the 80s. The trade policy veteran, who served as a deputy in the Reagan administration, is seeking negotiated steel and aluminum quotas and has made his skepticism of the World Trade Organization no secret. 

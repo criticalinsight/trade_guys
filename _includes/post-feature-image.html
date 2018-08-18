@@ -1,0 +1,11 @@
+{% if page.image != site.logo %}
+<figure class="post-feature-image">
+  <img src="{{ page.image }}" alt="{{ page.image_caption | escape }}" title="{{ page.image_caption | escape }}" />
+  {% if page.image_caption %}
+  <figcaption class="image-caption">
+    {{ page.image_caption }}
+    {% if page.image_credit %}<span class="image-source">{{ page.image_credit }}</span>{% endif %}
+  </figcaption>
+  {% endif %}
+</figure>
+{% endif %}
