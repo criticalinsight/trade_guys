@@ -4,9 +4,13 @@
 
 #header-logo-container {
   --header-logo-arrow-size: 1rem;
-  --header-logo-size: calc(var(--header-logo-arrow-size) * 20);
+  --header-logo-size: calc(var(--header-logo-arrow-size) * 16);
   flex: 0 1 auto;
   flex-basis: 40%;
+
+  @include breakpoint("large") {
+    --header-logo-size: calc(var(--header-logo-arrow-size) * 20);
+  }
 
   .site-title {
     position: relative;

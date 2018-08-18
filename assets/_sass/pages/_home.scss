@@ -3,7 +3,6 @@
 ================================*/
 .home {
   --outer-gutter: 1rem;
-  margin-top: 1rem;
 
   @include breakpoint("medium") {
     --outer-gutter: 2rem;
@@ -11,6 +10,7 @@
     display: grid;
     grid-template-columns: minmax(40%, 450px) minmax(auto, $size_post-list-desc-max-width);
     grid-column-gap: 0;
+    margin-top: 1rem;
   }
 
   @include breakpoint("xlarge") {
@@ -24,6 +24,7 @@
     --desc-top: calc(var(--home-logo-row-height) * 3 + 4rem);
     position: relative;
     background-color: $yellow;
+    overflow-x: hidden;
 
     @include breakpoint("medium") {
       --desc-top: calc(var(--home-logo-row-height) * 2);

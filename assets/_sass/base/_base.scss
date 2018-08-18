@@ -12,7 +12,7 @@ body {
     background: $white;
     /* Fallback for when there is no custom background color defined. */
     --breakpoint: 'xsmall';
-    --header-height: 100px;
+    --header-height: #{$size_header-height-mobile};
     --header-footer-border-width: #{$size_page-header-footer-border-width-mobile};
     --home-logo-arrow-size: #{$size_home-unit-size};
     --home-logo-row-height: calc(var(--home-logo-arrow-size) * 3);
@@ -31,6 +31,10 @@ body {
     @include breakpoint('large') {
         --breakpoint: 'large';
     }
+
+    &.menu-open {
+        overflow-y: hidden;
+    }
 }
 
 .wrapper {
@@ -45,5 +49,5 @@ body {
 }
 
 .page-content {
-    margin-top: $size_header-height-desktop;
+    margin-top: var(--header-height);
 }
