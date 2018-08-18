@@ -1,0 +1,93 @@
+/*=========================================
+=            Print Stylesheets            =
+=========================================*/
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; // Black prints faster: h5bp.com/s
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+  body {
+    padding: 0px !important;
+    font-size: 12pt;
+    margin: 25mm 25mm 25mm 25mm;
+
+    &:before {
+      content: 'The Trade Guys';
+      margin-bottom: 1cm;
+      font-size: 24pt;
+      display: block;
+    }
+
+    &:after {
+      content: 'Printed from The Trade Guys, ©2018 by the Center for Strategic and International Studies. All rights reserved.';
+      margin-top: 1cm;
+      font-size: 12pt;
+    }
+  }
+  .printable,
+  .printable * {
+    visibility: visible;
+  }
+  article.printable {
+    position: absolute;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  img {
+    page-break-inside: avoid;
+  }
+
+  .site-header,
+  .site-footer-copyright,
+  .post-breadcrumbs,
+  .page-footer,
+  .arrow-cutout,
+  .share,
+  .csis-logo
+  {
+    display: none !important;
+  }
+
+  article a[href^=http]:after {
+    content: " <" attr(href) "> ";
+  }
+
+  .page-header {
+    display: block !important;
+    padding-top: 0 !important;
+    min-height: unset !important;
+
+    &-secondary {
+      padding: 0 !important;
+    }
+  }
+
+  .page-content {
+    margin: 0;
+  }
+
+  .single-post .post-content {
+    margin: 0 !important;
+  }
+
+  .post-content img {
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+  .site-footer-contact,
+  .site-footer-desc,
+  .site-footer-subscribe {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
