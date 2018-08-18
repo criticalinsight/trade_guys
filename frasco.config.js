@@ -53,7 +53,8 @@ module.exports = {
     data: '_data',
     podcast: '_podcast',
     authors: '_authors',
-    series: '_series'
+    series: '_series',
+    keywords: '_keywords'
   },
 
   js: {
