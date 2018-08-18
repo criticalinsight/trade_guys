@@ -18,7 +18,7 @@
   	<span class="post-meta-label">{{ site.data.language.tags || escape }}</span>
   	<ul class="post-tags-list">
   		{% for tag in page.tags %}
-  		<li><a href="/tags/{{ tag }}/">{{ tag }}</a></li>
+  		<li><a href="/tag/{{ tag | slugify }}/">{{ tag }}</a></li>
   		{% endfor %}
   	</ul>
   </div>

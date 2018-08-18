@@ -24,6 +24,10 @@ collections:
     title: Series
     output: true
     path: "/:path/series/"
+  keywords:
+    title: Tags
+    output: true
+    path: "/:path/tags/"
 defaults:
 - scope:
     path: ''
@@ -56,6 +60,12 @@ defaults:
   values:
     layout: archive
     permalink: "/series/:slug/"
+- scope:
+    path: ''
+    type: 'keywords'
+  values:
+    layout: archive
+    permalink: "/tag/:slug/"
 
 soundcloud_client_id: e1b9039f824fdaf6ec1fc594037c1ac7
 

@@ -1,0 +1,10 @@
+{% assign page_tag = page.url | split:'/' | last %}
+{% assign posts = "" | split: "" %}
+{% assign all_content = site.posts | concat: site.podcast %}
+{% for post in all_content %}
+  {% for post_tag in post.tags | slugify %}
+    {% assign tag = post_tag | slugify %}
+    {% if tag == page_tag %}{% assign posts = posts | push: post %}{% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign posts = posts | sort: 'date' | reverse %}

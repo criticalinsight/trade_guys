@@ -364,7 +364,9 @@ a {
     outline: 0;
   }
 
-  p & {
+  p &,
+  .post-content ul &,
+  .post-content ol & {
     @extend %dashed-underline;
   }
 }

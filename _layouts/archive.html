@@ -8,6 +8,8 @@ layout: default
       {% assign posts = site.podcast | sort: 'date' | reverse %}
     {% elsif page.collection == 'series' %}
       {% assign posts = site.posts | where: "series", page.path | sort: 'date' | reverse %}
+    {% elsif page.collection == 'keywords' %}
+      {% include archive-tags-logic.html %}
     {% else %}
       {% assign posts = site.posts | sort: 'date' | reverse %}
     {% endif %}
