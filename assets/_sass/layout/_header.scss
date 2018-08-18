@@ -10,18 +10,12 @@
 	background-color: $white;
 	padding: 1rem 0;
 
+	@include breakpoint("medium") {
+		overflow-y: hidden;
+	}
+
 	.wrapper {
 		display: flex;
 		align-items: center;
-	}
-
-	.site-title {
-		flex: 0 1 auto;
-		flex-basis: 40%;
-	}
-
-	.site-logo {
-		max-width: 350px;
-		height: auto;
 	}
 }

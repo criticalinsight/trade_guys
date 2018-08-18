@@ -13,7 +13,7 @@ header:
   weight: 4
   title: About
 - identifier: contact
-  url: "/contact"
+  url: "/#contact"
   weight: 5
   title: Ask a Question
   class: contact
