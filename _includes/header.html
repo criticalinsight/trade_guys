@@ -1,12 +1,18 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      <img class="site-logo" src="{{ 'assets/images/logos/TradeGuys_menu_logo.svg' | relative_url }}" alt="{{ site.title }}" title="{{ site.title }}" />
-    </a>
-
+    <div id="header-logo-container">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front"></div>
+            <div class="back"></div>
+          </div>
+        </div>
+        <div class="logo-words">{{ site.title | escape }}</div>
+      </a>
+    </div>
     {% include header-navigation.html %}
   </div>
 </header>

@@ -39,6 +39,8 @@ external_continue_reading: Continue reading on
 tags: Tags
 breadcrumbs_all_podcast: All Podcast <br />Episodes
 breadcrumbs_all_articles: All Articles
+navigation_menu: Menu
+navigation_menu_close: Close
 
 # About Page
 about_the_show_heading: The Show

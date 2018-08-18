@@ -1,0 +1,100 @@
+/*====================================
+=            Header: Logo            =
+====================================*/
+
+#header-logo-container {
+  --header-logo-arrow-size: 1rem;
+  --header-logo-size: calc(var(--header-logo-arrow-size) * 16);
+  flex: 0 1 auto;
+  flex-basis: 40%;
+
+  @include breakpoint("large") {
+    --header-logo-size: calc(var(--header-logo-arrow-size) * 20);
+  }
+
+  .site-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: var(--header-logo-size);
+    height: calc(var(--header-logo-arrow-size) * 2);
+
+    &:hover .flip-container {
+      .front {
+        transform: rotateX(180deg);
+      }
+
+      .back {
+        transform: rotateX(0deg);
+      }
+    } 
+  }
+
+  .logo-words {
+    font-family: $font_source;
+    font-size: calc(var(--header-logo-arrow-size) * 2);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: $black;
+    position: absolute;
+    margin: 0 auto;
+    width: var(--header-logo-size);    
+  }
+
+  .flip-container {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+
+  .flip-container,
+  .front,
+  .back {
+    width: var(--header-logo-size);
+    height: calc(var(--header-logo-arrow-size) * .8);
+  }
+
+ .flipper {
+   transition: 0.6s;
+   transform-style: preserve-3d;
+   position: relative;
+  }
+
+  .front,
+  .back {
+    backface-visibility: hidden;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &::before{
+      content: "";
+      display: flex;
+      width: 0;
+      height: 0;
+      border-top: calc(var(--header-logo-arrow-size) * .8) solid transparent;
+      border-left: calc(var(--header-logo-arrow-size) * 1.2) solid $yellow;
+      border-bottom: calc(var(--header-logo-arrow-size) * 1.1) solid transparent;
+      position: relative;
+      left: 100%;
+      bottom: calc(var(--header-logo-arrow-size) / 1.8);
+    }
+  }
+
+  .front {
+    z-index: 2;
+    transform: rotateX(0deg);
+    background-color: $yellow;
+  }
+
+  .back {
+    transform: rotateX(-180deg);
+    background-color: $dark-yellow;
+
+    &::before {
+      border-left: calc(var(--header-logo-arrow-size) * 1.2) solid $dark-yellow;
+    }
+  }
+}

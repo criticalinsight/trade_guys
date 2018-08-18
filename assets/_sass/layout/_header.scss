@@ -6,22 +6,17 @@
 	top: 0;
 	z-index: 50;
 	width: 100%;
-	height: $size_header-height-desktop;
+	height: var(--header-height);
 	background-color: $white;
-	padding: 1rem 0;
+	padding: 1rem;
+
+	@include breakpoint("medium") {
+		overflow-y: hidden;
+		padding: 1rem 0;
+	}
 
 	.wrapper {
 		display: flex;
 		align-items: center;
-	}
-
-	.site-title {
-		flex: 0 1 auto;
-		flex-basis: 40%;
-	}
-
-	.site-logo {
-		max-width: 350px;
-		height: auto;
 	}
 }
