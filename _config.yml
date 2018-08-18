@@ -1,7 +1,7 @@
 title: "The Trade Guys"
-email: jnschrag@gmail.com
+email: TradeGuys@csis.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Quick starter project for Jekyll including full setup for gulp, Sass, Autoprefixer, Bourbon/Neat/Bitters, Browserify, imagemin, Browsersync, PostCSS etc. Built on top of Frasco
+  Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects policy, and how it impacts your day-to-day in ways that everyone can understand. The Trade Guys is hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -29,6 +29,10 @@ collections:
     output: true
     path: "/:path/tags/"
 defaults:
+- scope:
+    path: ''
+  values:
+    image: /assets/images/Podcast_TradeGuys_cover-medium.jpg
 - scope:
     path: ''
     type: 'posts'
@@ -68,6 +72,10 @@ defaults:
     permalink: "/tag/:slug/"
 
 soundcloud_client_id: e1b9039f824fdaf6ec1fc594037c1ac7
+
+twitter:
+  card: summary
+logo: /assets/images/Podcast_TradeGuys_cover-medium.jpg
 
 # Build settings
 markdown: kramdown

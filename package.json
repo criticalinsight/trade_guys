@@ -1,7 +1,7 @@
 {
-  "name": "frasco",
-  "version": "0.8.3",
-  "description": "Jekyll starter project including full setup for gulp, Sass, Autoprefixer, PostCSS, webpack, imagemin, Browsersync etc.",
+  "name": "trade-guys",
+  "version": "1.0.0",
+  "description": "The website for The Trade Guys podcast produced by CSIS. Built on top of the frasco Jekyll starter template.",
   "main": "gulpfile.js",
   "scripts": {
     "preinstall": "bundle install --path vendor/bundle",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ixkaito/frasco.git"
+    "url": "https://github.com/CSIS-iLab/trade_guys.git"
   },
   "keywords": [
     "Autoprefixer",
@@ -30,12 +30,8 @@
     "Sass",
     "Webpack"
   ],
-  "author": "Kite",
+  "author": "CSIS iDeas Lab",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ixkaito/frasco/issues"
-  },
-  "homepage": "https://ixkaito.github.io/frasco",
   "devDependencies": {
     "autoprefixer": "^9.1.0",
     "babel-core": "^6.26.3",
