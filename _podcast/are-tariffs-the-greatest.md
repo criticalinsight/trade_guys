@@ -11,7 +11,10 @@ tags:
 excerpt: 'The Trade Guys discuss whether this is a harbinger of the president’s latest
   plan to slap 25 percent tariffs on foreign autos and auto parts as the administration
   makes the argument that auto imports may be a threat to national security. '
-keywords: []
+keywords:
+- _keywords/tariffs.md
+- _keywords/eu.md
+- _keywords/232_tariffs.md
 
 ---
-Ahead of his meeting with European Commission President Jean-Claude Juncker in Washington, President Trump tweeted, “Tariffs are the greatest!” as a warning to trade partners that they should be negotiating “fair deals.” The Trade Guys discuss whether this is a harbinger of the president’s latest plan to slap 25 percent tariffs on foreign autos and auto parts as the administration makes the argument that auto imports may be a threat to national security. But at a hearing at the Commerce Department last week, representatives from the auto industry appeared to disagree with that assessment. So, who’s right? Who wins and who loses when tariffs are placed on imported cars and car parts? 
+Ahead of his meeting with European Commission President Jean-Claude Juncker in Washington, President Trump tweeted, “Tariffs are the greatest!” as a warning to trade partners that they should be negotiating “fair deals.” The Trade Guys discuss whether this is a harbinger of the president’s latest plan to slap 25 percent tariffs on foreign autos and auto parts as the administration makes the argument that auto imports may be a threat to national security. But at a hearing at the Commerce Department last week, representatives from the auto industry appeared to disagree with that assessment. So, who’s right? Who wins and who loses when tariffs are placed on imported cars and car parts?
