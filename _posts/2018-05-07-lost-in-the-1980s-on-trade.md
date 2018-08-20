@@ -16,6 +16,7 @@ image_caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
   tempor incididunt ut labore et dolore magna aliqua.
 image_credit: Getty Images
 keywords:
+- _keywords/tariffs.md
 - _keywords/japan.md
 - _keywords/china.md
 - _keywords/ustr.md
