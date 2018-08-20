@@ -34,4 +34,12 @@
       }
     }
   }
+
+  .single-post & {
+    margin-bottom: 2rem;
+    
+    @include breakpoint("medium") {
+      display: none;
+    }
+  }
 }
