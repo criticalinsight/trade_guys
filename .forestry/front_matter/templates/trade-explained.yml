@@ -11,10 +11,6 @@ fields:
   label: Publish Date
   name: date
   description: Date this article should be made public
-- type: tag_list
-  name: tags
-  label: Tags
-  description: Keywords
 - type: list
   name: series
   label: Series
@@ -46,5 +42,13 @@ fields:
     source:
       type: pages
       section: authors
+- type: list
+  name: keywords
+  label: Keywords
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tag
 pages:
 - _posts/2018-08-15-test-post.md
