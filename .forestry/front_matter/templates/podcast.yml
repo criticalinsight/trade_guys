@@ -44,6 +44,7 @@ fields:
     use_select: true
     source:
       type: pages
+      section: tag
 pages:
 - _podcast/trade-war-on-hold-and-a-skinny-nafta.md
 - _podcast/u-s-protectionism-and-the-eu-japan-trade-deal.md
