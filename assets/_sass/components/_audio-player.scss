@@ -85,24 +85,49 @@
     z-index: 1;
     height: 37px;
     border-radius: calculate-rem(2px);
-    background-color: $color_audio-player-transcript-box;
-    @include box-shadow(
-      0,
-      2px,
-      4px,
-      0,
-      $color_audio-player-transcript-box-shadow,
-      false
-    );
+    // background-color: $color_audio-player-transcript-box;
   }
 
   .transcript,
-  .transcript * {
-    visibility: hidden;
+  .transcript > * {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
   }
   .menu:hover .transcript,
-  .menu:hover .transcript * {
-    visibility: visible;
+  .menu:hover .transcript > * {
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+  }
+  .label-transcript {
+    z-index: 1;
+    position: relative;
+  }
+
+  .transcript:after {
+    content: '';
+    background-image: linear-gradient($color_audio-player-transcript-box 0%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    @include box-shadow(0, 0, 0, 0, transparent, false);
+  }
+
+  .menu:hover .transcript:after {
+    content: '';
+    background-image: linear-gradient($color_audio-player-transcript-box 0%);
+    background-size: 100% 100%;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+
+  .menu:hover .transcript:after,
+  .transcript:after {
+    transform: scaleX(-1);
   }
 
   i,
