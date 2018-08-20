@@ -37,10 +37,6 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: tag_list
-  name: tags
-  label: Tags
-  description: Keywords
 - type: list
   name: keywords
   label: Keywords
