@@ -13,6 +13,9 @@ tags:
 keywords:
 - _keywords/korea.md
 - _keywords/eu.md
+image: "/uploads/180730_ Emperor_New_Clothes_0.jpg"
+image_caption: ''
+image_credit: Win McNamee/Getty Images
 
 ---
 President Trump stormed into the Oval Office promising to tear up old trade deals and replace them with improved agreements. But so far, he has little to show for his fiery rhetoric about Americans being ripped off.  The fate of NAFTA is not settled. U.S. tariffs have stalled the signing of changes to the Korea free trade agreement. Talks with the European Union have not begun despite much fanfare over their announcement. And U.S. efforts to court former TPP countries to talk trade have yielded no results. 
