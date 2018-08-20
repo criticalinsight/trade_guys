@@ -8,6 +8,11 @@ tags:
 - China
 - 232 tariffs
 - tariffs
+excerpt: Ed Brzytwa is the director of international trade at the American Chemistry
+  Council and a former United States Trade Representative negotiator. He joins the
+  Trade Guys in the studio to talk about how the trade war is affecting both producers
+  and consumers of chemical products.
+keywords: []
 
 ---
 In this episode, the Trade Guys welcome another special guest. Ed Brzytwa is the director of international trade at the American Chemistry Council and a former United States Trade Representative negotiator. He joins the Trade Guys in the studio to talk about how the trade war is affecting both producers and consumers of chemical products— everything from plastics, to cosmetics, to liquified natural gas. Hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies in Washington.
