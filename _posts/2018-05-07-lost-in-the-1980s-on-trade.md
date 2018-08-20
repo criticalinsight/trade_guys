@@ -11,10 +11,10 @@ tags:
 - USTR
 - China
 - Japan
-image: "/assets/images/Podcast_TradeGuys_cover-small.png"
+image: "/uploads/180507_reagan_80s_trade.jpg"
 image_caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
-image_credit: Getty Images
+image_credit: Mike Sargebnt/AFP/Getty Images
 keywords:
 - _keywords/tariffs.md
 - _keywords/japan.md
