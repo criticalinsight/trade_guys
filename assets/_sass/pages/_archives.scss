@@ -42,5 +42,13 @@
     @include breakpoint('medium') {
       grid-column: span 2;
     }
+
+    .share {
+      display: none;
+    }
+  }
+
+  &.tag-list .post-content {
+    margin-bottom: 3rem;
   }
 }

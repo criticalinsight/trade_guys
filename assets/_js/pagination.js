@@ -1,5 +1,5 @@
 const Pagination = {
-  postsContainer: document.querySelector('.archive'),
+  postsContainer: document.querySelector('.archive:not(.no-pagination)'),
   paginationContainer: document.querySelector('.archive-pagination'),
   postsList: null,
   totalNumPosts: 0,
@@ -104,7 +104,7 @@ const Pagination = {
 }
 
 function paginationInit() {
-  if (!document.querySelector('.archive')) {
+  if (!document.querySelector('.archive:not(.no-pagination)')) {
     return
   }
   Pagination.getPosts()
