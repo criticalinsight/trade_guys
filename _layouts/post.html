@@ -17,6 +17,9 @@ layout: default
         {% include post-video-embed.html %}
       {% endif %}
       {{ content }}
+      {% if page.collection == 'podcast' %}
+      <p>{{ site.data.language.podcast_production | escape }}</p>
+      {% endif %}
       <div class="clearfix"></div>
       {% if page.external_url %}
         {% include post-external-link.html %}

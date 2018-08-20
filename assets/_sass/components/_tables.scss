@@ -1,0 +1,22 @@
+/*==============================
+=            Tables            =
+==============================*/
+
+table {
+  width: 100%;
+
+  thead th {
+    @extend %label;
+    border-bottom: 2px solid $black;
+  }
+
+  tbody {
+    tr:nth-child(even) {
+      background-color: $off-white;
+    }
+
+    td {
+      padding: 0.5rem;
+    }
+  }
+}

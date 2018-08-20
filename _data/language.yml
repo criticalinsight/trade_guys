@@ -28,6 +28,7 @@ footer_email: TradeGuys@csis.org
 #Podcast Page
 podcast_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 sidebar_desc: Trade experts Scott Miller and Bill Reinsch break down the buzz around trade, how it affects policy, and how it impacts your day-to-day.
+podcast_production: Hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies in Washington, D.C.
 
 # Other
 series_heading: Ongoing Series
@@ -41,6 +42,7 @@ breadcrumbs_all_podcast: All Podcast <br />Episodes
 breadcrumbs_all_articles: All Articles
 navigation_menu: Menu
 navigation_menu_close: Close
+share: Share
 
 # About Page
 about_the_show_heading: The Show

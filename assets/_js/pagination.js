@@ -5,7 +5,7 @@ const Pagination = {
   totalNumPosts: 0,
   numberOfPages: 0,
   currentPage: 1,
-  numberPerPage: 3,
+  numberPerPage: 10,
   getPosts() {
     const posts = this.postsContainer.querySelectorAll('.post-list')
     this.postsList = Array.from(posts)

@@ -45,6 +45,18 @@
 }
 
 .single-post.podcast {
+  .post-content {
+    grid-row-gap: 1rem;
+
+    @include breakpoint("medium") {
+      grid-template-rows: minmax(max-content, auto) auto;
+    }
+  }
+
+  .post-info {
+    margin-bottom: 1rem;
+  }
+
   .audio-player {
     grid-row: 1;
     grid-column: 1;

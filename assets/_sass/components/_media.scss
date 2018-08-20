@@ -34,20 +34,16 @@ img {
   }  
 }
 
-.post-feature-image {
-  margin: 0 0 1rem;
+.post-feature-image,
+.post-image {
+  margin: 1rem auto;
   background-color: $off-white;
-
-  @include breakpoint("small") {
-    float: right;
-    max-width: 40%;
-    margin: 0 0 1rem 2rem;
-  }
 
   img {
     display: block;
   }
 
+  figcaption,
   .image-caption {
     padding: 0.75rem;
     @include fontSize(16px);
@@ -58,5 +54,13 @@ img {
     display: block;
     color: $gray;
   }
+}
 
+.post-feature-image {
+  margin: 0 0 1rem;
+  @include breakpoint("small") {
+    float: right;
+    max-width: 40%;
+    margin: 0 0 1rem 2rem;
+  }
 }

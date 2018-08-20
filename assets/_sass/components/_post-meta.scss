@@ -56,6 +56,6 @@
 
   a {
     font-weight: 600;
-    @include link-underline-background;
+    @extend %dashed-underline;
   }
 }

@@ -5,4 +5,4 @@ permalink: /trade-explained/
 sidebar: series-list.html
 ---
 
-Short videos that explain the lingo, rules, and history of trade policy.
+Make sense of complex trade trends, rules and lingo with short videos, hot takes, and interactive graphs.
