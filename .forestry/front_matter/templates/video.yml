@@ -33,6 +33,7 @@ fields:
     use_select: true
     source:
       type: pages
+      section: tag
 - type: select
   name: series
   config:
