@@ -11,9 +11,9 @@ tags:
 - Congress
 - China
 - tariffs
-excerpt: 'In this episode, Trade Guys Bill Reinsch and Scott Miller discuss Harley
+excerpt: In this episode, Trade Guys Bill Reinsch and Scott Miller discuss Harley
   Davidson’s decision to outsource some of their production and why it has upset the
-  President. '
+  President.
 keywords: []
 
 ---
