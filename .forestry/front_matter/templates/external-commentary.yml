@@ -62,6 +62,9 @@ fields:
 - type: text
   name: image_caption
   label: Image Caption
+- type: text
+  name: image_credit
+  label: Image Credit
 pages:
 - _posts/2018-07-30-the-emperor-s-new-clothes.md
 - _posts/2018-07-09-is-anybody-fighting-back.md
