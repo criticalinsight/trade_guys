@@ -369,7 +369,6 @@ a {
   .post-content ul &,
   .post-content ol & {
     @extend %dashed-underline;
-    border-width: 2px;
     @include wipe-link-hover-background ($yellow);
   }
 }
