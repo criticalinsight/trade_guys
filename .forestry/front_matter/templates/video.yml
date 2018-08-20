@@ -26,10 +26,13 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: tag_list
-  name: tags
-  label: Tags
-  description: Keywords
+- type: list
+  name: keywords
+  label: Keywords
+  config:
+    use_select: true
+    source:
+      type: pages
 - type: select
   name: series
   config:
@@ -46,13 +49,6 @@ fields:
   label: Content Type
   hidden: true
   default: video
-- type: list
-  name: keywords
-  label: Keywords
-  config:
-    use_select: true
-    source:
-      type: pages
 pages:
 - _posts/2018-07-10-what-s-the-bretton-woods-system.md
 - _posts/2018-06-26-tariffs-aren-t-the-only-way-to-control-trade-non-tariff-barriers-explained.md
