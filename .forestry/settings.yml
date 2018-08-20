@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
+- type: directory
+  path: _keyword
+  label: Tag
+  create: all
+  match: "**/*"
 - type: jekyll-posts
   label: Trade Explained
   create: all
