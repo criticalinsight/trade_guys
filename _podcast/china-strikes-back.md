@@ -13,4 +13,4 @@ excerpt: "​In this episode, the U.S.-China trade war doesn’t let up. The Tra
 keywords: []
 
 ---
-​In this episode, the U.S.-China trade war doesn’t let up. The Trade Guys tackle how the latest tranche of tariffs are affecting American businesses and Congress. Plus, the U.S. and Mexico seem to be progressing with NAFTA talks, but where is Canada? Hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies in Washington.
+​In this episode, the U.S.-China trade war doesn’t let up. The Trade Guys tackle how the latest tranche of tariffs are affecting American businesses and Congress. Plus, the U.S. and Mexico seem to be progressing with NAFTA talks, but where is Canada? 
