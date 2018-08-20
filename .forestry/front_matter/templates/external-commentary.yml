@@ -48,9 +48,6 @@ fields:
     source:
       type: pages
       section: series
-- type: tag_list
-  name: tags
-  label: Tags
 - type: list
   name: keywords
   label: Keywords
