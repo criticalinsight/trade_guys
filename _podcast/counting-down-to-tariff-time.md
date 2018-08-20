@@ -14,7 +14,14 @@ tags:
 - Congress
 excerpt: In this episode, the Trade Guys discuss the mayhem right before the United
   States pulls the trigger on imposing tariffs on China.
-keywords: []
+keywords:
+- _keywords/congress.md
+- _keywords/232_tariffs.md
+- _keywords/agriculture.md
+- _keywords/eu.md
+- _keywords/mexico.md
+- _keywords/tariffs.md
+- _keywords/china.md
 
 ---
 In this episode, the Trade Guys discuss the mayhem right before the United States pulls the trigger on imposing tariffs on China. The tariffs are set to take effect at 12:01 a.m. in Washington on Friday, and the administration is slated to slap tariffs on $34 billion worth of Chinese goods. The administration says they want to level the playing field, but is this good for American workers and companies? 
