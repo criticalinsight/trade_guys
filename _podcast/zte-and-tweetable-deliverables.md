@@ -12,4 +12,4 @@ excerpt: In this episode of The Trade Guys, Scott Miller and Bill Reinsch talk a
 keywords: []
 
 ---
-In this episode of The Trade Guys, Scott Miller and Bill Reinsch talk about what’s going on between the Trump administration and the Chinese telecom company, ZTE. President Trump surprised many with a tweet saying he was working to get ZTE back into business, despite having penalized the company earlier this year. The Trade Guys also chat about whether and how the ZTE curveball might affect the next round of trade talks with the Chinese. Hosted by H. Andrew Schwartz and produced by the Center for Strategic and International Studies in Washington.
+In this episode of The Trade Guys, Scott Miller and Bill Reinsch talk about what’s going on between the Trump administration and the Chinese telecom company, ZTE. President Trump surprised many with a tweet saying he was working to get ZTE back into business, despite having penalized the company earlier this year. The Trade Guys also chat about whether and how the ZTE curveball might affect the next round of trade talks with the Chinese. 
