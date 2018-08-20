@@ -55,6 +55,7 @@ fields:
     use_select: true
     source:
       type: pages
+      section: tag
 pages:
 - _posts/2018-07-30-the-emperor-s-new-clothes.md
 - _posts/2018-07-09-is-anybody-fighting-back.md
