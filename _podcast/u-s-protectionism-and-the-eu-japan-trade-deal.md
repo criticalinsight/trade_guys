@@ -14,7 +14,13 @@ tags:
 excerpt: 'In this episode, Trade Guys Bill Reinsch and Scott Miller discuss the United
   States’ counter-offensive against WTO lawsuits filed by China, the EU, Canada, Mexico,
   and Turkey. '
-keywords: []
+keywords:
+- _keywords/tariffs.md
+- _keywords/china.md
+- _keywords/wto.md
+- _keywords/232_tariffs.md
+- _keywords/japan.md
+- _keywords/eu.md
 
 ---
-In this episode, Trade Guys Bill Reinsch and Scott Miller discuss the United States’ counter-offensive against WTO lawsuits filed by China, the EU, Canada, Mexico, and Turkey. They also discuss Vice President Pence’s rebuke against China, and how U.S. producers are responding to the ongoing trade war. Plus, Japan and the EU sign one of the largest bilateral trade deals to date, raising questions about whether America’s partners are boxing the U.S. out of trade agreements. 
+In this episode, Trade Guys Bill Reinsch and Scott Miller discuss the United States’ counter-offensive against WTO lawsuits filed by China, the EU, Canada, Mexico, and Turkey. They also discuss Vice President Pence’s rebuke against China, and how U.S. producers are responding to the ongoing trade war. Plus, Japan and the EU sign one of the largest bilateral trade deals to date, raising questions about whether America’s partners are boxing the U.S. out of trade agreements.
