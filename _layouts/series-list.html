@@ -5,9 +5,12 @@ layout: default
   {% include page-header.html %}
   <div class="post-content">
     <ul class="tag-list">
-    {% assign tags = site.keywords | sort %}
-    {% for tag in tags %}
-      <li><a href="{{ tag.url | relative_url }}">{{ tag.title | escape }}</a></li>
+    {% assign series = site.series | sort %}
+    {% for item in series %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+        {{ item.content }}
+      </li>
     {% endfor %}
     </ul>
   </div>

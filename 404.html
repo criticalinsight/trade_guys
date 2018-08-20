@@ -1,24 +1,20 @@
 ---
 layout: default
+title: '404'
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<header class="page-header page-404">
+  <div class="page-header-primary">
+    <h1 class="page-title">{{ page.title | escape }}</h1>
+  </div>
+  <div class="arrow-cutout">
+    {% include share-icons.html %}
+  </div>
+  <div class="page-header-secondary">
+    <p>The page you are looking for was moved, removed, renamed, or might never have existed. We apologize for the inconvenience!</p>
+    <p>
+      <a class="btn btn-all-caps" href="{{ "/" | relative_url }}">Go to the Homepage</a> <span>or</span> 
+      <a class="btn btn-all-caps" href="mailto:{{ site.email }}?{{ site.title }}">Report this Link</a>
+    </p>
+  </div>
+</header>
