@@ -11,6 +11,10 @@ tags:
 - Congress
 - China
 - tariffs
+excerpt: 'In this episode, Trade Guys Bill Reinsch and Scott Miller discuss Harley
+  Davidson’s decision to outsource some of their production and why it has upset the
+  President. '
+keywords: []
 
 ---
 In this episode, Trade Guys Bill Reinsch and Scott Miller discuss Harley Davidson’s decision to outsource some of their production and why it has upset the President. Plus, Treasury Secretary Mnuchin doesn’t give credence to the news about President Trump considering leaving the WTO (World Trade Organization), but it has made a lot of buzz and has the Trade Guys thinking. Hosted by H. Andrew Schwartz and produced by the Center for Strategic and International Studies in Washington.
