@@ -11,6 +11,9 @@ tags:
 - Congress
 - 232 tariffs
 - EU
+excerpt: In this episode of The Trade Guys, Scott Miller and Bill Reinsch put President
+  Trump’s notion that trade wars are “good, and easy to win” to the test.
+keywords: []
 
 ---
 The tit-for-tat tariff offensive continues as Canada slaps retaliatory tariffs on Heintz ketchup, and tariffs on steel and aluminum wreak havoc on all kinds of American products—from cars to beer. In this episode of The Trade Guys, Scott Miller and Bill Reinsch put President Trump’s notion that trade wars are “good, and easy to win” to the test. The Trade Guys also examine whether or not the administration’s trade war is at odds with its domestic economic policies. Hosted by H. Andrew Schwartz and produced by the Center for Strategic and International Studies in Washington.
