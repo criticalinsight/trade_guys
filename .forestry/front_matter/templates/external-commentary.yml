@@ -56,6 +56,12 @@ fields:
     source:
       type: pages
       section: tag
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: image_caption
+  label: Image Caption
 pages:
 - _posts/2018-07-30-the-emperor-s-new-clothes.md
 - _posts/2018-07-09-is-anybody-fighting-back.md
