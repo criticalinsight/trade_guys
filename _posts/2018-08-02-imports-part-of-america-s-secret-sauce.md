@@ -14,6 +14,9 @@ statistic_text: percent of US imports in 2015 consisted of capital goods (such a
   machinery or equipment) and industrial supplies (like chemicals and metals) to be
   used by manufacturers to make finished products.
 statistic_source: U.S. Department of Commerce
+keywords:
+- _keywords/tariffs.md
+- _keywords/wto.md
 
 ---
 The U.S. is slapping tariffs on imports from other countries. But what do we import and who are imports for? Trade Guy Scott Miller explains.
