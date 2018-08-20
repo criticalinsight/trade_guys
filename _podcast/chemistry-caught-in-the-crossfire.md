@@ -12,7 +12,10 @@ excerpt: Ed Brzytwa is the director of international trade at the American Chemi
   Council and a former United States Trade Representative negotiator. He joins the
   Trade Guys in the studio to talk about how the trade war is affecting both producers
   and consumers of chemical products.
-keywords: []
+keywords:
+- _keywords/tariffs.md
+- _keywords/232_tariffs.md
+- _keywords/china.md
 
 ---
 In this episode, the Trade Guys welcome another special guest. Ed Brzytwa is the director of international trade at the American Chemistry Council and a former United States Trade Representative negotiator. He joins the Trade Guys in the studio to talk about how the trade war is affecting both producers and consumers of chemical products— everything from plastics, to cosmetics, to liquified natural gas.
