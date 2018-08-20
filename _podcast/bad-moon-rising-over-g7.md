@@ -12,7 +12,12 @@ tags:
 - China
 excerpt: 'In this episode of The Trade Guys, Scott Miller and Bill Reinsch recap the
   fallout from the Trump administration’s move to impose tariffs on the EU and Canada. '
-keywords: []
+keywords:
+- _keywords/china.md
+- _keywords/tariffs.md
+- _keywords/232_tariffs.md
+- _keywords/canada.md
+- _keywords/eu.md
 
 ---
-In this episode of The Trade Guys, Scott Miller and Bill Reinsch recap the fallout from the Trump administration’s move to impose tariffs on the EU and Canada. The Trade Guys also look ahead to the G7 Summit, and the bad blood brewing between the U.S. and some of its key allies on trade. The Trade Guys also chat about President Trump’s pursuit of an aggressive trade agenda and the politics of it all. Recorded in front of a live audience of Tulane University Students participating in the center’s journalism practicum. 
+In this episode of The Trade Guys, Scott Miller and Bill Reinsch recap the fallout from the Trump administration’s move to impose tariffs on the EU and Canada. The Trade Guys also look ahead to the G7 Summit, and the bad blood brewing between the U.S. and some of its key allies on trade. The Trade Guys also chat about President Trump’s pursuit of an aggressive trade agenda and the politics of it all. Recorded in front of a live audience of Tulane University Students participating in the center’s journalism practicum.
