@@ -13,7 +13,12 @@ tags:
 excerpt: 'The CSIS Trade Guys, Bill Reinsch and Scott Miller, take on the Trump administration’s
   announcement that it will impose tariffs on $50 billion of goods from China, raising
   the potential for a trade war between the world’s two biggest economies. '
-keywords: []
+keywords:
+- _keywords/canada.md
+- _keywords/congress.md
+- _keywords/nafta.md
+- _keywords/tariffs.md
+- _keywords/china.md
 
 ---
 The CSIS Trade Guys, Bill Reinsch and Scott Miller, take on the Trump administration’s announcement that it will impose tariffs on $50 billion of goods from China, raising the potential for a trade war between the world’s two biggest economies. Plus, the Trade Guys weigh in on the continuing G7 fallout and what it means for the United States. 
