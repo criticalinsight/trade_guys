@@ -40,6 +40,14 @@ fields:
     use_select: true
     source:
       type: pages
+- type: textarea
+  name: excerpt
+  label: Excerpt
+  description: Short description of the video that will appear on the archive pages
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - _podcast/chemistry-caught-in-the-crossfire.md
 - _podcast/goodbye-to-harley-davidson-and-the-wto.md
