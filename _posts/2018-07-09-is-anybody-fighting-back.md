@@ -10,6 +10,8 @@ series: []
 tags:
 - Congress
 keywords:
+- _keywords/tariffs.md
+- _keywords/232_tariffs.md
 - _keywords/congress.md
 
 ---
