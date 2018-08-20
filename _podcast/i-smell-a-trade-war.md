@@ -10,6 +10,10 @@ tags:
 - NAFTA
 - Congress
 - Canada
+excerpt: 'The CSIS Trade Guys, Bill Reinsch and Scott Miller, take on the Trump administration’s
+  announcement that it will impose tariffs on $50 billion of goods from China, raising
+  the potential for a trade war between the world’s two biggest economies. '
+keywords: []
 
 ---
 The CSIS Trade Guys, Bill Reinsch and Scott Miller, take on the Trump administration’s announcement that it will impose tariffs on $50 billion of goods from China, raising the potential for a trade war between the world’s two biggest economies. Plus, the Trade Guys weigh in on the continuing G7 fallout and what it means for the United States. Hosted by H. Andrew Schwartz and produced by the Center for Strategic and International Studies in Washington.
