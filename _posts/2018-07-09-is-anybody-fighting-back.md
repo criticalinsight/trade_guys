@@ -13,6 +13,9 @@ keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
 - _keywords/congress.md
+image: "/uploads/180709_fighing_back.jpg"
+image_caption: ''
+image_credit: Saul Loeb/AFP/Getty Images
 
 ---
 As tariffs begin to stack up and the prospect of higher prices for consumers comes hurtling closer, the question of “Why isn’t anybody doing anything about” gets asked more and more. There is more than one answer to that question. 
