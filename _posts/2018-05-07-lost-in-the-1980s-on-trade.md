@@ -12,10 +12,15 @@ tags:
 - China
 - Japan
 image: "/assets/images/Podcast_TradeGuys_cover-small.png"
-image_caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+image_caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.
 image_credit: Getty Images
+keywords:
+- _keywords/japan.md
+- _keywords/china.md
+- _keywords/ustr.md
 
 ---
 Robert Lighthizer, the U.S. Trade Representative, is dusting off his playbook from the 80s. The trade policy veteran, who served as a deputy in the Reagan administration, is seeking negotiated steel and aluminum quotas and has made his skepticism of the World Trade Organization no secret. 
 
-Except now, Lighthizer has to deal with a different cast. China is unlikely to be as accommodating as Japan was in the 1980s when Lighthizer negotiated export restraints with Tokyo. Those types of arrangements were banned by the WTO when it was formed in the 90s. It would be unwise for the U.S. to abandon its leadership there and flout WTO rules. Lighthizer’s trip “back to the future” probably won’t work. 
+Except now, Lighthizer has to deal with a different cast. China is unlikely to be as accommodating as Japan was in the 1980s when Lighthizer negotiated export restraints with Tokyo. Those types of arrangements were banned by the WTO when it was formed in the 90s. It would be unwise for the U.S. to abandon its leadership there and flout WTO rules. Lighthizer’s trip “back to the future” probably won’t work.
