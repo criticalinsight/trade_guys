@@ -45,11 +45,14 @@
 
     .podcast-logo {
       width: 100%;
+      max-width: 278px;
       height: auto;
-      margin: 0 auto;
+      margin: 0;
 
       @include breakpoint('medium') {
         grid-column: 1;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
 

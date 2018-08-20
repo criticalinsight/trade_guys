@@ -100,7 +100,7 @@
   }
 
   .post-content > div {
-    margin-bottom: calculate-rem(20px);
+    margin-bottom: calculate-rem(40px);
     @include breakpoint('medium') {
       margin-bottom: calculate-rem(90px);
     }
@@ -145,12 +145,13 @@
 
   .csis-box {
     background-color: $off-white;
-    padding: calculate-rem(40px);
+    padding: calculate-rem(20px);
 
     @include breakpoint('medium') {
       display: grid;
       grid-gap: 0 calculate-rem(135px);
       grid-template-columns: 1.06fr 0.94fr;
+      padding: calculate-rem(40px);
     }
   }
   .csis-description p:last-of-type {

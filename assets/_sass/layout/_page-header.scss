@@ -24,8 +24,10 @@
 		grid-column: 2;
 		justify-self: flex-end;
 		width: calc(#{$size_sidebar-width} + var(--header-footer-border-width));
+		max-width: fit-content;
 		min-height: var(--arrow-padding);
 		margin-right: var(--header-footer-border-width);
+		margin-bottom: -4px;
 		padding-top: var(--top-padding);
 		padding-right: 3rem;
 		background-color: $white;
@@ -33,6 +35,10 @@
 		@include breakpoint('medium') {
 			--arrow-padding: 2.5rem;
 			min-height: calc(var(--arrow-padding) / 2);
+		}
+
+		@include breakpoint('large') {
+			margin-bottom: 0;
 		}
 
 		&::before {
@@ -95,7 +101,7 @@
 		display: none;
 
 		@include breakpoint('medium') {
-			display: block;
+			display: flex;
 		}
 	}
 }

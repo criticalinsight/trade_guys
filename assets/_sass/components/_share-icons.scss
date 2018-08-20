@@ -1,27 +1,37 @@
-ul.share {
-  list-style-type: none;
-  padding: 0;
+.share {
+  display: flex;
   margin: 0.2em 0;
 
   .shareText {
+    margin-right: 0.25rem;
     @extend %labelsmall;
     color: $gray;
   }
 
-  li {
-    display: inline;
-    margin-right: 0;
-    text-align: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 
-    &:hover i {
-      background-color: $yellow;
-      transition: 0.2s ease-in-out;
-      border-radius: 24px;
-    }
+    li {
+      display: inherit;
+      margin: 0;
+      padding-right: 0.25rem;
+      text-align: center;
+      line-height: 1;
 
-    i {
-      @include fontSize(20px);
-      padding: 0.15rem;
+      &:hover i {
+        background-color: $yellow;
+        transition: 0.2s ease-in-out;
+        border-radius: 50%;
+      }
+
+      i {
+        @include fontSize(20px);
+        padding: 0.15rem;
+      }
     }
   }
 }
