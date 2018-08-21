@@ -2,7 +2,9 @@ import * as SoundCloudAudio from 'soundcloud-audio'
 
 let scPlayers = []
 
-const init = (URL, lengthDisplay) => {
+const init = (URL, player) => {
+  let lengthDisplay = player.querySelector('.duration')
+
   let scPlayer = new SoundCloudAudio('e1b9039f824fdaf6ec1fc594037c1ac7')
   scPlayer.resolve(URL, function(track) {
     let minutes = millisToMinutesAndSeconds(track.duration)
@@ -35,42 +37,51 @@ const addSeeker = (player, progressDisplay, i) => {
   })
 }
 
+const pauseString = 'pause'
+const listenString = 'listen'
+const loadingString = 'loading'
+
+const toggleStatus = player => {
+  let action = player.querySelector('.action')
+  action.classList.toggle('pause')
+  action.classList.toggle('listen')
+  let pause = player.querySelector('.pause') || {}
+  let listen = player.querySelector('.listen') || {}
+  pause.innerText = pauseString
+  listen.innerText = listenString
+  let control = player.querySelector('.audio-control i')
+  control.classList.toggle('icon-pause')
+  control.classList.toggle('icon-play')
+}
+
 export default function AudioPlayer() {
   let audioPlayers = document.querySelectorAll('.audio-player')
-
   if (!audioPlayers) {
     return
   }
 
-  audioPlayers.forEach(player => {
-    let URL = player.querySelector('.audio-control').dataset.url
-    let lengthDisplay = player.querySelector('.duration')
-    init(URL, lengthDisplay)
-  })
-
   audioPlayers.forEach((player, i) => {
+    let listen = player.querySelector('.listen') || {}
+    listen.innerText = listenString
+
+    let URL = player.querySelector('.audio-control').dataset.url
+    init(URL, player)
+
     player.querySelectorAll('.audio-control i, .action').forEach(element => {
       let progressDisplay = player.querySelector('.progress')
       element.addEventListener('click', () => {
-        let control = player.querySelector('.audio-control i')
-        control.classList.toggle('icon-pause')
-        control.classList.toggle('icon-play')
-
-        let action = player.querySelector('.action')
-        action.classList.toggle('pause')
-        action.classList.toggle('listen')
-
-        let pause = player.querySelector('.pause') || {}
-        let listen = player.querySelector('.listen') || {}
-
-        pause.innerText = 'pause'
-        listen.innerText = 'listen'
-
         addSeeker(player, progressDisplay, i)
         if (scPlayers[i] && scPlayers[i].playing) {
           scPlayers[i].pause()
+          toggleStatus(player)
         } else if (scPlayers[i] && !scPlayers[i].playing) {
           scPlayers[i].play()
+          if (scPlayers[i].audio.currentTime === 0) {
+            listen.innerText = loadingString
+            setTimeout(() => toggleStatus(player), 1500)
+          } else {
+            toggleStatus(player)
+          }
           progressBar(progressDisplay, i)
         }
       })
