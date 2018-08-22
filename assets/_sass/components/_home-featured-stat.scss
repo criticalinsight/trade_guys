@@ -5,7 +5,7 @@
 .featured-stat-container {
   position: relative;
   background-color: $dark-gray;
-  padding: 3rem $size_wrapper-padding;
+  padding: 5rem $size_wrapper-padding;
 
   @include breakpoint("medium") {
     --background-width: 0;
@@ -102,6 +102,14 @@
 
     .post-list-title {
       color: $white;
+
+      a {
+        background-image: none;
+
+        &:hover {
+          color: $yellow;
+        }
+      }
     }
 
     .post-list-content {

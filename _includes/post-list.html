@@ -1,6 +1,6 @@
-<article class="post-list">
+<article class="post-list" role="article">
   {% if post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
-  <header class="post-list-header">
+  <header class="post-list-header" role="article header">
     <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">{{ site.data.content_types[post.content_type].icon }}{{ post.title | escape }}</a></h2>
     <span class="post-meta">{{ post.date | date: site.date_format }}
       {% if post.collection == 'podcast' %}
@@ -8,7 +8,7 @@
       {% endif %}
     </span>
   </header>
-  <main class="post-list-content">
+  <main class="post-list-content" role="article content">
     {% if post.collection == 'podcast' and (page.layout == 'home' or forloop.first) %}
       {% include audio-player.html soundcloud_url=post.soundcloud_url transcript_url=post.transcript_url %}
     {% endif %}

@@ -8,7 +8,7 @@
     --outer-gutter: 2rem;
     --secondary-column-width: 40%;
     display: grid;
-    grid-template-columns: minmax(40%, 450px) minmax(auto, $size_post-list-desc-max-width);
+    grid-template-columns: minmax(40%, 450px) auto;
     grid-column-gap: 0;
     margin-top: 1rem;
   }

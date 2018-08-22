@@ -8,10 +8,6 @@
   flex: 0 1 auto;
   flex-basis: 40%;
 
-  @include breakpoint("large") {
-    --header-logo-size: calc(var(--header-logo-arrow-size) * 20);
-  }
-
   .site-title {
     position: relative;
     display: flex;

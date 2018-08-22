@@ -1,7 +1,8 @@
 ---
-layout: tag-list
+layout: archive-special
 title: Tags
 permalink: /tag/
+archive-content: archive-special-tags-list.html
 sidebar: series-list.html
 ---
 

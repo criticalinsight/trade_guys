@@ -4,16 +4,20 @@ header:
   url: "/podcast"
   weight: 2
   title: Podcast
+  desc: View all podcast episodes
 - identifier: trade-explained
   url: "/trade-explained"
   weight: 3
   title: Trade Explained
+  desc: View all Trade Explained articles
 - identifier: about
   url: "/about"
   weight: 4
   title: About
+  desc: Learn about the Trade Guys
 - identifier: contact
   url: "/#contact"
   weight: 5
   title: Ask a Question
   class: contact
+  desc: Ask a Question
