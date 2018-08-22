@@ -7,7 +7,6 @@ transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/18082
 excerpt: 'In this episode, the Trade Guys talk about the U.S.-Turkey diplomatic spat
   that has spilled into the realm of trade. '
 keywords: []
-published: false
 
 ---
 In this episode, the Trade Guys talk about the U.S.-Turkey diplomatic spat that has spilled into the realm of trade. President Trump threatened tariffs on Turkish steel and aluminum in what the administration says is in the interest of national security. But are the Section 232 tariffs really called for? Plus, the Trade Guys discuss China, NAFTA, and trade's relationship with wage stagnation. 
