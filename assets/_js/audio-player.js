@@ -45,10 +45,17 @@ const toggleStatus = player => {
   let action = player.querySelector('.action')
   action.classList.toggle('pause')
   action.classList.toggle('listen')
-  let pause = player.querySelector('.pause') || {}
-  let listen = player.querySelector('.listen') || {}
-  pause.innerText = pauseString
-  listen.innerText = listenString
+  let pause = player.querySelector('.pause')
+  let listen = player.querySelector('.listen')
+  if (pause) {
+    pause.querySelector('.action-label').innerText = pauseString
+    pause.setAttribute('aria-label', 'Pause the podcast')
+  }
+  if (listen) {
+    listen.querySelector('.action-label').innerText = listenString
+    listen.setAttribute('aria-label', 'Listen to the podcast')
+  }
+
   let control = player.querySelector('.audio-control i')
   control.classList.toggle('icon-pause')
   control.classList.toggle('icon-play')
@@ -62,7 +69,7 @@ export default function AudioPlayer() {
 
   audioPlayers.forEach((player, i) => {
     let listen = player.querySelector('.listen') || {}
-    listen.innerText = listenString
+    listen.querySelector('.action-label').innerText = listenString
 
     let URL = player.querySelector('.audio-control').dataset.url
     init(URL, player)
@@ -71,7 +78,7 @@ export default function AudioPlayer() {
       player.querySelector('.transcript').classList.toggle('show-transcript')
     })
 
-    player.querySelectorAll('.audio-control i, .action').forEach(element => {
+    player.querySelectorAll('.action').forEach(element => {
       let progressDisplay = player.querySelector('.progress')
       element.addEventListener('click', () => {
         addSeeker(player, progressDisplay, i)
@@ -81,7 +88,7 @@ export default function AudioPlayer() {
         } else if (scPlayers[i] && !scPlayers[i].playing) {
           scPlayers[i].play()
           if (scPlayers[i].audio.currentTime === 0) {
-            listen.innerText = loadingString
+            listen.querySelector('.action-label').innerText = loadingString
             setTimeout(() => toggleStatus(player), 1500)
           } else {
             toggleStatus(player)

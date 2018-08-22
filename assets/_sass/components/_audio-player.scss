@@ -11,8 +11,8 @@
   }
 
   .audio-control {
-    max-width: 11%;
-    margin: 0 50px 0 0;
+    max-width: 10%;
+    margin: 0 45px 0 0;
     @include breakpoint('medium') {
       order: -1;
       -webkit-box-ordinal-group: -1;
@@ -32,15 +32,16 @@
     align-items: center;
   }
 
-  .action,
+  .action .action-label,
   .duration,
   .label-transcript {
     @extend %labelsmall;
-    white-space: nowrap;
   }
 
-  .action {
-    margin-left: 10px;
+  .action,
+  .duration,
+  .label-transcript {
+    white-space: nowrap;
   }
 
   .duration {
