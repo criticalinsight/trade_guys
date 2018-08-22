@@ -9,10 +9,10 @@
 	background-color: $yellow;
 	min-height: 150px;
 	margin-bottom: 0.5rem;
-	padding-top: 4rem;
+	padding-top: 3rem;
 
 	@include breakpoint('medium') {
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 	}
 
 	.arrow-cutout {
@@ -24,7 +24,7 @@
 		grid-column: 2;
 		justify-self: flex-end;
 		width: calc(#{$size_sidebar-width} + var(--header-footer-border-width));
-		max-width: fit-content;
+		// max-width: fit-content;
 		min-height: var(--arrow-padding);
 		margin-right: var(--header-footer-border-width);
 		margin-bottom: -4px;
@@ -64,6 +64,11 @@
 
 			@include breakpoint('medium') {
 				margin-bottom: -6px;
+			}
+
+			&-subheading {
+				font-weight: normal;
+				letter-spacing: 0;
 			}
 		}
 	}

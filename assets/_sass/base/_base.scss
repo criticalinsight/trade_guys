@@ -32,6 +32,12 @@ body {
         --breakpoint: 'large';
     }
 
+    @include breakpoint('xlarge') {
+        --breakpoint: 'xlarge';
+        --home-logo-arrow-size: calc(#{$size_home-unit-size-desktop} - 0.5vw);
+        // --home-logo-row-height: calc(var(--home-logo-arrow-size) * 2);
+    }
+
     &.menu-open {
         overflow-y: hidden;
     }

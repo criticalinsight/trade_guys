@@ -68,9 +68,8 @@
     text-transform: uppercase;
   }
 
-  .post-content > div:not(.people) h2,
-  h5 {
-    margin-bottom: calculate-rem(10px);
+  h2 {
+    margin-bottom: 0;
   }
 
   h3 {
@@ -87,6 +86,7 @@
 
   h5 {
     letter-spacing: 1.3px;
+    margin-bottom: calculate-rem(10px);
   }
 
   h1,

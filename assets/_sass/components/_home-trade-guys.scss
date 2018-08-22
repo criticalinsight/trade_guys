@@ -10,11 +10,17 @@
     grid-template-columns: minmax(20%, var(--max-image-size)) minmax(auto, 50%);
     grid-column-gap: 2rem;
     align-items: end;
-    margin-bottom: 2rem;
+    width: 75%;
+    margin: 0 auto 2rem;
 
     @include breakpoint("medium") {
-      --max-image-size: 130px;
-      margin-bottom: 3rem;
+      --max-image-size: 150px;
+      width: 100%;
+      margin: 0 0 3rem;
+    }
+
+    &:last-of-type {
+      margin-bottom: 1rem;
     }
 
     &-img {

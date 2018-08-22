@@ -23,9 +23,7 @@ const Pagination = {
   setupPaginationBtns() {
     let btnHTML = `<button class='pagination-page pagination-prev' data-page='${this
       .currentPage - 1}'><i class="icon-angle-left"></i></button>`
-    btnHTML += `<span class="pagination-total-pages">Page
-    <span class="pagination-current-page">${this.currentPage}</span> of 
-    ${this.numberOfPages}</span>`
+    btnHTML += `<span class="pagination-total-pages"></span>`
     for (let i = 1; i <= this.numberOfPages; i++) {
       let btnClass = ''
       if (i == this.currentPage) {
@@ -42,6 +40,16 @@ const Pagination = {
       .forEach(el => {
         el.addEventListener('click', Pagination.changePage)
       })
+  },
+  setupTotalPages() {
+    const containers = document.querySelectorAll('.pagination-total-pages')
+    containers.forEach(container => {
+      container.innerHTML = `Page
+    <span class="pagination-current-page">${this.currentPage}</span> of 
+    ${this.numberOfPages} <span class="pagination-total-items">(${
+        this.totalNumPosts
+      } items)</span>`
+    })
   },
   updatePaginationBtns() {
     const oldActiveBtn = this.paginationContainer.querySelector(
@@ -63,9 +71,9 @@ const Pagination = {
     nextBtn.disabled = this.currentPage == this.numberOfPages ? true : false
     nextBtn.setAttribute('data-page', this.currentPage + 1)
 
-    this.paginationContainer.querySelector(
-      '.pagination-current-page'
-    ).innerHTML = this.currentPage
+    document
+      .querySelectorAll('.pagination-current-page')
+      .forEach(el => (el.innerHTML = this.currentPage))
   },
   updatePostList() {
     const startVisiblePosts = (this.currentPage - 1) * this.numberPerPage
@@ -110,6 +118,7 @@ function paginationInit() {
   Pagination.getPosts()
   Pagination.setCurrentPage()
   Pagination.setupPaginationBtns()
+  Pagination.setupTotalPages()
   Pagination.updatePaginationBtns()
   Pagination.updatePostList()
 }
