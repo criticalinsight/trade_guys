@@ -3,7 +3,12 @@
 		{% if page.breadcrumbs %}
 			{% include post-breadcrumbs.html %}
 		{% else %}
-			<h1 class="page-title">{{ page.title | escape }}</h1>
+		{% if page.collection == 'series' %}
+			{% capture title %}<span class="page-title-subheading">Series:</span> {% endcapture %}
+		{% elsif page.collection == 'keywords' %}
+			{% capture title %}<span class="page-title-subheading">Tag:</span> {% endcapture %}
+		{% endif %}
+			<h1 class="page-title">{{ title }}{{ page.title | escape }}</h1>
 		{% endif %}
 	</div>
 	<div class="arrow-cutout">
@@ -14,6 +19,7 @@
 			<h1 class="page-title">{{ page.title | escape }}</h1>
 		{% else %}
 			<p>{{ content | append: " " | append: include.content  | remove: "<p>" | remove: "</p>" }}</p>
+			<div class="archive-pagination-top pagination-total-pages"></div>
 		{% endif %}
 	</div>
 </header>

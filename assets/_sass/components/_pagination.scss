@@ -25,6 +25,10 @@
     @include breakpoint("medium") {
       display: none;
     }
+
+    .pagination-total-items {
+      display: none;
+    }
   }
 
   .page-num {
@@ -90,3 +94,18 @@
   }
 }
 
+.archive-pagination-top {
+  margin-top: 1rem;
+  @extend %btn;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+
+  @include breakpoint("medium") {
+    text-align: left;
+  }
+
+  .pagination-total-items {
+    font-weight: normal;
+  }
+}

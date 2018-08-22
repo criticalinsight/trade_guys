@@ -19,7 +19,7 @@ layout: default
   <section class="podcast-list">
     {% assign posts = site.podcast | sort: 'date' | reverse %}
     {% for post in posts limit:3 %}{% include post-list.html %}{% endfor %}
-    <a href="/podcast" class="btn btn-all-caps see-more">{{ site.data.language.all_podcasts }}</a>
+    <a href="/podcast" class="btn btn-all-caps see-more" aria-label="{{ site.data.language.all_podcasts }}">{{ site.data.language.all_podcasts_aria }}</a>
   </section>
   <img class="home-graphic" src="{{ 'assets/images/home/Group-2.jpg' | relative_url }}" alt="{{ site.title | escape }}" alt="{{ site.title | escape }}" />
   {% include home-featured-stat.html %}

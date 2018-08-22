@@ -9,14 +9,14 @@
   <form class="home-contact-form form-default" netlify>
     <div class="home-contact-form-info">
       <label for="name">{{ site.data.language.contact_name }}</label>
-      <input type="text" name="name" class="form-input">
+      <input type="text" name="name" id="name" class="form-input">
       <label for="email">{{ site.data.language.contact_email }}</label>
-      <input type="email" name="email" class="form-input">
+      <input type="email" name="email" id="email" class="form-input">
     </div>
     <div class="home-contact-form-message">
       <label for="message">{{ site.data.language.contact_message }}</label>
-      <textarea name="message" class="form-textarea"></textarea>
+      <textarea name="message" id="message" class="form-textarea"></textarea>
     </div>
-    <button class="btn btn-all-caps btn-submit" name="submit_contact" type="submit">{{ site.data.language.contact_submit }}</button>
+    <button class="btn btn-all-caps btn-submit" name="submit_contact" type="submit" aria-label="{{ site.data.language.contact_submit_aria }}">{{ site.data.language.contact_submit }}</button>
   </form>
 </section>

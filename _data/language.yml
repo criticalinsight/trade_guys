@@ -12,10 +12,13 @@ trade_terms_explained: Understand the lingo, rules, and history of trade policy.
 
 ask_us_question: We like to ponder your questions (there are no dumb ones!) Ask us. We've got the answers.
 all_podcasts: All Episodes
+all_podcasts_aria: View list of all podcast episodes
 all_posts: View All
+all_posts_aria: View list of all Trade Explained articles
 contact_heading: Ask us a question
 contact_desc: We like to ponder your questions (there are no dumb ones!) Ask us. We've got the answers.
 contact_submit: Send
+contact_submit_aria: Submit Contact Form
 contact_name: Name
 contact_email: Email
 contact_message: Message
@@ -29,6 +32,9 @@ footer_email: TradeGuys@csis.org
 podcast_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Akari at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 sidebar_desc: Trade experts Scott Miller and Bill Reinsch break down the buzz around trade, how it affects policy, and how it impacts your day-to-day.
 podcast_production: Hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies in Washington, D.C.
+apple_podcast: Apple Podcast
+soundcloud: Soundcloud
+
 
 # Other
 series_heading: Ongoing Series

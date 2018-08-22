@@ -1,0 +1,6 @@
+<ul class="tag-list">
+{% assign tags = site.keywords | sort %}
+{% for tag in tags %}
+  <li><a href="{{ tag.url | relative_url }}">{{ tag.title | escape }}</a></li>
+{% endfor %}
+</ul>

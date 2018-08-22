@@ -13,8 +13,7 @@
     grid-template-rows: repeat(2, auto);
     grid-template-columns: minmax(auto, 20%) minmax(auto, $size_post-list-desc-max-width);
     grid-column-gap: 4rem;
-    // margin-right: 0;
-    margin-left: 2rem;
+    margin-left: 0;
   }
 
   .post-info {
@@ -32,6 +31,10 @@
 
     .post-meta {
       margin-bottom: 1rem;
+
+      @include breakpoint("medium") {
+        margin-bottom: 1.5rem;
+      }
     }
   }
 

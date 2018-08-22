@@ -3,7 +3,7 @@
 =========================================*/
 .site-nav {
 	margin-left: auto;
-	overflow-x: hidden;
+	overflow: hidden;
 
 	#nav-trigger {
 		display: none;
@@ -142,6 +142,7 @@
 				left: 0;
 				@include fontSize(20px);
 				letter-spacing: 1px;
+				width: fit-content;
 
 				&:last-of-type {
 					top: 2.5rem;

@@ -35,7 +35,7 @@
     }
   }
 
-  .single-post & {
+  .single-post .page-footer & {
     margin-bottom: 2rem;
     
     @include breakpoint("medium") {

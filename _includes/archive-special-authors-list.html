@@ -1,0 +1,8 @@
+<ul class="tag-list">
+{% assign authors = site.authors | sort %}
+{% for item in authors %}
+  <li>
+    <a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+  </li>
+{% endfor %}
+</ul>

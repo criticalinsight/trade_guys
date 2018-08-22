@@ -3,19 +3,21 @@
 ==============================*/
 
 %grid-padding {
-	padding: 1rem;
+	padding: var(--padding-top-bottom) 1rem;
 
 	@include breakpoint('medium') {
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-top: var(--padding-top-bottom);
+		padding-bottom: var(--padding-top-bottom);
 	}
 }
 
 .site-footer {
+	--padding-top-bottom: 2rem;
 	display: grid;
 	grid-template-rows: repeat(4, auto);
 
 	@include breakpoint('medium') {
+		--padding-top-bottom: 2rem;
 		grid-template-columns: 1fr 1.3fr 1fr;
 		grid-template-rows: repeat(3, auto);
 
@@ -27,8 +29,12 @@
 			width: 100%;
 			height: var(--header-footer-border-width);
 			background-color: $yellow;
+		}
 
-			.body-home & {
+		.body-home & {
+			--padding-top-bottom: 3rem;
+
+			&::before {
 				display: none;
 			}
 		}
@@ -47,26 +53,31 @@
 
 	&-contact {
 		grid-row: 2;
-		padding-top: 1rem;
 		@include fontSize(16px);
 		line-height: 1.5;
 		color: $color_footer-contact-text;
+		padding-bottom: 0;
 
 		@include breakpoint('medium') {
-			padding-top: 2rem;
 			padding-right: 2rem;
 			padding-left: 2rem;
+			padding-bottom: var(--padding-top-bottom);
 		}
 
 		.csis-logo {
-			margin-bottom: 2rem;
+			margin-bottom: 0.5rem;
 			max-width: 400px;
+
+			@include breakpoint("medium") {
+				margin-bottom: 2rem;
+			}
 		}
 	}
 
 	&-desc {
 		grid-row: 3;
 		color: $white;
+		padding-bottom: 2rem;
 
 		@include breakpoint('medium') {
 			grid-row: 2;

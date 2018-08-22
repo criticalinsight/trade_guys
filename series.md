@@ -1,7 +1,8 @@
 ---
-layout: series-list
+layout: archive-special
 title: Series
 permalink: /series/
+archive-content: archive-special-series-list.html
 sidebar: series-list.html
 ---
 

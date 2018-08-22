@@ -7,6 +7,7 @@ textarea {
   font-family: $font_source;
   @include fontSize(16px);
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 
   @include breakpoint('medium') {
     @include fontSize(18px);
@@ -57,7 +58,7 @@ textarea {
 
 %archive-post-title {
   font-family: $font_source;
-  @include fontSize(18px);
+  @include fontSize(20px);
   line-height: 1.22;
   font-weight: 600;
   letter-spacing: 0;
@@ -81,7 +82,7 @@ textarea {
 
 %post-description {
   font-family: $font_source;
-  @include fontSize(14px);
+  @include fontSize(16px);
   line-height: 1.71;
 
   @include breakpoint('medium') {
@@ -93,6 +94,7 @@ textarea {
 %post-meta {
   font-family: $font_source;
   @include fontSize(14px);
+  line-height: 1.5;
   letter-spacing: 1.2px;
   color: $gray;
 
@@ -331,7 +333,11 @@ q {
 
 address {
   font-style: normal;
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
+
+  @include breakpoint("medium") {
+    margin-bottom: 1rem;
+  }
 }
 
 big {
