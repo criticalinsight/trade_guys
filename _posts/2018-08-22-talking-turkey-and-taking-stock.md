@@ -1,0 +1,16 @@
+---
+title: Talking Turkey and Taking Stock
+authors:
+- _authors/bill-reinsch.md
+external_site_name: CSIS.org
+content_type: external_commentary
+date: 2018-08-22 00:00:00 +0000
+external_url: https://www.csis.org/analysis/talking-turkey-and-taking-stock
+series:
+- _series/trade-terms-explained.md
+keywords: []
+image: "/uploads/180820_TURKEY_US.jpg"
+image_caption: ''
+image_credit: OZAN KOSE/AFP/Getty Images
+
+---
