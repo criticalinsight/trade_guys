@@ -1,7 +1,7 @@
 ---
 title: 'Safeguards: The Dirty Laundry of Trade Policy?'
 content_type: video
-date: 2018-08-22 00:00:00 +0000
+date: 2018-08-14 20:55:16 +0000
 youtube_url: https://www.youtube.com/watch?v=aBtpAlrZ9Kc&
 excerpt: 'U.S. consumers love choices. But, choice in the U.S. market means American
   manufacturers face stiff competition at home and abroad.  '
