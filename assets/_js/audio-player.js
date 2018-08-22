@@ -67,6 +67,10 @@ export default function AudioPlayer() {
     let URL = player.querySelector('.audio-control').dataset.url
     init(URL, player)
 
+    player.querySelector('.menu').addEventListener('click', () => {
+      player.querySelector('.transcript').classList.toggle('show-transcript')
+    })
+
     player.querySelectorAll('.audio-control i, .action').forEach(element => {
       let progressDisplay = player.querySelector('.progress')
       element.addEventListener('click', () => {
