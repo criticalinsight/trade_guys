@@ -106,7 +106,12 @@
     z-index: 1;
     position: relative;
   }
-
+  .no-transcript {
+    display: none;
+    @include breakpoint('medium') {
+      display: flex;
+    }
+  }
   .transcript:after {
     content: '';
     background-image: linear-gradient($color_audio-player-transcript-box 0%);
@@ -118,6 +123,7 @@
     right: 0;
     top: 0;
     @include box-shadow(0, 0, 0, 0, transparent, false);
+    transform: scaleX(-1);
 
     @include breakpoint('medium') {
       background-size: 0% 100%;
@@ -126,16 +132,12 @@
   }
 
   .menu:hover .transcript:after {
+    transform: scaleX(-1);
     @include breakpoint('medium') {
       background-image: linear-gradient($color_audio-player-transcript-box 0%);
       background-size: 100% 100%;
       transition: 0.2s ease-in-out;
     }
-  }
-
-  .menu:hover .transcript:after,
-  .transcript:after {
-    transform: scaleX(-1);
   }
 
   .icon-menu {
