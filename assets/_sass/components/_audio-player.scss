@@ -12,7 +12,7 @@
 
   .audio-control {
     max-width: 10%;
-    margin: 0 40px 0 0;
+    margin: 0 45px 0 0;
     @include breakpoint('medium') {
       order: -1;
       -webkit-box-ordinal-group: -1;
@@ -32,19 +32,23 @@
     align-items: center;
   }
 
-  .action,
+  .action .action-label,
   .duration,
   .label-transcript {
     @extend %labelsmall;
+  }
+
+  .action,
+  .duration,
+  .label-transcript {
     white-space: nowrap;
   }
 
-  .action {
-    margin: 0 40px 0 10px;
-  }
-
   .duration {
-    margin: 0 10px 0 25px;
+    margin: 0 10px;
+    @include breakpoint('medium') {
+      margin: 0 10px 0 25px;
+    }
   }
 
   .progress-bar {
@@ -79,63 +83,45 @@
     align-items: center;
     justify-content: space-around;
     padding: 0.5rem;
-    position: absolute;
-    right: -1px;
-    z-index: 1;
-    height: 37px;
+    height: 34px;
     border-radius: calculate-rem(2px);
-  }
 
-  .transcript,
-  .transcript > * {
-    display: none;
-    opacity: 0;
-    transition: 0.2s ease-in-out;
+    background-image: linear-gradient($color_audio-player-transcript-box 0%);
+    background-size: 100% 100%;
 
     @include breakpoint('medium') {
-      display: flex;
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+      height: 37px;
+      position: absolute;
+      right: -1px;
+      z-index: 1;
     }
   }
 
-  .menu:hover .transcript,
-  .menu:hover .transcript > * {
-    display: flex;
-    opacity: 1;
-    transition: 0.2s ease-in-out;
+  .show-transcript {
+    @include breakpoint('medium') {
+      opacity: 1;
+      transition: 0.2s ease-in-out;
+    }
   }
 
   .label-transcript {
     z-index: 1;
     position: relative;
   }
-
-  .transcript:after {
-    content: '';
-    background-image: linear-gradient($color_audio-player-transcript-box 0%);
-    background-repeat: no-repeat;
-    background-size: 0% 100%;
-    transition: all 0.2s ease-in-out;
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    @include box-shadow(0, 0, 0, 0, transparent, false);
+  .no-transcript {
+    display: none;
+    @include breakpoint('medium') {
+      display: flex;
+    }
   }
 
-  .menu:hover .transcript:after {
-    content: '';
-    background-image: linear-gradient($color_audio-player-transcript-box 0%);
-    background-size: 100% 100%;
-    transition: 0.2s ease-in-out;
-    width: 100%;
-    position: absolute;
-    height: 100%;
-    right: 0;
-    top: 0;
-  }
-
-  .menu:hover .transcript:after,
-  .transcript:after {
-    transform: scaleX(-1);
+  .icon-menu {
+    display: none;
+    @include breakpoint('medium') {
+      display: block;
+    }
   }
 
   i,
@@ -147,12 +133,6 @@
 
   i {
     @include fontSize(20px);
-  }
-
-  i:not(.icon-transcript):hover,
-  .action:hover {
-    color: $yellow;
-    transition: 0.2s ease-in-out;
   }
 
   .icon-transcript:hover i {
