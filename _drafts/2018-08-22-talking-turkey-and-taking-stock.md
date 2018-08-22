@@ -4,7 +4,7 @@ authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
 content_type: external_commentary
-date: 2018-08-22 00:00:00 +0000
+date: 2018-08-20 21:19:56 +0000
 external_url: https://www.csis.org/analysis/talking-turkey-and-taking-stock
 series:
 - _series/trade-terms-explained.md
