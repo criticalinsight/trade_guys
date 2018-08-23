@@ -66,7 +66,6 @@ fields:
   name: image_credit
   label: Image Credit
 pages:
-- _posts/sdfsadfa.md
 - _posts/2018-08-22-talking-turkey-and-taking-stock.md
 - _posts/2018-08-22-trade-and-wages.md
 - _posts/2018-05-07-lost-in-the-1980s-on-trade.md
