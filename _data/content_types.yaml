@@ -6,8 +6,6 @@
   title: Data Visualizations
   icon: icon-chart-line
   filterable: true
-- type: external_commentary
-  filterable: false
 - type: article
   title: Articles
   filterable: true
