@@ -48,7 +48,7 @@ fields:
 - type: text
   name: content_type
   label: Content Type
-  hidden: true
+  hidden: false
   default: video
 pages:
 - _posts/2018-08-22-safeguards-the-dirty-laundry-of-trade-policy.md
