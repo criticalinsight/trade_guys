@@ -24,7 +24,7 @@ const homePageScroll = () => {
     if (featuredStat.isVisible) {
       featuredStatContainer.style.setProperty(
         '--background-width',
-        (featuredStat.width / 2) - featuredStat.top + 'px'
+        featuredStat.width / 1.25 - featuredStat.top + 'px'
       )
     }
 
