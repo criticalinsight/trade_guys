@@ -28,3 +28,42 @@
   height: 75%;
 }
 
+.checkbox-container {
+  position: relative;
+
+  input[type='checkbox'] {
+    position: absolute;
+    opacity: 0;
+
+    &:checked + label::before {
+      background-color: $yellow;
+      border-color: $black;
+    }
+
+    &:checked + label::after {
+      content: '\e878';
+      font-family: 'tradeguys';
+      font-weight: bold;
+      color: $black;
+      position: absolute;
+      top: 1px;
+      left: -1px;
+    }
+  }
+
+  label {
+    display: inline-block;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      vertical-align: -0.1em;
+      width: 1rem;
+      height: 1rem;
+      border: 1px solid $disabled-gray;
+      margin-right: 0.5rem;
+      background-color: $off-white;
+      transition: 0.2s;
+    }
+  }
+}

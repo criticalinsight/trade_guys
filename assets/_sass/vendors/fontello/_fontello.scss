@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'tradeguys';
-  src: url('#{$fontello_url}tradeguys.eot?35349170');
-  src: url('#{$fontello_url}tradeguys.eot?35349170#iefix') format('embedded-opentype'),
-       url('#{$fontello_url}tradeguys.woff2?35349170') format('woff2'),
-       url('#{$fontello_url}tradeguys.woff?35349170') format('woff'),
-       url('#{$fontello_url}tradeguys.ttf?35349170') format('truetype'),
-       url('#{$fontello_url}tradeguys.svg?35349170#tradeguys') format('svg');
+  src: url('#{$fontello_url}tradeguys.eot?48792507');
+  src: url('#{$fontello_url}tradeguys.eot?48792507#iefix') format('embedded-opentype'),
+       url('#{$fontello_url}tradeguys.woff2?48792507') format('woff2'),
+       url('#{$fontello_url}tradeguys.woff?48792507') format('woff'),
+       url('#{$fontello_url}tradeguys.ttf?48792507') format('truetype'),
+       url('#{$fontello_url}tradeguys.svg?48792507#tradeguys') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'tradeguys';
-    src: url('#{$fontello_url}tradeguys.svg?35349170#tradeguys') format('svg');
+    src: url('#{$fontello_url}tradeguys.svg?48792507#tradeguys') format('svg');
   }
 }
 */
@@ -58,6 +58,7 @@
 .icon-email:before { content: '\e801'; } /* '' */
 .icon-print:before { content: '\e804'; } /* '' */
 .icon-link:before { content: '\e805'; } /* '' */
+.icon-icon_check:before { content: '\e878'; } /* '' */
 .icon-transcript:before { content: '\e89b'; } /* '' */
 .icon-youtube:before { content: '\e983'; } /* '' */
 .icon-angle-left:before { content: '\e992'; } /* '' */

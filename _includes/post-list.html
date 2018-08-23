@@ -1,7 +1,10 @@
-<article class="post-list" role="article">
+<article class="post-list" role="article" data-content-type="{{ post.content_type }}">
   {% if post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
   <header class="post-list-header" role="article header">
-    <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">{{ site.data.content_types[post.content_type].icon }}{{ post.title | escape }}</a></h2>
+    {% assign content_type = site.data.content_types | where: "type", post.content_type %}
+    <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">
+      {% if content_type[0].icon %}<i class="{{ content_type[0].icon }}"></i>{% endif %}{{ post.title | escape }}
+    </a></h2>
     <span class="post-meta">{{ post.date | date: site.date_format }}
       {% if post.collection == 'podcast' %}
         &mdash; {{ post.episode_num | prepend: 'Episode #' }}

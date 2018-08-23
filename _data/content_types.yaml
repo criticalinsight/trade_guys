@@ -1,4 +1,13 @@
-video:
-  icon: <i class="icon-video"></i>
-interactive:
-  icon: <i class="icon-chart-line"></i>
+- type: video
+  title: Videos
+  icon: icon-video
+  filterable: true
+- type: interactive
+  title: Data Visualizations
+  icon: icon-chart-line
+  filterable: true
+- type: external_commentary
+  filterable: false
+- type: article
+  title: Articles
+  filterable: true
