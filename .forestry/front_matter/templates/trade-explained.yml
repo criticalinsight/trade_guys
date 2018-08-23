@@ -29,10 +29,15 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: text
+- type: select
   name: content_type
+  config:
+    source:
+      type: simple
+    options:
+    - article
+    - interactive
   label: Content Type
-  hidden: true
   default: article
 - type: list
   name: authors
