@@ -64,5 +64,8 @@ fields:
 - type: file
   label: Image
   name: image
+- type: text
+  name: image_caption
+  label: Image Caption
 pages:
 - _posts/2018-08-15-test-post.md
