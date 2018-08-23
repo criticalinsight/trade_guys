@@ -3,7 +3,7 @@ title: The Emperor’s New Clothes
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-07-30 17:49:16 +0000
 external_url: https://www.csis.org/analysis/emperors-new-clothes
 series: []
