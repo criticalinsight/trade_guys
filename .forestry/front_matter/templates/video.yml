@@ -59,6 +59,10 @@ fields:
 - type: text
   name: image_credit
   label: Image Credit
+- type: include
+  template: appears-on-single-post
+  label: appears on single post?
+  name: show
 pages:
 - _posts/2018-08-22-safeguards-the-dirty-laundry-of-trade-policy.md
 - _posts/2018-07-10-what-s-the-bretton-woods-system.md
