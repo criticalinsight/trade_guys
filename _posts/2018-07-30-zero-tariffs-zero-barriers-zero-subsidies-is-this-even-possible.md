@@ -3,7 +3,7 @@ title: 'Zero Tariffs, Zero Barriers, Zero Subsidies: Is This Even Possible?'
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-07-30 17:51:21 +0000
 external_url: https://www.csis.org/analysis/zero-tariffs-zero-barriers-zero-subsidies-even-possible
 series: []
