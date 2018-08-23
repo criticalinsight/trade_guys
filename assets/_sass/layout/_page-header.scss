@@ -13,6 +13,7 @@
 
 	@include breakpoint('medium') {
 		margin-bottom: 1rem;
+		grid-template-columns: minmax(auto, calc(100% - #{$size_sidebar-width})) auto;
 	}
 
 	.arrow-cutout {
@@ -24,6 +25,7 @@
 		grid-column: 2;
 		justify-self: flex-end;
 		width: calc(#{$size_sidebar-width} + var(--header-footer-border-width));
+		// width: 100%;
 		// max-width: fit-content;
 		min-height: var(--arrow-padding);
 		margin-right: var(--header-footer-border-width);

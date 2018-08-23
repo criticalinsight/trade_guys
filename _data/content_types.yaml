@@ -1,2 +1,11 @@
-video:
-  icon: <i class="icon-video"></i>
+- type: video
+  title: Videos
+  icon: icon-video
+  filterable: true
+- type: interactive
+  title: Data Visualizations
+  icon: icon-chart-line
+  filterable: true
+- type: article
+  title: Articles
+  filterable: true

@@ -4,6 +4,11 @@
 .site-nav {
 	margin-left: auto;
 	overflow: hidden;
+	flex: 0 1 15%;
+
+	@include breakpoint("medium") {
+		flex-basis: auto;
+	}
 
 	#nav-trigger {
 		display: none;
@@ -80,6 +85,10 @@
 			@include breakpoint("large") {
 				display: auto;
 			}
+		}
+
+		i {
+			margin-right: 0.3rem;
 		}
 	}
 
