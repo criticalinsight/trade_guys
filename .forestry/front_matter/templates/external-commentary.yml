@@ -38,7 +38,7 @@ fields:
   label: Content Type
   config:
     required: false
-  hidden: true
+  hidden: false
   default: article
 - type: list
   name: series
