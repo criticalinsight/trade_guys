@@ -3,7 +3,7 @@ title: Trade and Wages
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-08-13 21:19:02 +0000
 external_url: https://www.csis.org/analysis/trade-and-wages
 series:
