@@ -3,7 +3,7 @@ title: Is Anybody Fighting Back?
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-07-09 17:52:59 +0000
 external_url: https://www.csis.org/analysis/anybody-fighting-back
 series: []
