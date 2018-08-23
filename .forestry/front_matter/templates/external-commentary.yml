@@ -39,7 +39,7 @@ fields:
   config:
     required: false
   hidden: true
-  default: external_commentary
+  default: article
 - type: list
   name: series
   label: Series
@@ -66,8 +66,8 @@ fields:
   name: image_credit
   label: Image Credit
 pages:
-- _posts/2018-08-22-talking-turkey-and-taking-stock.md
 - _posts/2018-08-22-trade-and-wages.md
+- _posts/2018-08-22-talking-turkey-and-taking-stock.md
 - _posts/2018-05-07-lost-in-the-1980s-on-trade.md
 - _posts/2018-07-30-zero-tariffs-zero-barriers-zero-subsidies-is-this-even-possible.md
 - _posts/2018-08-06-whither-or-wither-wto.md
