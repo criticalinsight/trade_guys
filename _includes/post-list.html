@@ -1,5 +1,5 @@
 <article class="post-list" role="article" data-content-type="{{ post.content_type }}">
-  {% if post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
+  {% if post.image.size > 0 and post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
   <header class="post-list-header" role="article header">
     {% assign content_type = site.data.content_types | where: "type", post.content_type %}
     <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">
