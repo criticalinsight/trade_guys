@@ -3,7 +3,7 @@ title: Talking Turkey and Taking Stock
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-08-20 21:19:56 +0000
 external_url: https://www.csis.org/analysis/talking-turkey-and-taking-stock
 series:
