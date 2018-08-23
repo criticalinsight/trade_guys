@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Trade Explained
+title: Trade Explained & Visualized
 permalink: /trade-explained/
 sidebar: series-list.html
 ---

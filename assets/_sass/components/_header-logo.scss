@@ -3,11 +3,15 @@
 ====================================*/
 
 #header-logo-container {
-  --header-logo-arrow-size: 1rem;
+  --header-logo-arrow-size: 0.9rem;
   --header-logo-size: calc(var(--header-logo-arrow-size) * 16);
-  flex: 0 1 auto;
-  flex-basis: 40%;
-  overflow-y: hidden;
+  flex: 1 1 auto;
+  // flex-basis: 40%;
+  overflow: hidden;
+
+  @include breakpoint("small") {
+    --header-logo-arrow-size: 1rem;
+  }
 
   .site-title {
     position: relative;

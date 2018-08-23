@@ -1,2 +1,4 @@
 video:
   icon: <i class="icon-video"></i>
+interactive:
+  icon: <i class="icon-chart-line"></i>
