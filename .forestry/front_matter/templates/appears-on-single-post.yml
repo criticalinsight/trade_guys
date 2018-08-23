@@ -8,3 +8,4 @@ fields:
   label: appears on single post?
   description: If the Image should appear on the single post page, then slide right
     until green.
+  default: true
