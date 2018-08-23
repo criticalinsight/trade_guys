@@ -67,5 +67,8 @@ fields:
 - type: text
   name: image_caption
   label: Image Caption
+- type: text
+  name: image_credit
+  label: Image Credit
 pages:
 - _posts/2018-08-15-test-post.md
