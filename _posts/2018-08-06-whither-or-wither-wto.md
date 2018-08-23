@@ -14,6 +14,7 @@ keywords:
 image: "/uploads/180806_whither_wither_wto.jpg"
 image_caption: ''
 image_credit: Fabrice Cpffrini/AFP/Getty Images
+show_image_on_single_post: true
 
 ---
 The World Trade Organization is under attack and its future is in question. Negotiations have all but ground to a halt while countries flout their obligations. U.S. tariffs on steel, aluminum, and imports from China have put additional pressure on the WTO’s rules and relevancy. 
