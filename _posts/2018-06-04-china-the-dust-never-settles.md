@@ -3,7 +3,7 @@ title: 'China: The Dust Never Settles'
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-06-04 17:54:15 +0000
 external_url: https://www.csis.org/analysis/china-dust-never-settles
 series: []
