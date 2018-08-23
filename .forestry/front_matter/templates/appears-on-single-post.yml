@@ -1,0 +1,8 @@
+---
+label: appears on single post?
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: show
+  label: appears on single post?
