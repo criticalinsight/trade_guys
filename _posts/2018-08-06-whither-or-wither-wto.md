@@ -3,7 +3,7 @@ title: Whither, or Wither, WTO?
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-08-06 17:47:03 +0000
 external_url: https://www.csis.org/analysis/whither-or-wither-wto
 series: []
