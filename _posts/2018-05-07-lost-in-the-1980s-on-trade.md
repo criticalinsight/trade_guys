@@ -3,7 +3,7 @@ title: Lost in the 1980s on Trade
 authors:
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
-content_type: external_commentary
+content_type: article
 date: 2018-05-07 17:55:48 +0000
 external_url: https://www.csis.org/analysis/lost-1980s-trade
 series: []
