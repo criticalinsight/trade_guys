@@ -67,7 +67,7 @@ fields:
 - type: include
   template: appears-on-single-post
   label: appears on single post?
-  name: show
+  name: show_image_on_single_post
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
