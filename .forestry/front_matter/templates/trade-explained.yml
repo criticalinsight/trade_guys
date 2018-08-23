@@ -56,4 +56,5 @@ fields:
       type: pages
       section: tag
 pages:
+- _posts/test-content-type.md
 - _posts/2018-08-15-test-post.md
