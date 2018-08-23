@@ -61,5 +61,8 @@ fields:
   name: show
   description: If the Image should appear on the single post page, then slide right
     until green.
+- type: file
+  label: Image
+  name: image
 pages:
 - _posts/2018-08-15-test-post.md
