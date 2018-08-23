@@ -15,6 +15,7 @@ keywords:
 image: "/uploads/180730_Trump_AU.jpg"
 image_caption: ''
 image_credit: SAUL LOEB/AFP/Getty Images
+show_image_on_single_post: true
 
 ---
 The U.S. and European Union have agreed to negotiate towards “zero tariffs, zero non-tariff barriers, and zero subsidies on non-auto industrial goods.” What does that really mean, and is it possible? What are the most sensitive issues for each side and what can we learn from examining negotiations with the EU under the Obama administration?
