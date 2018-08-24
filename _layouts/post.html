@@ -29,7 +29,7 @@ layout: default
       {% if page.external_url %}
         {% include post-external-link.html %}
       {% endif %}
-      {% if page.notes %}
+      {% if page.notes.size > 0 %}
         {% include post-notes.html %}
       {% endif %}
     </div>
