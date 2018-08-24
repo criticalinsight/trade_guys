@@ -71,4 +71,5 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
+- _posts/the-u-s-china-trade-fight.md
 - _posts/2018-08-15-test-post.md
