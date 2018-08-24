@@ -19,10 +19,10 @@ image_credit: ''
 
 ---
 <table>
-<tbody>
+<thead>
 <tr>
 <td colspan="12">
-U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjusted
+  <h3>U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjusted</h3>
 </td>
 </tr>
 <tr>
@@ -63,6 +63,10 @@ U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjus
 2017
 </td>
 </tr>
+</thead>
+  
+  <tbody>
+
 <tr>
 <td>
 Manufacturing Jobs
@@ -191,10 +195,10 @@ Total Auto Jobs
 The Trump administration is considering imposing a 25 percent tariff on imports of automobiles and auto parts, ostensibly to protect the domestic U.S. auto industry and manufacturing base. But increased imports of autos and auto parts doesn't actually correlate to a decline in U.S. auto manufacturing jobs or auto dealership jobs. In fact, over the past decade, U.S. jobs in both of those parts of the auto sector have grown while imports of autos and auto parts have expanded.
 
 <table>
-<tbody>
+<thead>
 <tr>
 <td colspan="11">
-U.S. Auto Trade Balance, Millions USD
+  <h3>U.S. Auto Trade Balance, Millions USD</h3>
 </td>
 </tr>
 <tr>
@@ -232,6 +236,10 @@ U.S. Auto Trade Balance, Millions USD
 2017
 </td>
 </tr>
+  </thead>
+
+  <tbody>
+
 <tr>
 <td>
 -104,198
