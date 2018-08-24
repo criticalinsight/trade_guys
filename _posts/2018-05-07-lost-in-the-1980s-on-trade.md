@@ -21,6 +21,10 @@ keywords:
 - _keywords/china.md
 - _keywords/ustr.md
 show_image_on_single_post: true
+excerpt: Robert Lighthizer, the U.S. Trade Representative, is dusting off his playbook
+  from the 80s. The trade policy veteran, who served as a deputy in the Reagan administration,
+  is seeking negotiated steel and aluminum quotas and has made his skepticism of the
+  World Trade Organization no secret.
 
 ---
 Robert Lighthizer, the U.S. Trade Representative, is dusting off his playbook from the 80s. The trade policy veteran, who served as a deputy in the Reagan administration, is seeking negotiated steel and aluminum quotas and has made his skepticism of the World Trade Organization no secret. 
