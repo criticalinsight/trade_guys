@@ -20,13 +20,15 @@ As part of the investigation, the Trump administration estimated that Chin's pol
 
 So far, China has responded with tariffs on an equivalent amount of U.S. goods. But the U.S.-China trade balance has made it impossible for China to keep up the tit-for-tat tariff exchange. In response to China's retaliatory tariffs, President Trump has asked USTR to draft a list of Chinese products worth $200 billion that could be subject to tariffs. China responded by threatening additional tariffs on $60 billion worth of U.S. imports. President Trump fired back with a threat to impose tariffs on all Chinese imports, which would amount to added tariffs on roughly $300 billion of Chinese products.
 
-| U.S.-China Trade Balance (millions, 2017) |
-| --- |
+### U.S.-China Trade Balance (millions, 2017) 
+
 | Exports | Imports | Balance |
+| --- | --- | --- |
 |  $         129,893.60 |  $          505,470.00 | -$375,576.40 |
 
 Data: U.S. Census Bureau
-
+ 
+  
 | Country | Tariffs Imposed | Tariffs Officially Under Consideration | Tariffs Threatened |
 | --- | --- | --- | --- |
 | U.S. | $50 billion | $200 billion | Roughly $300 billion |
