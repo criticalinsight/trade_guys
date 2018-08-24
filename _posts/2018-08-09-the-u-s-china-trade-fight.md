@@ -21,99 +21,95 @@ As part of the investigation, the Trump administration estimated that Chin's pol
 So far, China has responded with tariffs on an equivalent amount of U.S. goods. But the U.S.-China trade balance has made it impossible for China to keep up the tit-for-tat tariff exchange. In response to China's retaliatory tariffs, President Trump has asked USTR to draft a list of Chinese products worth $200 billion that could be subject to tariffs. China responded by threatening additional tariffs on $60 billion worth of U.S. imports. President Trump fired back with a threat to impose tariffs on all Chinese imports, which would amount to added tariffs on roughly $300 billion of Chinese products.
 
 <table>
-  <thead>
-    <tr>
-      <td colspan="3">
-        <h3>U.S.-China Trade Balance (millions, 2017)</h3>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Exports
-      </td>
-      <td>
-        Imports
-      </td>
-      <td>
-        Balance
-      </td>
-    </tr>
-  </thead>
-    
-    
-  <tbody>
-    <tr>
-      <td>
-        $129,893.60
-      </td>
-      <td>
-        $505,470.00
-      </td>
-      <td>
-        -$375,576.40
-      </td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="3">
-        Data: U.S. Census Bureau
-      </td>
-    </tr>
-  </tfoot>
-</table>
- 
-  
-<table>
-  <thead>
-    <tr>
-      <td>
-        Country
-      </td>
-      <td>
-        Tariffs Imposed
-      </td>
-      <td>
-        Tariffs Officially Under Consideration
-      </td>
-      <td>
-        Tariffs Threatened
-      </td>
-    </tr>
-  </thead>
-    
-    
-  <tbody>
-    <tr>
-      <td>
-        U.S.
-      </td>
-      <td>
-        $50 billion
-      </td>
-      <td>
-        $200 billion
-      </td>
-      <td>
-        Roughly $300 billion
-      </td>
-    </tr>
-    <tr>
-      <td>
-        China
-      </td>
-      <td>
-        $50 billion
-      </td>
-      <td>
-        $60 billion
-      </td>
-      <td>
-        --
-      </td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<td colspan="3">
+<h3>U.S.-China Trade Balance (millions, 2017)</h3>
+</td>
+</tr>
+<tr>
+<th>
+Exports
+</th>
+<th>
+Imports
+</th>
+<th>
+Balance
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>
+$129,893.60
+</td>
+<td>
+$505,470.00
+</td>
+<td>
+\-$375,576.40
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="3">
+Data: U.S. Census Bureau
+</td>
+</tr>
+</tfoot>
 </table>
 
+<table>
+<thead>
+<tr>
+<th>
+Country
+</th>
+<th>
+Tariffs Imposed
+</th>
+<th>
+Tariffs Officially Under Consideration
+</th>
+<th>
+Tariffs Threatened
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>
+U.S.
+</td>
+<td>
+$50 billion
+</td>
+<td>
+$200 billion
+</td>
+<td>
+Roughly $300 billion
+</td>
+</tr>
+<tr>
+<td>
+China
+</td>
+<td>
+$50 billion
+</td>
+<td>
+$60 billion
+</td>
+<td>
+\--
+</td>
+</tr>
+</tbody>
+</table>
 
 The two countries have engaged in negotiations aimed at resolving their trade fight, but so far, those talks have not yielded a truce.
