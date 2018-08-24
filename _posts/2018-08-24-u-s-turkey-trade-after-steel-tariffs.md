@@ -15,6 +15,8 @@ keywords:
 image: ''
 image_caption: ''
 image_credit: ''
+excerpt: How much trade between the U.S. and Turkey has been impacted by the Trump
+  administration's tariffs and Turkey's retaliation?
 
 ---
 In early August amid rising tension between the United States and Turkey, President Trump doubled the rate of tariffs on steel and aluminum from Turkey from 25 percent and 10 percent to 50 percent and 20 percent respectively. Turkey had already retaliated against the initial U.S. metal tariffs imposed in March.
