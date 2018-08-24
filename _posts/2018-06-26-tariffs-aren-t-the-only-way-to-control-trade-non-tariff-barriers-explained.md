@@ -19,6 +19,10 @@ statistic_source: Reuters
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
+image: "/uploads/tariffs_control_trade.jpg"
+image_caption: ''
+image_credit: ''
+show_image_on_single_post: false
 
 ---
 Tariffs are making news headlines a lot these day. But, Trade Guys Scott Miller and Bill Reinsch want you to know that the U.S. government has more tools than just tariffs at its fingertips. In this video, Scott explains non-tariff barriers to trade. Sanctioning Iran and limiting steel exports from South Korea are just two examples of how the U.S. government curbs the flow of trade, without using tariffs. Learn more. Watch this video.
