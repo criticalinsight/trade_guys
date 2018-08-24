@@ -2,7 +2,7 @@
 title: U.S.-Turkey trade after steel tariffs
 content_type: article
 show_image_on_single_post: true
-date: 2018-08-24 00:00:00 +0000
+date: 2018-08-15 12:41:30 +0000
 series:
 - _series/trends-in-trade.md
 notes: For more on the U.S.-Turkey trade spat, check out [this episode](https://csis-trade-guys.netlify.com/podcast/talking-turkey-and-the-economy/)
