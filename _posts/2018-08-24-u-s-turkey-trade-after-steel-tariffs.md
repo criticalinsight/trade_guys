@@ -21,10 +21,56 @@ In early August amid rising tension between the United States and Turkey, Presid
 
 How much trade between the U.S. and Turkey has been impacted by the Trump administration's tariffs and Turkey's retaliation?
 
-### U.S.-Turkey Trade Under Steel and Aluminum Tariffs (2017, billions)
+<table>
+  <tbody>
+    <tr>
+      <td colspan="6">
+        U.S.-Turkey Trade Under Steel and Aluminum Tariffs (2017, billions)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Total bilateral goods trade
+      </td>
+      <td U.S. exports to Turkey </td>
+        <td>
+          U.S. imports from Turkey
+        </td>
+        <td>
+          U.S. steel imports from Turkey subject to tariffs
+        </td>
+        <td>
+          Turkish Retaliatory Tariffs
+        </td>
+        <td>
+          Percent of bilateral trade subject to tariffs
+        </td>
+    </tr>
+    <tr>
+      <td>
+        $19.154
+      </td>
+      <td $9.741 </td>
+        <td>
+          $9.413
+        </td>
+        <td>
+          $1.192
+        </td>
+        <td>
+          $1.8
+        </td>
+        <td>
+          15.6%
+        </td>
+    </tr>
+  </tbody>
 
-| Total bilateral goods trade | U.S. exports to Turkey | U.S. imports from Turkey | U.S. steel imports from Turkey subject to tariffs | Turkish Retaliatory Tariffs | Percent of bilateral trade subject to tariffs |
-| --- | --- | --- | --- | --- | --- |
-| $19.154 | $9.741 | $9.413 | $1.192 | $1.8 | 15.6% |
-
-Data: U.S. Census Bureau; Office of the U.S. Trade Representative
+  <tfoot>
+    <tr>
+      <td colspan="6">
+        Data: U.S. Census Bureau; Office of the U.S. Trade Representative
+      </td>
+    </tr>
+  </tfoot>
+</table>
