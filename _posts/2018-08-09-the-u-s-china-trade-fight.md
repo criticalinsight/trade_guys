@@ -52,7 +52,7 @@ So far, China has responded with tariffs on an equivalent amount of U.S. goods. 
   </tbody>
   <tfoot>
     <tr>
-      <td>
+      <td colspan="3">
         Data: U.S. Census Bureau
       </td>
     </tr>
