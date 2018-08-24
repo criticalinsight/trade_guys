@@ -16,6 +16,10 @@ statistic_source: American Apparel & Footwear Association
 keywords:
 - _keywords/tariffs.md
 - _keywords/nafta.md
+image: "/uploads/rules_of_origin.jpg"
+image_caption: ''
+image_credit: ''
+show_image_on_single_post: false
 
 ---
 Trade Guys Scott Miller and Bill Reinsch break down the buzz around trade. In this video, Scott Miller unpacks rules of origin. Rules of origin play a big role in the North American Free Trade Agreement, or NAFTA. To understand their importance, start with this video.
