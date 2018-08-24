@@ -10,7 +10,7 @@ series: _series/trade-terms-explained.md
 statistic_number: ''
 statistic_text: ''
 statistic_source: ''
-image: ''
+image: "/uploads/safeguards.jpg"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false
