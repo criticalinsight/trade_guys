@@ -33,6 +33,10 @@ fields:
   label: excerpt
   description: Short description of the commentary that will appear on the archive
     pages
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: text
   name: external_site_name
   label: External Site Name
