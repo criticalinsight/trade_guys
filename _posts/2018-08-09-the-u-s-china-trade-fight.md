@@ -49,7 +49,7 @@ $129,893.60
 $505,470.00
 </td>
 <td>
--$375,576.40
+\-$375,576.40
 </td>
 </tr>
 </tbody>
@@ -61,8 +61,7 @@ Data: U.S. Census Bureau
 </tr>
 </tfoot>
 </table>
- 
-  
+
 <table>
 <thead>
 <tr>
@@ -79,9 +78,7 @@ Tariffs Officially Under Consideration
 Tariffs Threatened
 </th>
 </tr>
-</thead>
-
-<tbody>
+</thead><tbody>
 <tr>
 <td>
 U.S.
@@ -107,7 +104,7 @@ $50 billion
 $60 billion
 </td>
 <td>
---
+
 </td>
 </tr>
 </tbody>
