@@ -22,7 +22,7 @@ image_credit: ''
 <thead>
 <tr>
 <td colspan="4">
-<h3>U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjusted</h3>
+<h4>U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjusted</h4>
 </td>
 </tr>
 </thead>
@@ -46,13 +46,13 @@ Total Auto Jobs
 2007
 </td>
 <td>
-994\.2083
+994.2083
 </td>
 <td>
-1908\.508
+1908.508
 </td>
 <td>
-2902\.7
+2902.7
 </td>
 </tr>
 <tr>
@@ -60,10 +60,10 @@ Total Auto Jobs
 2008
 </td>
 <td>
-875\.5417
+875.5417
 </td>
 <td>
-1830\.442
+1830.442
 </td>
 <td>
 2706
@@ -74,10 +74,10 @@ Total Auto Jobs
 2009
 </td>
 <td>
-664\.2333
+664.2333
 </td>
 <td>
-1637\.383
+1637.383
 </td>
 <td>
 2301
@@ -88,10 +88,10 @@ Total Auto Jobs
 2010
 </td>
 <td>
-678\.325
+678.325
 </td>
 <td>
-1629\.708
+1629.708
 </td>
 <td>
 2308
@@ -102,13 +102,13 @@ Total Auto Jobs
 2011
 </td>
 <td>
-717\.8583
+717.8583
 </td>
 <td>
-1691\.242
+1691.242
 </td>
 <td>
-2409\.1
+2409.1
 </td>
 </tr>
 <tr>
@@ -116,13 +116,13 @@ Total Auto Jobs
 2012
 </td>
 <td>
-777\.3333
+777.3333
 </td>
 <td>
-1737\.333
+1737.333
 </td>
 <td>
-2514\.7
+2514.7
 </td>
 </tr>
 <tr>
@@ -130,13 +130,13 @@ Total Auto Jobs
 2013
 </td>
 <td>
-824\.9
+824.9
 </td>
 <td>
-1793\.483
+1793.483
 </td>
 <td>
-2618\.4
+2618.4
 </td>
 </tr>
 <tr>
@@ -144,13 +144,13 @@ Total Auto Jobs
 2014
 </td>
 <td>
-871\.9833
+871.9833
 </td>
 <td>
-1862\.075
+1862.075
 </td>
 <td>
-2734\.1
+2734.1
 </td>
 </tr>
 <tr>
@@ -158,13 +158,13 @@ Total Auto Jobs
 2015
 </td>
 <td>
-913\.5333
+913.5333
 </td>
 <td>
-1928\.933
+1928.933
 </td>
 <td>
-2842\.5
+2842.5
 </td>
 </tr>
 <tr>
@@ -172,13 +172,13 @@ Total Auto Jobs
 2016
 </td>
 <td>
-944\.1833
+944.1833
 </td>
 <td>
-1979\.633
+1979.633
 </td>
 <td>
-2923\.8
+2923.8
 </td>
 </tr>
 <tr>
@@ -186,13 +186,13 @@ Total Auto Jobs
 2017
 </td>
 <td>
-952\.525
+952.525
 </td>
 <td>
-2008\.408
+2008.408
 </td>
 <td>
-2960\.9
+2960.9
 </td>
 </tr>
 </tbody>
@@ -204,14 +204,14 @@ Data: Department of Labor Bureau of Labor Statistics
 </tr>
 </tfoot>
 </table>
-
+<p>&nbsp;</p>
 The Trump administration is considering imposing a 25 percent tariff on imports of automobiles and auto parts, ostensibly to protect the domestic U.S. auto industry and manufacturing base. But increased imports of autos and auto parts doesn't actually correlate to a decline in U.S. auto manufacturing jobs or auto dealership jobs. In fact, over the past decade, U.S. jobs in both of those parts of the auto sector have grown while imports of autos and auto parts have expanded.
-
+<p>&nbsp;</p>
 <table>
 <thead>
 <tr>
 <td colspan="2">
-<h3>U.S. Auto Trade Balance, Millions USD</h3>
+<h4>U.S. Auto Trade Balance, Millions USD</h4>
 </td>
 </tr>
 </thead>
@@ -223,7 +223,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2007
 </td>
 <td>
-\-104,198
+-104,198
 </td>
 </tr>
 <tr>
@@ -231,7 +231,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2008
 </td>
 <td>
-\-80,686
+-80,686
 </td>
 </tr>
 <tr>
@@ -239,7 +239,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2009
 </td>
 <td>
-\-55,566
+-55,566
 </td>
 </tr>
 <tr>
@@ -247,7 +247,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2010
 </td>
 <td>
-\-82,408
+-82,408
 </td>
 </tr>
 <tr>
@@ -255,7 +255,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2011
 </td>
 <td>
-\-80,918
+-80,918
 </td>
 </tr>
 <tr>
@@ -263,7 +263,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2012
 </td>
 <td>
-\-104,757
+-104,757
 </td>
 </tr>
 <tr>
@@ -271,7 +271,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2013
 </td>
 <td>
-\-113,752
+-113,752
 </td>
 </tr>
 <tr>
@@ -279,7 +279,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2014
 </td>
 <td>
-\-124,532
+-124,532
 </td>
 </tr>
 <tr>
@@ -287,7 +287,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2015
 </td>
 <td>
-\-150,264
+-150,264
 </td>
 </tr>
 <tr>
@@ -295,7 +295,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2016
 </td>
 <td>
-\-154,763
+-154,763
 </td>
 </tr>
 <tr>
@@ -303,7 +303,7 @@ The Trump administration is considering imposing a 25 percent tariff on imports 
 2017
 </td>
 <td>
-\-158,182
+-158,182
 </td>
 </tr>
 </tbody>
