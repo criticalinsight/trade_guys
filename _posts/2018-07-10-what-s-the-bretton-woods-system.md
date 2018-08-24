@@ -14,7 +14,7 @@ statistic_text: 'countries are members of the World Trade Organization, the only
 statistic_source: ''
 keywords:
 - _keywords/wto.md
-image: ''
+image: "/uploads/bretton_woods.jpg"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false
