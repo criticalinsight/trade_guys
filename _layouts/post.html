@@ -12,12 +12,14 @@ layout: default
       {% include audio-player.html soundcloud_url=page.soundcloud_url transcript_url=page.transcript_url %}
     {% endif %}
     <div class="post-body">
-      {% include post-feature-image.html %}
+      {% if page.image != site.logo and page.show_image_on_single_post %}
+        {% include post-feature-image.html %}
+      {% endif %}
       {% if page.youtube_url %}
         {% include post-video-embed.html %}
       {% endif %}
       {{ content }}
-      {% if page.statistic_text %}
+      {% if page.statistic_text.size > 0 %}
         {% include post-featured-stat.html %}
       {% endif %}
       {% if page.collection == 'podcast' %}
@@ -27,7 +29,7 @@ layout: default
       {% if page.external_url %}
         {% include post-external-link.html %}
       {% endif %}
-      {% if page.notes %}
+      {% if page.notes.size > 0 %}
         {% include post-notes.html %}
       {% endif %}
     </div>
