@@ -16,12 +16,10 @@ keywords:
 image: ''
 image_caption: ''
 image_credit: ''
-excerpt: The Trump administration is considering imposing a 25 percent tariff on imports
-  of automobiles and auto parts, ostensibly to protect the domestic U.S. auto industry
-  and manufacturing base. But increased imports of autos and auto parts doesn't actually
-  correlate to a decline in U.S. auto manufacturing jobs or auto dealership jobs.
-  In fact, over the past decade, U.S. jobs in both of those parts of the auto sector
-  have grown while imports of autos and auto parts have expanded.
+excerpt: Increased imports of autos and auto parts doesn't actually correlate to a
+  decline in U.S. auto manufacturing jobs or auto dealership jobs. In fact, over the
+  past decade, U.S. jobs in both of those parts of the auto sector have grown while
+  imports of autos and auto parts have expanded.
 
 ---
 <table>
