@@ -28,6 +28,11 @@ fields:
   description: URL to redirect users to if they wish to continue reading
   config:
     required: true
+- type: textarea
+  name: excerpt
+  label: excerpt
+  description: Short description of the commentary that will appear on the archive
+    pages
 - type: text
   name: external_site_name
   label: External Site Name
