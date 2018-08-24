@@ -17,6 +17,10 @@ statistic_source: U.S. Department of Commerce
 keywords:
 - _keywords/tariffs.md
 - _keywords/wto.md
+image: "/uploads/imports.jpg"
+image_caption: ''
+image_credit: ''
+show_image_on_single_post: false
 
 ---
 The U.S. is slapping tariffs on imports from other countries. But what do we import and who are imports for? Trade Guy Scott Miller explains.
