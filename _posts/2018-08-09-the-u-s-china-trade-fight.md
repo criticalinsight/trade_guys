@@ -22,16 +22,92 @@ So far, China has responded with tariffs on an equivalent amount of U.S. goods. 
 
 ### U.S.-China Trade Balance (millions, 2017) 
 
-| Exports | Imports | Balance |
-| --- | --- | --- |
-|  $         129,893.60 |  $          505,470.00 | -$375,576.40 |
-
-Data: U.S. Census Bureau
+<table>
+  <tbody>
+    <tr>
+      <td colspan="3">
+        U.S.-China Trade Balance (millions, 2017)
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Exports
+      </td>
+      <td>
+        Imports
+      </td>
+      <td>
+        Balance
+      </td>
+    </tr>
+    <tr>
+      <td>
+        $129,893.60
+      </td>
+      <td>
+        $505,470.00
+      </td>
+      <td>
+        -$375,576.40
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>
+        Data: U.S. Census Bureau
+      </td>
+    </tr>
+  </tfoot>
+</table>
  
   
-| Country | Tariffs Imposed | Tariffs Officially Under Consideration | Tariffs Threatened |
-| --- | --- | --- | --- |
-| U.S. | $50 billion | $200 billion | Roughly $300 billion |
-| China | $50 billion | $60 billion | -- |
+<table>
+  <tbody>
+    <tr>
+      <td>
+        Country
+      </td>
+      <td>
+        Tariffs Imposed
+      </td>
+      <td>
+        Tariffs Officially Under Consideration
+      </td>
+      <td>
+        Tariffs Threatened
+      </td>
+    </tr>
+    <tr>
+      <td>
+        U.S.
+      </td>
+      <td>
+        $50 billion
+      </td>
+      <td>
+        $200 billion
+      </td>
+      <td>
+        Roughly $300 billion
+      </td>
+    </tr>
+    <tr>
+      <td>
+        China
+      </td>
+      <td>
+        $50 billion
+      </td>
+      <td>
+        $60 billion
+      </td>
+      <td>
+        --
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 The two countries have engaged in negotiations aimed at resolving their trade fight, but so far, those talks have not yielded a truce.
