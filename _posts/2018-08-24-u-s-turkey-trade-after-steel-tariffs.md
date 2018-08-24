@@ -68,7 +68,7 @@ $1.8
 
 <tfoot>
 <tr>
-<td>
+<td colspan="6">
 Data: U.S. Census Bureau; Office of the U.S. Trade Representative
 </td>
 </tr>
