@@ -15,12 +15,7 @@ image_credit: ''
 excerpt: President Trump in March announced that his administration would impose tariffs
   on Chinese imports of that value. So far, China has responded with tariffs on an
   equivalent amount of U.S. goods. But the U.S.-China trade balance has made it impossible
-  for China to keep up the tit-for-tat tariff exchange. In response to China's retaliatory
-  tariffs, President Trump has asked USTR to draft a list of Chinese products worth
-  $200 billion that could be subject to tariffs. China responded by threatening additional
-  tariffs on $60 billion worth of U.S. imports. President Trump fired back with a
-  threat to impose tariffs on all Chinese imports, which would amount to added tariffs
-  on roughly $300 billion of Chinese products.
+  for China to keep up the tit-for-tat tariff exchange.
 
 ---
 ![](/uploads/301_tariffs_WebGIF.gif)
