@@ -1,6 +1,6 @@
 ---
 title: U.S.-Turkey trade after steel tariffs
-content_type: article
+content_type: interactive
 show_image_on_single_post: true
 date: 2018-08-15 12:41:30 +0000
 series:
@@ -26,9 +26,8 @@ How much trade between the U.S. and Turkey has been impacted by the Trump admini
 <table>
 <thead>
 <tr>
-<td colspan="2">
-<h3>U.S.-Turkey Trade Under Steel and Aluminum Tariffs (2017, billions)</h3>
-</td>
+<th colspan="2" class="table-title">U.S.-Turkey Trade Under Steel and Aluminum Tariffs (2017, billions)
+</th>
 </tr>
 </thead>
 <tbody>

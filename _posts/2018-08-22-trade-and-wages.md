@@ -6,8 +6,7 @@ external_site_name: CSIS.org
 content_type: article
 date: 2018-08-13 21:19:02 +0000
 external_url: https://www.csis.org/analysis/trade-and-wages
-series:
-- _series/trade-terms-explained.md
+series: ''
 keywords: []
 image: "/uploads/180813_wage_Stagnation.jpg"
 image_caption: ''

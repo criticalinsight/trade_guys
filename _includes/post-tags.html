@@ -14,12 +14,13 @@
   {% endif %}
 
 
-  {% if page.tags.size > 0 %}
+  {% if page.keywords.size > 0 %}
   <div class="tags">
   	<span class="post-meta-label">{{ site.data.language.tags || escape }}</span>
   	<ul class="post-tags-list">
-  		{% for tag in page.tags %}
-  		<li><a href="/tag/{{ tag | slugify }}/">{{ tag }}</a></li>
+  		{% for tag in page.keywords %}
+      {% assign keyword_info = site.keywords | where: "relative_path",tag %}
+  		<li><a href="{{ keyword_info[0].url }}">{{ keyword_info[0].title || escape }}</a></li>
   		{% endfor %}
   	</ul>
   </div>

@@ -1,6 +1,6 @@
 ---
 title: Do auto imports drive auto jobs?
-content_type: article
+content_type: interactive
 show_image_on_single_post: true
 date: 2018-08-22 12:43:28 +0000
 series:
@@ -22,16 +22,17 @@ excerpt: Increased imports of autos and auto parts doesn't actually correlate to
   imports of autos and auto parts have expanded.
 
 ---
+The Trump administration is considering imposing a 25 percent tariff on imports of automobiles and auto parts, ostensibly to protect the domestic U.S. auto industry and manufacturing base. But increased imports of autos and auto parts doesn't actually correlate to a decline in U.S. auto manufacturing jobs or auto dealership jobs. In fact, over the past decade, U.S. jobs in both of those parts of the auto sector have grown while imports of autos and auto parts have expanded.
+
 <table>
 <thead>
 <tr>
-<td colspan="4">
-<h4>U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjusted</h4>
-</td>
+<th colspan="4" class="table-title">
+U.S. Jobs: Manufacturing and Deals, Autos and Parts, Thousands, Seasonally Adjusted
+</th>
 </tr>
-
 <tr>
-<td> </td>
+<th>Year</th>
 <th>
 Manufacturing Jobs
 </th>
@@ -41,8 +42,7 @@ Dealer Jobs
 <th>
 Total Auto Jobs
 </th>
-</tr> </thead>
-
+</tr></thead>
 <tbody>
 <tr>
 <td>
@@ -207,15 +207,14 @@ Data: Department of Labor Bureau of Labor Statistics
 </tr>
 </tfoot>
 </table>
-<p> </p>
-The Trump administration is considering imposing a 25 percent tariff on imports of automobiles and auto parts, ostensibly to protect the domestic U.S. auto industry and manufacturing base. But increased imports of autos and auto parts doesn't actually correlate to a decline in U.S. auto manufacturing jobs or auto dealership jobs. In fact, over the past decade, U.S. jobs in both of those parts of the auto sector have grown while imports of autos and auto parts have expanded.
-<p> </p>
+<br />
+
 <table>
 <thead>
 <tr>
-<td colspan="2">
-<h4>U.S. Auto Trade Balance, Millions USD</h4>
-</td>
+<th colspan="2" class="table-title">
+U.S. Auto Trade Balance, Millions USD
+</th>
 </tr>
 </thead>
 

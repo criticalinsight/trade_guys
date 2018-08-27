@@ -1,6 +1,6 @@
 ---
 title: The U.S.-China trade fight
-content_type: article
+content_type: interactive
 show_image_on_single_post: true
 date: 2018-08-09 12:40:09 +0000
 series:
@@ -32,9 +32,9 @@ So far, China has responded with tariffs on an equivalent amount of U.S. goods. 
 <table>
 <thead>
 <tr>
-<td colspan="3">
-<h3>U.S.-China Trade Balance (millions, 2017)</h3>
-</td>
+<th colspan="3" class="table-title">
+U.S.-China Trade Balance (millions, 2017)
+</th>
 </tr>
 <tr>
 <th>

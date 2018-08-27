@@ -12,7 +12,7 @@ layout: default
       {% include audio-player.html soundcloud_url=page.soundcloud_url transcript_url=page.transcript_url %}
     {% endif %}
     <div class="post-body">
-      {% if page.image != site.logo and page.show_image_on_single_post %}
+      {% if page.image != site.logo and page.image != '' and page.show_image_on_single_post %}
         {% include post-feature-image.html %}
       {% endif %}
       {% if page.youtube_url %}
