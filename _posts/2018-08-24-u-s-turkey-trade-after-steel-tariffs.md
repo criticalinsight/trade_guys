@@ -5,8 +5,8 @@ show_image_on_single_post: true
 date: 2018-08-15 12:41:30 +0000
 series:
 - _series/trends-in-trade.md
-notes: For more on the U.S.-Turkey trade spat, check out [this episode](https://csis-trade-guys.netlify.com/podcast/talking-turkey-and-the-economy/)
-  of the Trade Guys podcast, and [this column](https://csis-trade-guys.netlify.com/trade-explained/talking-turkey-and-taking-stock/)
+notes: For more on the U.S.-Turkey trade spat, check out [this episode](/podcast/talking-turkey-and-the-economy/)
+  of the Trade Guys podcast, and [this column](/trade-explained/talking-turkey-and-taking-stock/)
   by Trade Guy Bill Reinsch.
 authors: []
 keywords:
