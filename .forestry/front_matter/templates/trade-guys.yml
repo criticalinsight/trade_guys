@@ -37,7 +37,7 @@ fields:
     label: Homepage Headshot URL
     config:
       required: false
-  label: 'Trade Guy Details '
+  label: Trade Guy Details
   name: trade_guy_details_
   description: Enter details for The People
   config:
