@@ -5,10 +5,12 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
-  path: _keywords
-  label: Tags
+  path: _podcast
+  label: Podcast
   create: all
   match: "**/*"
+  templates:
+  - podcast
 - type: jekyll-posts
   label: Trade Explained
   create: all
@@ -17,19 +19,17 @@ sections:
   - video
   - external-commentary
 - type: directory
-  path: _podcast
-  label: Podcast
-  create: all
-  match: "**/*"
-  templates:
-  - podcast
-- type: directory
   path: _series
   label: Series
   create: all
   match: "**/*"
   templates:
   - series
+- type: directory
+  path: _keywords
+  label: Tags
+  create: all
+  match: "**/*"
 - type: directory
   path: _authors
   label: Authors
