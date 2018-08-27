@@ -78,7 +78,7 @@ $1.80
 Percent of bilateral trade subject to tariffs
 </td>
 <td>
-15\.60%
+15.60%
 </td>
 </tr>
 </tbody>
