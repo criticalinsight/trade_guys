@@ -38,7 +38,7 @@ fields:
     config:
       required: false
   label: Trade Guy Details
-  name: trade_guy_details_
+  name: trade_guy_details
   description: Enter details for The People
   config:
     labelField: name
