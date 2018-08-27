@@ -1,5 +1,5 @@
 <div class="trade-guys">
-{% assign people = site.data.trade_guys | where: "on_homepage", true %}
+{% assign people = site.data.trade_guys.trade_guy_details | where: "on_homepage", true %}
 {% for person in people %}
   <div class="trade-guy">
     <img class="trade-guy-img" src="{{ person.homepage_headshot_url | relative_url }}" alt="{{ person.name | escape }}" alt="{{ person.name | escape }}" />
