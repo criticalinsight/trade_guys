@@ -1,7 +1,7 @@
 ---
 title: U.S.-Turkey trade after steel tariffs
 content_type: interactive
-show_image_on_single_post: true
+show_image_on_single_post: false
 date: 2018-08-15 12:41:30 +0000
 series:
 - _series/trends-in-trade.md
@@ -22,6 +22,8 @@ excerpt: How much trade between the U.S. and Turkey has been impacted by the Tru
 In early August amid rising tension between the United States and Turkey, President Trump doubled the rate of tariffs on steel and aluminum from Turkey from 25 percent and 10 percent to 50 percent and 20 percent respectively. Turkey had already retaliated against the initial U.S. metal tariffs imposed in March.
 
 How much trade between the U.S. and Turkey has been impacted by the Trump administration's tariffs and Turkey's retaliation?
+
+![](/uploads/232_Tariffs_WebGIF.gif)
 
 <table>
 <thead>
@@ -76,7 +78,7 @@ $1.80
 Percent of bilateral trade subject to tariffs
 </td>
 <td>
-15.60%
+15\.60%
 </td>
 </tr>
 </tbody>
