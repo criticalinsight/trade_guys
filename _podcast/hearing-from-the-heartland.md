@@ -20,4 +20,4 @@ keywords:
 - _keywords/agriculture.md
 
 ---
-In this episode, the Trade Guys welcome a special guest from the heartland. Blake Hurst is a third-generation farmer and the president of the Missouri Farm Bureau. He joins the Trade Guys in the studio to offer insight on how the trade war is affecting farmers, other producers in the community, and the politics on the ground.
+The Trade Guys welcome a special guest from the heartland. Blake Hurst is a third-generation farmer and the president of the Missouri Farm Bureau. He joins the Trade Guys in the studio to offer insight on how the trade war is affecting farmers, other producers in the community, and the politics on the ground.
