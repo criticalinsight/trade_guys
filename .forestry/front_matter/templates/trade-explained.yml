@@ -79,7 +79,7 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
-- _posts/2018-08-09-the-u-s-china-trade-fight.md
+- _posts/test.md
 - _posts/2018-08-24-u-s-turkey-trade-after-steel-tariffs.md
 - _posts/2018-08-24-do-auto-imports-drive-auto-jobs.md
-- _posts/2018-08-15-test-post.md
+- _posts/2018-08-09-the-u-s-china-trade-fight.md
