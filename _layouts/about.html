@@ -31,7 +31,7 @@ layout: default
 		<div class="people">
 			<h2>{{site.data.language.about_the_people_heading}}</h2>
 			<div class="trade-guys">
-				{% for person in site.data.trade_guys %}
+				{% for person in site.data.trade_guys.trade_guy_details %}
 				<div class="person">
 					<img src="{{person.about_page_headshot_url | relative_url}}" alt="{{ person.name }} headshot">
 					<div class="person-tag">
