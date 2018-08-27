@@ -13,7 +13,7 @@ authors: []
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
-image: ''
+image: "/uploads/car_jobs_GIF.gif"
 image_caption: ''
 image_credit: ''
 excerpt: Increased imports of autos and auto parts doesn't actually correlate to a
