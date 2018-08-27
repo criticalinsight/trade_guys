@@ -22,7 +22,8 @@
   }
 
   a {
-    @include link-underline-background;
+    @extend %dashed-underline;
+    @include wipe-link-hover-background ($yellow);
   }
 
   p {

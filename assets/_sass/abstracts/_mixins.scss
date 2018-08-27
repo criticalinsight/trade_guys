@@ -121,21 +121,6 @@ $breakpoint-xsmall: 25em;
     }
 }
 
-%link-underline {
-    background-position: 0 1.04em;
-    background-repeat: repeat-x;
-    background-size: 8px 2px;
-}
-
-@mixin link-underline-background($background-color: $black) {
-    background-image: linear-gradient(
-        to right,
-        $background-color 55%,
-        transparent 55%
-    );
-    @extend %link-underline;
-}
-
 %arrow-icon {
   position: absolute;
   z-index: 10;

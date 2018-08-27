@@ -114,11 +114,12 @@
 
 		p a {
 			font-weight: bold;
-			@include link-underline-background($white);
+			border-color: $white;
+			background-image: none;
 
 			&:hover {
 				color: $yellow;
-				@include link-underline-background($yellow);
+				border-color: $yellow;
 			}
 		}
 	}
