@@ -1,9 +1,9 @@
 ---
 layout: archive-special
 title: Series
-permalink: /series/
+permalink: "/series/"
 archive-content: archive-special-series-list.html
 sidebar: series-list.html
----
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+---
+Explore ongoing series of content thematically grouped and specially curated by the Trade Guys. Series will be continuously updated and new ones will be launched over time.
