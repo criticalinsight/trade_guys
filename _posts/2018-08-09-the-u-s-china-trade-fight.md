@@ -9,7 +9,7 @@ notes: ''
 authors: []
 keywords:
 - _keywords/china.md
-image: ''
+image: "/uploads/301_tariffs_WebGIF.gif"
 image_caption: ''
 image_credit: ''
 excerpt: President Trump in March announced that his administration would impose tariffs
