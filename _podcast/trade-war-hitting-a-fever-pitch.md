@@ -11,8 +11,8 @@ tags:
 - Congress
 - 232 tariffs
 - EU
-excerpt: In this episode of The Trade Guys, Scott Miller and Bill Reinsch put President
-  Trump’s notion that trade wars are “good, and easy to win” to the test.
+excerpt: The Trade Guys, Scott Miller and Bill Reinsch put President Trump’s notion
+  that trade wars are “good, and easy to win” to the test.
 keywords:
 - _keywords/eu.md
 - _keywords/232_tariffs.md
