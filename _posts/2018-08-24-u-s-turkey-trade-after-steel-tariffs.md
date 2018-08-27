@@ -12,7 +12,7 @@ authors: []
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
-image: ''
+image: "/uploads/232_Tariffs_WebGIF.gif"
 image_caption: ''
 image_credit: ''
 excerpt: How much trade between the U.S. and Turkey has been impacted by the Trump
