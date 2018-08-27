@@ -9,9 +9,9 @@ tags:
 - China
 - tariffs
 - Japan
-excerpt: 'In this episode of The Trade Guys, Scott Miller and Bill Reinsch tackle
-  two big stories: what came out of the latest U.S.-China trade talks, and what’s
-  happening with the North American Free Trade Agreement. '
+excerpt: 'The Trade Guys, Scott Miller and Bill Reinsch tackle two big stories: what
+  came out of the latest U.S.-China trade talks, and what’s happening with the North
+  American Free Trade Agreement.'
 keywords:
 - _keywords/japan.md
 - _keywords/tariffs.md
@@ -19,4 +19,4 @@ keywords:
 - _keywords/nafta.md
 
 ---
-In this episode of The Trade Guys, Scott Miller and Bill Reinsch tackle two big stories: what came out of the latest U.S.-China trade talks, and what’s happening with the North American Free Trade Agreement. On the U.S.-China trade dialogue, the Trade Guys deconstruct what it means to halt a trade war. They also discuss what exactly the president meant when he tweeted that on China, barriers and tariffs are to “come down for the first time.” On NAFTA, the Trade Guys explain why the administration might be falling behind schedule to renegotiate the deal. They also give you the skinny on an alternative that some members of Congress are proposing.
+The Trade Guys, Scott Miller and Bill Reinsch tackle two big stories: what came out of the latest U.S.-China trade talks, and what’s happening with the North American Free Trade Agreement. On the U.S.-China trade dialogue, the Trade Guys deconstruct what it means to halt a trade war. They also discuss what exactly the president meant when he tweeted that on China, barriers and tariffs are to “come down for the first time.” On NAFTA, the Trade Guys explain why the administration might be falling behind schedule to renegotiate the deal. They also give you the skinny on an alternative that some members of Congress are proposing.
