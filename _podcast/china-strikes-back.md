@@ -8,12 +8,12 @@ tags:
 - China
 - tariffs
 - NAFTA
-excerpt: "​In this episode, the U.S.-China trade war doesn’t let up. The Trade Guys
-  tackle how the latest tranche of tariffs are affecting American businesses and Congress."
+excerpt: The U.S.-China trade war doesn’t let up. The Trade Guys tackle how the latest
+  tranche of tariffs are affecting American businesses and Congress.
 keywords:
 - _keywords/nafta.md
 - _keywords/tariffs.md
 - _keywords/china.md
 
 ---
-​In this episode, the U.S.-China trade war doesn’t let up. The Trade Guys tackle how the latest tranche of tariffs are affecting American businesses and Congress. Plus, the U.S. and Mexico seem to be progressing with NAFTA talks, but where is Canada?
+The U.S.-China trade war doesn’t let up. The Trade Guys tackle how the latest tranche of tariffs are affecting American businesses and Congress. Plus, the U.S. and Mexico seem to be progressing with NAFTA talks, but where is Canada?
