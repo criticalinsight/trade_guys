@@ -1,7 +1,7 @@
 ---
 title: The U.S.-China trade fight
 content_type: interactive
-show_image_on_single_post: true
+show_image_on_single_post: false
 date: 2018-08-09 12:40:09 +0000
 series:
 - _series/trends-in-trade.md
@@ -23,6 +23,8 @@ excerpt: President Trump in March announced that his administration would impose
   on roughly $300 billion of Chinese products.
 
 ---
+![](/uploads/301_tariffs_WebGIF.gif)
+
 Last August, the Trump administration began an investigation into Chinese government practices related to intellectual property protection and forced technology transfers. In the following April, the Office of the U.S. Trade Representative released the findings of its investigation. In a lengthy and scathing report, USTR laid out the case that Chinese government measures and practices result in American companies operating there being coerced into transferring their technology and intellectual property to domestic Chinese companies. The report claimed that those policies and practices supported Chinese government plans to dominate certain advanced technology sectors, including those laid out in the "Made in China 2025" industrial policy program.
 
 As part of the investigation, the Trump administration estimated that Chin's policies caused at least $50 billion in harm to the U.S. economy per year. President Trump in March announced that his administration would impose tariffs on Chinese imports of that value. After a notice and comment period, the U.S. imposed tariffs on $34 billion worth of Chinese products on July 6. Following another notice and comment period, the U.S. imposed additional tariffs on $16 billion worth of Chinese products, rounding out President Trump's $50 billion order.
@@ -58,7 +60,7 @@ $129,893.60
 $505,470.00
 </td>
 <td>
--$375,576.40
+\-$375,576.40
 </td>
 </tr>
 </tbody>
@@ -70,7 +72,7 @@ Data: U.S. Census Bureau
 </tr>
 </tfoot>
 </table>
-<p>&nbsp;</p>
+<p> </p>
 <table>
 <thead>
 <tr>
