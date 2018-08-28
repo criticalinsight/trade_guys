@@ -1,0 +1,10 @@
+{% assign page_author = page.url | split:'/' | last %}
+{% assign author = site.authors | where: 'url', page.url %}
+{% assign author_url = author[0].relative_path %}
+
+{% assign posts = "" | split: "" %}
+{% assign all_content = site.posts | concat: site.podcast %}
+{% for post in all_content %}
+ {% if post.authors contains author_url %}{% assign posts = posts | push: post %}{% endif %}
+{% endfor %}
+{% assign posts = posts | sort: 'date' | reverse %}

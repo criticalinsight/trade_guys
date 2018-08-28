@@ -10,6 +10,8 @@ layout: default
       {% assign posts = site.posts | where: "series", page.path | sort: 'date' | reverse %}
     {% elsif page.collection == 'keywords' %}
       {% include archive-tags-logic.html %}
+    {% elsif page.collection == 'authors' %}
+      {% include archive-authors-logic.html %}
     {% else %}
       {% assign posts = site.posts | sort: 'date' | reverse %}
     {% endif %}
