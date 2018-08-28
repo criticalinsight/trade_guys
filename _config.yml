@@ -3,7 +3,7 @@ email: TradeGuys@csis.org
 description: >- # this means to ignore newlines until "baseurl:"
   Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects policy, and how it impacts your day-to-day in ways that everyone can understand. The Trade Guys is hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tradeguys.csis.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 date_format: '%B %d, %Y'
 
