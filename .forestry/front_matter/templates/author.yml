@@ -16,3 +16,5 @@ fields:
   name: organization
   label: Organization
   default: CSIS
+pages:
+- _authors/jack-caporal.md
