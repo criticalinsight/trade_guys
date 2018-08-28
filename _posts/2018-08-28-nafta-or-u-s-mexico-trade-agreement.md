@@ -12,8 +12,7 @@ external_url: https://www.csis.org/analysis/nafta-or-us-mexico-trade-agreement
 excerpt: What’s in the U.S.-Mexico agreement and what issues still have to be worked
   out between the three countries? Is the U.S. headed for a breakup with its northern
   neighbor or a closer relationship?
-series:
-- _series/trade-terms-explained.md
+series: []
 keywords:
 - _keywords/mexico.md
 - _keywords/nafta.md
