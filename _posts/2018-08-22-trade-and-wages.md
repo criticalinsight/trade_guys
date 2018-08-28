@@ -6,8 +6,10 @@ external_site_name: CSIS.org
 content_type: article
 date: 2018-08-13 21:19:02 +0000
 external_url: https://www.csis.org/analysis/trade-and-wages
-series: ''
-keywords: []
+series: []
+keywords:
+- _keywords/tariffs.md
+- _keywords/china.md
 image: "/uploads/180813_wage_Stagnation.jpg"
 image_caption: ''
 image_credit: Andrew Burton/Getty Images

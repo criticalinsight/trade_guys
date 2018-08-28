@@ -79,8 +79,8 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/2018-08-28-nafta-or-u-s-mexico-trade-agreement.md
 - _posts/2018-08-22-trade-and-wages.md
+- _posts/2018-08-28-nafta-or-u-s-mexico-trade-agreement.md
 - _posts/2018-05-07-lost-in-the-1980s-on-trade.md
 - _posts/2018-06-04-china-the-dust-never-settles.md
 - _posts/2018-07-30-zero-tariffs-zero-barriers-zero-subsidies-is-this-even-possible.md
