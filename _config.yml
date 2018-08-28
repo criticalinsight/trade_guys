@@ -71,6 +71,7 @@ defaults:
     layout: archive
     permalink: "/tag/:slug/"
 
+google_analytics: UA-124740679-1
 soundcloud_client_id: e1b9039f824fdaf6ec1fc594037c1ac7
 
 twitter:
