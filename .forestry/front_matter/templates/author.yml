@@ -16,3 +16,6 @@ fields:
   name: organization
   label: Organization
   default: CSIS
+pages:
+- _authors/andrew-chatzky.md
+- _authors/jack-caporal.md
