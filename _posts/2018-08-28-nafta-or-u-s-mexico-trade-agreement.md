@@ -7,7 +7,7 @@ authors:
 external_site_name: CSIS.org
 content_type: article
 show_image_on_single_post: true
-date: 2018-08-28 00:00:00 +0000
+date: 2018-08-27 12:55:08 +0000
 external_url: https://www.csis.org/analysis/nafta-or-us-mexico-trade-agreement
 excerpt: What’s in the U.S.-Mexico agreement and what issues still have to be worked
   out between the three countries? Is the U.S. headed for a breakup with its northern
