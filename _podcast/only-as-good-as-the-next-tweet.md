@@ -6,7 +6,11 @@ soundcloud_url: https://soundcloud.com/csis-57169780/only-as-good-as-the-next-tw
 transcript_url: ''
 excerpt: The Trade Guys welcome another special guest, Cody Lusk, who is the president
   and CEO of the American International Automobile Dealers Association (AIADA).
-keywords: []
+keywords:
+- _keywords/tariffs.md
+- _keywords/232_tariffs.md
+- _keywords/nafta.md
+- _keywords/china.md
 
 ---
 The Trade Guys welcome another special guest, Cody Lusk, who is the president and CEO of the American International Automobile Dealers Association (AIADA). Lusk joins the Trade Guys in the studio right after the Trump administration announced that it would delay its decision on levying tariffs on auto imports. So, what will this mean for the auto industry? Lusk tells us what he's hearing and what's on the mind of auto dealers across the nation.
