@@ -5,7 +5,9 @@ date: 2018-08-14 20:55:16 +0000
 youtube_url: https://www.youtube.com/watch?v=aBtpAlrZ9Kc&
 excerpt: 'U.S. consumers love choices. But, choice in the U.S. market means American
   manufacturers face stiff competition at home and abroad.  '
-keywords: []
+keywords:
+- _keywords/tariffs.md
+- _keywords/wto.md
 series: _series/trade-terms-explained.md
 statistic_number: ''
 statistic_text: ''
