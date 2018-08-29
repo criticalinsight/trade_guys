@@ -98,4 +98,14 @@
       text-align: justify;
     }
   }
+
+  .post-body {
+    @extend %external-links;
+
+    strong {
+      font-family: $font_inconsolata;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+    }
+  }
 }
