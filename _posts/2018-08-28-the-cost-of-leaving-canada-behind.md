@@ -10,7 +10,7 @@ excerpt: The Trump administration announced that it had reached a bilateral trad
   whether Canada joins, potentially upending commercial relations with its top trading
   partner. What would a trade deal without Canada look like by the numbers?
 notes: For more on the U.S.-Mexico announcement, check out [this episode](podcast/hafta-talk-nafta/)
-  of the Trade Guys podcast, and [this analysis](/analysis/nafta-or-us-mexico-trade-agreement)
+  of the Trade Guys podcast, and [this analysis](https://www.csis.org/analysis/nafta-or-us-mexico-trade-agreement)
   by CSIS experts.
 authors: []
 keywords:
