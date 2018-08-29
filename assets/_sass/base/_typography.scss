@@ -235,7 +235,7 @@ h2 {
 }
 h3 {
   @extend %h3;
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 h4 {
   @extend %h4;
@@ -350,6 +350,19 @@ big {
 
 %dashed-underline {
   border-bottom: 1px dashed $black;
+}
+
+%external-links {
+  a[href*="//"]:not([href*="tradeguys.csis.org"]) {
+    position: relative;
+    margin-left: 1.5rem;
+    &::before {
+      position: absolute;
+      left: -1.5rem;
+      content: '\f39c';
+      font-family: 'tradeguys';
+    }
+  }
 }
 
 a {
