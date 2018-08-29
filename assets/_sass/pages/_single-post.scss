@@ -87,4 +87,15 @@
   .podcast-subscribe {
     margin-bottom: 1rem;
   }
+
+  .podcast-produced-by {
+    margin-bottom: 0.5rem;
+    @include fontSize(14px);
+    line-height: 1.4;
+    font-style: italic;
+
+    @include breakpoint("medium") {
+      text-align: justify;
+    }
+  }
 }
