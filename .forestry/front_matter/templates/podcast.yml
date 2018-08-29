@@ -50,6 +50,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/hafta-talk-nafta.md
 - _podcast/trade-war-hitting-a-fever-pitch.md
 - _podcast/zte-and-tweetable-deliverables.md
 - _podcast/trade-war-on-hold-and-a-skinny-nafta.md
