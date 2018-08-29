@@ -4,13 +4,6 @@ date: 2018-06-22 15:32:36 +0000
 episode_num: 6
 soundcloud_url: https://soundcloud.com/csis-57169780/i-smell-a-trade-war?in=csis-57169780/sets/the-trade-guys
 transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180727_Trade_War_Hitting.pdf?aqux4PCj.Q8G_HFysynCPlE3cQVTxlhO
-tags:
-- Agriculture
-- China
-- tariffs
-- Congress
-- 232 tariffs
-- EU
 excerpt: The Trade Guys, Scott Miller and Bill Reinsch put President Trump’s notion
   that trade wars are “good, and easy to win” to the test.
 keywords:

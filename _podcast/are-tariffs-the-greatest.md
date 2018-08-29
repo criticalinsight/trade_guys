@@ -4,10 +4,6 @@ date: 2018-07-24 15:41:26 +0000
 episode_num: 11
 soundcloud_url: https://soundcloud.com/csis-57169780/are-tariffs-the-greatest?in=csis-57169780/sets/the-trade-guys
 transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180725_The_Trade_Guys_Are_Tariffs_the_Greatest_0.pdf?o5e9dA4J6CXSAet5ArwQlerf079XwVaf
-tags:
-- 232 tariffs
-- EU
-- tariffs
 excerpt: 'The Trade Guys discuss whether this is a harbinger of the president’s latest
   plan to slap 25 percent tariffs on foreign autos and auto parts as the administration
   makes the argument that auto imports may be a threat to national security. '

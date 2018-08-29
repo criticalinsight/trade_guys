@@ -5,9 +5,6 @@ date: 2018-06-15 15:51:29 +0000
 youtube_url: https://www.youtube.com/watch?v=nJNzytHMdhI
 excerpt: Rules of origin play a big role in the North American Free Trade Agreement,
   or NAFTA.
-tags:
-- NAFTA
-- tariffs
 series: _series/trade-terms-explained.md
 statistic_number: 98
 statistic_text: percent of shoes sold in the U.S. are manufactured abroad, with nearly

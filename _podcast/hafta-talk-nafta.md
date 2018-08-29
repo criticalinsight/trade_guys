@@ -2,7 +2,7 @@
 title: Hafta Talk NAFTA
 date: 2018-08-29 00:00:00 +0000
 episode_num: 16
-soundcloud_url: http://
+soundcloud_url: https://soundcloud.com/csis-57169780/hafta-talk-nafta
 transcript_url: ''
 excerpt: The Trade Guys talk Trump’s new NAFTA deal with Mexico. The Trump administration
   celebrates the U.S.-Mexico deal this week, which updates provisions on automobiles
@@ -13,7 +13,6 @@ keywords:
 - _keywords/nafta.md
 podcast_produced_by_language: Hosted by H. Andrew Schwartz and produced by Yumi Araki
   and Frances Burkham at the Center for Strategic and International Studies in Washington.
-published: false
 
 ---
 The Trade Guys talk Trump’s new NAFTA deal with Mexico. The Trump administration celebrates the U.S.-Mexico deal this week, which updates provisions on automobiles moving across the border, intellectual property, agriculture and labor. Plus, as Trump shifts his attention to Canada, what’s next from our neighbors to the north?

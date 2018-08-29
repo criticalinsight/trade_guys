@@ -5,8 +5,6 @@ date: 2018-07-10 15:55:53 +0000
 youtube_url: https://www.youtube.com/watch?v=-6bVeDab6UA
 excerpt: While today the U.S. is in a trade war with China, the foundations of international
   trade were laid to avoid war altogether.
-tags:
-- WTO
 series: _series/trade-terms-explained.md
 statistic_number: 164
 statistic_text: 'countries are members of the World Trade Organization, the only global

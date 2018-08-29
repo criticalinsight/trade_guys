@@ -1,10 +1,9 @@
-{% assign page_tag = page.url | split:'/' | last %}
+{% assign tag = site.keywords | where: 'url', page.url %}
+{% assign tag_url = tag[0].relative_path %}
+
 {% assign posts = "" | split: "" %}
 {% assign all_content = site.posts | concat: site.podcast %}
 {% for post in all_content %}
-  {% for post_tag in post.tags | slugify %}
-    {% assign tag = post_tag | slugify %}
-    {% if tag == page_tag %}{% assign posts = posts | push: post %}{% endif %}
-  {% endfor %}
+ {% if post.keywords contains tag_url %}{% assign posts = posts | push: post %}{% endif %}
 {% endfor %}
 {% assign posts = posts | sort: 'date' | reverse %}

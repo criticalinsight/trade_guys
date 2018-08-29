@@ -7,9 +7,6 @@ content_type: article
 date: 2018-07-30 17:49:16 +0000
 external_url: https://www.csis.org/analysis/emperors-new-clothes
 series: []
-tags:
-- EU
-- Korea
 keywords:
 - _keywords/korea.md
 - _keywords/eu.md

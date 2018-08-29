@@ -4,13 +4,6 @@ date: 2018-06-30 15:34:51 +0000
 episode_num: 7
 soundcloud_url: https://soundcloud.com/csis-57169780/goodbye-to-harley-davidson-and?in=csis-57169780/sets/the-trade-guys
 transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180727_Goodbye_to_Harley_Davidson_the_WTO.pdf?LWuogt546dgCqE45uQkE0D6CbzUzoidH
-tags:
-- EU
-- WTO
-- 232 tariffs
-- Congress
-- China
-- tariffs
 excerpt: Trade Guys Bill Reinsch and Scott Miller discuss Harley Davidson’s decision
   to outsource some of their production and why it has upset the President.
 keywords:

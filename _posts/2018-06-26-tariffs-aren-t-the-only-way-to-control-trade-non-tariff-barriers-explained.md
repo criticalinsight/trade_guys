@@ -5,9 +5,6 @@ date: 2018-06-26 15:54:28 +0000
 youtube_url: https://www.youtube.com/watch?v=JJmLMAl22JE
 excerpt: Trade Guys Scott Miller and Bill Reinsch want you to know that the U.S. government
   has more tools than just tariffs at its fingertips.
-tags:
-- 232 tariffs
-- tariffs
 series: _series/trade-terms-explained.md
 statistic_number: 30
 statistic_text: 'percent of South Korea’s steel exports to the U.S. were cut in 2018

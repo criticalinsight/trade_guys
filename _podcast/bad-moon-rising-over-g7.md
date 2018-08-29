@@ -4,12 +4,6 @@ date: 2018-06-08 15:26:19 +0000
 episode_num: 4
 soundcloud_url: https://soundcloud.com/csis-57169780/4-bad-moon-rising-over-g7?in=csis-57169780/sets/the-trade-guys
 transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180730_Bad_Moon_Rising_Over_0.pdf?ZoDYa0aQDupeF3M6eO5ZgKZSKqXClNtS
-tags:
-- EU
-- Canada
-- 232 tariffs
-- tariffs
-- China
 excerpt: The Trade Guys, Scott Miller and Bill Reinsch recap the fallout from the
   Trump administration’s move to impose tariffs on the EU and Canada.
 keywords:

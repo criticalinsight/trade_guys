@@ -7,10 +7,6 @@ content_type: article
 date: 2018-05-07 17:55:48 +0000
 external_url: https://www.csis.org/analysis/lost-1980s-trade
 series: []
-tags:
-- USTR
-- China
-- Japan
 image: "/uploads/180507_reagan_80s_trade.jpg"
 image_caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.

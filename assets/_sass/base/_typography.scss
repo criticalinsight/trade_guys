@@ -256,11 +256,14 @@ p {
 }
 
 p + h2,
-p + h3,
 p + h4,
 p + h5,
 p + h6 {
   margin-top: 2rem;
+}
+
+p + h3 {
+  margin-top: 3rem;
 }
 
 hr {

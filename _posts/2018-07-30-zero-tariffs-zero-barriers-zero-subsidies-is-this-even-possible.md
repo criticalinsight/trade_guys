@@ -7,8 +7,6 @@ content_type: article
 date: 2018-07-30 17:51:21 +0000
 external_url: https://www.csis.org/analysis/zero-tariffs-zero-barriers-zero-subsidies-even-possible
 series: []
-tags:
-- EU
 keywords:
 - _keywords/tariffs.md
 - _keywords/eu.md

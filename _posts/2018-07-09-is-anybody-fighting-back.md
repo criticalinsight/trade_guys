@@ -7,8 +7,6 @@ content_type: article
 date: 2018-07-09 17:52:59 +0000
 external_url: https://www.csis.org/analysis/anybody-fighting-back
 series: []
-tags:
-- Congress
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md

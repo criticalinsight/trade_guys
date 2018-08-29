@@ -4,8 +4,6 @@ date: 2018-05-15 15:22:08 +0000
 episode_num: 2
 soundcloud_url: https://soundcloud.com/csis-57169780/2-zte-and-tweetable?in=csis-57169780/sets/the-trade-guys
 transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180730_Tweetable_Deliverables.pdf?pAEE3d6H8RIGgVBTQZZDTqoOLnXEfwVG
-tags:
-- China
 excerpt: The Trade Guys, Scott Miller and Bill Reinsch talk about what’s going on
   between the Trump administration and the Chinese telecom company, ZTE.
 keywords:

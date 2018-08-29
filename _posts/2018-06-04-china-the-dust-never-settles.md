@@ -7,8 +7,6 @@ content_type: article
 date: 2018-06-04 17:54:15 +0000
 external_url: https://www.csis.org/analysis/china-dust-never-settles
 series: []
-tags:
-- China
 keywords:
 - _keywords/tariffs.md
 - _keywords/china.md
