@@ -45,6 +45,10 @@ fields:
     source:
       type: pages
       section: tag
+- type: textarea
+  name: podcast_produced_by_language
+  label: Podcast Produced By Language
+  description: Only fill this out if it is different from the standard
 pages:
 - _podcast/trade-war-hitting-a-fever-pitch.md
 - _podcast/zte-and-tweetable-deliverables.md
