@@ -6,7 +6,7 @@ soundcloud_url: https://soundcloud.com/csis-57169780/sets/the-trade-guys
 home_intro: Trade Guys Scott Miller and Bill Reinsch talk with H. Andrew Schwartz
   about trade in ways that everyone can understand.
 trade_guys_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced
-  by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan
+  by Yumi Araki at the Center for Strategic and International Studies (CSIS), a bipartisan
   think tank in Washington, D.C.
 trade_guys_explained: Make sense of complex trade trends, rules and lingo with short
   videos, hot takes, and interactive graphs.
@@ -26,11 +26,11 @@ footer_about_heading: 'About this Podcast:'
 footer_desc: Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects
   policy, and how it impacts your day-to-day in ways that everyone can understand.
   The Trade Guys is hosted by H. Andrew Schwartz and produced by Yumi Araki at the
-  Center for Strategic and International Studies (CSIS), a nonpartisan think tank
-  in Washington, D.C.
+  Center for Strategic and International Studies (CSIS), a bipartisan think tank in
+  Washington, D.C.
 footer_email: TradeGuys@csis.org
 podcast_desc: _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced
-  by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan
+  by Yumi Araki at the Center for Strategic and International Studies (CSIS), a bipartisan
   think tank in Washington, D.C.
 sidebar_desc: Trade experts Scott Miller and Bill Reinsch break down the buzz around
   trade, how it affects policy, and how it impacts your day-to-day.
@@ -46,7 +46,8 @@ subscribe: Subscribe to the podcast via [iTunes](https://itunes.apple.com/us/pod
   or [Soundcloud](https://soundcloud.com/csis-57169780/sets/the-trade-guys).
 notes: Notes
 external_continue_reading: Continue reading on
-tags: Tags
+tags:
+- Tags
 breadcrumbs_all_podcast: All Podcast <br />Episodes
 breadcrumbs_all_articles: All Articles
 navigation_menu: Menu
