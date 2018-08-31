@@ -16,7 +16,7 @@
 
   {% if page.keywords.size > 0 %}
   <div class="tags">
-  	<span class="post-meta-label">{{ site.data.language.tags || escape }}</span>
+  	<span class="post-meta-label">{{ site.data.language.keywords || escape }}</span>
   	<ul class="post-tags-list">
   		{% for tag in page.keywords %}
       {% assign keyword_info = site.keywords | where: "relative_path",tag %}
