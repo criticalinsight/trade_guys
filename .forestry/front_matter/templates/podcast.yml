@@ -24,7 +24,7 @@ fields:
   label: Soundcloud URL
   description: URL of the episode on Soundcloud
   config:
-    required: true
+    required: false
 - type: text
   name: transcript_url
   label: Transcript URL
