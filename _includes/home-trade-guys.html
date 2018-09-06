@@ -2,7 +2,7 @@
 {% assign people = site.data.trade_guys.trade_guy_details | where: "on_homepage", true %}
 {% for person in people %}
   <div class="trade-guy">
-    <img class="trade-guy-img" src="{{ person.homepage_headshot_url | relative_url }}" alt="{{ person.name | escape }}" alt="{{ person.name | escape }}" />
+    <a href="{{ person.name | slugify | prepend: 'about#' | relative }}" class="trade-guy-img"><img src="{{ person.homepage_headshot_url | relative_url }}" alt="{{ person.name | escape }}" alt="{{ person.name | escape }}" /></a>
     <span class="trade-guy-name-first">{{ person.first }}</span>
     <span class="trade-guy-name-last">{{ person.last }}</span>
     <span class="trade-guy-host">{{ person.title }}</span>
