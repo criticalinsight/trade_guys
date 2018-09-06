@@ -90,6 +90,7 @@ plugins:
 # to override the default setting.
 exclude:
   - frasco.config.js
+  - FRASCO-DEFAULTS.md
   - Gemfile
   - Gemfile.lock
   - gulp_tasks
