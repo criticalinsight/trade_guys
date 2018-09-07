@@ -1,8 +1,8 @@
 ---
-title: Title of the Podcast
+title: 'Trade Guys on the Road: George Washington University Edition'
 date: 2018-09-06 00:00:00 +0000
 episode_num: 17
-soundcloud_url: ''
+soundcloud_url: https://soundcloud.com/csis-57169780/trade-guys-on-the-road-at-george-washington-university
 transcript_url: ''
 excerpt: ''
 keywords: []
