@@ -5,7 +5,10 @@ show_image_on_single_post: false
 date: 2018-09-06 00:00:00 +0000
 series:
 - _series/trends-in-trade.md
-excerpt: ''
+excerpt: President Trump has made it a priority to pry open Canada’s managed dairy
+  market in order to boost U.S. exports of milk, eggs, butter, cheese, and other products
+  north across the border. In response, Canadian Prime Minister Justin Trudeau has
+  pledged to protect the Canadian dairy industry.
 notes: ''
 authors: []
 keywords:
