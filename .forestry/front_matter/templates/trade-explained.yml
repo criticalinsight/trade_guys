@@ -21,6 +21,14 @@ fields:
       type: pages
       file: _data-language-yml
       section: series
+- type: list
+  name: keywords
+  label: Keywords
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: tag
 - type: textarea
   name: excerpt
   label: Excerpt
@@ -37,6 +45,14 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: list
+  name: authors
+  label: Author(s)
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: authors
 - type: select
   name: content_type
   config:
@@ -47,22 +63,6 @@ fields:
     - interactive
   label: Content Type
   default: article
-- type: list
-  name: authors
-  label: Author(s)
-  config:
-    use_select: true
-    source:
-      type: pages
-      section: authors
-- type: list
-  name: keywords
-  label: Keywords
-  config:
-    use_select: true
-    source:
-      type: pages
-      section: tag
 - type: file
   label: Image
   name: image
