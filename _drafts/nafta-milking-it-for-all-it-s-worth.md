@@ -11,20 +11,18 @@ authors: []
 keywords:
 - _keywords/canada.md
 - _keywords/nafta.md
-image: ''
-image_caption: ''
+image: "/uploads/dairy_GIF.gif"
+image_caption: U.S. - Canada Dairy Trade
 image_credit: U.S. Commerce Department; Statistics Canada. Data accounts for HS04
 
 ---
-President Trump has made it a priority to pry open Canada’s managed dairy market in order to boost U.S. exports of milk, eggs, butter, cheese, and other products north across the border. In response, Canadian Prime Minister Justin Trudeau has pledged to protect the Canadian dairy industry, although he has indicated [some willingness](https://www.bloomberg.com/news/articles/2018-09-06/canada-s-dairy-farmers-could-be-trudeau-s-nafta-bargaining-chip) to open a small portion of the market to U.S. exporters. 
+President Trump has made it a priority to pry open Canada’s managed dairy market in order to boost U.S. exports of milk, eggs, butter, cheese, and other products north across the border. In response, Canadian Prime Minister Justin Trudeau has pledged to protect the Canadian dairy industry, although he has indicated [some willingness](https://www.bloomberg.com/news/articles/2018-09-06/canada-s-dairy-farmers-could-be-trudeau-s-nafta-bargaining-chip) to open a small portion of the market to U.S. exporters.
 
 Canada maintains a “supply management” system for its dairy industry. The government sets milk prices and controls supply via domestic production quotas. Canada also maintains quotas on dairy imports and hits products imported beyond those tariffs with tariffs above 200 percent. Together, these policies result in protection for Canada’s domestic dairy producers that have drawn the ire of [President Trump](https://www.cnn.com/2017/04/20/politics/donald-trump-canada-dairy-farmers/index.html), [dairy exporters](http://www.nmpf.org/files/files/Canada%20letter%2027june17.pdf?utm_campaign=News%20Releases&utm_source=hs_email&utm_medium=email&utm_content=53622956&_hsenc=p2ANqtz-8pp7Ckf06J8UzE3KRB8WTduCAF1ZrrgK3_pPkUh23je0eTg8gpzIaCk4588i6cq0OjA8UlUpMeysk9hL13V28B3gCwNQ&_hsmi=53622956), and [lawmakers](http://www.nmpf.org/files/POTUS%20Dairy%20Trade%20Letter%20(FINAL).pdf) from top dairy producing states. Canadian dairy producers worry that the dismantling of the supply management system, such as through concessions made to secure a new NAFTA deal, could threaten their livelihood. That concern has made dairy among the most sensitive issues for Canada in trade negotiations. The United States also provides some protection and support to its dairy farmers, although to a lesser extent than Canada.
 
 But how much of Canada’s dairy imports does the United States already account for? And, in turn, what level of import market share in the United States has Canada been able to carve out for itself?
 
-**GIF HERE**
-
-**Image Source: Data: U.S. Commerce Department; Statistics Canada. Data accounts for HS04**
+![U.S. - Canada Dairy Trade](/uploads/dairy_GIF.gif)
 
 According to data from the U.S. Commerce Department, the United States imported just under $200 million worth of dairy from Canada in 2017 and exported about $360 million worth of dairy to Canada.
 
