@@ -79,6 +79,7 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
+- _posts/sdasd.md
 - _posts/nafta-milking-it-for-all-it-s-worth.md
 - _posts/2018-08-28-the-cost-of-leaving-canada-behind.md
 - _posts/2018-08-24-u-s-turkey-trade-after-steel-tariffs.md
