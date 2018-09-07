@@ -16,7 +16,7 @@ The Trade Guys kick off their recording tour at George Washington University wit
 
 ![The Trade Guys at George Washington University](/uploads/trade-guys-live-george-washington.jpg "The Trade Guys at George Washington University")
 
-## What We’re Reading 
+## What We’re Reading
 
 ### “U.S., Canada Face Tough Issues as They Resume Nafta Talks”
 
