@@ -55,13 +55,13 @@ Total Imports
 Canada
 </td>
 <td>
-358\.923
+358.923
 </td>
 <td>
 0
 </td>
 <td>
-618\.579
+618.579
 </td>
 </tr>
 <tr>
@@ -72,10 +72,10 @@ U.S.
 0
 </td>
 <td>
-196\.643
+196.643
 </td>
 <td>
-2509\.140
+2509.140
 </td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ U.S. Share of Canada's Dairy Imports
 Canada's Share of U.S. Dairy Imports
 </td>
 <td>
-7\.8%
+7.8%
 </td>
 </tr>
 </tbody>
