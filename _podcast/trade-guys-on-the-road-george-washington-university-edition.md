@@ -30,8 +30,6 @@ The Trade Guys kick off their recording tour at George Washington University wit
 
 **Key questions:** Are there simply too many areas to cover for a final deal to be reached? What issues could possibly be traded away to get concessions on others? What could a final U.S.-Canada deal look like?
 
-### 
-
 ### “Trump’s Nafta Rewrite Holds Promise for Labor Unions”
 
 [Wall Street Journal](https://www.wsj.com/articles/trumps-nafta-rewrite-holds-promise-for-labor-unions-1535653247?tesla=y&mod=article_inline)
