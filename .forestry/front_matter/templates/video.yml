@@ -26,6 +26,13 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: select
+  name: series
+  config:
+    source:
+      type: pages
+      section: series
+  label: Series
 - type: list
   name: keywords
   label: Keywords
@@ -39,13 +46,6 @@ fields:
   label: Content Type
   hidden: true
   default: video
-- type: select
-  name: series
-  config:
-    source:
-      type: pages
-      section: series
-  label: Series
 - type: include
   name: featured_statistic
   label: Featured Statistic
