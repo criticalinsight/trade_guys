@@ -17,5 +17,6 @@ fields:
   label: Organization
   default: CSIS
 pages:
+- _authors/does.md
 - _authors/andrew-chatzky.md
 - _authors/jack-caporal.md
