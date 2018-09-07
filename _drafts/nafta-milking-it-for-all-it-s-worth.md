@@ -11,7 +11,7 @@ authors: []
 keywords:
 - _keywords/canada.md
 - _keywords/nafta.md
-image: "/uploads/dairy_GIF.gif"
+image: "/uploads/dairyWebGIF.gif"
 image_caption: U.S. - Canada Dairy Trade
 image_credit: U.S. Commerce Department; Statistics Canada. Data accounts for HS04
 
@@ -22,7 +22,7 @@ Canada maintains a “supply management” system for its dairy industry. The go
 
 But how much of Canada’s dairy imports does the United States already account for? And, in turn, what level of import market share in the United States has Canada been able to carve out for itself?
 
-![U.S. - Canada Dairy Trade](/uploads/dairy_GIF.gif){:width="560px"}
+![U.S. - Canada Dairy Trade](/uploads/dairyWebGIF.gif "U.S. - Canada Dairy Trade")
 
 According to data from the U.S. Commerce Department, the United States imported just under $200 million worth of dairy from Canada in 2017 and exported about $360 million worth of dairy to Canada.
 
