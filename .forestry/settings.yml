@@ -30,6 +30,8 @@ sections:
   label: Tags
   create: all
   match: "**/*"
+  templates:
+  - tag
 - type: directory
   path: _authors
   label: Authors
