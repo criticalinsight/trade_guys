@@ -1,5 +1,8 @@
 ---
-label: Tags
-hide_body: false
+label: Tag
+hide_body: true
 is_partial: false
-fields: []
+fields:
+- type: text
+  label: Title
+  name: title
