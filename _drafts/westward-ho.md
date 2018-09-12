@@ -14,8 +14,9 @@ excerpt: 'With our unemployment rate low, employers are having more and more dif
 series:
 - _series/trade-terms-explained.md
 keywords: []
-image: ''
+image: "/uploads/180827_Wyoming-compressor.jpg"
 image_caption: ''
-image_credit: ''
+image_credit: MLADEN ANTONOV/AFP/Getty Images
 
 ---
+Some years ago, I was greatly honored to give a commencement speech to the master’s degree recipients at my alma mater Johns Hopkins University. Part of that speech discussed what has made the United States great. I referenced Frederick Jackson Turner’s “Frontier Thesis”—the idea that the constantly westward-moving frontier and the Americans who pursued it were instrumental in the creation of our democracy and the ideas of freedom and egalitarianism that underpin it. I related that to President John F. Kennedy’s “New Frontier,” an effort to excite Americans about their country’s opportunities and to show people how they could participate in them. I illustrated it with a cartoon of a long-haired, bearded hippie hitchhiking with a sign that simply said, “Further.”  
