@@ -12,7 +12,10 @@ image: "/uploads/180820_TURKEY_US.jpg"
 image_caption: ''
 image_credit: OZAN KOSE/AFP/Getty Images
 show_image_on_single_post: true
-excerpt: ''
+excerpt: This week’s title and topic are just too easy. Indeed, Scott and I used the
+  first half of it last week for our Trade Guys podcast. The case of Turkey does,
+  however, demand a bit more attention than Scott and I gave it. This column will
+  look at it primarily from a trade and geopolitical perspective.
 
 ---
 This week’s title and topic are just too easy. Indeed, Scott and I used the first half of it last week for our Trade Guys podcast. The case of Turkey does, however, demand a bit more attention than Scott and I gave it. This column will look at it primarily from a trade and geopolitical perspective.
