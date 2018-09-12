@@ -79,7 +79,6 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/2018-09-12-ilab-test.md
 - _posts/2018-05-07-lost-in-the-1980s-on-trade.md
 - _posts/2018-07-30-zero-tariffs-zero-barriers-zero-subsidies-is-this-even-possible.md
 - _posts/2018-08-06-whither-or-wither-wto.md
