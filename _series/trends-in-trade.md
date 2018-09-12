@@ -1,5 +1,5 @@
 ---
-title: Trends in trade
+title: Trends in Trade
 date: 2018-08-24 12:39:39 +0000
 is_featured: true
 
