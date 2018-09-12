@@ -50,6 +50,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/testtcast.md
 - _keywords/test.md
 - _podcast/trade-guys-on-the-road-george-washington-university-edition.md
 - _podcast/only-as-good-as-the-next-tweet.md
