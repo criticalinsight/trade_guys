@@ -20,8 +20,9 @@ excerpt: 'Most politicians say they are free traders, but disagree over how to a
 notes: ''
 authors:
 - _authors/bill-reinsch.md
-image: ''
+image: "/uploads/180910_china_trade-compressor.jpg"
 image_caption: ''
-image_credit: ''
+image_credit: JOHANNES EISELE/AFP/Getty Images
 
 ---
+The president’s periodic assertion that he is the only real free trader around, buoyed by his proposal at the G7 Summit for a trade deal with no tariffs, no non-tariff barriers, and no subsidies, reminded me of my experience some years ago on Capitol Hill. Working for a senator (John Heinz, R-PA) who occasionally said the same thing—without claiming to be the only one saying it—I frequently found myself giving talks where I would assert that there were no protectionists in the Senate. Everyone was a free trader, I would say, but there was disagreement over how you get to free trade.
