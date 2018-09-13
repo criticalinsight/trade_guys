@@ -65,6 +65,7 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
+- _posts/what-is-dumping.md
 - _posts/2018-09-11-a-21st-century-trade-war.md
 - _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
 - _posts/2018-06-26-tariffs-aren-t-the-only-way-to-control-trade-non-tariff-barriers-explained.md
