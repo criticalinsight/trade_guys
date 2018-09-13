@@ -22,7 +22,7 @@ authors:
 image: "/uploads/180910_china_trade-compressor.jpg"
 image_caption: ''
 image_credit: JOHANNES EISELE/AFP/Getty Images
-external_url: https://www.csis.org/analysis/so-what-just-happened
+external_url: https://www.csis.org/analysis/arent-we-all-free-traders
 external_site_name: CSIS.org
 
 ---
