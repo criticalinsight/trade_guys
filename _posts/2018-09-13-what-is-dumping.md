@@ -7,8 +7,7 @@ excerpt: 'Being subject to dumping can cause some serious harm and lead to inten
   fights – and no, we’re not talking about the latest celebrity breakup. In the context
   of trade, politicians will often blame other countries for “dumping” products into
   the United States. What are they talking about and, how can companies and the government
-  respond to dumping? Well, like any big breakup, it’s complicated. Watch this video
-  with Trade Guy Bill Reinsch to find out more.  '
+  respond to dumping? Well, like any big breakup, it’s complicated. '
 series: _series/trade-terms-explained.md
 keywords:
 - _keywords/tariffs.md
