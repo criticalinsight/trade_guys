@@ -11,23 +11,23 @@ collections:
   posts:
     title: Trade Explained
     output: true
-    permalink: "/:path/trade-explained/:slug/"
+    permalink: "/trade-explained/:slug/"
   podcast:
     title: Podcast
     output: true
-    path: "/:path/podcast/:slug/"
+    path: "/podcast/:slug/"
   authors:
     title: Authors
     output: true
-    path: "/:path/authors/:slug/"
+    path: "/authors/:slug/"
   series:
     title: Series
     output: true
-    path: "/:path/series/:slug/"
+    path: "/series/:slug/"
   keywords:
     title: Tags
     output: true
-    path: "/:path/tags/:slug/"
+    path: "/tags/:slug/"
 defaults:
 - scope:
     path: ''
