@@ -3,8 +3,7 @@ title: Aren’t We All Free Traders?
 content_type: article
 show_image_on_single_post: true
 date: 2018-09-10 16:15:56 +0000
-series:
-- _series/trade-terms-explained.md
+series: []
 keywords:
 - _keywords/nafta.md
 - _keywords/mexico.md
