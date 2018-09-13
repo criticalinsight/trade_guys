@@ -79,6 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
+- _posts/2018-09-10-aren-t-we-all-free-traders.md
 - _posts/2018-09-07-steel-and-aluminum-tariffs-a-push-and-pull-between-the-president-and-congress.md
 - _posts/2018-08-27-westward-ho.md
 - _posts/2018-09-04-so-what-just-happened.md
