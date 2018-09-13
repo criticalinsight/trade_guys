@@ -16,8 +16,7 @@ excerpt: President Trump’s decision to impose steel and aluminum tariffs and h
   reining in the president's tariff authority. What has been proposed, what are the
   chances meaningful action is taken, and is it a good idea for Congress  to take
   back trade authority from the president?
-series:
-- _series/trade-terms-explained.md
+series: []
 keywords:
 - _keywords/232_tariffs.md
 - _keywords/congress.md
