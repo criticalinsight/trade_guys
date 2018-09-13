@@ -11,8 +11,7 @@ external_url: https://www.csis.org/analysis/westward-ho
 excerpt: 'With our unemployment rate low, employers are having more and more difficulty
   filling jobs. A more mobile working-age population would partially address that
   problem. So, why don’t we move as much as we used to?  '
-series:
-- _series/trade-terms-explained.md
+series: []
 keywords: []
 image: "/uploads/180827_Wyoming-compressor.jpg"
 image_caption: ''

@@ -3,8 +3,7 @@ title: Aren’t We All Free Traders?
 content_type: article
 show_image_on_single_post: true
 date: 2018-09-10 16:15:56 +0000
-series:
-- _series/trade-terms-explained.md
+series: []
 keywords:
 - _keywords/nafta.md
 - _keywords/mexico.md
@@ -23,6 +22,8 @@ authors:
 image: "/uploads/180910_china_trade-compressor.jpg"
 image_caption: ''
 image_credit: JOHANNES EISELE/AFP/Getty Images
+external_url: https://www.csis.org/analysis/arent-we-all-free-traders
+external_site_name: CSIS.org
 
 ---
 The president’s periodic assertion that he is the only real free trader around, buoyed by his proposal at the G7 Summit for a trade deal with no tariffs, no non-tariff barriers, and no subsidies, reminded me of my experience some years ago on Capitol Hill. Working for a senator (John Heinz, R-PA) who occasionally said the same thing—without claiming to be the only one saying it—I frequently found myself giving talks where I would assert that there were no protectionists in the Senate. Everyone was a free trader, I would say, but there was disagreement over how you get to free trade.
