@@ -4,11 +4,11 @@ date: 2018-09-15 00:00:00 +0000
 episode_num: 18
 soundcloud_url: https://soundcloud.com/csis-57169780/trade-guys-on-the-road-university-of-maryland-edition
 transcript_url: ''
-excerpt: "The Trade Guys continue their recording tour; this time at the University
+excerpt: The Trade Guys continue their recording tour; this time at the University
   of Maryland's Robert H. Smith School of Business. They are joined by a special guest,
   Rick Powers, the Port of Baltimore's director of marketing. The guys and Rick discuss
   updates on NAFTA, the tit-for-tat with China, and roll-on/roll-off (a.k.a. RoRo)
-  shipping's relationship with tariffs. H  \n  "
+  shipping's relationship with tariffs. 
 keywords:
 - _keywords/canada.md
 - _keywords/mexico.md
