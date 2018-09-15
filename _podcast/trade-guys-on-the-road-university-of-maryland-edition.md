@@ -19,7 +19,6 @@ keywords:
 - _keywords/tariffs.md
 podcast_produced_by_language: "Hosted by H. Andrew Schwartz and produced by Yumi Araki
   and Frances Burkham at the Center for Strategic and International Studies in Washington.\n\n"
-published: false
 
 ---
 The Trade Guys continue their recording tour; this time at the University of Maryland's Robert H. Smith School of Business. They are joined by a special guest, Rick Powers, the Port of Baltimore's director of marketing. The guys and Rick discuss updates on NAFTA, the tit-for-tat with China, and roll-on/roll-off (a.k.a. RoRo) shipping's relationship with tariffs. H
