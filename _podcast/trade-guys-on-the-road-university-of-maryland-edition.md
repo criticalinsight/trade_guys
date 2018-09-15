@@ -8,7 +8,7 @@ excerpt: The Trade Guys continue their recording tour; this time at the Universi
   of Maryland's Robert H. Smith School of Business. They are joined by a special guest,
   Rick Powers, the Port of Baltimore's director of marketing. The guys and Rick discuss
   updates on NAFTA, the tit-for-tat with China, and roll-on/roll-off (a.k.a. RoRo)
-  shipping's relationship with tariffs. 
+  shipping's relationship with tariffs.
 keywords:
 - _keywords/canada.md
 - _keywords/mexico.md
