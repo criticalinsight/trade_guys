@@ -38,7 +38,7 @@ The Trade Guys continue their recording tour; this time at the University of Mar
 
 “The Port of Baltimore saw a record 21.6 million tons of trade for $28 billion during the first half of 2018. But analysts say Trump’s tariffs, and retaliatory measures by China and other trade partners, will be a drag on that growth going forward — and one that could grow if the tit-for-tat escalates into a fully fledged trade war.”
 
-**Why it matters:** The Port of Baltimore was setting a record pace for volume and value of goods handled in the first half of 2018 but the trade war has thrown the sustainability of that pace into doubt.  
+**Why it matters:** The Port of Baltimore has set a record pace for volume and value of goods handled in the first half of 2018 but the trade war has thrown the sustainability of that success into doubt.  
 
 **Key questions:** What kind of economic damage could the trade war do the Port of Baltimore itself? What would lower cargo activity mean for port modernization plans or employment at the port? How is the port coping with the trade war?
 
