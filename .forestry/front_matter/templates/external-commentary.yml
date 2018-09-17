@@ -79,6 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
+- _posts/reframing-the-trade-debate.md
 - _posts/2018-09-04-so-what-just-happened.md
 - _posts/2018-08-27-westward-ho.md
 - _posts/2018-09-07-steel-and-aluminum-tariffs-a-push-and-pull-between-the-president-and-congress.md
