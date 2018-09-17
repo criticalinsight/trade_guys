@@ -10,7 +10,8 @@ excerpt: President Trump has made it a priority to pry open Canada’s managed d
   north across the border. In response, Canadian Prime Minister Justin Trudeau has
   pledged to protect the Canadian dairy industry.
 notes: ''
-authors: []
+authors:
+- _authors/jack-caporal.md
 keywords:
 - _keywords/canada.md
 - _keywords/nafta.md
