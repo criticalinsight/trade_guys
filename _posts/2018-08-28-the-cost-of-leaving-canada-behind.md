@@ -1,6 +1,6 @@
 ---
 title: The Cost of Leaving Canada Behind
-content_type: article
+content_type: interactive
 show_image_on_single_post: false
 date: 2018-08-28 19:00:49 +0000
 series:
