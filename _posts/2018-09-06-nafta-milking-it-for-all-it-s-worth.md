@@ -1,6 +1,6 @@
 ---
 title: 'NAFTA: Milking It for All It’s Worth'
-content_type: article
+content_type: interactive
 show_image_on_single_post: false
 date: 2018-09-06 00:00:00 +0000
 series:
