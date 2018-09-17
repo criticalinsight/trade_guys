@@ -24,3 +24,4 @@ image_caption: ''
 image_credit: BRYAN R. SMITH/AFP/Getty Images
 
 ---
+There is no question that the president has reframed the debate on trade in the United States. As I have said many times, after 30 years below the fold in the business section (for you, millennials, that’s a reference to old-fashioned newspapers), trade is now on the front page every day. As it turns out, that has had both good and bad consequences.
