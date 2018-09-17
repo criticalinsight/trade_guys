@@ -12,7 +12,8 @@ excerpt: The Trump administration announced that it had reached a bilateral trad
 notes: For more on the U.S.-Mexico announcement, check out [this episode](/podcast/hafta-talk-nafta/)
   of the Trade Guys podcast, and [this analysis](https://www.csis.org/analysis/nafta-or-us-mexico-trade-agreement)
   by CSIS experts.
-authors: []
+authors:
+- _authors/jack-caporal.md
 keywords:
 - _keywords/mexico.md
 - _keywords/canada.md
