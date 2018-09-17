@@ -6,7 +6,8 @@ date: 2018-08-09 12:40:09 +0000
 series:
 - _series/trends-in-trade.md
 notes: ''
-authors: []
+authors:
+- _authors/jack-caporal.md
 keywords:
 - _keywords/china.md
 image: "/uploads/301_tariffs_WebGIF.gif"
