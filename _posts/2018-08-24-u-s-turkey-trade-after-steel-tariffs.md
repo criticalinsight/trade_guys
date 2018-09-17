@@ -8,7 +8,8 @@ series:
 notes: For more on the U.S.-Turkey trade spat, check out [this episode](/podcast/talking-turkey-and-the-economy/)
   of the Trade Guys podcast, and [this column](/trade-explained/talking-turkey-and-taking-stock/)
   by Trade Guy Bill Reinsch.
-authors: []
+authors:
+- _authors/jack-caporal.md
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
