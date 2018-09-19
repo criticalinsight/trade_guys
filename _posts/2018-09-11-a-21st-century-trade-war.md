@@ -15,8 +15,8 @@ keywords:
 - _keywords/mexico.md
 - _keywords/tariffs.md
 statistic_number: 638
-statistic_text: billion dollars was the total value of trade between the U.S. and
-  China in 2017.
+statistic_text: billion dollars = the total value of trade between the U.S. and China
+  in 2017.
 statistic_source: U.S. Census Bureau
 image: "/uploads/21st-century-trade-war.jpg"
 image_caption: A 21st Century Trade War
