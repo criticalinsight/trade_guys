@@ -36,7 +36,7 @@ The Trade Guys close out their September recording tour at home with a live audi
 
 ### “Trump Has Put the U.S. and China on the Cusp of a New Cold War” 
 
-[New York Times  ](https://www.nytimes.com/2018/09/19/us/politics/trump-china-trade-war.html)
+[New York Times](https://www.nytimes.com/2018/09/19/us/politics/trump-china-trade-war.html)
 
 “President Trump is confident that the United States is winning its trade war with China. But on both sides of the Pacific, a bleaker recognition is taking hold: The world’s two largest economies are in the opening stages of a new economic Cold War, one that could persist well after Mr. Trump is out of office.”
 
@@ -63,5 +63,3 @@ The Trade Guys close out their September recording tour at home with a live audi
 **Why it matters:** President Trump’s trade policies have put Republicans running in the midterm election in a bind. Polling done by SurveyMonkey for the New York Times indicates that Republican voters favor President Trump’s tariffs and tax cuts, despite Congressional Republicans supporting only the latter and opposing the former. Embracing the tariffs could win support from the Republican base but risks alienating independents, according to the data. Continuing to oppose the tariffs could cost Republican candidates support from the President and his crucial base. 
 
 **Key questions:** How should Republicans address this bind? Is this really a huge issue for them, considering that other data indicates that voters don’t generally case their ballot based on a given candidate’s trade policy?
-
- 
