@@ -13,7 +13,6 @@ keywords:
 - _keywords/nafta.md
 - _keywords/china.md
 podcast_produced_by_language: ''
-published: false
 
 ---
 The Trade Guys close out their September recording tour at home with a live audience of  Customs and International Trade Bar Association lawyers and the public. The guys began with a conversation on the politics of trade ahead of the midterm elections. They also discussed China, NAFTA…and memes. 
