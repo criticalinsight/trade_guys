@@ -18,9 +18,9 @@ published: false
 ---
 The Trade Guys close out their September recording tour at home with a live audience of  Customs and International Trade Bar Association lawyers and the public. The guys began with a conversation on the politics of trade ahead of the midterm elections. They also discussed China, NAFTA…and memes. 
 
-### What We’re Reading
+## What We’re Reading
 
-“Canada's Trudeau under growing pressure to get NAFTA deal done” 
+### “Canada's Trudeau under growing pressure to get NAFTA deal done” 
 
 [Reuters](https://www.reuters.com/article/us-trade-nafta/canadas-trudeau-under-growing-pressure-to-get-nafta-deal-done-idUSKCN1LY2RY)
 
@@ -50,7 +50,7 @@ The Trade Guys close out their September recording tour at home with a live audi
 
 **Key questions:** Is a negotiated solution possible at this point or have the stakes simply gotten too high for either government to back down? Is China running out of ammo in the trade fight, or will it resort to other tactics like restricting U.S. investment in China, frustrating U.S. companies there, weakening its currency, or dumping Treasury bonds? 
 
- “Republicans Opposing Trump on Trade Face Election Quandary” 
+### “Republicans Opposing Trump on Trade Face Election Quandary” 
 
 [New York Times](https://www.nytimes.com/2018/09/18/business/economy/republicans-trump-trade.html) 
 
