@@ -63,6 +63,7 @@ fields:
     - interactive
   label: Content Type
   default: article
+  hidden: true
 - type: file
   label: Image
   name: image
