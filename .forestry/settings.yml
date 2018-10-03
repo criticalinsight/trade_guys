@@ -45,7 +45,7 @@ sections:
 - type: heading
   label: DATA
 - type: document
-  path: _data/content_types.yml
+  path: _data/content_types.yaml
   label: Content Types
 - type: document
   path: _data/language.yml
