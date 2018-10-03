@@ -13,9 +13,13 @@ excerpt: 'After over a year of negotiations and just hours before an October 1 d
   managed to reach a deal to bring Canada into a new trilateral free trade agreement
   with Mexico to replace the 25-year-old North American Free Trade Agreement (NAFTA).  '
 series: []
-keywords: []
-image: ''
+keywords:
+- _keywords/mexico.md
+- _keywords/canada.md
+- _keywords/usmca.md
+image: "/uploads/181003_U.S_Mexico_0-compressor.jpg"
 image_caption: ''
-image_credit: ''
+image_credit: PATRICK DOYLE/AFP/Getty Images
 
 ---
+After over a year of negotiations and just hours before an October 1 deadline, the Trump administration and government of Canadian Prime Minister Justin Trudeau managed to reach a deal to bring Canada into a new trilateral free trade agreement with Mexico to replace the 25-year-old North American Free Trade Agreement (NAFTA).
