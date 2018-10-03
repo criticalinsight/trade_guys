@@ -79,7 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/from-nafta-to-usmca-what’s-new-and-what’s-next.md
+- _posts/2018-10-03-from-nafta-to-usmca-what’s-new-and-what’s-next.md
 - _posts/2018-10-02-exit-nafta,-enter-usmca.md
 - _posts/2018-09-28-u.s.-japan-trade-talks-what-could-they-yield.md
 - _posts/2018-09-25-Why-Both-Republicans-and-Democrats-are-Grumpy-about-Trade.md
