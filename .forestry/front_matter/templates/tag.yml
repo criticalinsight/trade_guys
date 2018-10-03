@@ -6,3 +6,5 @@ fields:
 - type: text
   name: title
   label: Title
+pages:
+- _keywords/usmca.md
