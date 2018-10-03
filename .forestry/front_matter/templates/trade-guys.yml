@@ -43,5 +43,3 @@ fields:
   config:
     labelField: name
     min: '3'
-data_files:
-- _data/trade_guys.yml

@@ -47,23 +47,18 @@ sections:
 - type: document
   path: _data/content_types.yml
   label: Content Types
-  match: "**/*"
 - type: document
   path: _data/language.yml
   label: Language
-  match: "**/*"
 - type: document
   path: _data/menus.yml
   label: Menus
-  match: "**/*"
 - type: document
   path: _data/related_links.yml
   label: Related Links
-  match: "**/*"
 - type: document
   path: _data/trade_guys.yml
   label: Trade Guys
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
