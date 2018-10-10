@@ -50,6 +50,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/bilats-tensions-and-an-nfl-victory.md
 - _podcast/doing-the-usmca.md
 - _podcast/trade-guys-on-the-road-university-of-maryland-edition.md
 - _podcast/Back-from-the-Road-The-Politics-of-Trade.md
