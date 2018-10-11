@@ -29,56 +29,121 @@ The United States reached car and car part quota arrangements with Canada and Me
 
 ![](/uploads/Vehicle Tarrifs -Website (002).gif)
 <table>
-  <thead> <tr> <th colspan="4" class="table-title"> U.S. Auto Imports, By Unit </th> </tr>
-<tbody>
-<tr>
-<td colspan="3">
+
+<thead> <tr> <th colspan="6" class="table-title"> U.S. Auto Imports, By Unit </th> </tr>
+
+    <tr>
+
+<th colspan="3" style="
+
+">
+
 <p>Imports of new passenger vehicles from Canada</p>
-</td>
-<td colspan="3">
+
+</th>
+
+<th colspan="3" style="border-left: 2px solid #000;padding-left: 10px;">
+
 <p>Imports of new passenger vehicles from Mexico</p>
-</td>
+
+</th>
+
 </tr>
+
+</thead><tbody>
+
 <tr>
+
 <td>
+
 <p>2015</p>
+
 </td>
+
 <td>
+
 <p>2016</p>
+
 </td>
+
 <td>
+
 <p>2017</p>
+
 </td>
-<td>
+
+<td style="
+
+    border-left: 2px solid #000;
+
+    padding-left: 10px;
+
+">
+
 <p>2015</p>
+
 </td>
+
 <td>
+
 <p>2016</p>
+
 </td>
+
 <td>
+
 <p>2017</p>
+
 </td>
+
 </tr>
+
 <tr>
+
 <td>
+
 <p>1,950,784</p>
+
 </td>
+
 <td>
+
 <p>1,985,974</p>
+
 </td>
+
 <td>
+
 <p>1,826,416</p>
+
 </td>
-<td>
+
+<td style="
+
+    border-left: 2px solid #000;
+
+    padding-left: 10px;
+
+">
+
 <p>2,087,346</p>
+
 </td>
+
 <td>
+
 <p>2,176,510</p>
+
 </td>
+
 <td>
+
 <p>2,176,510</p>
+
 </td>
+
 </tr>
-</tbody>
+
+</tbody><tfoot> <tr> <td colspan="6"> Data: U.S. International Trade Administration Office of Transporatation and Machinery </td> </tr> </tfoot>
+
 </table>
-<tfoot> <tr> <td colspan="4"> Data: U.S. International Trade Administration Office of Transporatation and Machinery </td> </tr> </tfoot> </table>
