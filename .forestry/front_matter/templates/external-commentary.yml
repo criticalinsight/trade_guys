@@ -79,6 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
+- _posts/fixing-the-wto.md
 - _posts/2018-10-09-no-to-the-village-people-but-yes-to-bait-and-switch.md
 - _posts/2018-09-17-reframing-the-trade-debate.md
 - _posts/2018-09-25-Why-Both-Republicans-and-Democrats-are-Grumpy-about-Trade.md
