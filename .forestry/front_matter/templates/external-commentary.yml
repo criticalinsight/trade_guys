@@ -79,6 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
+- _posts/services-how-to-boost-trade-and-shrink-the-deficit-at-the-same-time.md
 - _posts/2018-10-15-fixing-the-wto.md
 - _posts/2018-10-09-no-to-the-village-people-but-yes-to-bait-and-switch.md
 - _posts/2018-09-17-reframing-the-trade-debate.md
