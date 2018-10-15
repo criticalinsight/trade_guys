@@ -1,6 +1,7 @@
 ---
 title: 'Services: How to Boost Trade and Shrink the Deficit at the Same Time'
 authors:
+- _authors/jonathan-robison.md
 - _authors/andrew-chatzky.md
 - _authors/bill-reinsch.md
 external_site_name: CSIS.org
