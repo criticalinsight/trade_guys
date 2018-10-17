@@ -172,5 +172,14 @@ China is poised to become a top consumer of natural gas and the United States is
 </tr>
 
 </tbody>
+  <tfoot> 
+<tr> 
+<td colspan="4"> 
+Data: U.S. Department of Energy, Energy Information Administration
+</td> 
+</tr> 
+</tfoot> 
+</table>
+
 
 </table>
