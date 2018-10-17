@@ -25,7 +25,7 @@ The United States is swimming in natural gas, and China has a huge appetite for 
 
 China is poised to become a top consumer of natural gas and the United States is in position to supply that massive market, but the burgeoning trade war has gotten in the way. On September 24, China imposed a 10 percent tariff on U.S. LNG as part of its response to tariffs the Trump administration levied on $200 billion worth of Chinese goods. Beijing’s retaliatory tariffs have slowed U.S. LNG exports to China to [a crawl](https://www.reuters.com/article/us-usa-china-trade-lng/u-s-lng-exports-to-china-decline-as-trade-war-escalates-idUSKCN1LY2W0) at a time when its demand for LNG is on the rise. The tariffs have turned some Chinese investors away from inking long-term contracts with U.S. LNG exporters. That has led to doubt being cast on the prospects for the construction of new, specialized LNG export [terminals](https://www.reuters.com/article/us-global-markets/u-s-data-drags-oil-lower-dollar-up-after-fed-minutes-idUSKCN1MR01U) on the west coast of the United States, impacting jobs in multiple sectors of the U.S. economy.
 
-<table style="width: 213px;" cellpadding="10px">
+<table style="width: 213px;">
 <tbody>
 <tr style="height: 48px;">
 <td style="width: 139px; height: 48px;" colspan="3">
@@ -43,7 +43,7 @@ China is poised to become a top consumer of natural gas and the United States is
 </tr>
 <tr style="height: 35px;">
 <td style="width: 43px; height: 35px;">
-<p>Japan</p>
+  <p><strong>Japan</strong></p>
 </td>
 <td style="width: 48px; height: 35px;">
 <p>11,137</p>
@@ -54,7 +54,7 @@ China is poised to become a top consumer of natural gas and the United States is
 </tr>
 <tr style="height: 35px;">
 <td style="width: 43px; height: 35px;">
-<p>China</p>
+  <p><strong>China</strong></p>
 </td>
 <td style="width: 48px; height: 35px;">
 <p>17,221</p>
@@ -65,7 +65,7 @@ China is poised to become a top consumer of natural gas and the United States is
 </tr>
 <tr style="height: 35px;">
 <td style="width: 43px; height: 35px;">
-<p>Mexico</p>
+  <p><strong>Mexico</strong></p>
 </td>
 <td style="width: 48px; height: 35px;">
 <p>27,470</p>
@@ -76,7 +76,7 @@ China is poised to become a top consumer of natural gas and the United States is
 </tr>
 <tr style="height: 48px;">
 <td style="width: 43px; height: 48px;">
-<p>South Korea</p>
+  <p><strong>South Korea</strong></p>
 </td>
 <td style="width: 48px; height: 48px;">
 <p>10,166</p>
@@ -87,7 +87,7 @@ China is poised to become a top consumer of natural gas and the United States is
 </tr>
 <tr style="height: 35px;">
 <td style="width: 43px; height: 35px;">
-<p>World</p>
+  <p><strong>World</strong></p>
 </td>
 <td style="width: 48px; height: 35px;">
 <p>183,873</p>
