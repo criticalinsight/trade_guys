@@ -79,7 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/what-goes-around-comes-around.md
+- _posts/2018-10-22-what-goes-around-comes-around.md
 - _posts/2018-10-22-new-trump-administration-s-trade-negotiations-what-s-next.md
 - _posts/2018-10-15-services-how-to-boost-trade-and-shrink-the-deficit-at-the-same-time.md
 - _posts/2018-10-15-fixing-the-wto.md
