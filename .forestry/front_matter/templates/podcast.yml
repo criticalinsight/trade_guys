@@ -50,6 +50,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/services-you-can-t-trade-without-em.md
 - _podcast/fueling-the-economy.md
 - _podcast/doing-the-usmca.md
 - _podcast/bilats-tensions-and-an-nfl-victory.md
