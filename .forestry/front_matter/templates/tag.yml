@@ -7,4 +7,5 @@ fields:
   name: title
   label: Title
 pages:
+- _keywords/services.md
 - _keywords/usmca.md
