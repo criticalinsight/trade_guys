@@ -177,13 +177,13 @@ Some relatively tight Senate races are playing out in states that Trump easily c
 <table>
 <thead>
 <tr>
-<th colspan="6" class="table-title">
+<th colspan="7" class="table-title">
 <h4>Trade Regionalism vs President Trump’s Base</h4>
 </th>
 </tr>
 <tr>
- <th colspan="2"><th>
-<th colspan="4">
+<th colspan="2"><th>
+<th colspan="5">
 <strong>Percent of Total Exports</strong>
 </th>
 </tr>
