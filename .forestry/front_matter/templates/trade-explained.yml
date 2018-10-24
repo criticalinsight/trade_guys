@@ -79,6 +79,10 @@ fields:
   name: show_image_on_single_post
   description: If the Image should appear on the single post page, then slide right
     until green.
+- type: boolean
+  name: featured
+  label: Featured?
+  description: Featured posts are prioritized (listed first) on archive pages
 pages:
 - _posts/2017-10-19-50-states-trade.md
 - _posts/2018-10-10-usmca-cars-and-national-security-tariffs.md
