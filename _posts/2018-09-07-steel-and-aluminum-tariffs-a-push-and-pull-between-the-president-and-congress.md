@@ -22,7 +22,6 @@ keywords:
 image: "/uploads/180906_steel-compressor.jpg"
 image_caption: ''
 image_credit: JULIO CESAR AGUILAR/AFP/Getty Images
-featured_in_archive: true
 
 ---
 President Trump’s decision to impose steel and aluminum tariffs and his threat to put tariffs on automobiles and parts [under Section 232 of the Trade Expansion Act of 1962 ](https://www.whitehouse.gov/presidential-actions/presidential-proclamation-adjusting-imports-steel-united-states/)have generated anxiety on Capitol Hill. Lawmakers have expressed concern about the economic impact of the tariffs as well as the legal foundation for them. The tariffs have harmed U.S. companies that rely on foreign steel and aluminum products not made in the United States. The metal tariffs have also led to retaliation from major U.S. trading partners. Canada has put tariffs on over $12 billion of U.S. imports. Mexico, China, and the European Union have imposed their own tariffs on roughly $3 billion of U.S. imports each. To escape the tariffs, Argentina, Brazil, and South Korea have agreed to quotas to cap their steel exports to the United States at a level below their recent annual export levels. Argentina has also agreed to an aluminum export quota. Quota arrangements with Canada and Mexico could be announced alongside a final NAFTA deal, which could come by the end of the month.
