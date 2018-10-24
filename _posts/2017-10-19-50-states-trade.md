@@ -20,7 +20,6 @@ authors: []
 image: "/uploads/statetradeCropped.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
-featured: true
 featured_in_archive: true
 
 ---
