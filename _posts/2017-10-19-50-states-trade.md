@@ -2,7 +2,7 @@
 title: The 50 States of Trade
 content_type: interactive
 show_image_on_single_post: false
-date: 2018-10-23 11:53:00 +0000
+date: 2018-10-24 16:53:00 +0000
 series:
 - _series/trends-in-trade.md
 keywords:
@@ -21,6 +21,7 @@ image: "/uploads/statetradeCropped.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
 featured: true
+featured_in_archive: false
 
 ---
 <iframe class="interactive-iframe js-iframeResizeEnabled" width="96%" height="852px" scrolling="no" frameborder="no" src="https://csis-ilab.github.io/tradeguys-viz/tariff-impact-states/dist/"></iframe>
