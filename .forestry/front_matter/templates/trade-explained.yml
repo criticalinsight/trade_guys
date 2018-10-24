@@ -82,7 +82,8 @@ fields:
 - type: boolean
   name: featured
   label: Featured?
-  description: Featured posts are prioritized (listed at the top) on archive pages
+  description: If the article should be pinned at the top of the archive, then slide
+    right until green.
 pages:
 - _posts/serving-up-a-surplus.md
 - _posts/2017-10-19-50-states-trade.md
