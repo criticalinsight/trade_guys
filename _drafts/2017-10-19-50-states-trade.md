@@ -30,7 +30,7 @@ The president’s approach of tariffs first, negotiations later, appears to be a
 
 <table>
 <thead>
- <tr>
+<tr>
 <th colspan="3" class="table-title">
 <h4>The Trump Administration's Tariffs</h4>
 </th>
@@ -140,7 +140,7 @@ The effects of retaliation play out at a state level, where businesses have been
 <p><strong>China</strong></p>
 </td>
 <td>
-<p>$110 billion (Sec. 301 retaliation) + $3 billion (steel &amp; aluminum retaliation)</p>
+<p>$110 billion (Sec. 301 retaliation) + $3 billion (steel & aluminum retaliation)</p>
 </td>
 <td>
 <p>Steel and aluminum products, soybeans, nuts, fruit, seafood, wine</p>
@@ -182,13 +182,12 @@ Some relatively tight Senate races are playing out in states that Trump easily c
 </th>
 </tr>
 <tr>
-<th colspan="2"><th>
+<th colspan="2">
+<th>
 <th colspan="5">
 <strong>Percent of Total Exports</strong>
 </th>
 </tr>
-
-
 <tr>
 <th>
 <strong>State</strong>
