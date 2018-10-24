@@ -83,7 +83,7 @@ fields:
   name: featured
   label: Featured?
   description: Featured articles (slide right until green) will be pinned to the top
-    of the archive
+    of the archive.
 pages:
 - _posts/serving-up-a-surplus.md
 - _posts/2017-10-19-50-states-trade.md
