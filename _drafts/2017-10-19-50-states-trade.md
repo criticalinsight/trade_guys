@@ -183,7 +183,7 @@ Some relatively tight Senate races are playing out in states that Trump easily c
 </tr>
 <tr>
 <th colspan="2">
-<th>
+</th>
 <th colspan="5">
 <strong>Percent of Total Exports</strong>
 </th>
