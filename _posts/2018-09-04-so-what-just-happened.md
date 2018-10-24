@@ -17,6 +17,7 @@ keywords: []
 image: "/uploads/180904_U.S_Canada-compressor.jpg"
 image_caption: ''
 image_credit: LARS HAGBERG/AFP/Getty Images
+featured_in_archive: true
 
 ---
 Last Friday, my usual writing day, I did my column on a nice safe topic, protectionism, and then planned to go home. As usual, however, reality got in the way; this time in the form of Canada. So protectionism will wait for another day—it's definitely not going anywhere—and instead, I will spend a few minutes on what happened last week. Of course, you know what happened—the United States and Canada did not reach agreement; the administration notified Congress anyway of its intent to sign an agreement, at least with Mexico and perhaps with Canada later; the parties said surprisingly nice things about each other (except for our president who was rude as usual) and agreed to meet again this week. So, what does it all mean?  

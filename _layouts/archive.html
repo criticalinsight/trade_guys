@@ -17,7 +17,7 @@ layout: default
     {% endif %}
     {% for post in posts %}
 			{% if post.featured_in_archive == true %}
-				{% post-list.html %}
+				{% include post-list.html %}
 			{% endif %}
 		{% endfor %}
 		{% for post in posts %}
