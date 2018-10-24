@@ -21,7 +21,7 @@ image: "/uploads/statetradeCropped.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
 featured: true
-featured_in_archive: false
+featured_in_archive: true
 
 ---
 <iframe class="interactive-iframe js-iframeResizeEnabled" width="96%" height="852px" scrolling="no" frameborder="no" src="https://csis-ilab.github.io/tradeguys-viz/tariff-impact-states/dist/"></iframe>
