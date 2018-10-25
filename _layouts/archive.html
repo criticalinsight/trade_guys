@@ -15,7 +15,16 @@ layout: default
     {% else %}
       {% assign posts = site.posts | sort: 'date' | reverse %}
     {% endif %}
-    {% for post in posts %}{% include post-list.html %}{% endfor %}
+    {% for post in posts %}
+			{% if post.featured_in_archive == true %}
+				{% include post-list.html %}
+			{% endif %}
+		{% endfor %}
+		{% for post in posts %}
+			{% unless post.featured_in_archive == true %}
+				{% include post-list.html %}
+			{% endunless %}
+		{% endfor %}
 	</div>
   {% include sidebar.html %}
 	{% include page-footer.html %}

@@ -1,20 +1,23 @@
 <article class="post-list" role="article" data-content-type="{{ post.content_type }}">
-  {% if post.image.size > 0 and post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
-  <header class="post-list-header" role="article header">
-    {% assign content_type = site.data.content_types | where: "type", post.content_type %}
-    <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">
+	{% if post.image.size > 0 and post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
+	<header class="post-list-header" role="article header">
+		{% if post.featured_in_archive == true %}
+			<span class="post-list-featured">{{ site.data.language.featured_heading }}</span>
+		{% endif %}
+		{% assign content_type = site.data.content_types | where: "type", post.content_type %}
+		<h2 class="post-list-title"><a href="{{ post.url | relative_url }}">
       {% if post.content_type and content_type[0].icon %}<i class="{{ content_type[0].icon }}"></i>{% endif %}{{ post.title | escape }}
     </a></h2>
-    <span class="post-meta">{{ post.date | date: site.date_format }}
+		<span class="post-meta">{{ post.date | date: site.date_format }}
       {% if post.collection == 'podcast' %}
         &mdash; {{ post.episode_num | prepend: 'Episode #' }}
       {% endif %}
     </span>
-  </header>
-  <main class="post-list-content" role="article content">
-    {% if post.collection == 'podcast' and (page.layout == 'home' or forloop.first) %}
-      {% include audio-player.html soundcloud_url=post.soundcloud_url transcript_url=post.transcript_url %}
-    {% endif %}
-    <p>{{ post.excerpt }}</p>
-  </main>
+	</header>
+	<main class="post-list-content" role="article content">
+		{% if post.collection == 'podcast' and (page.layout == 'home' or forloop.first) %}
+		{% include audio-player.html soundcloud_url=post.soundcloud_url transcript_url=post.transcript_url %}
+		{% endif %}
+		<p>{{ post.excerpt }}</p>
+	</main>
 </article>

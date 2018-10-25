@@ -169,6 +169,14 @@ textarea {
   }
 }
 
+%featured-post {
+  font-family: $font_inconsolata;
+  @include fontSize(13px);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
 /*================================
 =            Headings            =
 ================================*/
