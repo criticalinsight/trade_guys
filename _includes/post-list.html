@@ -1,3 +1,6 @@
+{% if post.featured_in_archive == true %}
+	<span class="post-list-featured">{{ site.data.language.featured_heading }}</span>
+{% endif %}
 <article class="post-list" role="article" data-content-type="{{ post.content_type }}">
 	{% if post.image.size > 0 and post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
 	<header class="post-list-header" role="article header">
