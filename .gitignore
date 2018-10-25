@@ -10,9 +10,10 @@ _site
 .jekyll-metadata
 /.bundle
 /vendor
-# /assets/css
-# /assets/js
-# /assets/images
+
+# Compiled Files
+/assets/css/*.css
+/assets/js/*.js
 
 # Node.js
 node_modules/
