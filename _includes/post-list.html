@@ -1,9 +1,9 @@
-{% if post.featured_in_archive == true %}
-	<span class="post-list-featured">{{ site.data.language.featured_heading }}</span>
-{% endif %}
 <article class="post-list" role="article" data-content-type="{{ post.content_type }}">
 	{% if post.image.size > 0 and post.image != site.logo %}<a href="{{ post.url | relative_url }}" class="post-list-img"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" title="{{ post.title | escape }}" /></a>{% endif %}
 	<header class="post-list-header" role="article header">
+		{% if post.featured_in_archive == true %}
+			<span class="post-list-featured">{{ site.data.language.featured_heading }}</span>
+		{% endif %}
 		{% assign content_type = site.data.content_types | where: "type", post.content_type %}
 		<h2 class="post-list-title"><a href="{{ post.url | relative_url }}">
       {% if post.content_type and content_type[0].icon %}<i class="{{ content_type[0].icon }}"></i>{% endif %}{{ post.title | escape }}
