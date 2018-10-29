@@ -79,7 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/services-services.md
+- _posts/2018-10-29-services-services.md
 - _posts/2018-08-06-whither-or-wither-wto.md
 - _posts/2018-10-23-wto-reform-the-beginning-of-the-end-or-the-end-of-the-beginning.md
 - _posts/2018-10-09-no-to-the-village-people-but-yes-to-bait-and-switch.md
