@@ -15,7 +15,7 @@ keywords:
 excerpt: |-
   Are you new to international trade, or looking for a refresher course on American trade policy?
 
-  CSIS Executive Education is pleased to offer _Crash Course,_ a one-day seminar on the fundamentals of U.S. international trade policy and politics.
+  CSIS Executive Education is pleased to offer "Crash Course"_,_ a one-day seminar on the fundamentals of U.S. international trade policy and politics.
 notes: ''
 authors: []
 image: "/uploads/trade-course.jpg"
