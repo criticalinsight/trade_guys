@@ -2,7 +2,7 @@
 title: 'Crash Course: Trade Policy with the Trade Guys'
 content_type: article
 show_image_on_single_post: true
-date: 2018-11-07 17:14
+date: 2018-11-09 22:14:00 +0000
 series:
 - _series/trade-terms-explained.md
 keywords:
@@ -46,4 +46,4 @@ _Crash Course_ will address a range of critical topics, including
 
 The next _Crash Course_ is scheduled for Tuesday, January 22, 2019. Tuition for the one-day course is $1000 per person.
 
-To register, please sign up [here](https://www.tfaforms.com/4706350). If you have any questions, please contact Joel Martinez, CSIS Program Coordinator of Executive Education, at [jmartinez@csis.org](mailto:jmartinez@csis.org). 
+To register, please sign up [here](https://www.tfaforms.com/4706350). If you have any questions, please contact Joel Martinez, CSIS Program Coordinator of Executive Education, at [jmartinez@csis.org](mailto:jmartinez@csis.org).
