@@ -15,7 +15,6 @@ keywords:
 - _keywords/tpp.md
 podcast_produced_by_language: Hosted by H. Andrew Schwartz, and produced by Yumi Araki
   and Jack Caporal at the Center for Strategic and International Studies in Washington.
-published: false
 
 ---
 In this episode, the Trade Guys talk about how the midterm election results will affect trade policy. They also welcome the Honorable Tim Groser, New Zealand's Ambassador to the United States. Amb. Groser is one of the world's leading experts on international trade and was New Zealand's chief negotiator in the GATT Uruguay Round. Amb. Groser and the Guys discuss the CPTPP, the state of the WTO, China, and...the Donkey Theory of Management. 
