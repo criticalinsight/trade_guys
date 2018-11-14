@@ -79,6 +79,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
+- _posts/midterm-election-results-what-did-it-mean-for-trade.md
 - _posts/2018-10-29-services-services.md
 - _posts/2018-11-08-will-the-election-results-turn-the-tide-on-trade.md
 - _posts/2018-08-06-whither-or-wither-wto.md
