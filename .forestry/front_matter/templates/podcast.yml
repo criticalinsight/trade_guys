@@ -50,6 +50,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/let-s-talk-sweden.md
 - _podcast/the-dynamics-of-trade-with-a-democratic-house-majority.md
 - _podcast/midterm-elections-and-the-kiwi-ambassador-speaks.md
 - _podcast/services-you-can-t-trade-without-em.md
