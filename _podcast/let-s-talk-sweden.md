@@ -7,7 +7,8 @@ transcript_url: ''
 excerpt: 'In this episode, the Trade Guys sit down with Sweden’s Ambassador to the
   United States, Karin Olofsdotter. Together they discuss the perks of being a Swede,
   the U.S.-Sweden trade relationship, and the latest Brexit news.    '
-keywords: []
+keywords:
+- _keywords/eu.md
 podcast_produced_by_language: ''
 published: false
 
