@@ -2,7 +2,7 @@
 title: Let's Talk Sweden
 date: 2018-11-20 16:02
 episode_num: 27
-soundcloud_url: ''
+soundcloud_url: https://soundcloud.com/csis-57169780/lets-talk-sweden
 transcript_url: ''
 excerpt: 'In this episode, the Trade Guys sit down with Sweden’s Ambassador to the
   United States, Karin Olofsdotter. Together they discuss the perks of being a Swede,
@@ -10,8 +10,9 @@ excerpt: 'In this episode, the Trade Guys sit down with Sweden’s Ambassador to
 keywords:
 - _keywords/brexit.md
 - _keywords/eu.md
-podcast_produced_by_language: ''
-published: false
+podcast_produced_by_language: Hosted by H. Andrew Schwartz and produced by Yumi Araki,
+  Jack Caporal, and Fran Burkham at the Center for Strategic and International Studies
+  in Washington.
 
 ---
 In this episode, the Trade Guys sit down with Sweden’s Ambassador to the United States, Karin Olofsdotter. Together they discuss the perks of being a Swede, the U.S.-Sweden trade relationship, and the latest Brexit news.    
