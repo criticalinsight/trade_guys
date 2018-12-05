@@ -3,7 +3,7 @@ title: Midterm Elections and the Kiwi Ambassador Speaks
 date: 2018-11-08 22:39
 episode_num: 25
 soundcloud_url: https://soundcloud.com/csis-57169780/midterm-elections-and-the-kiwi-ambassador-speaks
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/181109_Midterm_Elections_Kiwi_Ambassadors.pdf
 excerpt: In this episode, the Trade Guys talk about how the midterm election results
   will affect trade policy. They also welcome the Honorable Tim Groser, New Zealand's
   Ambassador to the United States. Amb. Groser is one of the world's leading experts
