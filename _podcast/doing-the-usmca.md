@@ -3,7 +3,7 @@ title: Doing the USMCA
 date: 2018-10-04 00:00:00 +0000
 episode_num: 21
 soundcloud_url: https://soundcloud.com/csis-57169780/doing-the-usmca
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/181004_Doing_the_USMCA.pdf?kBuKqDxUQ_yRNZ5QZWWZQdxk5JKvm5a7
 excerpt: 'The Trade Guys unpack the deal to replace NAFTA: the U.S.-Mexico-Canada
   Agreement. What''s in it, what does it say about the Trump administration''s trade
   policy, and what''s next for the new deal.   '
