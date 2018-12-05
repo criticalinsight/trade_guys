@@ -3,7 +3,7 @@ title: 'Trade Guys on the Road: George Washington University Edition'
 date: 2018-09-06 00:00:00 +0000
 episode_num: 17
 soundcloud_url: https://soundcloud.com/csis-57169780/trade-guys-on-the-road-at-george-washington-university
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/181011_George_Washington_University.pdf
 excerpt: The Trade Guys kick off their recording tour at George Washington University
   with a live audience participating in Washington International Trade Association’s
   two-day intensive trade seminar. The guys talk NAFTA, the intensifying trade war
