@@ -3,7 +3,7 @@ title: Hafta Talk NAFTA
 date: 2018-08-29 00:00:00 +0000
 episode_num: 16
 soundcloud_url: https://soundcloud.com/csis-57169780/hafta-talk-nafta
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180829_Hafta_Talk_NAFTA.pdf
 excerpt: The Trade Guys talk Trump’s new NAFTA deal with Mexico. The Trump administration
   celebrates the U.S.-Mexico deal this week, which updates provisions on automobiles
   moving across the border, intellectual property, agriculture and labor.
