@@ -3,7 +3,7 @@ title: Let's Talk Sweden
 date: 2018-11-20 16:02
 episode_num: 27
 soundcloud_url: https://soundcloud.com/csis-57169780/lets-talk-sweden
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/18120_Sweden.pdf
 excerpt: 'In this episode, the Trade Guys sit down with Sweden’s Ambassador to the
   United States, Karin Olofsdotter. Together they discuss the perks of being a Swede,
   the U.S.-Sweden trade relationship, and the latest Brexit news.    '
