@@ -3,7 +3,7 @@ title: Fueling the Economy
 date: 2018-10-17 00:00:00 +0000
 episode_num: 23
 soundcloud_url: https://soundcloud.com/csis-57169780/fueling-the-economy
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/181022_Bilats_Tension_NFL_Victory.pdf
 excerpt: 'In this episode, the Trade Guys welcome special guest Aaron Padilla, who
   is the senior advisor for international policy at the American Petroleum Institute
   (API). He leads API’s work to determine and represent the oil and natural gas industry’s
