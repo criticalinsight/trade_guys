@@ -3,7 +3,7 @@ title: Rumble in the Jungle
 date: 2018-11-28 19:10:01 +0000
 episode_num: 28
 soundcloud_url: https://soundcloud.com/csis-57169780/rumble-in-the-jungle
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/181128_Rumble_Jungle.pdf
 excerpt: 'In this episode, the Trade Guys preview a highly anticipated meeting between
   President Trump and China’s Xi Jinping at the upcoming G20 summit in Argentina.
   The crew also discusses General Motors and the changing landscape for auto demand
