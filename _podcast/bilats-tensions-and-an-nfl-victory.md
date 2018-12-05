@@ -3,7 +3,7 @@ title: Bilats, Tensions, and an NFL Victory
 date: 2018-10-10 00:00:00 +0000
 episode_num: 22
 soundcloud_url: https://soundcloud.com/csis-57169780/episode-21
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/181022_Bilats_Tension_NFL_Victory.pdf
 excerpt: In this episode, the Trade Guys cover a lot of ground. Japan is following
   EU’s playbook by agreeing to bilateral trade talks with the United States. Trade
   tensions with China may begin to spill over into other areas of bilateral tension.
