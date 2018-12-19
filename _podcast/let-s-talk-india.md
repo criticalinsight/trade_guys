@@ -5,11 +5,10 @@ episode_num: 31
 soundcloud_url: https://soundcloud.com/csis-57169780/lets-talk-india
 transcript_url: https://www.csis.org/analysis/lets-talk-india
 excerpt: 'In this episode, the Trade Guys welcome another special guest: CSIS’ resident
-  India scholar, [Rick Rossow](https://www.csis.org/people/richard-m-rossow). Rossow
-  holds the CSIS Wadhwani Chair in U.S.-India Policy Studies, and formerly served
-  as the deputy director of the U.S.-India Business Council (USIBC). What’s with the
-  President’s beef with India on Harley Davidson? What trade war is brewing between
-  the U.S. and India?  '
+  India scholar, Rick Rossow. Rossow holds the CSIS Wadhwani Chair in U.S.-India Policy
+  Studies, and formerly served as the deputy director of the U.S.-India Business Council
+  (USIBC). What’s with the President’s beef with India on Harley Davidson? What trade
+  war is brewing between the U.S. and India?'
 keywords:
 - _keywords/wto.md
 - _keywords/232_tariffs.md
