@@ -17,7 +17,7 @@ statistic_source: U.S. Commerce Department
 image: "/uploads/Capture-compressor.png"
 image_caption: ''
 image_credit: ''
-show_image_on_single_post: true
+show_image_on_single_post: false
 
 ---
 When governments mix subsidies and international trade, you’ve got a recipe for tariffs. What are subsidies, how do they impact international trade, and how can governments respond to subsidies? Watch this video with Trade Guy Bill Reinsch to find out more. 
