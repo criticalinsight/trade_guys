@@ -2,7 +2,7 @@
 title: 'Crash Course: Trade Policy with the Trade Guys'
 content_type: article
 show_image_on_single_post: true
-date: 2018-11-09 22:14:00 +0000
+date: 2019-01-04 00:00:00 -0500
 series:
 - _series/trade-terms-explained.md
 keywords:
