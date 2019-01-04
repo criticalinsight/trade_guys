@@ -40,10 +40,8 @@ _Crash Course_ will address a range of critical topics, including
 
 ·         Key trade policy issues in the Trump administration
 
- 
+**Register now for April 16, 2019**
 
-**Register now for January 22, 2019**
-
-The next _Crash Course_ is scheduled for Tuesday, January 22, 2019. Tuition for the one-day course is $1000 per person.
+The next _Crash Course_ is scheduled for Tuesday, April 16, 2019. Tuition for the one-day course is $1000 per person.
 
 To register, please sign up [here](https://www.tfaforms.com/4706350). If you have any questions, please contact Joel Martinez, CSIS Program Coordinator of Executive Education, at [jmartinez@csis.org](mailto:jmartinez@csis.org).
