@@ -13,6 +13,7 @@ keywords:
 - _keywords/usmca.md
 podcast_produced_by_language: Hosted by H. Andrew Schwartz and produced by Yumi Araki
   and Jack Caporal at the Center for Strategic and International Studies in Washington.
+published: false
 
 ---
 The Trade Guys kick off the new year by welcoming special guest, Josh Bolten, President and CEO of the Business Round Table (BRT). Bolten, Andrew, and the Trade Guys discuss what to expect in the trade world in 2019. Part I of their conversation includes their insights on the USMCA and the politics of trade.
