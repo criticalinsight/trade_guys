@@ -11,6 +11,15 @@ fields:
       section: jekyll-posts
     required: true
   label: Featured Statistic Post
-  default: _posts/2018-08-15-test-post.md
+  default: _posts/2018-08-22-talking-turkey-and-taking-stock.md
+- type: list
+  name: featured_posts
+  label: Featured Posts
+  description: "'Trade Explained & Visualized'"
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: jekyll-posts
 pages:
 - index.md
