@@ -3,8 +3,15 @@
     {% assign tradeMainPage = site.pages | where: "path", "trade-explained.md" | first %}
     <h2 class="featured-post-list-title">{{ tradeMainPage.title | escaped }}</h2>
     <p>{{ tradeMainPage.content }}</p>
-    {% assign posts = site.posts | sort: 'date' | reverse %}
-    {% for post in posts limit:2 %}{% include post-list.html %}{% endfor %}
+    {% if page.featured_posts.size > 0 %}
+      {% for posts in page.featured_posts limit: 2 %}
+        {% assign post = site.posts | where: 'relative_path', posts | first %}
+        {% include post-list.html %}
+      {% endfor %}
+    {% else %}
+      {% assign posts = site.posts | sort: 'date' | reverse %}
+      {% for post in posts limit:2 %}{% include post-list.html %}{% endfor %}
+    {% endif %}
     <a href="/trade-explained" class="btn btn-all-caps see-more" aria-label="{{ site.data.language.all_posts_aria }}">{{ site.data.language.all_posts }}</a>
   </div>
   {% include series-list.html %}
