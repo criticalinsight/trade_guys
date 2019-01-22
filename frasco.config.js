@@ -60,7 +60,10 @@ module.exports = {
   js: {
     src: '_js',
     dest: 'js',
-    entry: ['bundle.js']
+    entry: [
+      'bundle.js',
+      'custom-viz/boeing/boeing.js'
+    ]
   },
 
   sass: {
