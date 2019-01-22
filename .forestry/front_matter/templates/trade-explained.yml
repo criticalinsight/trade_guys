@@ -84,6 +84,14 @@ fields:
   label: Featured in Archive?
   description: Featured articles (slide right until green) will be pinned to the top
     of the archive.
+- type: list
+  name: js_files
+  label: Js files
+  hidden: true
+- type: list
+  name: css_files
+  label: Css files
+  hidden: true
 pages:
 - _posts/2018-09-06-nafta-milking-it-for-all-it-s-worth.md
 - _posts/2018-09-21-A-New-Phase-of-the-U.S.-China-Trade-War.md
