@@ -2,7 +2,7 @@
 content_type: article
 show_image_on_single_post: true
 title: Around the World in 47 Parts
-date: ''
+date: 2019-01-22 00:00:00 -0500
 series: []
 keywords: []
 excerpt: ''
