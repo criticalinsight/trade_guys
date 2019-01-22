@@ -26,7 +26,7 @@ Among the most famous aircraft recently developed is the Boeing 787 Dreamliner, 
 
 While the completed 787 rolls off the assembly line in Everett, large portions of the plane are not made nor even assembled in Washington State or even in the US. In fact, [35 percent](http://old.seattletimes.com/html/businesstechnology/2003707208_787globalbuild15.html) of the 787 is built in Nagoya, Japan.
 
-Where else do parts come from? Everywhere. At least nine countries and half a dozen states on four continents. Fasten your seatbelts and put your tray tables and seatbacks in the upright and locked position-let’s take a journey through the Boeing supply chain. 
+Where else do parts come from? Everywhere. At least nine countries and half a dozen states on four continents. Fasten your seatbelts and put your tray tables and seat back in the upright and locked position-let’s take a journey through the Boeing supply chain. 
 
 Starting with the nose, the forward fuselage is constructed in Wichita, Kansas. But the forward landing gear underneath the cockpit is constructed in Gloucester… the one in the UK that is, not Massachusetts.
 
