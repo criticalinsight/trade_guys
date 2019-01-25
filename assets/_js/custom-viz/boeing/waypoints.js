@@ -1,4 +1,5 @@
-import Waypoint from 'waypoints'
+// import waypoint from 'waypoints'
+require('waypoints/lib/jquery.waypoints.js')
 
 // let waypoint = new Waypoint({
 //   element: document.getElementById('waypoint'),
@@ -9,4 +10,4 @@ import Waypoint from 'waypoints'
 
 console.log('waypoint file loaded')
 
-export default Waypoints
+// export default Waypoint

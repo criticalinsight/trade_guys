@@ -14,9 +14,11 @@ image: ''
 image_caption: ''
 image_credit: ''
 featured_in_archive: false
+custom_viz: true
 js_files:
-- boeing
-- custom-viz/boeing/scrollytelling.html
+- boeing/boeing
+- boeing/map
+- boeing/plane
 css_files:
 - boeing/base
 - boeing/map
