@@ -1,0 +1,12 @@
+<script src="{{ "/assets/js/bundle.js" | relative_url }}" type="text/javascript"></script>
+
+{% if page.collection == 'posts' %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js" type="text/javascript"></script>
+<script>
+  iFrameResize( {log: false}, 'iframe.js-iframeResizeEnabled');
+</script>
+{% endif %}
+
+{% if page.custom_viz == true %}
+<script src="{{ "/assets/js/custom-viz.js" | relative_url }}" type="text/javascript"></script>
+{% endif %}
