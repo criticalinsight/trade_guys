@@ -62,7 +62,7 @@ module.exports = {
     dest: 'js',
     entry: [
       'bundle.js',
-      'custom-viz/boeing/boeing.js'
+      '/custom-viz/boeing/boeing.js'
     ]
   },
 

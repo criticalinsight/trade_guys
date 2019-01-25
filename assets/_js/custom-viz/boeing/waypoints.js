@@ -1,13 +1,18 @@
-// import waypoint from 'waypoints'
-require('waypoints/lib/jquery.waypoints.js')
+const waypoints = require('waypoints/lib/jquery.waypoints.js')
 
-// let waypoint = new Waypoint({
-//   element: document.getElementById('waypoint'),
-//   handler: function(direction) {
-//     console.log('Scrolled to waypoint!')
-//   }
-// })
+const WaypointJS = () => {
+  waypoints('.scrolling-text-1', function(direction) {
+    const forwardFuselage = document.getElementById('forward_fuselage')
+    const label = document.getElementById('forward_fuselage_label')
 
-console.log('waypoint file loaded')
+    if (direction === 'down') {
+      forwardFuselage.fadeOut()
+    } else if (direction === 'up') {
+      label.fadeIn()
+    } else {
+      console.log('waypoint file loaded')
+    }
+  })
+}
 
-// export default Waypoint
+export default WaypointJS

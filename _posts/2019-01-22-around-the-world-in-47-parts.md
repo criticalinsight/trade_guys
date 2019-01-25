@@ -17,12 +17,9 @@ featured_in_archive: false
 custom_viz: true
 js_files:
 - boeing/boeing
-- boeing/map
-- boeing/plane
 css_files:
-- boeing/base
+- boeing/boeing
 - boeing/map
-- boeing/plane
 published: true
 
 ---

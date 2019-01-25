@@ -1,10 +1,7 @@
-import map from './map'
-import plane from './plane'
-import Waypoint from './waypoints'
+import Map from './map'
+import WaypointJS from './waypoints'
 
 window.addEventListener('DOMContentLoaded', () => {
-  Waypoint()
+  Map()
+  WaypointJS()
 })
-
-map()
-plane()
