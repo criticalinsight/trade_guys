@@ -92,11 +92,6 @@ fields:
   name: css_files
   label: Css files
   hidden: true
-- type: boolean
-  name: custom_viz
-  label: custom viz?
-  description: Toggle right if this page has custom visualizations
-  hidden: true
 pages:
 - _posts/2018-09-06-nafta-milking-it-for-all-it-s-worth.md
 - _posts/2018-09-21-A-New-Phase-of-the-U.S.-China-Trade-War.md
