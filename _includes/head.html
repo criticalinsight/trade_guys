@@ -10,4 +10,15 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  {%- if page.custom_viz == true -%}
+    {%- if page.css_files.size > 0 -%}
+      {%- for file in page.css_files %}
+        {%- if file.contains '://' -%}
+          <link href="{{ file }}" rel="stylesheet">
+        {%- else -%}
+          <link href="{{ file | prepend: '/assets/css/custom-viz/' | append: '.css' | relative_url }}" rel="stylesheet">
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
 </head>
