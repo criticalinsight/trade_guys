@@ -82,12 +82,12 @@ module.exports = {
     output: {
       filename: chunkData => {
         return chunkData.chunk.entryModule._identifier.includes('custom_viz/')
-          ? 'custom_viz/[name].js'
+          ? 'custom_viz/[name]/[name].js'
           : '[name].js'
       }
     },
     externals: {
-      waypoints: 'waypoints'
+      waypoints: 'waypoints',
     },
     module: {
       rules: [
