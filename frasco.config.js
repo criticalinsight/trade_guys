@@ -82,7 +82,7 @@ module.exports = {
     output: {
       filename: chunkData => {
         return chunkData.chunk.entryModule._identifier.includes('custom_viz/')
-          ? 'cusom_viz/[name].js'
+          ? 'custom_viz/[name].js'
           : '[name].js'
       }
     },
