@@ -77,8 +77,28 @@ module.exports = {
 
   webpack: {
     mode: 'production',
+    // devtool: 'source-map',
+    // plugins: [new BundleAnalyzerPlugin()],
+    output: {
+      filename: chunkData => {
+        return chunkData.chunk.entryModule._identifier.includes('custom_viz/')
+          ? 'cusom_viz/[name].js'
+          : '[name].js'
+      }
+    },
+    externals: {
+      waypoints: 'waypoints'
+    },
     module: {
-      rules: []
+      rules: [
+        { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
+      ]
+    },
+    resolve: {
+      modules: ['node_modules'],
+      alias: {
+        waypoints: 'waypoints/lib/jquery.waypoints.js'
+      }
     }
   }
 }
