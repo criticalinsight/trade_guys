@@ -81,8 +81,8 @@ module.exports = {
     // plugins: [new BundleAnalyzerPlugin()],
     output: {
       filename: chunkData => {
-        return chunkData.chunk.entryModule._identifier.includes('custom_viz/')
-          ? 'custom_viz/[name]/[name].js'
+        return chunkData.chunk.entryModule._identifier.includes('custom-viz/')
+          ? 'custom-viz/[name]/[name].js'
           : '[name].js'
       }
     },
@@ -97,7 +97,7 @@ module.exports = {
     resolve: {
       modules: ['node_modules'],
       alias: {
-        waypoints: 'waypoints/lib/jquery.waypoints.js'
+        waypoints: 'waypoints/lib/noframework.waypoints.js'
       }
     }
   }
