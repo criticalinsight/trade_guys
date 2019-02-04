@@ -97,7 +97,7 @@ module.exports = {
     resolve: {
       modules: ['node_modules'],
       alias: {
-        waypoints: 'waypoints/lib/noframework.waypoints.js'
+        waypoints: 'waypoints'
       }
     }
   }
