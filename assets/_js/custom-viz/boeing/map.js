@@ -1,5 +1,5 @@
 const Map = () => {
-  console.log('testing the relative include for viz - plane')
+  console.log('testing the relative include for map')
 }
 
 export default Map
