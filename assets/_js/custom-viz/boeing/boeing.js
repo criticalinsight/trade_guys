@@ -1,7 +1,7 @@
-import Map from './map'
-import WaypointsJS from './waypoints'
+import Hover from './hover-effects'
+import Waypoints from './waypoints'
 
 window.addEventListener('DOMContentLoaded', () => {
-  Map()
-  WaypointsJS()
+  Hover()
+  Waypoints()
 })
