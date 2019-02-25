@@ -13,7 +13,12 @@ const Waypoints = () => {
       handler: function(direction) {
         Array.from(parts).forEach(part => {
           let partName = part.getAttribute('data-part')
-          console.log('direction: ' + direction + ' part: ' + partName)
+          let partLabel = document.getElementById(partName + '-label')
+          console.log(`direction: ${direction}`)
+          console.log(`part: ${partName}`)
+          console.log(`partLabel: ${partLabel}`)
+          console.log(partLabel.innerHTML)
+          partLabel.classList.add('fade-in-1')
         })
       },
       offset: '95%'

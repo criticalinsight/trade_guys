@@ -1,18 +1,47 @@
 /*==============================
-=          Functions           =
+=        Scrollytelling        =
 ==============================*/
 
-
-
-/*==============================
-=         Part Styles          =
-==============================*/
-
-.label-group {
+.part-label {
   @for $i from 1 through 5 {
-    .label-group div:nth-child(#{$i}) {
+    .part-label g:nth-child(#{$i}) {
       -webkit-animation-delay:(#{$i*0.1s});
       animation-delay:(#{$i*0.1s});
     }
   }
+}
+
+.hidden {
+  display: none;
+}
+
+.fade-out {
+  opacity: 0.5;
+  transition: opacity 1s linear;
+}
+
+.fade-in-1 {
+  opacity: 1;
+  transition: opacity 1s linear;
+  @for $i from 1 through 5 {
+    .part-label g:nth-child(#{$i}) {
+      -webkit-animation-delay:(#{$i*0.1s});
+      animation-delay:(#{$i*0.1s});
+    }
+  }
+}
+
+.fade-in-3 {
+  opacity: 1;
+  transition: opacity 3s linear;
+}
+
+.fade-out-1 {
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.mid-fade-out-3 {
+  opacity: 0.3;
+  transition: opacity 3s linear;
 }
