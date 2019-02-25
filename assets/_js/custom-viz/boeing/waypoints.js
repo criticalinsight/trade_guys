@@ -17,8 +17,9 @@ const Waypoints = () => {
           console.log(`direction: ${direction}`)
           console.log(`part: ${partName}`)
           console.log(`partLabel: ${partLabel}`)
-          console.log(partLabel.innerHTML)
+          // console.log(partLabel.innerHTML)
           partLabel.classList.add('fade-in-1')
+          return
         })
       },
       offset: '95%'
