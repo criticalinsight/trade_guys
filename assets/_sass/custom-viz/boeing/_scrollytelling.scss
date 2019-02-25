@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+=======
+/*==============================
+=        Scrollytelling        =
+==============================*/
+
+.hidden {
+  display: none;
+}
+
+.fade-out {
+  opacity: 0.5;
+  transition: opacity 1s linear;
+}
+
+.fade-in-1 {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.fade-in-3 {
+  opacity: 1;
+  transition: opacity 3s linear;
+}
+
+.fade-out-1 {
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.mid-fade-out-3 {
+  opacity: 0.3;
+  transition: opacity 3s linear;
+}
+>>>>>>> intitial waypoints setup
