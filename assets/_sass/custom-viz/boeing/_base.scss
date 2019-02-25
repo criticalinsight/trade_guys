@@ -4,12 +4,16 @@
 
 .svg-container {
   position: sticky;
-  top: 0;
+  top: #{$size_header-height-mobile};
   height: 75vh;
   margin: 0;
   width: 100%;
   z-index: -1;
   padding: 2rem;
+
+  @include breakpoint("medium") {
+    top: #{$size_header-height-desktop};
+  }
 }
 
 .text-container {
@@ -36,4 +40,8 @@
 
 svg {
   height: 100%;
+}
+
+.wrapper {
+  overflow: initial;
 }
