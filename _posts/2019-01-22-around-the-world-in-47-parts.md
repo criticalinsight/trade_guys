@@ -18,8 +18,7 @@ custom_viz: true
 js_files:
 - boeing/boeing
 css_files:
-- boeing/boeing
-- boeing/map
+- boeing
 published: true
 
 ---
@@ -34,3 +33,7 @@ While the completed 787 rolls off the assembly line in Everett, large portions o
 Where else do parts come from? Everywhere. At least nine countries and half a dozen states on four continents. Fasten your seatbelts and put your tray tables and seat back in the upright and locked position-let’s take a journey through the Boeing supply chain.
 
 {% include_relative custom-viz/boeing/boeing-scroll.html %}
+
+All this, however, just covers the empty shell of the aircraft. Additional fittings-the software that runs the computer systems, the lights, the seats, the overhead storage bins, the air-conditioning systems, and the power systems-all come from dozens of different manufacturers also spread around the globe.
+
+So, while Boeing may be emblematic of the spirit of American flight, the processes and parts that allow flight are sourced globally, through complex and intricately timed supply chains. Any disruption to those supply chains-whether from tariffs or the weather-can wreak havoc on Boeing’s delivery timetables to airlines. Delayed deliveries mean delayed payments or even cancelled orders, which ultimately affect the jobs of the 137,000 people Boeing employs in the United States. Next time you sit back, relax, and enjoy your flight remember that these wonderous machines are truly an international effort.
