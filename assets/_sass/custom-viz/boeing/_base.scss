@@ -1,3 +1,47 @@
 /*==============================
-=         Base          =
+=             Base             =
 ==============================*/
+
+.svg-container {
+  position: sticky;
+  top: #{$size_header-height-mobile};
+  height: 75vh;
+  margin: 0;
+  width: 100%;
+  z-index: -1;
+  padding: 2rem;
+
+  @include breakpoint("medium") {
+    top: #{$size_header-height-desktop};
+  }
+}
+
+.text-container {
+  position: relative;
+  z-index: 1;
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 700px;
+
+  p {
+    min-height: 100vh;
+    margin: 0;
+    text-align: left;
+
+    &:not(:last-of-type) {
+     margin: 0 0 1rem;
+    }
+  }
+}
+
+.plane {
+  height: 100%;
+}
+
+svg {
+  height: 100%;
+}
+
+.wrapper {
+  overflow: initial;
+}
