@@ -13,18 +13,10 @@ const Waypoints = () => {
       handler: function(direction) {
         Array.from(parts).forEach(part => {
           let partName = part.getAttribute('data-part')
-          if (direction == 'down') {
-            setTimeout(function run() {
-              console.log('down: ' + partName)
-
-              setTimeout(run, 100)
-            }, 1000)
-          } else if (direction == 'up') {
-            console.log('up: ' + partName)
-          }
+          console.log('direction: ' + direction + ' part: ' + partName)
         })
       },
-      offset: '70%'
+      offset: '95%'
     })
   })
 }
