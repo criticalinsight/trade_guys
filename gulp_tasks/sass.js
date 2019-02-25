@@ -6,7 +6,7 @@ const sass         = require('gulp-sass');
 const rename = require('gulp-rename');
 
 gulp.task('sass', function () {
-  return gulp.src(config.assets + '/' + config.sass.src + '/**/*')
+  return gulp.src(config.assets + '/' + config.sass.src + '/**/*.scss')
     .pipe(sass({outputStyle: config.sass.outputStyle}).on('error', sass.logError))
     .pipe(postcss([
       autoprefixer({

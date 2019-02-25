@@ -1,7 +1,9 @@
-const Waypoint = require('waypoints/lib/noframework.waypoints.js')
+import 'waypoints/lib/noframework.waypoints.min'
+import 'waypoints/src/shortcuts/inview'
+import 'waypoints/src/shortcuts/sticky'
 
-const WaypointsJS = () => {
-
+const Waypoints = () => {
+  console.log('waypoint file')
 }
 
-export default WaypointsJS
+export default Waypoints
