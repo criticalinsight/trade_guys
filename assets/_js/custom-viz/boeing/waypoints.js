@@ -18,17 +18,22 @@ const Waypoints = () => {
         Array.from(parts).forEach(function(part, i) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
-          let number = 0
 
-          setTimeout(function() {
-            if (partLabel.classList.contains('hidden')) {
+          let number = 0
+          // function onClick() {
+          //   number += 1
+          //   document.getElementById('totalParts').innerHTML = clicks
+          // }
+
+          if (partLabel.classList.contains('hidden')) {
+            setTimeout(function() {
               partLabel.classList.remove('hidden')
-              //increment number
-            } else {
-              partLabel.classList.add('hidden')
-              //decrease number
-            }
-          }, 5000 * (i + 1))
+            }, 600 * (i + 1))
+            //increment number
+          } else {
+            partLabel.classList.add('hidden')
+            //decrease number
+          }
 
           console.log(`${counter} and ${partTotal} and ${placeTotal}`)
           console.log(`${number}`)
@@ -47,11 +52,12 @@ const Waypoints = () => {
         Array.from(parts).forEach(part => {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
+          console.log(partLabel)
 
-          if (partLabel.classList.contains('hidden')) {
-            partLabel.classList.remove('hidden')
-          } else {
+          if (!partLabel.classList.contains('hidden')) {
             partLabel.classList.add('hidden')
+          } else {
+            partLabel.classList.remove('hidden')
           }
         })
       },
