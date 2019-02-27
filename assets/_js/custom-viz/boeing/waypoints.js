@@ -21,12 +21,36 @@ const Waypoints = () => {
     console.log(`number of places: ${numberPlaces}`)
   }
 
+  const decreaseParts = function() {
+    numberParts -= 1
+    document.querySelector('.part-total').innerHTML = numberParts
+    console.log(`number of parts: ${numberParts}`)
+  }
+
+  const decreasePlaces = function() {
+    numberPlaces -= 1
+    document.querySelector('.places-total').innerHTML = numberPlaces
+    console.log(`number of places: ${numberPlaces}`)
+  }
+
   //if paragraph hits bottom of screen, part label appears
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
+    const places = paragraph.querySelectorAll('.place')
+
     new Waypoint({
       element: paragraph,
       handler: function() {
+        Array.from(places).forEach(function(place, i) {
+          if (place.classList.contains('counted')) {
+            setTimeout(decreasePlaces, 600 * (i + 1))
+            place.classList.remove('counted')
+          } else {
+            place.classList.add('counted')
+            setTimeout(increasePlaces, 600 * (i + 1))
+          }
+        })
+
         Array.from(parts).forEach(function(part, i) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
@@ -35,11 +59,15 @@ const Waypoints = () => {
             setTimeout(function() {
               partLabel.classList.remove('hidden')
               increaseParts()
-              increasePlaces()
+              part.classList.add('counted')
             }, 600 * (i + 1))
           } else {
-            partLabel.classList.add('hidden')
-            //decrease number
+            if (part.classList.contains('counted')) {
+              setTimeout(decreaseParts, 600 * (i + 1))
+              part.classList.remove('counted')
+            } else {
+              partLabel.classList.add('hidden')
+            }
           }
         })
       },
