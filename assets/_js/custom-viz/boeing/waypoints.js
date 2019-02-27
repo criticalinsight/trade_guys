@@ -5,29 +5,33 @@ import 'waypoints/src/shortcuts/sticky'
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
 
+  const counter = document.getElementsByClassName('counter')
+  const partTotal = document.querySelectorAll('.part-total')
+  const placeTotal = document.querySelectorAll('.place-total')
+
   //if paragraph hits bottom of screen, part label appears
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
     new Waypoint({
       element: paragraph,
       handler: function() {
-        Array.from(parts).forEach(part => {
+        Array.from(parts).forEach(function(part, i) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
+          let number = 0
 
-          if (partLabel.classList.contains('hidden')) {
-            // partLabel.setTimeout(function() {
-            partLabel.classList.remove('hidden')
-            // }, 10000)
-          } else {
-            partLabel.classList.add('hidden')
-          }
+          setTimeout(function() {
+            if (partLabel.classList.contains('hidden')) {
+              partLabel.classList.remove('hidden')
+              //increment number
+            } else {
+              partLabel.classList.add('hidden')
+              //decrease number
+            }
+          }, 5000 * (i + 1))
 
-          // if (paragraph.classList.contains('hidden')) {
-          //   paragraph.classList.remove('hidden')
-          // } else {
-          //   paragraph.classList.add('hidden')
-          // }
+          console.log(`${counter} and ${partTotal} and ${placeTotal}`)
+          console.log(`${number}`)
         })
       },
       offset: '95%'
@@ -49,12 +53,6 @@ const Waypoints = () => {
           } else {
             partLabel.classList.add('hidden')
           }
-
-          // if (paragraph.classList.contains('hidden')) {
-          //   paragraph.classList.remove('hidden')
-          // } else {
-          //   paragraph.classList.add('hidden')
-          // }
         })
       },
       offset: '10%'
