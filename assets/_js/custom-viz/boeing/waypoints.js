@@ -4,24 +4,8 @@ import 'waypoints/src/shortcuts/sticky'
 
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
-  // const boeingWrapper = document.getElementById('boeingScroll')
-  // const svgContainer = document.querySelector('.svg-container')
-  // const allLabels = svgContainer.querySelector('.label-group')
 
-  // let hideAllLabels = new Waypoint({
-  //   element: boeingWrapper,
-  //   handler: function() {
-  //     Array.from(allLabels).forEach(label => {
-  //       if (!label.classList.contains('hidden')) {
-  //         label.classList.add('hidden')
-  //       } else {
-  //         return
-  //       }
-  //     })
-  //   },
-  //   offset: '95%'
-  // })
-
+  //if paragraph hits bottom of screen, part label appears
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
     new Waypoint({
@@ -32,7 +16,9 @@ const Waypoints = () => {
           let partLabel = document.getElementById(`${partName}-label`)
 
           if (partLabel.classList.contains('hidden')) {
+            // partLabel.setTimeout(function() {
             partLabel.classList.remove('hidden')
+            // }, 10000)
           } else {
             partLabel.classList.add('hidden')
           }
@@ -48,6 +34,7 @@ const Waypoints = () => {
     })
   })
 
+  //if paragraph hits top of screen, part label disappears
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
     new Waypoint({
@@ -73,8 +60,6 @@ const Waypoints = () => {
       offset: '10%'
     })
   })
-
-  // hideAllLabels()
 }
 
 export default Waypoints
