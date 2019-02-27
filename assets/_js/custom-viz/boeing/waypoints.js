@@ -8,19 +8,19 @@ const Waypoints = () => {
   const svgContainer = document.querySelector('.svg-container')
   const allLabels = svgContainer.querySelector('.label-group')
 
-  let hideAllLabels = new Waypoint({
-    element: boeingWrapper,
-    handler: function() {
-      Array.from(allLabels).forEach(label => {
-        if (!label.classList.contains('hidden')) {
-          label.classList.add('hidden')
-        } else {
-          return
-        }
-      })
-    },
-    offset: '95%'
-  })
+  // let hideAllLabels = new Waypoint({
+  //   element: boeingWrapper,
+  //   handler: function() {
+  //     Array.from(allLabels).forEach(label => {
+  //       if (!label.classList.contains('hidden')) {
+  //         label.classList.add('hidden')
+  //       } else {
+  //         return
+  //       }
+  //     })
+  //   },
+  //   offset: '95%'
+  // })
 
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
@@ -31,11 +31,12 @@ const Waypoints = () => {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
 
-          if (!partLabel.classList.contains('hidden')) {
-            return
-          } else {
-            partLabel.classList.remove('hidden')
-          }
+          partLabel.classList.remove('hidden')
+          // if (!partLabel.classList.contains('hidden')) {
+          //   return
+          // } else {
+          //
+          // }
         })
       },
       offset: '95%'
