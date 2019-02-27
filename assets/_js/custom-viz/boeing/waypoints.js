@@ -3,28 +3,68 @@ import 'waypoints/src/shortcuts/inview'
 import 'waypoints/src/shortcuts/sticky'
 
 const Waypoints = () => {
-  console.log('waypoint file')
-
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
+  const boeingWrapper = document.getElementById('boeingScroll')
+  const svgContainer = document.querySelector('.svg-container')
+  const allLabels = svgContainer.querySelector('.label-group')
+
+  let hideAllLabels = new Waypoint({
+    element: boeingWrapper,
+    handler: function() {
+      Array.from(allLabels).forEach(label => {
+        if (!label.classList.contains('hidden')) {
+          label.classList.add('hidden')
+        } else {
+          return
+        }
+      })
+    },
+    offset: '95%'
+  })
+
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
     new Waypoint({
       element: paragraph,
-      handler: function(direction) {
+      handler: function() {
         Array.from(parts).forEach(part => {
           let partName = part.getAttribute('data-part')
-          let partLabel = document.getElementById(partName + '-label')
-          console.log(`direction: ${direction}`)
-          console.log(`part: ${partName}`)
-          console.log(`partLabel: ${partLabel}`)
-          // console.log(partLabel.innerHTML)
-          partLabel.classList.add('fade-in-1')
-          return
+          let partLabel = document.getElementById(`${partName}-label`)
+
+          if (!partLabel.classList.contains('hidden')) {
+            return
+          } else {
+            partLabel.classList.remove('hidden')
+          }
         })
       },
       offset: '95%'
     })
   })
+
+  paragraphs.forEach(paragraph => {
+    const parts = paragraph.querySelectorAll('.part')
+    new Waypoint({
+      element: paragraph,
+      handler: function() {
+        Array.from(parts).forEach(part => {
+          let partName = part.getAttribute('data-part')
+          let partLabel = document.getElementById(`${partName}-label`)
+
+          partLabel.classList.add('hidden')
+
+          if (paragraph.classList.contains('hidden')) {
+            paragraph.classList.remove('hidden')
+          } else {
+            paragraph.classList.add('hidden')
+          }
+        })
+      },
+      offset: '10%'
+    })
+  })
+
+  hideAllLabels()
 }
 
 export default Waypoints
