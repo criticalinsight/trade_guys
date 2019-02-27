@@ -4,10 +4,22 @@ import 'waypoints/src/shortcuts/sticky'
 
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
+  // const counter = document.getElementsByClassName('counter')
 
-  const counter = document.getElementsByClassName('counter')
-  const partTotal = document.querySelectorAll('.part-total')
-  const placeTotal = document.querySelectorAll('.place-total')
+  let numberParts = 0
+  let numberPlaces = 0
+
+  const increaseParts = function() {
+    numberParts += 1
+    document.querySelector('.part-total').innerHTML = numberParts
+    console.log(`number of parts: ${numberParts}`)
+  }
+
+  const increasePlaces = function() {
+    numberPlaces += 1
+    document.querySelector('.places-total').innerHTML = numberPlaces
+    console.log(`number of places: ${numberPlaces}`)
+  }
 
   //if paragraph hits bottom of screen, part label appears
   paragraphs.forEach(paragraph => {
@@ -19,24 +31,16 @@ const Waypoints = () => {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
 
-          let number = 0
-          // function onClick() {
-          //   number += 1
-          //   document.getElementById('totalParts').innerHTML = clicks
-          // }
-
           if (partLabel.classList.contains('hidden')) {
             setTimeout(function() {
               partLabel.classList.remove('hidden')
+              increaseParts()
+              increasePlaces()
             }, 600 * (i + 1))
-            //increment number
           } else {
             partLabel.classList.add('hidden')
             //decrease number
           }
-
-          console.log(`${counter} and ${partTotal} and ${placeTotal}`)
-          console.log(`${number}`)
         })
       },
       offset: '95%'
