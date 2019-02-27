@@ -4,9 +4,9 @@ import 'waypoints/src/shortcuts/sticky'
 
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
-  const boeingWrapper = document.getElementById('boeingScroll')
-  const svgContainer = document.querySelector('.svg-container')
-  const allLabels = svgContainer.querySelector('.label-group')
+  // const boeingWrapper = document.getElementById('boeingScroll')
+  // const svgContainer = document.querySelector('.svg-container')
+  // const allLabels = svgContainer.querySelector('.label-group')
 
   // let hideAllLabels = new Waypoint({
   //   element: boeingWrapper,
@@ -31,11 +31,16 @@ const Waypoints = () => {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
 
-          partLabel.classList.remove('hidden')
-          // if (!partLabel.classList.contains('hidden')) {
-          //   return
+          if (partLabel.classList.contains('hidden')) {
+            partLabel.classList.remove('hidden')
+          } else {
+            partLabel.classList.add('hidden')
+          }
+
+          // if (paragraph.classList.contains('hidden')) {
+          //   paragraph.classList.remove('hidden')
           // } else {
-          //
+          //   paragraph.classList.add('hidden')
           // }
         })
       },
@@ -52,20 +57,24 @@ const Waypoints = () => {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
 
-          partLabel.classList.add('hidden')
-
-          if (paragraph.classList.contains('hidden')) {
-            paragraph.classList.remove('hidden')
+          if (partLabel.classList.contains('hidden')) {
+            partLabel.classList.remove('hidden')
           } else {
-            paragraph.classList.add('hidden')
+            partLabel.classList.add('hidden')
           }
+
+          // if (paragraph.classList.contains('hidden')) {
+          //   paragraph.classList.remove('hidden')
+          // } else {
+          //   paragraph.classList.add('hidden')
+          // }
         })
       },
       offset: '10%'
     })
   })
 
-  hideAllLabels()
+  // hideAllLabels()
 }
 
 export default Waypoints
