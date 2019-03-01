@@ -5,10 +5,15 @@ import 'waypoints/src/shortcuts/sticky'
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
 
+  const svgContainer = document.querySelector('.svg-container')
+  const plane = svgContainer.querySelector('.plane')
+  const map = svgContainer.querySelector('.map')
+
   // const counter = document.getElementsByClassName('counter')
   let numberParts = 0
   let numberPlaces = 0
 
+  //if paragraph hits bottom of screen, part label appears
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
     const places = paragraph.querySelectorAll('.place')
@@ -16,6 +21,7 @@ const Waypoints = () => {
     new Waypoint({
       element: paragraph,
       handler: function(direction) {
+        ///// Update DOM classes
         Array.from(places).forEach(function(place) {
           if (place.classList.contains('counted')) {
             place.classList.remove('counted')
@@ -32,6 +38,7 @@ const Waypoints = () => {
           }
         })
 
+        ///// Count relevant places and update Counter
         let placeCount = Array.from(places).filter(function(place) {
           return place.classList.contains('counted')
         }).length
@@ -44,9 +51,11 @@ const Waypoints = () => {
 
         document.querySelector('.places-total').innerHTML = numberPlaces
 
+        ///// Count relevant parts and update Counter
         let partCount = Array.from(parts).filter(function(part) {
           return part.classList.contains('counted')
         }).length
+        console.log(partCount + 'is the partCount')
 
         if (direction === 'down') {
           numberParts += partCount
@@ -55,11 +64,25 @@ const Waypoints = () => {
         }
 
         document.querySelector('.part-total').innerHTML = numberParts
+
+        const totalParts = 22
+        const totalPlaces = 19
+
+        while (partCount == totalParts && placeCount == totalPlaces) {
+          if (plane.classList.contains('display-none') && direction === 'up') {
+            plane.classList.remove('display-none')
+            map.classList.add('display-none')
+          } else {
+            plane.classList.add('display-none')
+            map.classList.remove('display-none')
+          }
+        }
       },
       offset: '50%'
     })
   })
 
+  //if paragraph hits top of screen, part label disappears
   paragraphs.forEach(paragraph => {
     const allParts = Array.from(document.querySelectorAll('.part'))
     const activeParts = Array.from(paragraph.querySelectorAll('.part'))
@@ -73,6 +96,7 @@ const Waypoints = () => {
 
           if (activeParts.indexOf(part) < 0) {
             partLabel.classList.add('hidden')
+            console.log(part + ' are the activeParts')
           } else {
             partLabel.classList.remove('hidden')
           }
