@@ -6,16 +6,21 @@
   transition: opacity 1s linear;
 }
 
+.hidden {
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.display-none {
+  display: none;
+  transition: opacity 1s linear;
+}
 
 
 /*==============================
 =        Toggle Classes        =
 ==============================*/
 
-.hidden {
-  opacity: 0;
-  transition: opacity 1s linear;
-}
 
 @keyframes toggleOpacity {
   transition: opacity 1s linear;

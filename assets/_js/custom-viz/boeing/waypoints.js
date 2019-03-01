@@ -4,89 +4,74 @@ import 'waypoints/src/shortcuts/sticky'
 
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
-  // const counter = document.getElementsByClassName('counter')
 
+  // const counter = document.getElementsByClassName('counter')
   let numberParts = 0
   let numberPlaces = 0
 
-  const increaseParts = function() {
-    numberParts += 1
-    document.querySelector('.part-total').innerHTML = numberParts
-    console.log(`number of parts: ${numberParts}`)
-  }
-
-  const increasePlaces = function() {
-    numberPlaces += 1
-    document.querySelector('.places-total').innerHTML = numberPlaces
-    console.log(`number of places: ${numberPlaces}`)
-  }
-
-  const decreaseParts = function() {
-    numberParts -= 1
-    document.querySelector('.part-total').innerHTML = numberParts
-    console.log(`number of parts: ${numberParts}`)
-  }
-
-  const decreasePlaces = function() {
-    numberPlaces -= 1
-    document.querySelector('.places-total').innerHTML = numberPlaces
-    console.log(`number of places: ${numberPlaces}`)
-  }
-
-  //if paragraph hits bottom of screen, part label appears
   paragraphs.forEach(paragraph => {
     const parts = paragraph.querySelectorAll('.part')
     const places = paragraph.querySelectorAll('.place')
 
     new Waypoint({
       element: paragraph,
-      handler: function() {
-        Array.from(places).forEach(function(place, i) {
+      handler: function(direction) {
+        Array.from(places).forEach(function(place) {
           if (place.classList.contains('counted')) {
-            setTimeout(decreasePlaces, 600 * (i + 1))
             place.classList.remove('counted')
           } else {
             place.classList.add('counted')
-            setTimeout(increasePlaces, 600 * (i + 1))
           }
         })
 
-        Array.from(parts).forEach(function(part, i) {
-          let partName = part.getAttribute('data-part')
-          let partLabel = document.getElementById(`${partName}-label`)
-
-          if (partLabel.classList.contains('hidden')) {
-            setTimeout(function() {
-              partLabel.classList.remove('hidden')
-              increaseParts()
-              part.classList.add('counted')
-            }, 600 * (i + 1))
+        Array.from(parts).forEach(function(part) {
+          if (part.classList.contains('counted')) {
+            part.classList.remove('counted')
           } else {
-            if (part.classList.contains('counted')) {
-              setTimeout(decreaseParts, 600 * (i + 1))
-              part.classList.remove('counted')
-            } else {
-              partLabel.classList.add('hidden')
-            }
+            part.classList.add('counted')
           }
         })
+
+        let placeCount = Array.from(places).filter(function(place) {
+          return place.classList.contains('counted')
+        }).length
+
+        if (direction === 'down') {
+          numberPlaces += placeCount
+        } else {
+          numberPlaces -= places.length - placeCount
+        }
+
+        document.querySelector('.places-total').innerHTML = numberPlaces
+
+        let partCount = Array.from(parts).filter(function(part) {
+          return part.classList.contains('counted')
+        }).length
+
+        if (direction === 'down') {
+          numberParts += partCount
+        } else {
+          numberParts -= parts.length - partCount
+        }
+
+        document.querySelector('.part-total').innerHTML = numberParts
       },
-      offset: '95%'
+      offset: '50%'
     })
   })
 
-  //if paragraph hits top of screen, part label disappears
   paragraphs.forEach(paragraph => {
-    const parts = paragraph.querySelectorAll('.part')
+    const allParts = Array.from(document.querySelectorAll('.part'))
+    const activeParts = Array.from(paragraph.querySelectorAll('.part'))
+
     new Waypoint({
       element: paragraph,
       handler: function() {
-        Array.from(parts).forEach(part => {
+        allParts.forEach(function(part) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
-          console.log(partLabel)
 
-          if (!partLabel.classList.contains('hidden')) {
+          if (activeParts.indexOf(part) < 0) {
             partLabel.classList.add('hidden')
           } else {
             partLabel.classList.remove('hidden')
