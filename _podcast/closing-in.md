@@ -1,7 +1,7 @@
 ---
 title: Closing In
 date: 2019-03-05 14:32:00 -0500
-episode_num: 41
+episode_num: 40
 soundcloud_url: https://soundcloud.com/csis-57169780/closing-in
 transcript_url: ''
 excerpt: In this episode, the US and China finally appear to be closing out their
