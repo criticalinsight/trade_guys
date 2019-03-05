@@ -1,6 +1,6 @@
 ---
 title: Closing In
-date: 2019-03-05 00:00:00 -0500
+date: 2019-03-05 14:32:00 -0500
 episode_num: 41
 soundcloud_url: https://soundcloud.com/csis-57169780/closing-in
 transcript_url: ''
