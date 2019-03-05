@@ -50,6 +50,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/closing-in.md
 - _podcast/autos-bilats-and-the-us-china-deal.md
 - _podcast/tigger-versus-eeyore.md
 - _podcast/state-of-the-trading-union.md
