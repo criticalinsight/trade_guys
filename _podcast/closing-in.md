@@ -15,3 +15,4 @@ keywords:
 podcast_produced_by_language: ''
 
 ---
+In this episode, the US and China finally appear to be closing out their trade deal. Andrew and the Trade Guys discuss the pros and cons of the agreement, and what’s happened after a year of steel and aluminum tariffs.
