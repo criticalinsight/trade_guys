@@ -1,7 +1,6 @@
 ---
 label: Podcast
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -50,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/deal-or-no-deal.md
 - _podcast/closing-in.md
 - _podcast/autos-bilats-and-the-us-china-deal.md
 - _podcast/tigger-versus-eeyore.md

@@ -1,7 +1,6 @@
 ---
 label: Home
 hide_body: true
-is_partial: false
 fields:
 - type: select
   name: featured_statistic_post
