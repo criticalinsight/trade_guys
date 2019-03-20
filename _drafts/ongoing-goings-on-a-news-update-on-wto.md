@@ -1,6 +1,7 @@
 ---
 authors:
 - _authors/bill-reinsch.md
+- _authors/madeleine-waddoups.md
 external_site_name: CSIS.org
 content_type: article
 show_image_on_single_post: true
