@@ -10,7 +10,6 @@ excerpt: 'Andrew and the Trade Guys discuss Brazilian President Jair Bolsonaro''
 keywords: []
 podcast_produced_by_language: Hosted by H. Andrew Schwartz and produced by Yumi Araki
   and Jack Caporal at the Center for Strategic and International Studies in Washington.
-published: false
 
 ---
 Andrew and the Trade Guys discuss Brazilian President Jair Bolsonaro's visit to Washington DC, the chaos with Brexit, and France's proposal to tax digital companies. 
