@@ -3,7 +3,7 @@ title: Wheat and Taxes and Brexit, Oh My!
 date: 2019-03-19 00:00:00 -0400
 episode_num: 42
 soundcloud_url: https://soundcloud.com/csis-57169780/wheat-and-taxes-and-brexit-oh-my
-transcript_url: ''
+transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/190320_Taxes_and_Brexit.pdf
 excerpt: 'Andrew and the Trade Guys discuss Brazilian President Jair Bolsonaro''s
   visit to Washington DC, the chaos with Brexit, and France''s proposal to tax digital
   companies. '
