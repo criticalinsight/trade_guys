@@ -78,7 +78,7 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/ongoing-goings-on-a-news-update-on-wto.md
+- _posts/2019-03-20-ongoing-goings-on-a-news-update-on-wto.md
 - _posts/2018-12-04-saturday-night-saturday-night-we-all-get-together-on-saturday-night.md
 - _posts/2018-11-14-midterm-election-results-what-did-it-mean-for-trade.md
 - _posts/2018-11-26-structural-change-or-blip.md
