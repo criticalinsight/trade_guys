@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/the-canadian-deputy-ambassador-and-you-smacka.md
 - _podcast/trade-guys-on-the-road-georgetown-university-edition.md
 - _podcast/wheat-and-taxes-and-brexit-oh-my.md
 - _podcast/deal-or-no-deal.md
