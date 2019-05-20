@@ -24,21 +24,24 @@
   max-width: 700px;
 
   p {
-    min-height: 100vh;
     margin: 0;
     text-align: left;
+    background-color: rgba(50, 49, 49, 0.924);
+    color: white;
+    padding: 1.5rem;
 
     &:not(:last-of-type) {
-     margin: 0 0 1rem;
+     margin: 0 0 40rem;
     }
   }
 
   .part {
-    background-color: $yellow;
     margin: 0.1rem;
+    border-bottom: 2px solid $yellow;
 
     &:hover {
-      background-color: $dark-yellow;
+      background-color: $yellow;
+      color: black;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
     }
