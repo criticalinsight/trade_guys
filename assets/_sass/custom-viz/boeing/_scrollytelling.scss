@@ -15,3 +15,15 @@
   display: none;
   transition: opacity 1s linear;
 }
+
+.boeing-js__opacity-not-viewed {
+  opacity: .5;
+}
+
+.boeing-js__opacity-focused {
+  opacity: 1;
+}
+
+.boeing-js__opacity-viewed {
+  opacity: .75;
+}
