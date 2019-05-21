@@ -26,8 +26,7 @@
   p {
     margin: 0;
     text-align: left;
-    background-color: rgba(50, 49, 49, 0.924);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.924);
     padding: 1.5rem;
 
     &:not(:last-of-type) {
@@ -37,11 +36,10 @@
 
   .part {
     margin: 0.1rem;
-    border-bottom: 2px solid $yellow;
+    background-color: $yellow;
 
     &:hover {
-      background-color: $yellow;
-      color: black;
+      background-color: $dark-yellow;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
     }
