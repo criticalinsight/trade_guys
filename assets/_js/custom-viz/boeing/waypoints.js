@@ -78,7 +78,7 @@ const Waypoints = () => {
           }
         }
       },
-      offset: '50%'
+      offset: ''
     })
   })
 
@@ -102,7 +102,7 @@ const Waypoints = () => {
           }
         })
       },
-      offset: '10%'
+      offset: '50%'
     })
   })
 }
