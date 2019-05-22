@@ -32,6 +32,10 @@
     &:not(:last-of-type) {
      margin: 0 0 40rem;
     }
+
+    &:last-of-type {
+      margin-bottom: 5rem;
+    }
   }
 
   .part {
