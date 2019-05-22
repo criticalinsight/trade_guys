@@ -1,19 +1,21 @@
 /*==============================
 =        Scrollytelling        =
 ==============================*/
+#boeingScroll {
 
-.label-group {
-  transition: opacity 1s linear;
-}
+  .js-hidden {
+    opacity: 0;
+    transition: opacity 1s linear;
+  }
 
-.hidden {
-  opacity: 0;
-  transition: opacity 1s linear;
-}
+  .js-display-none {
+    display: none;
+    transition: opacity 1s linear;
+  }
 
-.display-none {
-  display: none;
-  transition: opacity 1s linear;
+  .label-group {
+    transition: opacity 1s linear;
+  }
 }
 
 .boeing-js__opacity-not-viewed {

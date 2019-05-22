@@ -69,12 +69,15 @@ const Waypoints = () => {
         const totalPlaces = 19
 
         while (partCount == totalParts && placeCount == totalPlaces) {
-          if (plane.classList.contains('display-none') && direction === 'up') {
-            plane.classList.remove('display-none')
-            map.classList.add('display-none')
+          if (
+            plane.classList.contains('js-display-none') &&
+            direction === 'up'
+          ) {
+            plane.classList.remove('js-display-none')
+            map.classList.add('js-display-none')
           } else {
-            plane.classList.add('display-none')
-            map.classList.remove('display-none')
+            plane.classList.add('js-display-none')
+            map.classList.remove('js-display-none')
           }
         }
       },
@@ -95,10 +98,10 @@ const Waypoints = () => {
           let partLabel = document.getElementById(`${partName}-label`)
 
           if (activeParts.indexOf(part) < 0) {
-            partLabel.classList.add('hidden')
+            partLabel.classList.add('js-hidden')
             console.log(part + ' are the activeParts')
           } else {
-            partLabel.classList.remove('hidden')
+            partLabel.classList.remove('js-hidden')
           }
         })
       },
