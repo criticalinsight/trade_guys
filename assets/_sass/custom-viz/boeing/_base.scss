@@ -1,45 +1,63 @@
 /*==============================
 =             Base             =
 ==============================*/
+#boeingScroll {
 
-.svg-container {
-  position: sticky;
-  top: #{$size_header-height-mobile};
-  height: 75vh;
-  margin: 0;
-  width: 100%;
-  z-index: -1;
-  padding: 2rem;
-
-  @include breakpoint("medium") {
-    top: #{$size_header-height-desktop};
-  }
-}
-
-.text-container {
-  position: relative;
-  z-index: 1;
-  padding: 0 1rem;
-  margin: 0 auto;
-  max-width: 700px;
-
-  p {
-    min-height: 100vh;
+  .svg-container {
+    position: sticky;
+    top: #{$size_header-height-mobile};
+    height: 75vh;
     margin: 0;
-    text-align: left;
+    width: 100%;
+    z-index: -1;
+    padding: 2rem;
 
-    &:not(:last-of-type) {
-     margin: 0 0 1rem;
+    @include breakpoint("medium") {
+      top: #{$size_header-height-desktop};
+    }
+
+    svg {
+      height: 100%;
     }
   }
-}
 
-.plane {
-  height: 100%;
-}
+  .plane {
+    height: 100%;
+  }
 
-svg {
-  height: 100%;
+  .text-container {
+    position: relative;
+    z-index: 1;
+    padding: 0 1rem;
+    margin: 0 auto;
+    max-width: 700px;
+
+    p {
+      margin: 0;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.924);
+      padding: 1.5rem;
+
+      &:not(:last-of-type) {
+        margin: 0 0 40rem;
+      }
+
+      &:last-of-type {
+        margin-bottom: 5rem;
+      }
+    }
+
+    .part {
+      margin: 0.1rem;
+      background-color: $yellow;
+
+      &:hover {
+        background-color: $dark-yellow;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+      }
+    }
+  }
 }
 
 .wrapper {
