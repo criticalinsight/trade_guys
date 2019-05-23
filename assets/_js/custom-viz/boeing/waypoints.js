@@ -8,6 +8,11 @@ const Waypoints = () => {
   const svgContainer = document.querySelector('.svg-container')
   const plane = svgContainer.querySelector('.plane')
   const map = svgContainer.querySelector('.map')
+  const svgParts = svgContainer.querySelectorAll('.svgPart')
+
+  svgParts.forEach(part => {
+    part.classList.add('boeing-js__opacity-not-viewed')
+  })
 
   // const counter = document.getElementsByClassName('counter')
   let numberParts = 0
@@ -55,7 +60,6 @@ const Waypoints = () => {
         let partCount = Array.from(parts).filter(function(part) {
           return part.classList.contains('counted')
         }).length
-        console.log(partCount + 'is the partCount')
 
         if (direction === 'down') {
           numberParts += partCount
@@ -99,7 +103,6 @@ const Waypoints = () => {
 
           if (activeParts.indexOf(part) < 0) {
             partLabel.classList.add('js-hidden')
-            console.log(part + ' are the activeParts')
           } else {
             partLabel.classList.remove('js-hidden')
           }
