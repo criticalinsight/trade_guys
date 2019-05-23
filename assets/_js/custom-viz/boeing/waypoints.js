@@ -100,11 +100,25 @@ const Waypoints = () => {
         allParts.forEach(function(part) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
+          let partSVG = document.getElementById(`${partName}-part`)
+          console.log(`${part.getAttribute('data-part')}-part`)
+          console.log(partSVG)
 
           if (activeParts.indexOf(part) < 0) {
             partLabel.classList.add('js-hidden')
+
+            // match part name with svg counterpart
+            // if its a match, bring into full opacity
           } else {
             partLabel.classList.remove('js-hidden')
+            if (
+              partSVG !== null &&
+              `${part.getAttribute('data-part')}-part` ===
+                partSVG.getAttribute('id')
+            ) {
+              partSVG.classList.remove('boeing-js__opacity-not-viewed')
+              partSVG.classList.add('boeing-js__opacity-focused')
+            }
           }
         })
       },
