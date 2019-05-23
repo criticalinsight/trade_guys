@@ -89,38 +89,50 @@ const Waypoints = () => {
     })
   })
 
-  //if paragraph hits top of screen, part label disappears
   paragraphs.forEach(paragraph => {
-    const allParts = Array.from(document.querySelectorAll('.part'))
+    // const allParts = Array.from(document.querySelectorAll('.part'))
     const activeParts = Array.from(paragraph.querySelectorAll('.part'))
+    // const activeSVGs = []
 
     new Waypoint({
       element: paragraph,
       handler: function() {
-        allParts.forEach(function(part) {
+        const previousWaypoint = this.previous()
+
+        activeParts.forEach(function(part) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
           let partSVG = document.getElementById(`${partName}-part`)
-          console.log(`${part.getAttribute('data-part')}-part`)
-          console.log(partSVG)
 
-          if (activeParts.indexOf(part) < 0) {
-            partLabel.classList.add('js-hidden')
+          partLabel.classList.remove('js-hidden')
 
-            // match part name with svg counterpart
-            // if its a match, bring into full opacity
-          } else {
-            partLabel.classList.remove('js-hidden')
-            if (
-              partSVG !== null &&
-              `${part.getAttribute('data-part')}-part` ===
-                partSVG.getAttribute('id')
-            ) {
-              partSVG.classList.remove('boeing-js__opacity-not-viewed')
-              partSVG.classList.add('boeing-js__opacity-focused')
-            }
+          if (
+            partSVG !== null &&
+            `${partName}-part` === partSVG.getAttribute('id')
+          ) {
+            partSVG.classList.remove('boeing-js__opacity-not-viewed')
+            partSVG.classList.add('boeing-js__opacity-focused')
           }
         })
+
+        if (previousWaypoint) {
+          const previousNodes = previousWaypoint.element.children
+          Array.from(previousNodes).forEach(child => {
+            if (child.classList.contains('part')) {
+              document
+                .getElementById(`${child.getAttribute('data-part')}-label`)
+                .classList.add('js-hidden')
+
+              let previousChild = document.getElementById(
+                `${child.getAttribute('data-part')}-part`
+              )
+              if (previousChild !== null) {
+                previousChild.classList.remove('boeing-js__opacity-focused')
+                previousChild.classList.add('boeing-js__opacity-viewed')
+              }
+            }
+          })
+        }
       },
       offset: '90%'
     })
