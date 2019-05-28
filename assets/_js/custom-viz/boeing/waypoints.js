@@ -110,7 +110,7 @@ const Waypoints = () => {
               partSVG.classList.remove('boeing-js__opacity-not-viewed')
               partSVG.classList.add('boeing-js__opacity-focused')
             }
-          } else if (direction === 'up') {
+          } else {
             partLabel.classList.add('js-hidden')
 
             if (partSVG !== null) {
@@ -122,43 +122,51 @@ const Waypoints = () => {
 
         const previousWaypoint = this.previous()
         const previousNodes = previousWaypoint.element.children
-        // const nextWaypoint = this.next()
+
+        if (!previousWaypoint) {
+          return
+        }
+
         if (direction === 'down') {
-          if (previousWaypoint) {
-            Array.from(previousNodes).forEach(child => {
-              if (child.classList.contains('part')) {
-                document
-                  .getElementById(`${child.getAttribute('data-part')}-label`)
-                  .classList.add('js-hidden')
+          Array.from(previousNodes).forEach(child => {
+            if (child.classList.contains('place')) {
+              return
+            }
 
-                let previousChild = document.getElementById(
-                  `${child.getAttribute('data-part')}-part`
-                )
-                if (previousChild !== null) {
-                  previousChild.classList.remove('boeing-js__opacity-focused')
-                  previousChild.classList.add('boeing-js__opacity-viewed')
-                }
-              }
-            })
-          }
-        } else if (direction === 'up') {
-          if (previousWaypoint) {
-            Array.from(previousNodes).forEach(child => {
-              if (child.classList.contains('part')) {
-                document
-                  .getElementById(`${child.getAttribute('data-part')}-label`)
-                  .classList.remove('js-hidden')
+            document
+              .getElementById(`${child.getAttribute('data-part')}-label`)
+              .classList.add('js-hidden')
 
-                let previousChild = document.getElementById(
-                  `${child.getAttribute('data-part')}-part`
-                )
-                if (previousChild !== null) {
-                  previousChild.classList.add('boeing-js__opacity-focused')
-                  previousChild.classList.remove('boeing-js__opacity-viewed')
-                }
-              }
-            })
-          }
+            let previousPart = document.getElementById(
+              `${child.getAttribute('data-part')}-part`
+            )
+
+            if (previousPart === null) {
+              return
+            }
+
+            previousPart.classList.remove('boeing-js__opacity-focused')
+            previousPart.classList.add('boeing-js__opacity-viewed')
+          })
+        } else {
+          Array.from(previousNodes).forEach(child => {
+            if (child.classList.contains('place')) {
+              return
+            }
+
+            document
+              .getElementById(`${child.getAttribute('data-part')}-label`)
+              .classList.remove('js-hidden')
+
+            let previousPart = document.getElementById(
+              `${child.getAttribute('data-part')}-part`
+            )
+            if (previousPart === null) {
+              return
+            }
+            previousPart.classList.add('boeing-js__opacity-focused')
+            previousPart.classList.remove('boeing-js__opacity-viewed')
+          })
         }
       },
       offset: '90%'
