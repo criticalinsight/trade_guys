@@ -8,11 +8,6 @@ const Waypoints = () => {
   const svgContainer = document.querySelector('.svg-container')
   const plane = svgContainer.querySelector('.plane')
   const map = svgContainer.querySelector('.map')
-  const svgParts = svgContainer.querySelectorAll('.svgPart')
-
-  svgParts.forEach(part => {
-    part.classList.add('boeing-js__opacity-not-viewed')
-  })
 
   // const counter = document.getElementsByClassName('counter')
   let numberParts = 0
@@ -104,18 +99,16 @@ const Waypoints = () => {
           partSVG = document.getElementById(`${partName}-part`)
 
           if (direction === 'down') {
-            partLabel.classList.remove('js-hidden')
+            partLabel.classList.add('boeing-js__opacity-focused')
 
             if (partSVG !== null) {
-              partSVG.classList.remove('boeing-js__opacity-not-viewed')
               partSVG.classList.add('boeing-js__opacity-focused')
             }
           } else {
-            partLabel.classList.add('js-hidden')
+            partLabel.classList.remove('boeing-js__opacity-focused')
 
             if (partSVG !== null) {
               partSVG.classList.remove('boeing-js__opacity-focused')
-              partSVG.classList.add('boeing-js__opacity-not-viewed')
             }
           }
         })
@@ -135,7 +128,7 @@ const Waypoints = () => {
 
             document
               .getElementById(`${child.getAttribute('data-part')}-label`)
-              .classList.add('js-hidden')
+              .classList.remove('boeing-js__opacity-focused')
 
             let previousPart = document.getElementById(
               `${child.getAttribute('data-part')}-part`
@@ -156,7 +149,7 @@ const Waypoints = () => {
 
             document
               .getElementById(`${child.getAttribute('data-part')}-label`)
-              .classList.remove('js-hidden')
+              .classList.add('boeing-js__opacity-focused')
 
             let previousPart = document.getElementById(
               `${child.getAttribute('data-part')}-part`
