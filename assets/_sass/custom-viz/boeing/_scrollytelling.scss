@@ -5,27 +5,22 @@
 
   .js-hidden {
     opacity: 0;
-    transition: opacity 1s linear;
-  }
-
-  .js-display-none {
-    display: none;
-    transition: opacity 0.7s linear;
-  }
-
-  .label-group {
-    transition: opacity 1s linear;
+    visibility: hidden;
+    transition: visibility 0.7s linear 0.7s, opacity 0.7s linear;
   }
 }
 
 .boeing-js__opacity-not-viewed {
+  transition: opacity 0.7s linear;
   opacity: 0.2;
 }
 
 .boeing-js__opacity-focused {
+  transition: opacity 0.7s linear;
   opacity: 1;
 }
 
 .boeing-js__opacity-viewed {
+  transition: opacity 0.7s linear;
   opacity: 0.75;
 }
