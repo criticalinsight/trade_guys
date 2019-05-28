@@ -90,47 +90,75 @@ const Waypoints = () => {
   })
 
   paragraphs.forEach(paragraph => {
-    // const allParts = Array.from(document.querySelectorAll('.part'))
     const activeParts = Array.from(paragraph.querySelectorAll('.part'))
-    // const activeSVGs = []
 
     new Waypoint({
       element: paragraph,
-      handler: function() {
+      handler: function(direction) {
+        let partName
+        let partLabel
+        let partSVG
         activeParts.forEach(function(part) {
-          let partName = part.getAttribute('data-part')
-          let partLabel = document.getElementById(`${partName}-label`)
-          let partSVG = document.getElementById(`${partName}-part`)
+          partName = part.getAttribute('data-part')
+          partLabel = document.getElementById(`${partName}-label`)
+          partSVG = document.getElementById(`${partName}-part`)
 
-          partLabel.classList.remove('js-hidden')
+          if (direction === 'down') {
+            partLabel.classList.remove('js-hidden')
 
-          if (
-            partSVG !== null &&
-            `${partName}-part` === partSVG.getAttribute('id')
-          ) {
-            partSVG.classList.remove('boeing-js__opacity-not-viewed')
-            partSVG.classList.add('boeing-js__opacity-focused')
+            if (partSVG !== null) {
+              partSVG.classList.remove('boeing-js__opacity-not-viewed')
+              partSVG.classList.add('boeing-js__opacity-focused')
+            }
+          } else if (direction === 'up') {
+            partLabel.classList.add('js-hidden')
+
+            if (partSVG !== null) {
+              partSVG.classList.remove('boeing-js__opacity-focused')
+              partSVG.classList.add('boeing-js__opacity-not-viewed')
+            }
           }
         })
 
         const previousWaypoint = this.previous()
-        if (previousWaypoint) {
-          const previousNodes = previousWaypoint.element.children
-          Array.from(previousNodes).forEach(child => {
-            if (child.classList.contains('part')) {
-              document
-                .getElementById(`${child.getAttribute('data-part')}-label`)
-                .classList.add('js-hidden')
+        const previousNodes = previousWaypoint.element.children
+        // const nextWaypoint = this.next()
+        if (direction === 'down') {
+          if (previousWaypoint) {
+            Array.from(previousNodes).forEach(child => {
+              if (child.classList.contains('part')) {
+                document
+                  .getElementById(`${child.getAttribute('data-part')}-label`)
+                  .classList.add('js-hidden')
 
-              let previousChild = document.getElementById(
-                `${child.getAttribute('data-part')}-part`
-              )
-              if (previousChild !== null) {
-                previousChild.classList.remove('boeing-js__opacity-focused')
-                previousChild.classList.add('boeing-js__opacity-viewed')
+                let previousChild = document.getElementById(
+                  `${child.getAttribute('data-part')}-part`
+                )
+                if (previousChild !== null) {
+                  previousChild.classList.remove('boeing-js__opacity-focused')
+                  previousChild.classList.add('boeing-js__opacity-viewed')
+                }
               }
-            }
-          })
+            })
+          }
+        } else if (direction === 'up') {
+          if (previousWaypoint) {
+            Array.from(previousNodes).forEach(child => {
+              if (child.classList.contains('part')) {
+                document
+                  .getElementById(`${child.getAttribute('data-part')}-label`)
+                  .classList.remove('js-hidden')
+
+                let previousChild = document.getElementById(
+                  `${child.getAttribute('data-part')}-part`
+                )
+                if (previousChild !== null) {
+                  previousChild.classList.add('boeing-js__opacity-focused')
+                  previousChild.classList.remove('boeing-js__opacity-viewed')
+                }
+              }
+            })
+          }
         }
       },
       offset: '90%'
