@@ -101,15 +101,19 @@ const Waypoints = () => {
           if (direction === 'down') {
             partLabel.classList.add('boeing-js__opacity-focused')
 
-            if (partSVG !== null) {
-              partSVG.classList.add('boeing-js__opacity-focused')
+            if (!partSVG) {
+              return
             }
+
+            partSVG.classList.add('boeing-js__opacity-focused')
           } else {
             partLabel.classList.remove('boeing-js__opacity-focused')
 
-            if (partSVG !== null) {
-              partSVG.classList.remove('boeing-js__opacity-focused')
+            if (!partSVG) {
+              return
             }
+
+            partSVG.classList.remove('boeing-js__opacity-focused')
           }
         })
 
@@ -134,7 +138,7 @@ const Waypoints = () => {
               `${child.getAttribute('data-part')}-part`
             )
 
-            if (previousPart === null) {
+            if (!previousPart) {
               return
             }
 
@@ -154,7 +158,7 @@ const Waypoints = () => {
             let previousPart = document.getElementById(
               `${child.getAttribute('data-part')}-part`
             )
-            if (previousPart === null) {
+            if (!previousPart) {
               return
             }
             previousPart.classList.add('boeing-js__opacity-focused')
