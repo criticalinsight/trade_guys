@@ -97,8 +97,6 @@ const Waypoints = () => {
     new Waypoint({
       element: paragraph,
       handler: function() {
-        const previousWaypoint = this.previous()
-
         activeParts.forEach(function(part) {
           let partName = part.getAttribute('data-part')
           let partLabel = document.getElementById(`${partName}-label`)
@@ -115,6 +113,7 @@ const Waypoints = () => {
           }
         })
 
+        const previousWaypoint = this.previous()
         if (previousWaypoint) {
           const previousNodes = previousWaypoint.element.children
           Array.from(previousNodes).forEach(child => {
