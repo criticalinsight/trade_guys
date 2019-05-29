@@ -3,29 +3,27 @@
 ==============================*/
 #boeingScroll {
 
-  .js-hidden {
+  .svgPart {
+    opacity: 0.2;
+    transition: opacity 0.7 linear;
+
+    &.boeing-js__opacity-focused {
+      opacity: 1;
+    }
+
+    &.boeing-js__opacity-viewed {
+      opacity: 0.75;
+    }
+  }
+
+  .svgLabel {
+    visibility: hidden;
     opacity: 0;
-    transition: opacity 1s linear;
+    transition: visibility 0.7s linear, opacity 0.7s linear;
+
+    &.boeing-js__opacity-focused {
+      visibility: visible;
+      opacity: 1;
+    }
   }
-
-  .js-display-none {
-    display: none;
-    transition: opacity 1s linear;
-  }
-
-  .label-group {
-    transition: opacity 1s linear;
-  }
-}
-
-.boeing-js__opacity-not-viewed {
-  opacity: 0.5;
-}
-
-.boeing-js__opacity-focused {
-  opacity: 1;
-}
-
-.boeing-js__opacity-viewed {
-  opacity: 0.75;
 }

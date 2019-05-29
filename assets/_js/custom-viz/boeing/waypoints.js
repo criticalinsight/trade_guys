@@ -55,7 +55,6 @@ const Waypoints = () => {
         let partCount = Array.from(parts).filter(function(part) {
           return part.classList.contains('counted')
         }).length
-        console.log(partCount + 'is the partCount')
 
         if (direction === 'down') {
           numberParts += partCount
@@ -85,25 +84,87 @@ const Waypoints = () => {
     })
   })
 
-  //if paragraph hits top of screen, part label disappears
   paragraphs.forEach(paragraph => {
-    const allParts = Array.from(document.querySelectorAll('.part'))
     const activeParts = Array.from(paragraph.querySelectorAll('.part'))
 
     new Waypoint({
       element: paragraph,
-      handler: function() {
-        allParts.forEach(function(part) {
-          let partName = part.getAttribute('data-part')
-          let partLabel = document.getElementById(`${partName}-label`)
+      handler: function(direction) {
+        let partName
+        let partLabel
+        let partSVG
+        activeParts.forEach(function(part) {
+          partName = part.getAttribute('data-part')
+          partLabel = document.getElementById(`${partName}-label`)
+          partSVG = document.getElementById(`${partName}-part`)
 
-          if (activeParts.indexOf(part) < 0) {
-            partLabel.classList.add('js-hidden')
-            console.log(part + ' are the activeParts')
+          if (direction === 'down') {
+            partLabel.classList.add('boeing-js__opacity-focused')
+
+            if (!partSVG) {
+              return
+            }
+
+            partSVG.classList.add('boeing-js__opacity-focused')
           } else {
-            partLabel.classList.remove('js-hidden')
+            partLabel.classList.remove('boeing-js__opacity-focused')
+
+            if (!partSVG) {
+              return
+            }
+
+            partSVG.classList.remove('boeing-js__opacity-focused')
           }
         })
+
+        const previousWaypoint = this.previous()
+        const previousNodes = previousWaypoint.element.children
+
+        if (!previousWaypoint) {
+          return
+        }
+
+        if (direction === 'down') {
+          Array.from(previousNodes).forEach(child => {
+            if (child.classList.contains('place')) {
+              return
+            }
+
+            document
+              .getElementById(`${child.getAttribute('data-part')}-label`)
+              .classList.remove('boeing-js__opacity-focused')
+
+            let previousPart = document.getElementById(
+              `${child.getAttribute('data-part')}-part`
+            )
+
+            if (!previousPart) {
+              return
+            }
+
+            previousPart.classList.remove('boeing-js__opacity-focused')
+            previousPart.classList.add('boeing-js__opacity-viewed')
+          })
+        } else {
+          Array.from(previousNodes).forEach(child => {
+            if (child.classList.contains('place')) {
+              return
+            }
+
+            document
+              .getElementById(`${child.getAttribute('data-part')}-label`)
+              .classList.add('boeing-js__opacity-focused')
+
+            let previousPart = document.getElementById(
+              `${child.getAttribute('data-part')}-part`
+            )
+            if (!previousPart) {
+              return
+            }
+            previousPart.classList.add('boeing-js__opacity-focused')
+            previousPart.classList.remove('boeing-js__opacity-viewed')
+          })
+        }
       },
       offset: '90%'
     })
