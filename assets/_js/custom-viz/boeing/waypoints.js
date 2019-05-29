@@ -14,7 +14,6 @@ const Waypoints = () => {
     const activePlaces = Array.from(paragraph.querySelectorAll('.place'))
     let partsInParagraph = activeParts.length
     let placesInParagraph = activePlaces.length
-    // const activePlaces = Array.from(paragraph.querySelectorAll('.place'))
 
     new Waypoint({
       element: paragraph,
