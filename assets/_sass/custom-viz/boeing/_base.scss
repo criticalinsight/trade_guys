@@ -18,6 +18,26 @@
 
     svg {
       height: 100%;
+      width: 70%;
+    }
+
+    .counter {
+      p {
+        font-family: $font_inconsolata;
+        text-transform: uppercase;
+        margin: 0rem 1.5rem;
+
+        span {
+          font-weight: bold;
+        }
+      }
+
+      @include breakpoint("large") {
+        display: flex;
+        justify-content: flex-end;
+        width: 70%;
+        margin: 0 auto 1rem;
+      }
     }
   }
 
