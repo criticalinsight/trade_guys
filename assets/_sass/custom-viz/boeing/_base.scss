@@ -39,8 +39,8 @@
 
       @include breakpoint("large") {
         justify-content: flex-end;
-        margin: 0 auto 1rem;
-        width: 70%;
+        margin: 0 auto 1.5rem;
+        max-width: $size_boeing-container-max-width;
       }
     }
   }
@@ -54,7 +54,7 @@
     z-index: 1;
     padding: 0 1rem;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: $size_boeing-container-max-width;
 
     p {
       margin: 0;
