@@ -17,6 +17,10 @@ const Hover = () => {
           partSVG = document.getElementById(`${partName}-part`)
 
           partLabel.classList.remove('boeing-js__opacity-focused')
+
+          if (!partSVG) {
+            return
+          }
           partSVG.classList.remove('boeing-js__opacity-focused')
         })
       })
@@ -30,6 +34,10 @@ const Hover = () => {
           partSVG = document.getElementById(`${partName}-part`)
 
           partLabel.classList.add('boeing-js__opacity-focused')
+
+          if (!partSVG) {
+            return
+          }
           partSVG.classList.add('boeing-js__opacity-focused')
         })
       })
