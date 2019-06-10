@@ -65,14 +65,20 @@ $size_boeing-container-max-width: 700px;
     margin: 0 auto;
     max-width: $size_boeing-container-max-width;
 
-    p {
+    @include breakpoint("large") {
+      padding: 0;
+    }
+
+    .scroll-text {
       margin: 0;
       text-align: left;
-      background-color: rgba(255, 255, 255, 0.924);
+      color: $white;
+      background-color: rgba(46, 46, 46, 0.950);
       padding: 1.5rem;
 
+
       &:not(:last-of-type) {
-        margin: 0 0 40rem;
+        margin: 0 0 50rem;
       }
 
       &:last-of-type {
@@ -82,10 +88,11 @@ $size_boeing-container-max-width: 700px;
 
     .part {
       margin: 0.1rem;
-      background-color: $yellow;
+      border-bottom: 1px solid $yellow;
 
       &:hover {
-        background-color: $dark-yellow;
+        color: $dark-gray;
+        background-color: $yellow;
         transition: all 0.2s ease-in-out;
         cursor: pointer;
       }
