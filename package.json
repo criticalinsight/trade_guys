@@ -4,7 +4,6 @@
   "description": "The website for The Trade Guys podcast produced by CSIS. Built on top of the frasco Jekyll starter template.",
   "main": "gulpfile.js",
   "scripts": {
-    "preinstall": "bundle install --path vendor/bundle",
     "start": "bundle exec gulp",
     "test": "bundle exec gulp test",
     "browsersync": "bundle exec gulp browsersync",
