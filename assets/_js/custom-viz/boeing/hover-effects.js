@@ -4,17 +4,19 @@ const Hover = () => {
   paragraphs.forEach(paragraph => {
     let activeParts = Array.from(paragraph.querySelectorAll('.part'))
     activeParts.forEach(function(part) {
-      let partName
-      let partSVG
-      let partLabel
-
       part.addEventListener('mouseover', () => {
-        const notHovered = activeParts.filter(partName => partName !== part)
+        const notHovered = activeParts.filter(node => node !== part)
 
-        notHovered.forEach(part => {
-          partName = part.getAttribute('data-part')
-          partLabel = document.getElementById(`${partName}-label`)
-          partSVG = document.getElementById(`${partName}-part`)
+        notHovered.forEach(child => {
+          let partName = child.getAttribute('data-part')
+          let partLabel = document.getElementById(`${partName}-label`)
+          let partSVG = document.getElementById(`${partName}-part`)
+
+          if (
+            part.getAttribute('data-part') === child.getAttribute('data-part')
+          ) {
+            return
+          }
 
           partLabel.classList.remove('boeing-js__opacity-focused')
 
@@ -26,12 +28,12 @@ const Hover = () => {
       })
 
       part.addEventListener('mouseout', () => {
-        const notHovered = activeParts.filter(partName => partName !== part)
+        const notHovered = activeParts.filter(node => node !== part)
 
-        notHovered.forEach(part => {
-          partName = part.getAttribute('data-part')
-          partLabel = document.getElementById(`${partName}-label`)
-          partSVG = document.getElementById(`${partName}-part`)
+        notHovered.forEach(child => {
+          let partName = child.getAttribute('data-part')
+          let partLabel = document.getElementById(`${partName}-label`)
+          let partSVG = document.getElementById(`${partName}-part`)
 
           partLabel.classList.add('boeing-js__opacity-focused')
 
