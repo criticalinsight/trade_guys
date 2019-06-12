@@ -5,6 +5,13 @@ const Hover = () => {
     let activeParts = Array.from(paragraph.querySelectorAll('.part'))
     activeParts.forEach(function(part) {
       part.addEventListener('mouseover', () => {
+        highlightSelectedPart('remove')
+      })
+      part.addEventListener('mouseout', () => {
+        highlightSelectedPart('add')
+      })
+
+      function highlightSelectedPart(action) {
         const notHovered = activeParts.filter(node => node !== part)
 
         notHovered.forEach(child => {
@@ -18,31 +25,14 @@ const Hover = () => {
             return
           }
 
-          partLabel.classList.remove('boeing-js__opacity-focused')
+          partLabel.classList[action]('boeing-js__opacity-focused')
 
           if (!partSVG) {
             return
           }
-          partSVG.classList.remove('boeing-js__opacity-focused')
+          partSVG.classList[action]('boeing-js__opacity-focused')
         })
-      })
-
-      part.addEventListener('mouseout', () => {
-        const notHovered = activeParts.filter(node => node !== part)
-
-        notHovered.forEach(child => {
-          let partName = child.getAttribute('data-part')
-          let partLabel = document.getElementById(`${partName}-label`)
-          let partSVG = document.getElementById(`${partName}-part`)
-
-          partLabel.classList.add('boeing-js__opacity-focused')
-
-          if (!partSVG) {
-            return
-          }
-          partSVG.classList.add('boeing-js__opacity-focused')
-        })
-      })
+      }
     })
   })
 }
