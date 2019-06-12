@@ -89,11 +89,11 @@ $size_boeing-container-max-width: 700px;
     .part {
       margin: 0.1rem;
       border-bottom: 1px solid $yellow;
+      transition: all 0.2s ease-in-out;
 
       &:hover {
         color: $dark-gray;
         background-color: $yellow;
-        transition: all 0.2s ease-in-out;
         cursor: pointer;
       }
     }
