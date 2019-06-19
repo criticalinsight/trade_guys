@@ -77,17 +77,20 @@ $size_boeing-container-max-width: 700px;
       background-color: rgba(46, 46, 46, 0.950);
       padding: 1.5rem;
 
-      @include breakpoint("medium") {
-        margin-right: -4rem;
-      }
-
-
       &:not(:last-of-type) {
         margin: 0 0 50rem;
+
+        @include breakpoint("medium") {
+          margin-right: -4rem;
+        }
       }
 
       &:last-of-type {
         margin-bottom: 5rem;
+
+        @include breakpoint("medium") {
+          margin-right: -4rem;
+        }
       }
     }
 
