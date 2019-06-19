@@ -16,7 +16,7 @@ iframe {
   margin-right: -50vw;
   text-align: center;
 
-  @include breakpoint("large") {
+  @include breakpoint("medium") {
     margin-left: calc(-50vw - 4rem)
   }
 
