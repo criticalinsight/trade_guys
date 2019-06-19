@@ -1,7 +1,7 @@
 import 'waypoints/lib/noframework.waypoints.min.js'
 import 'waypoints/src/shortcuts/inview'
 import 'waypoints/src/shortcuts/sticky'
-/* global waypoint */
+/* global Waypoint */
 
 const Waypoints = () => {
   const paragraphs = Array.from(document.querySelectorAll('.scroll-text'))
@@ -16,7 +16,7 @@ const Waypoints = () => {
     let partsInParagraph = activeParts.length
     let placesInParagraph = activePlaces.length
 
-    const waypoint = new Waypoint({
+    new Waypoint({
       element: paragraph,
       handler: function(direction) {
         // Counter functionality
@@ -109,7 +109,6 @@ const Waypoints = () => {
       },
       offset: '90%'
     })
-    return waypoint
   })
 }
 
