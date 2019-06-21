@@ -48,6 +48,7 @@ const Waypoints = () => {
               return
             }
             partSVG.classList.add('boeing-js__opacity-focused')
+            partSVG.classList.add('boeing-js__stroke')
           } else {
             partLabel.classList.remove('boeing-js__opacity-focused')
 
@@ -55,10 +56,11 @@ const Waypoints = () => {
               return
             }
             partSVG.classList.remove('boeing-js__opacity-focused')
+            partSVG.classList.remove('boeing-js__stroke')
           }
         })
-        const previousWaypoint = this.previous()
 
+        const previousWaypoint = this.previous()
         if (!previousWaypoint) {
           return
         }
@@ -83,6 +85,7 @@ const Waypoints = () => {
             }
 
             previousPart.classList.remove('boeing-js__opacity-focused')
+            previousPart.classList.remove('boeing-js__stroke')
             previousPart.classList.add('boeing-js__opacity-viewed')
           })
         } else {
@@ -103,9 +106,49 @@ const Waypoints = () => {
               return
             }
             previousPart.classList.add('boeing-js__opacity-focused')
+            previousPart.classList.add('boeing-js__stroke')
             previousPart.classList.remove('boeing-js__opacity-viewed')
           })
         }
+
+        const nextWaypoint = this.next()
+        if (nextWaypoint) {
+          return
+        }
+
+        let allWaypoints = this.group.waypoints
+        let lastPartsWaypoint = allWaypoints[allWaypoints.length - 2]
+
+        allWaypoints.forEach(waypoint => {
+          let allChildren = waypoint.element.children
+          let allParts = Array.from(allChildren).filter(
+            child => child.className === 'part'
+          )
+          allParts.forEach(part => {
+            partName = part.getAttribute('data-part')
+            partSVG = document.getElementById(`${partName}-part`)
+
+            if (direction === 'down') {
+              if (!partSVG) {
+                return
+              }
+
+              partSVG.classList.remove('boeing-js__opacity-viewed')
+              partSVG.classList.add('boeing-js__opacity-focused')
+            } else {
+              if (!partSVG) {
+                return
+              }
+
+              if (waypoint === lastPartsWaypoint) {
+                return
+              }
+
+              partSVG.classList.add('boeing-js__opacity-viewed')
+              partSVG.classList.remove('boeing-js__opacity-focused')
+            }
+          })
+        })
       },
       offset: '90%'
     })
