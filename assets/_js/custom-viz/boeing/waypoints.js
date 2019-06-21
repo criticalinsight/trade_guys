@@ -119,9 +119,7 @@ const Waypoints = () => {
         let allWaypoints = this.group.waypoints
         let lastPartsWaypoint = allWaypoints[allWaypoints.length - 2]
 
-        console.log(lastPartsWaypoint)
         allWaypoints.forEach(waypoint => {
-          console.log(waypoint)
           let allChildren = waypoint.element.children
           let allParts = Array.from(allChildren).filter(
             child => child.className === 'part'
