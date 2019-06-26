@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/i-predict-a-rerun.md
 - _podcast/talk-about-an-unraveling-with-steve-lamar.md
 - _podcast/tariff-man-first-blood.md
 - _podcast/getting-back-on-offense-with-lesly-mcnitt.md
