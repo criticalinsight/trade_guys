@@ -5,14 +5,14 @@ title: Around the World in 24 Parts
 date: 2019-01-22 00:00:00 -0500
 series: []
 keywords: []
-excerpt: ''
+excerpt: 'Fasten your seatbelts and put your tray tables and seat back in the upright and locked position-let’s take a journey through the Boeing supply chain.'
 notes: ''
 authors:
 - _authors/jack-caporal.md
 - _authors/jonathan-robison.md
-image: ''
+image: 'uploads/boeing_plane.gif'
 image_caption: ''
-image_credit: ''
+image_credit: 'CSIS iDeas Lab'
 featured_in_archive: false
 custom_viz: true
 js_files:
