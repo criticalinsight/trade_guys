@@ -70,7 +70,7 @@ $size_boeing-container-max-width: 700px;
     .interactive__source {
       position: sticky;
       @include fontSize(14px);
-      top: 95%;
+      top: 90%;
       font-family: $font_source;
       color: $gray;
       opacity: 0;
@@ -94,7 +94,6 @@ $size_boeing-container-max-width: 700px;
 
       @include breakpoint("medium") {
         max-width: 200px;
-        top: 90%;
       }
 
       @include breakpoint("large") {
