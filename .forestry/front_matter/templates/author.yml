@@ -1,7 +1,6 @@
 ---
 label: Author
 hide_body: false
-is_partial: false
 fields:
 - type: text
   name: title
@@ -17,7 +16,8 @@ fields:
   label: Organization
   default: CSIS
 pages:
-- _authors/dylan-gerstel.md
 - _authors/jonathan-robison.md
 - _authors/andrew-chatzky.md
+- _authors/madeleine-waddoups.md
+- _authors/dylan-gerstel.md
 - _authors/jack-caporal.md
