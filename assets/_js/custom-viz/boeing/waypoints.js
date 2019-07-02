@@ -62,6 +62,16 @@ const Waypoints = () => {
 
         const previousWaypoint = this.previous()
         if (!previousWaypoint) {
+          if (window.innerWidth < 576) {
+            const mobileSource = document.body.querySelector(
+              '.interactive__source-mobile'
+            )
+            mobileSource.classList.add('in-view')
+            return
+          }
+
+          const source = document.body.querySelector('.interactive__source')
+          source.classList.add('in-view')
           return
         }
 
