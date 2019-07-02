@@ -2,7 +2,7 @@
 content_type: article
 show_image_on_single_post: false
 title: Around the World in 24 Parts
-date: 2019-07-01 00:00:00 -0500
+date: 2019-07-02 00:00:00 -0500
 series: []
 keywords:
 - _keywords/eu.md
@@ -18,7 +18,7 @@ authors:
 image: 'uploads/boeing_plane.gif'
 image_caption: ''
 image_credit: 'CSIS iDeas Lab'
-featured_in_archive: false
+featured_in_archive: true
 custom_viz: true
 js_files:
 - boeing/boeing
