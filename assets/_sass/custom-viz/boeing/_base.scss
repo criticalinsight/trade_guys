@@ -68,28 +68,21 @@ $size_boeing-container-max-width: 700px;
     max-width: $size_boeing-container-max-width;
 
     .interactive__source {
-      position: sticky;
-      @include fontSize(14px);
-      top: 90%;
-      font-family: $font_source;
-      color: $gray;
-      opacity: 0;
-      transition: opacity 0.4s linear;
+      display: none;
 
       @include breakpoint("medium") {
+        display: block;
+        position: sticky;
+        @include fontSize(14px);
+        top: 90%;
+        font-family: $font_source;
+        color: $gray;
+        margin-left: -200px;
         max-width: 200px;
       }
 
-      @include breakpoint("large") {
-        margin-left: -200px;
-      }
-
-      &.in-view {
-        opacity: 1; 
-      }
-
       &-mobile {
-        display: none;
+        display: block;
         @include fontSize(14px);
         margin-top: .75rem;
 
@@ -99,8 +92,8 @@ $size_boeing-container-max-width: 700px;
           cursor: pointer;
         }
 
-        &.in-view {
-          display: block;
+        @include breakpoint("medium") {
+          display: none;
         }
       }
     }
