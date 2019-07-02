@@ -62,11 +62,6 @@ const Waypoints = () => {
 
         const previousWaypoint = this.previous()
         if (!previousWaypoint) {
-            return
-          }
-
-          const source = document.body.querySelector('.interactive__source')
-          source.classList.add('in-view')
           return
         }
 
