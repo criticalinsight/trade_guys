@@ -67,6 +67,37 @@ $size_boeing-container-max-width: 700px;
     margin: 0 auto;
     max-width: $size_boeing-container-max-width;
 
+    .interactive__source {
+      display: none;
+
+      @include breakpoint("medium") {
+        display: block;
+        position: sticky;
+        @include fontSize(14px);
+        top: 90%;
+        font-family: $font_source;
+        color: $gray;
+        margin-left: -200px;
+        max-width: 200px;
+      }
+
+      &-mobile {
+        display: block;
+        @include fontSize(14px);
+        margin-top: .75rem;
+
+        a:focus {
+          color: $dark-gray;
+          background-color: $yellow;
+          cursor: pointer;
+        }
+
+        @include breakpoint("medium") {
+          display: none;
+        }
+      }
+    }
+
     @include breakpoint("medium") {
       padding-left: 4rem;
     }

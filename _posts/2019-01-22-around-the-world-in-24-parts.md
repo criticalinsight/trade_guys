@@ -1,6 +1,6 @@
 ---
 content_type: article
-show_image_on_single_post: true
+show_image_on_single_post: false
 title: Around the World in 24 Parts
 date: 2019-07-01 00:00:00 -0500
 series: []
