@@ -2,7 +2,7 @@
 title: 'Crash Course: Trade Policy with the Trade Guys'
 content_type: article
 show_image_on_single_post: true
-date: 2019-01-04 00:00:00 -0500
+date: 2019-01-04T05:00:00.000+00:00
 series:
 - _series/trade-terms-explained.md
 keywords:
@@ -22,6 +22,8 @@ image: "/uploads/trade-course.jpg"
 image_caption: " "
 image_credit: DANIEL GARCIA/AFP/Getty Images
 featured_in_archive: true
+js_files: []
+css_files: []
 
 ---
 Are you new to international trade, or looking for a refresher course on American trade policy?
@@ -40,8 +42,8 @@ _Crash Course_ will address a range of critical topics, including
 
 ·         Key trade policy issues in the Trump administration
 
-**Register now for April 16, 2019**
+**Register now for September 10, 2019**
 
-The next _Crash Course_ is scheduled for Tuesday, April 16, 2019. Tuition for the one-day course is $1000 per person.
+The next _Crash Course_ is scheduled for Tuesday, September 10, 2019. Tuition for the one-day course is $1000 per person.
 
 To register, please sign up [here](https://www.tfaforms.com/4706350). If you have any questions, please contact Joel Martinez, CSIS Program Coordinator of Executive Education, at [jmartinez@csis.org](mailto:jmartinez@csis.org).
