@@ -6,6 +6,7 @@ fields:
   name: title
   label: Title
 pages:
+- _keywords/manufacturing.md
 - _keywords/brexit.md
 - _keywords/services.md
 - _keywords/usmca.md

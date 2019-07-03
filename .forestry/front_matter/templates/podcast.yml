@@ -49,11 +49,23 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/i-predict-a-rerun.md
+- _podcast/talk-about-an-unraveling-with-steve-lamar.md
+- _podcast/tariff-man-first-blood.md
+- _podcast/getting-back-on-offense-with-lesly-mcnitt.md
+- _podcast/mexico-the-eu-and-going-nowhere-fast.md
+- _podcast/trade-guys-on-the-road-georgetown-university-edition.md
+- _podcast/wheat-and-taxes-and-brexit-oh-my.md
+- _podcast/digital-trade-with-victoria-espinel-of-bsa-the-software-alliance.md
+- _podcast/the-canadian-deputy-ambassador-and-you-smacka.md
+- _podcast/autos-bilats-and-the-us-china-deal.md
+- _podcast/tigger-versus-eeyore.md
+- _podcast/closing-in.md
+- _podcast/former-congresswoman-ileana-ros-lehtinen-talks-trade.md
+- _podcast/brexit-uncertainty.md
+- _podcast/us-china-talks-and-the-cbo-report.md
 - _podcast/human-stories-with-karyn-page-and-kimberly-benson.md
 - _podcast/calling-it-war.md
-- _podcast/digital-trade-with-victoria-espinel-of-bsa-the-software-alliance.md
-- _podcast/tigger-versus-eeyore.md
-- _podcast/former-congresswoman-ileana-ros-lehtinen-talks-trade.md
 - _podcast/state-of-the-trading-union.md
 - _podcast/josh-bolten-joins-the-trade-guys-part-i.md
 - _podcast/the-trade-guys-welcome-the-trade-lady.md
@@ -76,18 +88,11 @@ pages:
 - _podcast/trade-war-on-hold-and-a-skinny-nafta.md
 - _podcast/rumble-in-the-jungle.md
 - _podcast/trade-guys-on-the-road-george-washington-university-edition.md
-- _podcast/the-canadian-deputy-ambassador-and-you-smacka.md
-- _podcast/us-china-talks-and-the-cbo-report.md
 - _podcast/let-s-talk-sweden.md
-- _podcast/autos-bilats-and-the-us-china-deal.md
 - _podcast/winning-at-the-wto.md
-- _podcast/trade-guys-on-the-road-georgetown-university-edition.md
-- _podcast/wheat-and-taxes-and-brexit-oh-my.md
 - _podcast/trade-war-hitting-a-fever-pitch.md
 - _podcast/Trade-Guys-Q&A.md
 - _podcast/Back-from-the-Road-The-Politics-of-Trade.md
-- _podcast/brexit-uncertainty.md
-- _podcast/closing-in.md
 - _podcast/bad-moon-rising-over-g7.md
 - _podcast/i-smell-a-trade-war.md
 - _podcast/talking-turkey-and-the-economy.md
