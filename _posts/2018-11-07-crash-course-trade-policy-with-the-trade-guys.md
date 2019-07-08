@@ -21,9 +21,6 @@ authors: []
 image: "/uploads/trade-course.jpg"
 image_caption: " "
 image_credit: DANIEL GARCIA/AFP/Getty Images
-featured_in_archive: true
-js_files: []
-css_files: []
 
 ---
 Are you new to international trade, or looking for a refresher course on American trade policy?

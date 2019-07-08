@@ -12,8 +12,9 @@ _site
 /vendor
 
 # Compiled Files
-/assets/css/*.css
-/assets/js/*.js
+/assets/css/**/*.css
+/assets/js/**/*.js
+/assets/js/**/*.js.map
 
 # Node.js
 node_modules/
