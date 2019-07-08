@@ -2,7 +2,7 @@
 content_type: article
 show_image_on_single_post: false
 title: Around the World in 24 Parts
-date: 2019-07-02 00:00:00 -0500
+date: 2019-07-15 00:00:00 -0500
 series: []
 keywords:
 - _keywords/eu.md
@@ -24,7 +24,7 @@ js_files:
 - boeing/boeing
 css_files:
 - boeing
-published: true
+published: false
 
 ---
 The Boeing Company is synonymous with American aviation, and a symbol of US innovation, aerospace dominance, and advanced manufacturing know-how.
