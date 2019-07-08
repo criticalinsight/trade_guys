@@ -3,7 +3,7 @@ layout: home
 body_class: body-home
 featured_statistic_post: _posts/2018-09-11-a-21st-century-trade-war.md
 featured_posts:
-- _posts/2019-01-22-around-the-world-in-24-parts.md
+- _posts/2018-11-07-crash-course-trade-policy-with-the-trade-guys.md
 - _posts/2017-10-19-50-states-trade.md
 
 ---
