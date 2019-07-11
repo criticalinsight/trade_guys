@@ -2,8 +2,8 @@
   border: 16px solid #f3f3f3;
   border-top: 16px solid #eae134;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 50vw;
+  height: 50vw;
   animation: spin 1s linear infinite;
   margin: auto;
 }
@@ -14,55 +14,46 @@ tr.odd td:last-of-type,
 tr.even td:nth-child(2),
 tr.even td:nth-child(4),
 tr.even td:last-of-type {
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto;
 } */
 
 table tr > td:nth-child(5) {
-  min-width: 300px;
-}
-table tr > td:nth-child(6) {
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+  width: 50%;
 }
 
 /*============================
 =           Filter          =
 ============================*/
-.dataTables_wrapper .dataTables_filter > div label {
+.dataTables_filter > div label {
   white-space: nowrap;
 }
-.dataTables_wrapper .dataTables_filter {
+.dataTables_filter {
   background-color: #f5f2ed;
   box-sizing: border-box;
   color: black !important;
   float: none !important;
-  padding: 40px;
-  margin: auto;
-  max-width: 1080px;
+  padding: 16px;
 }
 
-.dataTables_wrapper .dataTables_filter label {
+.dataTables_filter label {
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
 }
 
-.dataTables_wrapper .dataTables_filter > :not(button) {
+.dataTables_filter > :not(button) {
   display: flex;
   flex-basis: 48%;
   flex-wrap: wrap;
   margin-bottom: 16px;
 }
 
-.dataTables_wrapper .dataTables_filter > label:first-of-type {
+.dataTables_filter > label:first-of-type {
   align-items: center;
   display: flex;
 }
 
-.dataTables_wrapper .dataTables_filter input {
+.dataTables_filter input {
   -webkit-appearance: none;
   border: none;
   font-size: 0.9rem;
@@ -74,39 +65,29 @@ table tr > td:nth-child(6) {
   border: 1px solid #b3b3b3;
 }
 
-.dataTables_wrapper .dataTables_filter input:focus {
+.dataTables_filter input:focus {
   background: white;
 }
 
-.dataTables_wrapper .dataTables_filter option:not(:first-of-type) {
+.dataTables_filter option:not(:first-of-type) {
   color: black;
   font-style: normal;
 }
 button.reset {
   cursor: pointer;
-  margin: 2rem 0 0 0 0;
+  margin: 2rem 0 0 0;
+}
+.dataTables_info {
+  text-align: center;
 }
 /*============================
 =           Table           =
 ============================*/
 
 .dataTables_wrapper {
-  max-width: 1340px;
   margin: 0 auto;
-  -webkit-animation: fadeIn 1s ease-out;
-  -moz-animation: fadeIn 1s ease-out;
-  -o-animation: fadeIn 1s ease-out;
   animation: fadeIn 1s ease-out;
-}
-
-.dataTables_wrapper .dataTables_info {
-  clear: both;
-  float: none;
-  text-align: center;
-}
-
-table.dataTable {
-  border-spacing: 2px 6px;
+  padding-right: 16px;
 }
 
 table.dataTable.display tbody td {
@@ -123,6 +104,7 @@ table.dataTable thead th {
   border-bottom: 2px solid #000;
   text-align: left;
   letter-spacing: 1.4px;
+  padding: 8px 16px !important;
 }
 
 table.dataTable thead th:not(:first-child) {
@@ -138,8 +120,13 @@ table.dataTable thead th:first-child {
 }
 
 table tr > td {
-  padding: 8px 10px;
+  padding: 8px 16px !important;
   vertical-align: top;
+}
+
+table thead th:not(:first-of-type),
+table tr > td:not(:first-of-type) {
+  border-left: 3px solid white;
 }
 
 table tr.group td {
@@ -175,21 +162,24 @@ table.dataTable.order-column.hover tbody tr:hover > .sorting_1 {
 
 table.dataTable.display tr.shown.even > .sorting_1,
 table.dataTable.display tr.shown.odd > .sorting_1,
-table tr.shown td,
-table tr.shown + tr > td {
+table tr.shown td {
   background-color: white;
 }
+
+table tr.shown + tr > td:last-of-type {
+  background-color: #f1f1f1;
+  box-shadow: inset 0 1px 6px 0 rgba(0, 0, 0, 0.17);
+}
+
 table tr > td:nth-child(5) p,
 table tr.shown + tr > td:last-of-type p {
   max-width: 700px;
+  margin: auto;
 }
 
-table tr.shown + tr > td {
-  border-bottom: 36px solid white;
-}
-table tr.shown td,
-table tr.shown + tr + tr td {
-  border-top: 2px solid black !important;
+table tr.shown td:not(:first-of-type),
+table tr.shown + tr + tr td:not(:first-of-type) {
+  border-top: 3px solid black !important;
 }
 
 table tr.shown + tr > td > div {
@@ -223,7 +213,8 @@ table td.details-control {
   background: #fff url(../../images/custom-viz/wto-tracker/details_open.svg)
     no-repeat 75% 12px;
   cursor: pointer;
-  width: 90px;
+  width: 30px;
+  padding: 0 !important;
   background-size: 27.5px !important;
 }
 
@@ -236,30 +227,51 @@ table tr.shown td.details-control {
     no-repeat 75% 12px;
 }
 
+// .dtr-details li {
+//   padding: 0.5em 16px !important;
+// }
+
 /*============================
 =           Mobile           =
 ============================*/
 
-@media screen and (min-width: 769px) {
-  .dataTables_wrapper .dataTables_filter input {
+@media screen and (max-width: 768px) {
+  table thead th:nth-child(5),
+  table tr > td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .dataTables_wrapper {
+    padding: 0 12%;
+  }
+  table tr.shown + tr > td:last-of-type {
+    padding: 24px !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .dataTables_filter input {
     margin-left: 0.5em;
   }
 
-  .dataTables_wrapper .dataTables_filter > *:not(button) {
+  .dataTables_filter > *:not(button) {
     flex-wrap: nowrap !important;
-    flex-basis: 48%;
+    flex-basis: calc(50% - 12px);
   }
 
-  .dataTables_wrapper .dataTables_filter {
+  .dataTables_filter {
     display: flex;
     flex-wrap: wrap;
+    padding: 40px;
   }
 
-  .dataTables_wrapper .dataTables_filter > label:first-of-type {
+  .dataTables_filter > label:first-of-type {
     flex-basis: 100%;
   }
 
-  .dataTables_wrapper .dataTables_filter > *:not(button):nth-child(even) {
+  .dataTables_filter > *:not(button):nth-child(even) {
     margin-left: 24px;
   }
   button.reset {
@@ -276,57 +288,6 @@ table tr.shown td.details-control {
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-
-  1% {
-    display: block;
-    opacity: 0;
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-
-  1% {
-    display: block;
-    opacity: 0;
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-
-  1% {
-    display: block;
-    opacity: 0;
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
   }
 }
 

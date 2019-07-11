@@ -80,10 +80,10 @@ function renderTable(sheet) {
         return { title: column }
       })
     ],
-    fixedHeader: {
-      header: true
+
+    responsive: {
+      details: false
     },
-    responsive: { details: false },
     pagingType: 'simple',
     order: [[1, 'desc']],
     columnDefs: [
@@ -91,14 +91,20 @@ function renderTable(sheet) {
         targets: [1, 2, 3],
         orderable: false
       },
-      { targets: [5, 6], visible: false }
+      { targets: [5, 6], visible: false },
+      { targets: 0, responsivePriority: 0 },
+      { targets: 1, responsivePriority: 1 },
+      { targets: 2, responsivePriority: 2 },
+      { targets: 3, responsivePriority: 3 },
+      { targets: 4, responsivePriority: 4 }
     ],
-    initComplete: initComplete
+    initComplete
   })
 }
-
+console.log(initComplete)
 function initComplete() {
   $('.dataTables_length').remove()
+  $('.fullWidthFeatureContent').before($('.dataTables_filter'))
   $('.dataTables_filter').after($('.dataTables_info'))
 
   $('.loader').hide()
@@ -142,12 +148,12 @@ function initComplete() {
 
       $(row.child()[0])
         .find('td')
-        .attr('colspan', '3')
+        .attr('colspan', '4')
         .attr('scope', 'colgroup')
 
       $(row.child()[0])
         .find('td')
-        .before('<td colspan="3">&nbsp;</td>')
+        .before('<td>&nbsp;</td>')
 
       tr.addClass('shown')
     }
