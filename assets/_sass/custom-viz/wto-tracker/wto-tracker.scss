@@ -144,12 +144,14 @@ table tr.even ul li::before {
 }
 
 table.dataTable.stripe tbody tr.even,
-table.dataTable.display tbody tr.even {
-  background-color: rgba(247, 244, 241, 0.5);
+table.dataTable.display tbody tr.even,
+table.dataTable.display tbody tr.even > .sorting_1 {
+  background-color: #f3f3f3;
 }
 table.dataTable.stripe tbody tr.odd,
-table.dataTable.display tbody tr.odd {
-  background-color: #f5f2ed;
+table.dataTable.display tbody tr.odd,
+table.dataTable.display tbody tr.odd > .sorting_1 {
+  background-color: white;
 }
 table.dataTable.stripe tbody tr.even:hover,
 table.dataTable.display tbody tr.even:hover,
@@ -157,13 +159,7 @@ table.dataTable.stripe tbody tr.odd:hover,
 table.dataTable.display tbody tr.odd:hover,
 table.dataTable.display tbody tr:hover > .sorting_1,
 table.dataTable.order-column.hover tbody tr:hover > .sorting_1 {
-  background-color: white;
-}
-
-table.dataTable.display tr.shown.even > .sorting_1,
-table.dataTable.display tr.shown.odd > .sorting_1,
-table tr.shown td {
-  background-color: white;
+  background-color: #ddd;
 }
 
 table tr.shown + tr > td:last-of-type {

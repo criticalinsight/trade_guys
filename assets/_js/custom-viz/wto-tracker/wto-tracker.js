@@ -62,7 +62,7 @@ function renderTable(sheet) {
                 ' <a href=' +
                 row[linkIndex] +
                 ' target="_blank">' +
-                'link to document ' +
+                'View the document ' +
                 externalLink +
                 '</a></p>'
             : c
@@ -88,7 +88,7 @@ function renderTable(sheet) {
     order: [[1, 'desc']],
     columnDefs: [
       {
-        targets: [1, 2, 3],
+        targets: [0, 2, 3],
         orderable: false
       },
       { targets: [5, 6], visible: false }
