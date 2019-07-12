@@ -91,17 +91,12 @@ function renderTable(sheet) {
         targets: [1, 2, 3],
         orderable: false
       },
-      { targets: [5, 6], visible: false },
-      { targets: 0, responsivePriority: 0 },
-      { targets: 1, responsivePriority: 1 },
-      { targets: 2, responsivePriority: 2 },
-      { targets: 3, responsivePriority: 3 },
-      { targets: 4, responsivePriority: 4 }
+      { targets: [5, 6], visible: false }
     ],
     initComplete
   })
 }
-console.log(initComplete)
+
 function initComplete() {
   $('.dataTables_length').remove()
   $('.fullWidthFeatureContent').before($('.dataTables_filter'))
@@ -121,7 +116,7 @@ function initComplete() {
   )
 
   $('.reset').on('click', function() {
-    ;[...Array.from(filterColumns), ...table.column(12)].forEach(function(fc) {
+    Array.from(filterColumns).forEach(function(fc) {
       return fc.search('', true, false).draw()
     })
 
@@ -187,12 +182,12 @@ function makeFilter(table, array) {
       .before(input)
 
     $('.' + labelSlug).on('change', function() {
-      let val = $.fn.dataTable.util.escapeRegex($(input).val())
+      let val = $.fn.dataTable.util.escapeRegex($(this).val())
       c.search(val ? '' + val + '' : '', true, false).draw()
       table.responsive.recalc()
     })
     $('.' + labelSlug).on('input', function() {
-      let val = $.fn.dataTable.util.escapeRegex($(input).val())
+      let val = $.fn.dataTable.util.escapeRegex($(this).val())
       c.search(val ? '' + val + '' : '', true, false).draw()
       table.responsive.recalc()
     })
