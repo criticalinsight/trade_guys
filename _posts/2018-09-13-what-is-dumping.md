@@ -18,7 +18,7 @@ statistic_number: 116
 statistic_text: 'products from China are subject to U.S. antidumping duties, far more
   than any other country. '
 statistic_source: 'U.S. Commerce Department. '
-image: "/uploads/youtu.be-Uhx_6KzdpTY-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/youtu.be-Uhx_6KzdpTY-compressor.jpg"
 image_caption: ''
 image_credit: CSIS
 show_image_on_single_post: false

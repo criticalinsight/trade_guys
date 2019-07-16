@@ -8,7 +8,7 @@ date: 2018-08-20 21:19:56 +0000
 external_url: https://www.csis.org/analysis/talking-turkey-and-taking-stock
 series: []
 keywords: []
-image: "/uploads/180820_TURKEY_US.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180820_TURKEY_US.jpg"
 image_caption: ''
 image_credit: OZAN KOSE/AFP/Getty Images
 show_image_on_single_post: true

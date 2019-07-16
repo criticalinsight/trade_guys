@@ -18,7 +18,7 @@ excerpt: |-
   CSIS Executive Education is pleased to offer "Crash Course," a one-day seminar on the fundamentals of U.S. international trade policy and politics.
 notes: ''
 authors: []
-image: "/uploads/trade-course.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/trade-course.jpg"
 image_caption: " "
 image_credit: DANIEL GARCIA/AFP/Getty Images
 featured_in_archive: true

@@ -18,12 +18,12 @@ keywords:
 - _keywords/mexico.md
 - _keywords/canada.md
 - _keywords/nafta.md
-image: "/uploads/nafta_website.gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/nafta_website.gif"
 image_caption: ''
 image_credit: ''
 
 ---
-![](/uploads/nafta_website.gif)On August 27, The Trump administration announced that it had reached a bilateral trade agreement in principle Mexico and pledged to move forward with it regardless of whether Canada joins, potentially upending commercial relations with its top trading partner.
+![](https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/nafta_website.gif)On August 27, The Trump administration announced that it had reached a bilateral trade agreement in principle Mexico and pledged to move forward with it regardless of whether Canada joins, potentially upending commercial relations with its top trading partner.
 
 What would a trade deal without Canada look like by the numbers? U.S. trade with its northern neighbor has grown by $200 billion over the past 15 years. U.S. imports from Canada and U.S. exports to Canada totaled over $580 billion in 2017. Excluding Canada from a trade deal with Mexico would leave over half of U.S. trade in the NAFTA region and 15 percent of global U.S. trade outside of a free trade agreement and exposed to additional tariffs.
 

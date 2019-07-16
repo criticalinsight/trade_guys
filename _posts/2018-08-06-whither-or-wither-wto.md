@@ -9,7 +9,7 @@ external_url: https://www.csis.org/analysis/whither-or-wither-wto
 series: []
 keywords:
 - _keywords/wto.md
-image: "/uploads/180806_whither_wither_wto.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180806_whither_wither_wto.jpg"
 image_caption: ''
 image_credit: Fabrice Cpffrini/AFP/Getty Images
 show_image_on_single_post: true

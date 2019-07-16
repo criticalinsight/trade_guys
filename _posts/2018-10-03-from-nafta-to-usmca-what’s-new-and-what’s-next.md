@@ -17,7 +17,7 @@ keywords:
 - _keywords/mexico.md
 - _keywords/canada.md
 - _keywords/usmca.md
-image: "/uploads/181003_U.S_Mexico_0-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181003_U.S_Mexico_0-compressor.jpg"
 image_caption: ''
 image_credit: PATRICK DOYLE/AFP/Getty Images
 

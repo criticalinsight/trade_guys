@@ -10,7 +10,7 @@ series: []
 keywords:
 - _keywords/tariffs.md
 - _keywords/china.md
-image: "/uploads/180813_wage_Stagnation.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180813_wage_Stagnation.jpg"
 image_caption: ''
 image_credit: Andrew Burton/Getty Images
 show_image_on_single_post: true

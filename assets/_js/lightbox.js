@@ -49,9 +49,15 @@ const Lightbox = () => {
     injectBaseStyles: true
   }
 
-  const images = Array.from(document.querySelectorAll('.post-body img'))
+  const figure_images = Array.from(
+    document.querySelectorAll('.post-body figure:not(.post-feature-image) img')
+  )
 
-  images.forEach(img => {
+  const non_figure_images = Array.from(
+    document.querySelectorAll('.post-body p img')
+  )
+
+  figure_images.concat(non_figure_images).forEach(img => {
     img.style.cursor = 'zoom-in'
     new Luminous(img, luminousOpts)
   })

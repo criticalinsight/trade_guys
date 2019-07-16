@@ -18,7 +18,7 @@ keywords:
 - _keywords/china.md
 - _keywords/wto.md
 - _keywords/ustr.md
-image: "/uploads/181015_WTO-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181015_WTO-compressor.jpg"
 image_caption: ''
 image_credit: ''
 

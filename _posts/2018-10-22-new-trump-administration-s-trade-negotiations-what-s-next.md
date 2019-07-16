@@ -18,7 +18,7 @@ keywords:
 - _keywords/ustr.md
 - _keywords/congress.md
 - _keywords/eu.md
-image: "/uploads/181018_trump1_0-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181018_trump1_0-compressor.jpg"
 image_caption: ''
 image_credit: PETER FOLEY/AFP/Getty Images
 

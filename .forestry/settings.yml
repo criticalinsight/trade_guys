@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin/"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: _podcast
@@ -59,10 +59,10 @@ sections:
 - type: document
   path: _data/trade_guys.yml
   label: Trade Guys
-upload_dir: uploads
-public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: false
+upload_dir: trade-guys
+public_path: https://res.cloudinary.com/csisideaslab/image/upload
+front_matter_path: https://res.cloudinary.com/csisideaslab/image/upload
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
@@ -75,5 +75,6 @@ build:
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
+  install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/build:latest
   mount_path: "/opt/buildhome/repo"

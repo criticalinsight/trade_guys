@@ -16,7 +16,7 @@ keywords:
 - _keywords/wto.md
 - _keywords/china.md
 - _keywords/tariffs.md
-image: "/uploads/181203_G20-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181203_G20-compressor.jpg"
 image_caption: ''
 image_credit: Guido Bergmann/Bundesregierung via Getty Images
 

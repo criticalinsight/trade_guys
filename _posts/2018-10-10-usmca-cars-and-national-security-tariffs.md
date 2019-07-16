@@ -18,7 +18,7 @@ excerpt: 'Outside of the new U.S.-Mexico-Canada Agreement (USMCA) to replace the
 notes: ''
 authors:
 - _authors/jack-caporal.md
-image: "/uploads/Vehicle Tariffs-Website revised.gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/Vehicle_Tariffs-Website_revised.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
 
@@ -27,7 +27,7 @@ On the side of the new U.S.-Mexico-Canada Agreement (USMCA) to replace the North
 
 The United States reached car and car part quota arrangements with Canada and Mexico, which were announced alongside the USMCA. Each country is allotted 2.6 million vehicles before their exports are exposed to any potential Section 232 tariffs. Mexico exports about 2.1 million cars to the U.S. per year, while Canada exports just under 2 million cars to the U.S. every year. The quotas give each country some room to grow their auto exports to the United States, although if tariffs are imposed and remain in place for many years the quotas may inhibit auto imports from Mexico and Canada and stymie the North American auto industry.
 
-![](/uploads/Vehicle Tariffs-Website revised.gif)
+![](https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/Vehicle_Tariffs-Website_revised.gif)
 
 <table>
 
@@ -76,7 +76,7 @@ The United States reached car and car part quota arrangements with Canada and Me
 <td style="
 
     border-left: 2px solid #000;
-    
+
     padding-left: 10px;
 
 ">
@@ -122,7 +122,7 @@ The United States reached car and car part quota arrangements with Canada and Me
 <td style="
 
     border-left: 2px solid #000;
-    
+
     padding-left: 10px;
 
 ">

@@ -7,7 +7,7 @@ content_type: article
 date: 2018-05-07 17:55:48 +0000
 external_url: https://www.csis.org/analysis/lost-1980s-trade
 series: []
-image: "/uploads/180507_reagan_80s_trade.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180507_reagan_80s_trade.jpg"
 image_caption: ''
 image_credit: Mike Sargebnt/AFP/Getty Images
 keywords:

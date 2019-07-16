@@ -19,7 +19,7 @@ excerpt: 'Most politicians say they are free traders, but disagree over how to a
 notes: ''
 authors:
 - _authors/bill-reinsch.md
-image: "/uploads/180910_china_trade-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180910_china_trade-compressor.jpg"
 image_caption: ''
 image_credit: JOHANNES EISELE/AFP/Getty Images
 external_url: https://www.csis.org/analysis/arent-we-all-free-traders

@@ -14,7 +14,7 @@ img {
   &::before {
     content: '';
     display: block;
-    padding-bottom: calc(100% / (16/9));
+    padding-bottom: calc(100% / (16 / 9));
   }
 
   * + & {
@@ -36,7 +36,7 @@ img {
   & + .post-feature-video-subscribe {
     @include fontSize(16px);
     margin-bottom: 2rem;
-  }  
+  }
 }
 
 .post-feature-video {
@@ -45,8 +45,10 @@ img {
 
 .post-feature-image,
 .post-image {
+  max-width: calc(
+    #{$size_container-max-width} - (2 * #{$size_wrapper-padding})
+  );
   margin: 1rem auto;
-  background-color: $off-white;
 
   img {
     display: block;
@@ -66,8 +68,12 @@ img {
 }
 
 .post-feature-image {
+  background-color: $off-white;
+}
+
+.post-feature-image {
   margin: 0 0 1rem;
-  @include breakpoint("small") {
+  @include breakpoint('small') {
     float: right;
     max-width: 40%;
     margin: 0 0 1rem 2rem;

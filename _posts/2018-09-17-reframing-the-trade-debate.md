@@ -19,7 +19,7 @@ keywords:
 - _keywords/wto.md
 - _keywords/232_tariffs.md
 - _keywords/tariffs.md
-image: "/uploads/180917_trade.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180917_trade.jpg"
 image_caption: ''
 image_credit: BRYAN R. SMITH/AFP/Getty Images
 

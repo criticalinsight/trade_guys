@@ -22,7 +22,7 @@ keywords:
 - _keywords/canada.md
 - _keywords/nafta.md
 - _keywords/japan.md
-image: "/uploads/181009_trump-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181009_trump-compressor.jpg"
 image_caption: ''
 image_credit: Chip Somodevilla/Getty Images
 

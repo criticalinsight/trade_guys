@@ -17,7 +17,7 @@ series: []
 keywords:
 - _keywords/ustr.md
 - _keywords/wto.md
-image: "/uploads/181023_WTO_0-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181023_WTO_0-compressor.jpg"
 image_caption: ''
 image_credit: FABRICE COFFRINI/AFP/Getty Images
 

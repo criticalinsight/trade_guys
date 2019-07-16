@@ -20,7 +20,7 @@ keywords:
 - _keywords/japan.md
 - _keywords/usmca.md
 - _keywords/congress.md
-image: "/uploads/181108_election-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181108_election-compressor.jpg"
 image_caption: ''
 image_credit: ANDREW CABALLERO-REYNOLDS/AFP/Getty Images
 

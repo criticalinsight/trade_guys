@@ -2,7 +2,7 @@
 content_type: interactive
 show_image_on_single_post: false
 title: WTO Tracker
-date: 2019-05-15 00:00:00 -0500
+date: 2019-07-15 00:00:00 -0500
 series: []
 keywords:
 - _keywords/wto.md
@@ -12,7 +12,7 @@ authors:
 - _authors/jack-caporal.md
 image: ''
 image_caption: ''
-image_credit: 'CSIS iDeas Lab'
+image_credit: ''
 featured_in_archive: true
 custom_viz: true
 js_files:
@@ -30,10 +30,14 @@ css_files:
 published: true
 
 ---
+## Report Summary
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+[Continue reading on CSIS.org<i/>{:class="icon-external"}](https://www.csis.org"){: class="post-external-link btn btn-gray"}
+
+[Related: The WTO At a Crossroad: Three Scenarios<i/>{:class="icon-external"}](/trade-explained/wto-flowcharts/){: class="post-external-link btn btn-gray"}
 
 {% include_relative custom-viz/wto-tracker/datatable.html %}
