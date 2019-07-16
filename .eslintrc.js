@@ -13,7 +13,9 @@ module.exports = {
     'no-console': 0,
     'no-var': 'warn',
     'require-jsdoc': 'off',
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    'no-unused-vars': 'warn',
+    'no-case-declarations': 'off'
   },
   parserOptions: {
     sourceType: 'module'

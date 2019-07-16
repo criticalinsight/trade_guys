@@ -29,20 +29,22 @@ gapi.load('client', function() {
 })
 
 function renderTable(sheet) {
-  let descriptionIndices = sheet.columns
-    .filter(function(column) {
-      return (
-        column.toLowerCase().indexOf('description') > -1 &&
+  let descriptionIndex = sheet.columns.indexOf(
+    sheet.columns.find(function(column) {
+      column.toLowerCase().indexOf('description') > -1 &&
         column.toLowerCase().indexOf('long') < 0
-      )
     })
-    .map(function(column) {
-      return sheet.columns.indexOf(column)
-    })
+  )
 
   let linkIndex = sheet.columns.indexOf(
     sheet.columns.find(function(column) {
       return column.toLowerCase().indexOf('document') > -1
+    })
+  )
+
+  let memberIndex = sheet.columns.indexOf(
+    sheet.columns.find(function(column) {
+      return column.toLowerCase().indexOf('member') > -1
     })
   )
 
@@ -57,24 +59,50 @@ function renderTable(sheet) {
       return [
         null,
         ...row.map(function(c, i) {
-          return i === linkIndex
-            ? '<p><a href=' +
+          switch (i) {
+            case memberIndex:
+              const memberArray = c.split(',')
+              const length = memberArray.length
+
+              return length > 3
+                ? memberArray.slice(0, -1).join(', ') +
+                    ', and ' +
+                    memberArray.slice(-1)
+                : length === 2
+                  ? memberArray[0] + ' and ' + memberArray.slice(-1)
+                  : c
+
+            case linkIndex:
+              return (
+                '<p><a href=' +
                 row[linkIndex] +
                 ' target="_blank">' +
                 'View ' +
                 externalLink +
                 '</a></p>'
-            : i === longIndex
-              ? '<p> ' + c + '</p>'
-              : descriptionIndices.indexOf(i) > -1
-                ? '<p> ' +
-                  c +
-                  '</p>' +
-                  '<p class="read-more">' +
-                  open +
-                  close +
-                  '<span>read more</span></p>'
-                : c
+              )
+
+            case longIndex:
+              return (
+                '<p> ' +
+                c.replace(/• /g, '<br/>• ').replace(/(?:\r\n|\r|\n)/g, '<br>') +
+                '</p>'
+              )
+
+            case descriptionIndex:
+              return (
+                '<p> ' +
+                c +
+                '</p>' +
+                '<p class="read-more">' +
+                open +
+                close +
+                '<span>read more</span></p>'
+              )
+
+            default:
+              return c
+          }
         })
       ]
     }),
@@ -185,7 +213,9 @@ function makeFilter(table, array) {
       labelSlug +
       '" list="datalist_' +
       labelSlug +
-      '">'
+      '" name="' +
+      labelSlug +
+      '" value="">'
 
     datalist
       .wrap('<div></div>')
@@ -207,7 +237,28 @@ function makeFilter(table, array) {
       table.responsive.recalc()
     })
 
-    $(Array.from(new Set(Array.from(c.data()))))
+    const options = Array.from(c.data())
+      .reduce(function(acc, curr) {
+        if (typeof curr === 'string') {
+          const currSplit = curr.split(/,| and /)
+
+          currSplit.forEach(function(item) {
+            acc.push(item.trim())
+          })
+        } else if (typeof curr === 'object') {
+          acc.concat(curr)
+        }
+
+        return acc
+      }, [])
+      .sort(function(a, b) {
+        return a.localeCompare(b)
+      })
+      .filter(function(o) {
+        return o
+      })
+
+    $(Array.from(new Set(options)))
       .sort()
       .each(function(j, d) {
         datalist.append('<option value="' + d + '">' + d + '</option>')
