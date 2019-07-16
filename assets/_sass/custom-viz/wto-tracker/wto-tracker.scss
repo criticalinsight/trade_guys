@@ -249,6 +249,10 @@ table.dataTable.display tbody > tr.shown td.details-control {
   table.dataTable.display tr > td:nth-child(5) {
     display: none;
   }
+
+  .dataTables_wrapper {
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -259,9 +263,6 @@ table.dataTable.display tbody > tr.shown td.details-control {
 }
 
 @media screen and (min-width: 700px) {
-  // .dataTables_wrapper {
-  //   padding: 0 12%;
-  // }
   table.dataTable.display tbody > tr.shown + tr > td {
     padding: 24px !important;
   }
