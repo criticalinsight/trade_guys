@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/world-peace-through-world-trade.md
 - _podcast/bringing-domestic-manufacturing-back-with-scott-paul.md
 - _podcast/tariff-man-first-blood.md
 - _podcast/the-truce.md
