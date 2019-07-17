@@ -56,9 +56,8 @@ function renderTable(sheet) {
 
   $('#proposals').DataTable({
     data: sheet.data.map(function(row) {
-      return [
-        null,
-        ...row.map(function(c, i) {
+      return [null].concat(
+        row.map(function(c, i) {
           switch (i) {
             case memberIndex:
               const memberArray = c.split(',')
@@ -104,7 +103,7 @@ function renderTable(sheet) {
               return c
           }
         })
-      ]
+      )
     }),
     columns: [
       {
@@ -112,12 +111,12 @@ function renderTable(sheet) {
         orderable: false,
         data: null,
         defaultContent: ''
-      },
-      ...sheet.columns.map(function(column) {
+      }
+    ].concat(
+      sheet.columns.map(function(column) {
         return { title: column }
       })
-    ],
-
+    ),
     responsive: {
       details: false
     },

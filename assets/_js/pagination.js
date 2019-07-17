@@ -9,7 +9,7 @@ const Pagination = {
   numberPerPage: 10,
   filterByContentTypes: false,
   selectedContentTypes: [],
-  getPosts() {
+  getPosts: function() {
     let posts = this.postsList
     if (this.filterByContentTypes && this.selectedContentTypes.length > 0) {
       posts = this.postsList.filter(d =>
@@ -19,13 +19,13 @@ const Pagination = {
     this.totalNumPosts = posts.length
     this.numberOfPages = Math.ceil(this.totalNumPosts / this.numberPerPage)
   },
-  getContentTypesFromURL() {
+  getContentTypesFromURL: function() {
     const params = this.getURLParams(window.location.href)
     if (params.content_type) {
       this.selectedContentTypes = params.content_type.split(',')
     }
   },
-  setCurrentPage() {
+  setCurrentPage: function() {
     const params = this.getURLParams(window.location.href)
     let page = 1
     if (params.page && params.page <= this.numberOfPages) {
@@ -33,7 +33,7 @@ const Pagination = {
     }
     this.currentPage = +page
   },
-  setupPaginationBtns() {
+  setupPaginationBtns: function() {
     let btnHTML = `<button class='pagination-page pagination-prev' data-page='${this
       .currentPage - 1}'><i class="icon-angle-left"></i></button>`
     btnHTML += `<span class="pagination-total-pages"></span>`
@@ -54,17 +54,17 @@ const Pagination = {
         el.addEventListener('click', Pagination.changePage)
       })
   },
-  setupTotalPages() {
+  setupTotalPages: function() {
     const containers = document.querySelectorAll('.pagination-total-pages')
     containers.forEach(container => {
       container.innerHTML = `Page
-    <span class="pagination-current-page">${this.currentPage}</span> of 
+    <span class="pagination-current-page">${this.currentPage}</span> of
     ${this.numberOfPages} <span class="pagination-total-items">(${
         this.totalNumPosts
       } items)</span>`
     })
   },
-  setupContentFiltering() {
+  setupContentFiltering: function() {
     if (!this.filterByContentTypes) {
       return
     }
@@ -76,7 +76,7 @@ const Pagination = {
       checkbox.addEventListener('change', Pagination.filterContent)
     })
   },
-  updatePaginationBtns() {
+  updatePaginationBtns: function() {
     const oldActiveBtn = this.paginationContainer.querySelector(
       '.page-num.is-active'
     )
@@ -100,7 +100,7 @@ const Pagination = {
       .querySelectorAll('.pagination-current-page')
       .forEach(el => (el.innerHTML = this.currentPage))
   },
-  updatePostList() {
+  updatePostList: function() {
     const startVisiblePosts = (this.currentPage - 1) * this.numberPerPage
     const endVisiblePosts = startVisiblePosts + this.numberPerPage
 
@@ -132,7 +132,7 @@ const Pagination = {
       }
     })
   },
-  changePage() {
+  changePage: function() {
     let pageNum = this.getAttribute('data-page')
 
     const params = Pagination.getURLParams(window.location.href)
@@ -152,7 +152,7 @@ const Pagination = {
     Pagination.updatePaginationBtns()
     Pagination.updatePostList()
   },
-  filterContent() {
+  filterContent: function() {
     let content_type = this.value
     const index = Pagination.selectedContentTypes.indexOf(content_type)
     if (index !== -1) {
@@ -177,7 +177,7 @@ const Pagination = {
     Pagination.updatePaginationBtns()
     Pagination.updatePostList()
   },
-  getURLParams(url) {
+  getURLParams: function(url) {
     let params = {}
     const parser = document.createElement('a')
     parser.href = url
