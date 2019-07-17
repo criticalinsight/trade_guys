@@ -64,6 +64,7 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
+- _posts/who-actually-pays-tariffs-1.md
 - _posts/who-actually-pays-tariffs.md
 - _posts/2019-01-04-subsidies-and-trade-a-tricky-combination.md
 - _posts/2018-07-10-what-s-the-bretton-woods-system.md
