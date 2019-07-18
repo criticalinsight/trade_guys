@@ -141,8 +141,8 @@ table.dataTable.display tr > td {
   vertical-align: top;
 }
 
-table.dataTable.display thead th:not(:first-of-type),
-table.dataTable.display tr > td:not(:first-of-type) {
+table.dataTable.display thead th:nth-child(n + 3),
+table.dataTable.display tr > td:nth-child(n + 3) {
   border-left: 3px solid white;
 }
 
