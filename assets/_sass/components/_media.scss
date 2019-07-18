@@ -2,7 +2,7 @@
 =            Media            =
 =============================*/
 
-img {
+img:not(.lum-img) {
   width: 100%;
   height: auto;
 }
