@@ -1,12 +1,13 @@
-<div class="audio-player">
+{% if page.soundcloud_url.size > 0 %}
+ <div class="audio-player">
 	<div class="progress-bar">
 		<div class="progress"></div>
 	</div>
 	<div class="audio-control" data-url="{{include.soundcloud_url}}">
 
 		<button class="action listen" aria-label="Listen to the podcast">
-<i class="icon-play"></i>
-<span class="action-label"></span>
+			<i class="icon-play"></i>
+			<span class="action-label"></span>
   	</button>
 	</div>
 	<div class="secondary-info">
@@ -28,9 +29,10 @@
 				<span class="label-transcript">
 					no transcript
 				</span>
-			</a>
+
 		</div>
 			{% endif %}
 		</div>
 	</div>
 </div>
+{% endif %}
