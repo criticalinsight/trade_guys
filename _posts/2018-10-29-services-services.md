@@ -15,7 +15,7 @@ series:
 - _series/trade-terms-explained.md
 keywords:
 - _keywords/services.md
-image: "/uploads/181029_college-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181029_college-compressor.jpg"
 image_caption: ''
 image_credit: DANIEL SLIM/AFP/Getty Images
 

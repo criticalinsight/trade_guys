@@ -4,9 +4,13 @@ $size_boeing-container-max-width: 700px;
 /*==============================
 =             Base             =
 ==============================*/
+.fullWidthFeatureContent {
+  @include breakpoint('medium') {
+    margin-left: calc(-50vw - 4rem);
+  }
+}
 
 #boeingScroll {
-
   .svg-container {
     position: sticky;
     top: #{$size_header-height-mobile};
@@ -16,7 +20,7 @@ $size_boeing-container-max-width: 700px;
     z-index: -1;
     padding: 1rem;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       top: #{$size_header-height-desktop};
       padding-right: 2rem;
       padding-left: 2rem;
@@ -39,8 +43,8 @@ $size_boeing-container-max-width: 700px;
         @include fontSize(14px);
         margin: 0rem 1.5rem;
 
-        @include breakpoint("medium") {
-          @include fontSize(16px)
+        @include breakpoint('medium') {
+          @include fontSize(16px);
         }
 
         span {
@@ -48,7 +52,7 @@ $size_boeing-container-max-width: 700px;
         }
       }
 
-      @include breakpoint("large") {
+      @include breakpoint('large') {
         justify-content: flex-end;
         margin: 0 auto 1.5rem;
         max-width: $size_boeing-container-max-width;
@@ -70,7 +74,7 @@ $size_boeing-container-max-width: 700px;
     .interactive__source {
       display: none;
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         display: block;
         position: sticky;
         @include fontSize(14px);
@@ -84,7 +88,7 @@ $size_boeing-container-max-width: 700px;
       &-mobile {
         display: block;
         @include fontSize(14px);
-        margin-top: .75rem;
+        margin-top: 0.75rem;
 
         a:focus {
           color: $dark-gray;
@@ -92,26 +96,26 @@ $size_boeing-container-max-width: 700px;
           cursor: pointer;
         }
 
-        @include breakpoint("medium") {
+        @include breakpoint('medium') {
           display: none;
         }
       }
     }
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       padding-left: 4rem;
     }
 
     .scroll-text {
       text-align: left;
       color: $white;
-      background-color: rgba(46, 46, 46, 0.950);
+      background-color: rgba(46, 46, 46, 0.95);
       padding: 1.5rem;
 
       &:not(:last-of-type) {
         margin: 0 0 50rem;
 
-        @include breakpoint("medium") {
+        @include breakpoint('medium') {
           margin-right: -4rem;
         }
       }
@@ -119,7 +123,7 @@ $size_boeing-container-max-width: 700px;
       &:last-of-type {
         margin-bottom: 5rem;
 
-        @include breakpoint("medium") {
+        @include breakpoint('medium') {
           margin-right: -4rem;
         }
       }

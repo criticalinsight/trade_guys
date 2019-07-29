@@ -20,7 +20,7 @@ keywords:
 - _keywords/canada.md
 - _keywords/mexico.md
 - _keywords/nafta.md
-image: "/uploads/181002-USMCA-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181002-USMCA-compressor.jpg"
 image_caption: ''
 image_credit: JIM WATSON/AFP/Getty Images
 

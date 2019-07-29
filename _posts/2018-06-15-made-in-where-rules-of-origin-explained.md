@@ -13,7 +13,7 @@ statistic_source: American Apparel & Footwear Association
 keywords:
 - _keywords/tariffs.md
 - _keywords/nafta.md
-image: "/uploads/rules_of_origin.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/rules_of_origin.jpg"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false

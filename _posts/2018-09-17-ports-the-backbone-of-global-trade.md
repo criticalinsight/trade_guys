@@ -15,7 +15,7 @@ excerpt: 'Seaports are a fundamental part of global trade. In 2017, seaports in 
 notes: ''
 authors:
 - _authors/jack-caporal.md
-image: "/uploads/seaportsWEB2.gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/seaportsWEB2.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
 
@@ -26,6 +26,6 @@ Beyond facilitating trade, ports also employ tens of millions of people in the U
 
 Tariffs put those benefits at risk. President Trump has threatened to impose tariffs on all U.S. imports from China, and if Beijing retaliates in kind nearly a quarter of all seaport activity could be impacted. 
 
-![](/uploads/seaportsWEB2.gif)
+![](https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/seaportsWEB2.gif)
 
 Port authorities and private partners have reportedly hesitated to make investments to improve ports with infrastructure to handle modern cargo ships amid an uncertain trade environment. The next batch of tariffs on Chinese products would cover massive, multimillion-dollar cranes of which there are no U.S. manufacturers. Some U.S. ports have ordered cranes made in China capable of loading and unloading modern cargo vessels but could face millions of dollars in extra costs if cranes remain covered in the next tranche of Chinese tariffs, the AAPA has warned. The AAPA also [fears](http://aapa.files.cms-plus.com/PDFs/AAPAKurtNagleTestimonySection301Hearing24Aug2018.pdf) that more generally, the competitive advantage held by U.S. ports over those in Canada and Mexico could be cut into due to the costs associated with President Trump’s tariffs. 

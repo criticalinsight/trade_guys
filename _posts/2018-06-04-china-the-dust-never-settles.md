@@ -10,7 +10,7 @@ series: []
 keywords:
 - _keywords/tariffs.md
 - _keywords/china.md
-image: "/uploads/180604_China_dust_wont_settle_1.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180604_China_dust_wont_settle_1.jpg"
 image_caption: ''
 image_credit: Frederic J. Brown/AFP/Getty Images
 show_image_on_single_post: true

@@ -10,7 +10,7 @@ series: []
 keywords:
 - _keywords/tariffs.md
 - _keywords/eu.md
-image: "/uploads/180730_Trump_AU.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180730_Trump_AU.jpg"
 image_caption: ''
 image_credit: SAUL LOEB/AFP/Getty Images
 show_image_on_single_post: true

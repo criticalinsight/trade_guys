@@ -13,7 +13,7 @@ excerpt: 'With our unemployment rate low, employers are having more and more dif
   problem. So, why don’t we move as much as we used to?  '
 series: []
 keywords: []
-image: "/uploads/180827_Wyoming-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180827_Wyoming-compressor.jpg"
 image_caption: ''
 image_credit: MLADEN ANTONOV/AFP/Getty Images
 

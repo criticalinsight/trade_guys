@@ -10,7 +10,7 @@ authors:
 - _authors/jack-caporal.md
 keywords:
 - _keywords/china.md
-image: "/uploads/301_tariffs_WebGIF.gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/301_tariffs_WebGIF.gif"
 image_caption: ''
 image_credit: ''
 excerpt: President Trump in March announced that his administration would impose tariffs
@@ -19,7 +19,7 @@ excerpt: President Trump in March announced that his administration would impose
   for China to keep up the tit-for-tat tariff exchange.
 
 ---
-![](/uploads/301_tariffs_WebGIF.gif)
+![](https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/301_tariffs_WebGIF.gif)
 
 Last August, the Trump administration began an investigation into Chinese government practices related to intellectual property protection and forced technology transfers. In the following April, the Office of the U.S. Trade Representative released the findings of its investigation. In a lengthy and scathing report, USTR laid out the case that Chinese government measures and practices result in American companies operating there being coerced into transferring their technology and intellectual property to domestic Chinese companies. The report claimed that those policies and practices supported Chinese government plans to dominate certain advanced technology sectors, including those laid out in the "Made in China 2025" industrial policy program.
 

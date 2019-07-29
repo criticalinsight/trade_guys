@@ -19,7 +19,7 @@ series: []
 keywords:
 - _keywords/232_tariffs.md
 - _keywords/congress.md
-image: "/uploads/180906_steel-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180906_steel-compressor.jpg"
 image_caption: ''
 image_credit: JULIO CESAR AGUILAR/AFP/Getty Images
 

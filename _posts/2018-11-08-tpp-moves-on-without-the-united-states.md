@@ -15,7 +15,7 @@ excerpt: 'While President Trump withdrew the United States from the Trans-Pacifi
   have stormed forward.     '
 notes: ''
 authors: []
-image: "/uploads/TPP GIF (Website).gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/TPP_GIF_Website.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
 featured_in_archive: false
@@ -23,7 +23,7 @@ featured_in_archive: false
 ---
 While President Trump withdrew the United States from the Trans-Pacific Partnership (TPP) in his first week in office, the 11 remaining members of the agreement have stormed forward. As of October 31, six of the 11 members of the rebranded Comprehensive and Progressive TPP (CPTPP) had ratified the agreement - Australia, Canada, Japan, Mexico, New Zealand, and Singapore - setting in motion its entry into force on December 30 this year. The CPTPP largely retains the high-standard and groundbreaking provisions of TPP, with the exception of some rules that the United States pushed for in the agreement. The CPTPP coming into force despite the withdrawal of the United States represents a significant landmark for international trade agreements and trade liberalization but the economic weight of the bloc has been severely diminished. The United States is missing out on a trade architecture that contains $10.5 trillion in GDP, not including the United States. Japan, Australia, Mexico, and Canada make up about 75 percent of that number, and the United States already has trade agreements with all of those countries except Japan, which it will soon begin negotiations with. Still, those pre-existing agreements do not include the all of the high-standards that were part of TPP, nor do they create a common set of rules for the Asia-Pacific region.
 
-![](/uploads/TPP GIF (Website).gif)
+![](https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/TPP_GIF_Website.gif)
 
 <table>
 <thead>

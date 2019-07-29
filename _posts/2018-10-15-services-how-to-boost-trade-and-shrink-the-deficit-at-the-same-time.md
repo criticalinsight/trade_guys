@@ -16,7 +16,7 @@ series: []
 keywords:
 - _keywords/usmca.md
 - _keywords/tpp.md
-image: "/uploads/181015_industry-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181015_industry-compressor.jpg"
 image_caption: ''
 image_credit: ANTHONY WALLACE/AFP/Getty Images
 

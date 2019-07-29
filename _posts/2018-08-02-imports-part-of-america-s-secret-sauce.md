@@ -14,7 +14,7 @@ statistic_source: U.S. Department of Commerce
 keywords:
 - _keywords/tariffs.md
 - _keywords/wto.md
-image: "/uploads/imports.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/imports.jpg"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false

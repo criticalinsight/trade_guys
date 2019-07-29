@@ -20,7 +20,7 @@ keywords:
 - _keywords/wto.md
 - _keywords/nafta.md
 - _keywords/usmca.md
-image: "/uploads/181119_trump-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181119_trump-compressor.jpg"
 image_caption: ''
 image_credit: MANDEL NGAN/AFP/Getty Images
 

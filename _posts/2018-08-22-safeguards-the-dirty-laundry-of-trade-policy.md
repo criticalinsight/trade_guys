@@ -12,7 +12,7 @@ series: _series/trade-terms-explained.md
 statistic_number: ''
 statistic_text: ''
 statistic_source: ''
-image: "/uploads/safeguards.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/safeguards.jpg"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false

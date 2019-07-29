@@ -13,7 +13,7 @@ authors:
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
-image: "/uploads/232_Tariffs_WebGIF.gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/232_Tariffs_WebGIF.gif"
 image_caption: ''
 image_credit: ''
 excerpt: How much trade between the U.S. and Turkey has been impacted by the Trump
@@ -25,7 +25,7 @@ In early August amid rising tension between the United States and Turkey, Presid
 
 How much trade between the U.S. and Turkey has been impacted by the Trump administration's tariffs and Turkey's retaliation?
 
-![](/uploads/232_Tariffs_WebGIF.gif)
+![](https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/232_Tariffs_WebGIF.gif)
 
 <table>
 <thead>

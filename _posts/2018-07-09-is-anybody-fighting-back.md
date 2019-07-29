@@ -11,7 +11,7 @@ keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
 - _keywords/congress.md
-image: "/uploads/180709_fighing_back.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180709_fighing_back.jpg"
 image_caption: ''
 image_credit: Saul Loeb/AFP/Getty Images
 show_image_on_single_post: true

@@ -16,7 +16,7 @@ series: []
 keywords:
 - _keywords/congress.md
 - _keywords/tariffs.md
-image: "/uploads/180924_trade_1-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180924_trade_1-compressor.jpg"
 image_caption: ''
 image_credit: ''
 

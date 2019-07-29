@@ -14,7 +14,7 @@ statistic_number: ''
 statistic_text: The U.S. maintains over 100 countervailing duty orders on more than
   15 countries.
 statistic_source: U.S. Commerce Department
-image: "/uploads/Capture-compressor.png"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/Capture-compressor.png"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false

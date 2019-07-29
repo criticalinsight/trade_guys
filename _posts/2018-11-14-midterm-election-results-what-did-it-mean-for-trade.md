@@ -16,7 +16,7 @@ series:
 keywords:
 - _keywords/usmca.md
 - _keywords/congress.md
-image: "/uploads/181113_trade-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/181113_trade-compressor.jpg"
 image_caption: ''
 image_credit: lily/Adobe Stock
 

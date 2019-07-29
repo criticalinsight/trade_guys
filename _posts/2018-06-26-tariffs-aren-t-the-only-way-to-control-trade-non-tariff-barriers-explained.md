@@ -16,7 +16,7 @@ statistic_source: Reuters
 keywords:
 - _keywords/tariffs.md
 - _keywords/232_tariffs.md
-image: "/uploads/tariffs_control_trade.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/tariffs_control_trade.jpg"
 image_caption: ''
 image_credit: ''
 show_image_on_single_post: false

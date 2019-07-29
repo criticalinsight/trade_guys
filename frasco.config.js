@@ -65,7 +65,8 @@ module.exports = {
     dest: 'js',
     entry: [
       'bundle.js',
-      '/custom-viz/boeing/boeing.js'
+      '/custom-viz/boeing/boeing.js',
+      '/custom-viz/wto-tracker/wto-tracker.js'
     ]
   },
 
@@ -91,6 +92,8 @@ module.exports = {
     },
     externals: {
       waypoints: 'waypoints',
+      jquery: 'jQuery',
+      gapi: 'gapi'
     },
     module: {
       rules: [

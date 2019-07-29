@@ -14,7 +14,7 @@ excerpt: 'What happened with NAFTA last week? The United States and Canada did n
   as usual) and agreed to meet again this week. So, what does it all mean?  '
 series: []
 keywords: []
-image: "/uploads/180904_U.S_Canada-compressor.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180904_U.S_Canada-compressor.jpg"
 image_caption: ''
 image_credit: LARS HAGBERG/AFP/Getty Images
 

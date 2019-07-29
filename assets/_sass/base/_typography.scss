@@ -322,7 +322,7 @@ blockquote {
     margin-bottom: 0;
     @include fontSize(18px);
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       @include fontSize(22px);
       line-height: 1.68;
     }
@@ -346,7 +346,7 @@ address {
   font-style: normal;
   margin: 0 0 0.5rem;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     margin-bottom: 1rem;
   }
 }
@@ -395,11 +395,11 @@ a {
     outline: 0;
   }
 
-  p &,
+  p &:not(.btn),
   .post-content ul &,
   .post-content ol & {
     @extend %dashed-underline;
-    @include wipe-link-hover-background ($yellow);
+    @include wipe-link-hover-background($yellow);
   }
 }
 

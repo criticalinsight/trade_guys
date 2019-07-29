@@ -17,7 +17,7 @@ excerpt: 'The trade policy of the United States is determined at the federal lev
   Union, and China through this interactive map. '
 notes: ''
 authors: []
-image: "/uploads/statetradeCropped.gif"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/statetradeCropped.gif"
 image_caption: ''
 image_credit: CSIS iDeas Lab
 featured_in_archive: true

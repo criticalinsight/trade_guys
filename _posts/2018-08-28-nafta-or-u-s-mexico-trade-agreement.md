@@ -16,7 +16,7 @@ series: []
 keywords:
 - _keywords/mexico.md
 - _keywords/nafta.md
-image: "/uploads/180827_U.S._Canada-1.jpg"
+image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/180827_U.S._Canada-1.jpg"
 image_caption: ''
 image_credit: LARS HAGBERG/AFP/Getty Images
 
