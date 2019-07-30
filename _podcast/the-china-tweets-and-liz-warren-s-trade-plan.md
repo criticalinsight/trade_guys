@@ -1,6 +1,6 @@
 ---
 title: The China Tweets and Liz Warren's Trade Plan
-date: 2019-07-01 16:30:00 -0400
+date: 2019-07-30 16:30:00 -0400
 episode_num: 59
 soundcloud_url: https://soundcloud.com/csis-57169780/the-china-tweets-and-liz-warrens-trade-plan
 transcript_url: ''
