@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/a-yes-and-strategy-for-trade-with-africa.md
 - _podcast/currency-manipulation-and-the-belt-road.md
 - _podcast/world-peace-through-world-trade.md
 - _podcast/bringing-domestic-manufacturing-back-with-scott-paul.md
