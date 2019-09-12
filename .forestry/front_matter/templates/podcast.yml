@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/riding-the-motorcade-for-trade-with-angela-hofmann.md
 - _podcast/the-trade-war-rages-on.md
 - _podcast/hearing-from-the-heartland.md
 - _podcast/are-tariffs-the-greatest.md
