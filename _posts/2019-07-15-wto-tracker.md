@@ -1,42 +1,45 @@
 ---
 content_type: interactive
-show_image_on_single_post: false
-title: WTO Tracker
-date: 2019-07-15 00:00:00 -0500
-series: []
+show_image_on_single_post: true
+title: WTO Reform Tracker
+date: 2019-09-01 15:00:00 -0400
+series:
+- _series/trade-terms-explained.md
+- _series/trends-in-trade.md
 keywords:
-  - _keywords/wto.md
-excerpt: ''
+- _keywords/tariffs.md
+- _keywords/services.md
+- _keywords/wto.md
+excerpt: With the WTO under stress and grappling with a global economy that has evolved
+  past global trade rules negotiated in the 90's, some countries have proposed reforms
+  and updates to the WTO. This database organizes and summarizes those proposals.
 notes: ''
 authors:
-  - _authors/jack-caporal.md
-image: ''
+- _authors/jack-caporal.md
+image: https://res.cloudinary.com/csisideaslab/image/upload/v1563297996/trade-guys/190320_WTO-compressor.jpg
 image_caption: ''
-image_credit: ''
-featured_in_archive: false
+image_credit: https://csis-prod.s3.amazonaws.com/s3fs-public/styles/csis_banner/public/publication/190320_WTO.jpg?itok=Lq6wiL3J
+featured_in_archive: true
 custom_viz: true
 js_files:
-  - https://code.jquery.com/jquery-3.3.1.js
-  - https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
-  - https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js
-  - https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js
-  - https://apis.google.com/js/api.js
-  - wto-tracker/wto-tracker
+- https://code.jquery.com/jquery-3.3.1.js
+- https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js
+- https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js
+- https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js
+- https://apis.google.com/js/api.js
+- wto-tracker/wto-tracker
 css_files:
-  - https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css
-  - https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css
-  - https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css
-  - wto-tracker
-published: false
+- https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css
+- https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css
+- https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css
+- wto-tracker
+
 ---
+## The WTO At a Crossroad: Proposals for Reform
 
-## Report Summary
+With the WTO under stress and grappling with a global economy that has evolved past global trade rules negotiated in the 90's, some countries have proposed reforms and updates to the WTO. This database organizes and summarizes those proposals. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-[Continue reading on CSIS.org<i/>{:class="icon-external"}](https://www.csis.org"){: class="post-external-link btn btn-gray"}
+[Continue reading on CSIS.org<i/>{:class="icon-external"}](https://www.csis.org%22){: class="post-external-link btn btn-gray"}
 
 [Related: The WTO At a Crossroad: Three Scenarios<i/>{:class="icon-external"}](/trade-explained/wto-flowcharts/){: class="post-external-link btn btn-gray"}
 
