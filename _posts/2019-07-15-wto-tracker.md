@@ -2,7 +2,7 @@
 content_type: interactive
 show_image_on_single_post: true
 title: WTO Reform Tracker
-date: 2019-09-01 15:00:00 -0400
+date: 2019-09-17 15:00:00 -0400
 series:
 - _series/trade-terms-explained.md
 - _series/trends-in-trade.md
