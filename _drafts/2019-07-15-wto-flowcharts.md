@@ -1,8 +1,8 @@
 ---
 content_type: article
-show_image_on_single_post: false
+show_image_on_single_post: true
 title: 'The WTO At a Crossroad: Three Scenarios'
-date: 2019-07-15T05:00:00.000+00:00
+date: 2019-09-18 09:00:00 -0400
 series:
 - _series/trends-in-trade.md
 keywords:
@@ -10,13 +10,15 @@ keywords:
 excerpt: 'Despite the invaluable role the World Trade Organization (WTO) has played
   in the global economy, it faces potentially fatal pressure from within and outside
   the organization. Here are three scenarios that could play out in the coming years. '
-notes: ''
+notes: 'Despite the invaluable role the World Trade Organization (WTO) has played
+  in the global economy, it faces potentially fatal pressure from within and outside
+  the organization. This feature lays out three scenarios for the future of the WTO. '
 authors:
 - _authors/jack-caporal.md
-image: ''
+image: https://res.cloudinary.com/csisideaslab/image/upload/v1563297997/trade-guys/181023_WTO_0-compressor.jpg
 image_caption: ''
-image_credit: ''
-featured_in_archive: false
+image_credit: FABRICE COFFRINI/AFP/Getty Images
+featured_in_archive: true
 
 ---
 ## The WTO At a Crossroad: Three Scenarios
