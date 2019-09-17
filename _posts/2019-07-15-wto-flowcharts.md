@@ -2,7 +2,7 @@
 content_type: article
 show_image_on_single_post: true
 title: 'The WTO At a Crossroad: Three Scenarios'
-date: 2019-09-18 09:00:00 -0400
+date: 2019-09-17 09:00:00 -0400
 series:
 - _series/trade-terms-explained.md
 - _series/trends-in-trade.md
