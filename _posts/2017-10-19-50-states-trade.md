@@ -2,7 +2,7 @@
 title: The 50 States of Trade
 content_type: interactive
 show_image_on_single_post: false
-date: 2018-10-24 16:53:00 +0000
+date: 2018-10-24T16:53:00.000+00:00
 series:
 - _series/trends-in-trade.md
 keywords:
@@ -17,10 +17,12 @@ excerpt: 'The trade policy of the United States is determined at the federal lev
   Union, and China through this interactive map. '
 notes: ''
 authors: []
-image: "https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/statetradeCropped.gif"
+image: https://res.cloudinary.com/csisideaslab/image/upload/v1563298002/trade-guys/statetradeCropped.gif
 image_caption: ''
 image_credit: CSIS iDeas Lab
-featured_in_archive: true
+featured_in_archive: false
+js_files: []
+css_files: []
 
 ---
 <iframe class="interactive-iframe js-iframeResizeEnabled" width="96%" height="852px" scrolling="no" frameborder="no" src="https://csis-ilab.github.io/tradeguys-viz/tariff-impact-states/dist/"></iframe>
