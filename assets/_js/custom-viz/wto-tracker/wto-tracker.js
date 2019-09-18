@@ -56,6 +56,9 @@ function renderTable(sheet) {
 
   $('#proposals').DataTable({
     data: sheet.data.map(function(row) {
+      if (!row[5]) {
+        row[5] = null
+      }
       return [null].concat(
         row.map(function(c, i) {
           switch (i) {
@@ -72,6 +75,10 @@ function renderTable(sheet) {
                   : c
 
             case linkIndex:
+              if (!row[linkIndex]) {
+                return ''
+              }
+
               return (
                 '<p><a href=' +
                 row[linkIndex] +
@@ -110,7 +117,7 @@ function renderTable(sheet) {
         className: 'details-control',
         orderable: false,
         data: null,
-        defaultContent: ''
+        defaultContent: 'None'
       }
     ].concat(
       sheet.columns.map(function(column) {
