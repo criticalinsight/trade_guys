@@ -117,7 +117,7 @@ function renderTable(sheet) {
         className: 'details-control',
         orderable: false,
         data: null,
-        defaultContent: 'None'
+        defaultContent: ''
       }
     ].concat(
       sheet.columns.map(function(column) {
