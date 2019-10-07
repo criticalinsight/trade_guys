@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/a-value-based-trade-policy.md
 - _podcast/trade-guys-on-the-road-the-george-washington-university-edition.md
 - _podcast/nothing-personal-just-business.md
 - _podcast/the-trade-war-rages-on.md
