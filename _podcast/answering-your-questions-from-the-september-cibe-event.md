@@ -1,6 +1,6 @@
 ---
 title: Answering Your Questions from the September CIBE Event
-date: 2019-10-01 10:00:00 -0400
+date: 2019-10-09 10:00:00 -0400
 episode_num: 67
 soundcloud_url: https://soundcloud.com/csis-57169780/answering-your-questions-from
 transcript_url: ''
