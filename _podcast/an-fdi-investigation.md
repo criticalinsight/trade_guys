@@ -11,4 +11,8 @@ keywords: []
 podcast_produced_by_language: ''
 
 ---
+<iframe frameBorder="0" height="482" scrolling="no" src="[https://playlist.megaphone.fm/?e=CSIS8644363855](https://playlist.megaphone.fm/?e=CSIS8644363855 "https://playlist.megaphone.fm/?e=CSIS8644363855")"
+
+width="100%"></iframe>
+
 In this episode, the Trade Guys are joined by Nancy McLernon, President & CEO of the Organization for International Investment (OFII), to investigate foreign direct investment: where and who it comes from, where it goes, and why it matters.
