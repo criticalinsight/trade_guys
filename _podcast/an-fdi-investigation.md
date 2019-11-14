@@ -9,6 +9,7 @@ excerpt: 'In this episode, the Trade Guys are joined by Nancy McLernon, Presiden
   direct investment: where and who it comes from, where it goes, and why it matters.'
 keywords: []
 podcast_produced_by_language: ''
+published: false
 
 ---
 <iframe frameBorder="0" height="482" scrolling="no" src="[https://playlist.megaphone.fm/?e=CSIS8644363855](https://playlist.megaphone.fm/?e=CSIS8644363855 "https://playlist.megaphone.fm/?e=CSIS8644363855")"
