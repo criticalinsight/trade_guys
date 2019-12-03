@@ -49,6 +49,7 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
+- _podcast/clinging-to-a-thread-of-optimism.md
 - _podcast/an-fdi-investigation.md
 - _podcast/trade-guys-on-the-road-live-from-the-csi-summit.md
 - _podcast/apec-china-and-the-usmca.md
