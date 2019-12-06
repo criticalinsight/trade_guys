@@ -13,5 +13,5 @@ fields:
   description: If yes, this series will appear on the home page and trade explained
     archive page
 pages:
-- _series/trends-in-trade.md
 - _series/trade-terms-explained.md
+- _series/trends-in-trade.md
