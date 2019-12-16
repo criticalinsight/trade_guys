@@ -3,6 +3,8 @@
 		{% if page.breadcrumbs %}
 			{% include post-breadcrumbs.html %}
 		{% else %}
+
+		{% assign title = '' %}
 		{% if page.collection == 'series' %}
 			{% capture title %}<span class="page-title-subheading">Series:</span> {% endcapture %}
 		{% elsif page.collection == 'keywords' %}
