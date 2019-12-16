@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   margin-bottom: 1rem;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     flex-wrap: nowrap;
     margin-left: 1rem;
   }
@@ -15,15 +15,15 @@
     --item-padding: 15%;
     flex: 1 0 100%;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       flex-basis: 50%;
     }
 
     &.previous {
-      padding-right: var(--item-padding);
       margin-bottom: 1rem;
+      padding-right: var(--item-padding);
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         margin-bottom: 0;
       }
     }
@@ -41,13 +41,13 @@
 
   .pagination-previous,
   .pagination-next {
-    display: inline-block;
     position: relative;
+    display: inline-block;
     margin-bottom: 0.5rem;
     padding: 0 0.5rem;
-    @extend %labelsmall;
     line-height: 1.75;
     transition: background-color 0.2s ease-in-out;
+    @extend %labelsmall;
 
     &:hover {
       background-color: $yellow;

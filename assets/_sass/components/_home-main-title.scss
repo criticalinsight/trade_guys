@@ -10,22 +10,22 @@
     max-width: 100vw;
     height: var(--home-logo-row-height);
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       // max-width: 60%;
       max-height: 130px;
     }
   }
 
   .word-container {
-    display: block;
     position: relative;
-    height: var(--home-logo-row-height);
+    display: block;
     width: 100%;
+    height: var(--home-logo-row-height);
     margin: 1rem 0;
 
-    @include breakpoint("medium") {
-      margin: 0.5rem 0;
+    @include breakpoint('medium') {
       max-height: 130px;
+      margin: 0.5rem 0;
     }
 
     &:first-of-type {
@@ -35,7 +35,7 @@
 
   #logo_the_container svg {
     left: -2px;
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       left: 0;
     }
   }
@@ -59,53 +59,53 @@
 
   #the_arrow,
   #guys_arrow {
-    height: var(--home-logo-arrow-size);
-    width: 4rem;
     position: relative;
-    background: $white;
+    width: 4rem;
+    height: var(--home-logo-arrow-size);
     margin-left: calc(var(--home-logo-arrow-size) * 1.5);
+    background: $white;
 
     &::after {
-      content: "";
+      position: relative;
+      right: calc(var(--home-logo-arrow-size) * 1.1);
+      bottom: calc(var(--home-logo-arrow-size) / 1.6);
       display: block;
       width: 0;
       height: 0;
       border-top: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
       border-right: calc(var(--home-logo-arrow-size) * 1.5) solid $white;
       border-bottom: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
-      position: relative;
-      right: calc(var(--home-logo-arrow-size) * 1.1);
-      bottom: calc(var(--home-logo-arrow-size) / 1.6);
+      content: '';
     }
   }
 
   #trade_arrow {
-    height: var(--home-logo-arrow-size);
-    width: calc(var(--home-logo-arrow-size) * 3.5);
     position: relative;
-    background: $white;
+    width: calc(var(--home-logo-arrow-size) * 3.5);
+    height: var(--home-logo-arrow-size);
     margin-right: calc(var(--home-logo-arrow-size) * 1.5);
+    background: $white;
 
     &::before {
-      content: "";
+      position: relative;
+      bottom: calc(var(--home-logo-arrow-size) / 1.6);
+      left: 100%;
       display: flex;
       width: 0;
       height: 0;
       border-top: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
-      border-left: calc(var(--home-logo-arrow-size) * 1.5) solid $white;
       border-bottom: calc(var(--home-logo-arrow-size) * 1.1) solid transparent;
-      position: relative;
-      left: 100%;
-      bottom: calc(var(--home-logo-arrow-size) / 1.6);
+      border-left: calc(var(--home-logo-arrow-size) * 1.5) solid $white;
+      content: '';
     }
   }
 
   #the_arrow {
-    height: var(--home-logo-arrow-size);
-    width: 100vw;
     position: relative;
-    background: $white;
     left: 100%;
+    width: 100vw;
+    height: var(--home-logo-arrow-size);
+    background: $white;
     animation: init-the_arrow $animation_home-main-logo-the linear forwards;
   }
 
@@ -123,8 +123,8 @@
   }
 
   #guys_arrow {
-    width: 12rem;
     left: 100vw;
+    width: 12rem;
     animation: init-guys_arrow $animation_home-main-logo-guys 0.9s linear forwards;
   }
 
@@ -136,6 +136,7 @@
     80% {
       left: calc(var(--home-logo-arrow-size) * 11);
     }
+
     100% {
       left: calc(var(--home-logo-arrow-size) * 7.5);
     }
@@ -151,6 +152,7 @@
     80% {
       left: -50%;
     }
+
     100% {
       left: 0;
     }
@@ -166,6 +168,7 @@
     80% {
       left: calc(var(--home-logo-arrow-size) * 12);
     }
+
     100% {
       left: calc(var(--home-logo-arrow-size) * 11.5);
     }

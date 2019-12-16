@@ -3,40 +3,44 @@
 =========================================*/
 @media print {
   *,
-  *:before,
-  *:after {
-    background: transparent !important;
+  *::before,
+  *::after {
     color: #000 !important; // Black prints faster: h5bp.com/s
-    box-shadow: none !important;
     text-shadow: none !important;
-    filter: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
     -ms-filter: none !important;
+    filter: none !important;
   }
-  body {
-    padding: 0px !important;
-    font-size: 12pt;
-    margin: 25mm 25mm 25mm 25mm;
 
-    &:before {
-      content: 'The Trade Guys';
+  body {
+    margin: 25mm;
+    padding: 0 !important;
+    font-size: 12pt;
+
+    &::before {
+      display: block;
       margin-bottom: 1cm;
       font-size: 24pt;
-      display: block;
+      content: 'The Trade Guys';
     }
 
-    &:after {
-      content: 'Printed from The Trade Guys, ©2019 by the Center for Strategic and International Studies. All rights reserved.';
+    &::after {
       margin-top: 1cm;
       font-size: 12pt;
+      content: 'Printed from The Trade Guys, ©2019 by the Center for Strategic and International Studies. All rights reserved.';
     }
   }
+
   .printable,
   .printable * {
     visibility: visible;
   }
+
   article.printable {
     position: absolute;
   }
+
   h2,
   h3 {
     page-break-after: avoid;
@@ -52,19 +56,18 @@
   .page-footer,
   .arrow-cutout,
   .share,
-  .csis-logo
-  {
+  .csis-logo {
     display: none !important;
   }
 
-  article a[href^=http]:after {
-    content: " <" attr(href) "> ";
+  article a[href^=http]::after {
+    content: ' <' attr(href) '> ';
   }
 
   .page-header {
     display: block !important;
-    padding-top: 0 !important;
     min-height: unset !important;
+    padding-top: 0 !important;
 
     &-secondary {
       padding: 0 !important;
@@ -87,7 +90,7 @@
   .site-footer-contact,
   .site-footer-desc,
   .site-footer-subscribe {
-    padding-left: 0 !important;
     padding-right: 0 !important;
+    padding-left: 0 !important;
   }
 }

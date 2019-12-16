@@ -10,15 +10,15 @@
   }
 
   &-list {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 
     li {
       display: inline;
-      @extend %post-meta;
-      text-transform: uppercase;
       line-height: 1.5;
+      text-transform: uppercase;
+      @extend %post-meta;
 
       &::after {
         content: ', ';
@@ -30,8 +30,8 @@
 
       @include breakpoint('medium') {
         display: block;
-        @include fontSize(14px);
         letter-spacing: 1.2px;
+        @include fontSize(14px);
 
         &::after {
           content: '';

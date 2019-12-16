@@ -9,7 +9,7 @@
   // flex-basis: 40%;
   overflow: hidden;
 
-  @include breakpoint("small") {
+  @include breakpoint('small') {
     --header-logo-arrow-size: 1rem;
   }
 
@@ -32,67 +32,67 @@
   }
 
   .logo-words {
-    font-family: $font_source;
-    font-size: calc(var(--header-logo-arrow-size) * 2);
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-    color: $black;
     position: absolute;
+    width: var(--header-logo-size);
     margin: 0 auto;
-    width: var(--header-logo-size);    
+    color: $black;
+    font-family: $font_source;
+    font-weight: bold;
+    font-size: calc(var(--header-logo-arrow-size) * 2);
+    text-align: center;
+    text-transform: uppercase;    
   }
 
   .flip-container {
-    perspective: 1000px;
     transform-style: preserve-3d;
+    perspective: 1000px;
   }
 
   .flip-container,
   .front,
   .back {
     width: var(--header-logo-size);
-    height: calc(var(--header-logo-arrow-size) * .8);
+    height: calc(var(--header-logo-arrow-size) * 0.8);
   }
 
- .flipper {
-   transition: 0.6s;
-   transform-style: preserve-3d;
-   position: relative;
+  .flipper {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.6s;
   }
 
   .front,
   .back {
-    backface-visibility: hidden;
-    transition: 0.6s;
-    transform-style: preserve-3d;
     position: absolute;
     top: 0;
     left: 0;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: 0.6s;
 
-    &::before{
-      content: "";
+    &::before {
+      position: relative;
+      bottom: calc(var(--header-logo-arrow-size) / 1.8);
+      left: 100%;
       display: flex;
       width: 0;
       height: 0;
-      border-top: calc(var(--header-logo-arrow-size) * .8) solid transparent;
-      border-left: calc(var(--header-logo-arrow-size) * 1.2) solid $yellow;
+      border-top: calc(var(--header-logo-arrow-size) * 0.8) solid transparent;
       border-bottom: calc(var(--header-logo-arrow-size) * 1.1) solid transparent;
-      position: relative;
-      left: 100%;
-      bottom: calc(var(--header-logo-arrow-size) / 1.8);
+      border-left: calc(var(--header-logo-arrow-size) * 1.2) solid $yellow;
+      content: '';
     }
   }
 
   .front {
     z-index: 2;
-    transform: rotateX(0deg);
     background-color: $yellow;
+    transform: rotateX(0deg);
   }
 
   .back {
-    transform: rotateX(-180deg);
     background-color: $dark-yellow;
+    transform: rotateX(-180deg);
 
     &::before {
       border-left: calc(var(--header-logo-arrow-size) * 1.2) solid $dark-yellow;

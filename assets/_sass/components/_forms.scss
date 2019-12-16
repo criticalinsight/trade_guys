@@ -3,11 +3,11 @@
 =====================================*/
 
 %input {
-  background-color: $off-white;
-  border: 1px solid $disabled-gray;
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.25rem 0.5rem;
+  background-color: $off-white;
+  border: 1px solid $disabled-gray;
 }
 
 .form-default {
@@ -41,13 +41,13 @@
     }
 
     &:checked + label::after {
-      content: '\e878';
-      font-family: 'tradeguys';
-      font-weight: bold;
-      color: $black;
       position: absolute;
       top: 1px;
       left: -1px;
+      color: $black;
+      font-family: 'tradeguys';
+      font-weight: bold;
+      content: '\e878';
     }
   }
 
@@ -55,15 +55,15 @@
     display: inline-block;
 
     &::before {
-      content: "";
       display: inline-block;
-      vertical-align: -0.1em;
       width: 1rem;
       height: 1rem;
-      border: 1px solid $disabled-gray;
       margin-right: 0.5rem;
+      vertical-align: -0.1em;
       background-color: $off-white;
+      border: 1px solid $disabled-gray;
       transition: 0.2s;
+      content: '';
     }
   }
 }

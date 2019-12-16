@@ -45,9 +45,7 @@ img:not(.lum-img) {
 
 .post-feature-image,
 .post-image {
-  max-width: calc(
-    #{$size_container-max-width} - (2 * #{$size_wrapper-padding})
-  );
+  max-width: calc(#{$size_container-max-width} - (2 * #{$size_wrapper-padding}));
   margin: 1rem auto;
 
   img {

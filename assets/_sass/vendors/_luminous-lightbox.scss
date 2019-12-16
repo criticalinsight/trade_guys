@@ -120,8 +120,8 @@
 
 .lum-lightbox-inner {
   top: calc(#{$size_header-height-mobile} - 3.5%);
-  bottom: 1%;
   right: 1%;
+  bottom: 1%;
   left: 1%;
 
   @include breakpoint('medium') {
@@ -134,13 +134,13 @@
 }
 
 .lum-lightbox-inner .lum-lightbox-caption {
-  padding: 0.75rem;
-  @include fontSize(16px);
-  line-height: 1.3;
   max-width: 700px;
   margin: 0 auto;
+  padding: 0.75rem;
   color: white;
+  line-height: 1.3;
   text-align: center;
+  @include fontSize(16px);
 }
 
 .lum-lightbox-caption span {
@@ -303,9 +303,9 @@
 /* This media query makes screens less than 460px wide display in a "fullscreen"-esque mode. Users can then scroll around inside the lightbox to see the entire image. */
 @media (max-width: 460px) {
   .lum-lightbox-image-wrapper {
+    display: flex;
     height: 100vh !important;
     max-height: unset !important;
-    display: flex;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
   }

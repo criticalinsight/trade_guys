@@ -1,59 +1,59 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
-*:before,
-*:after {
-    box-sizing: inherit;
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
-    background: $white;
-    /* Fallback for when there is no custom background color defined. */
-    --breakpoint: 'xsmall';
-    --header-height: #{$size_header-height-mobile};
-    --header-footer-border-width: #{$size_page-header-footer-border-width-mobile};
-    --home-logo-arrow-size: #{$size_home-unit-size};
-    --home-logo-row-height: calc(var(--home-logo-arrow-size) * 3);
+  background: $white;
+  /* Fallback for when there is no custom background color defined. */
+  --breakpoint: 'xsmall';
+  --header-height: #{$size_header-height-mobile};
+  --header-footer-border-width: #{$size_page-header-footer-border-width-mobile};
+  --home-logo-arrow-size: #{$size_home-unit-size};
+  --home-logo-row-height: calc(var(--home-logo-arrow-size) * 3);
 
-    @include breakpoint('small') {
-        --breakpoint: 'small';
-    }
+  @include breakpoint('small') {
+    --breakpoint: 'small';
+  }
 
-    @include breakpoint('medium') {
-        --breakpoint: 'medium';
-        --header-height: #{$size_header-height-desktop};
-        --header-footer-border-width: #{$size_page-header-footer-border-width-desktop};
-        --home-logo-arrow-size: #{$size_home-unit-size-desktop};
-    }
+  @include breakpoint('medium') {
+    --breakpoint: 'medium';
+    --header-height: #{$size_header-height-desktop};
+    --header-footer-border-width: #{$size_page-header-footer-border-width-desktop};
+    --home-logo-arrow-size: #{$size_home-unit-size-desktop};
+  }
 
-    @include breakpoint('large') {
-        --breakpoint: 'large';
-    }
+  @include breakpoint('large') {
+    --breakpoint: 'large';
+  }
 
-    @include breakpoint('xlarge') {
-        --breakpoint: 'xlarge';
-        --home-logo-arrow-size: calc(#{$size_home-unit-size-desktop} - 0.5vw);
-        // --home-logo-row-height: calc(var(--home-logo-arrow-size) * 2);
-    }
+  @include breakpoint('xlarge') {
+    --breakpoint: 'xlarge';
+    --home-logo-arrow-size: calc(#{$size_home-unit-size-desktop} - 0.5vw);
+    // --home-logo-row-height: calc(var(--home-logo-arrow-size) * 2);
+  }
 
-    &.menu-open {
-        overflow-y: hidden;
-    }
+  &.menu-open {
+    overflow-y: hidden;
+  }
 }
 
 .wrapper {
-    @include breakpoint('medium') {
-        max-width: $size_container-max-width;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: $size_wrapper-padding;
-        padding-right: $size_wrapper-padding;
-        overflow-x: hidden;
-    }
+  @include breakpoint('medium') {
+    max-width: $size_container-max-width;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $size_wrapper-padding;
+    padding-left: $size_wrapper-padding;
+    overflow-x: hidden;
+  }
 }
 
 .page-content {
-    margin-top: var(--header-height);
+  margin-top: var(--header-height);
 }

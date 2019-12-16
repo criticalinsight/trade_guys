@@ -4,16 +4,16 @@
 .home {
   --outer-gutter: 1rem;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     --outer-gutter: 2rem;
     --secondary-column-width: 40%;
     display: grid;
-    grid-template-columns: minmax(40%, 450px) auto;
     grid-column-gap: 0;
+    grid-template-columns: minmax(40%, 450px) auto;
     margin-top: 1rem;
   }
 
-  @include breakpoint("xlarge") {
+  @include breakpoint('xlarge') {
     --outer-gutter: var(--header-footer-border-width);
   }
 
@@ -23,13 +23,13 @@
     $desc-height: 222px;
     --desc-top: calc(var(--home-logo-row-height) * 3 + 4rem);
     position: relative;
-    background-color: $yellow;
     overflow-x: hidden;
+    background-color: $yellow;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       --desc-top: calc(var(--home-logo-row-height) * 2);
-      grid-row: 1;
       grid-column: 1 / -1;
+      grid-row: 1;
       min-height: 600px;
       overflow-x: visible;
     }
@@ -39,7 +39,6 @@
     }
 
     &::before {
-      content: '';
       position: absolute;
       top: var(--desc-top);
       right: 0;
@@ -49,55 +48,58 @@
       background-color: $dark-yellow;
       transform: translateX(150%);
       animation: $animation-duration linear $animation_home-desc-delay 1 forwards slideInFromRight;
+      content: '';
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         right: -2rem;
         width: calc(#{$desc-width} - 2rem);
       }
     }
 
     .site-desc {
-      margin-left: var(--outer-gutter);
-      margin-right: var(--outer-gutter);
       margin-top: 4rem;
+      margin-right: var(--outer-gutter);
+      margin-left: var(--outer-gutter);
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         position: absolute;
-        right: 0;
         top: calc(var(--desc-top) + 2rem);
+        right: 0;
         width: $desc-width;
         height: $desc-height;
         margin-top: 0;
-        opacity: 0;
         overflow-y: hidden;
+        opacity: 0;
         animation: $animation-duration linear$animation_home-desc-delay 1 forwards slideInFromBottom;
       }
 
       p {
         @include fontSize(18px);
-        line-height: 1.44;
         margin-bottom: 2rem;
+        line-height: 1.44;
 
-        @include breakpoint("medium") {
+        @include breakpoint('medium') {
           @include fontSize(20px);
-          line-height: 1.5;
           margin-bottom: 1rem;
+          line-height: 1.5;
         }
       }
     }
 
     @keyframes slideInFromBottom {
       0% {
-        margin-top: $desc-height;
         height: 0;
+        margin-top: $desc-height;
         opacity: 0;
       }
+
       1% {
         opacity: 1;
       }
+
       100% {
-        margin-top: 0;
         height: $desc-height;
+        margin-top: 0;
         opacity: 1;
       }
     }
@@ -106,6 +108,7 @@
       0% {
         transform: translateX(100%);
       }
+
       100% {
         transform: translateX(0);
       }
@@ -113,13 +116,13 @@
   }
 
   .podcast-info {
-    background-color: $yellow;
     margin-top: -1px; // Hide slight gap between sections
     padding: 2rem var(--outer-gutter);
+    background-color: $yellow;
 
-    @include breakpoint("medium") {
-      grid-row: 2 / 4;
+    @include breakpoint('medium') {
       grid-column: 1;
+      grid-row: 2 / 4;
       margin-right: var(--header-footer-border-width);
       padding-top: 0;
       padding-bottom: 0;
@@ -128,7 +131,7 @@
     .podcast-subscribe {
       display: none;
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         display: block;
         margin-bottom: 2rem;
       }
@@ -143,7 +146,6 @@
       margin-top: 2rem;
 
       &::before {
-        content: '';
         position: relative;
         top: 0;
         left: calc(-1 * var(--outer-gutter));
@@ -152,17 +154,18 @@
         height: $size_post-content-border-top;
         margin-bottom: 2rem;
         background-color: $dark-yellow;
+        content: '';
       }
     }
   }
 
   .podcast-list {
-    border-top: $size_post-content-border-top solid $black;
     padding: 2rem var(--outer-gutter);
+    border-top: $size_post-content-border-top solid $black;
 
-    @include breakpoint("medium") {
-      grid-row: 2;
+    @include breakpoint('medium') {
       grid-column: 2;
+      grid-row: 2;
       margin-top: var(--header-footer-border-width);
       padding: 1rem 0 3rem;
     }
@@ -183,11 +186,11 @@
   .home-graphic {
     display: block;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       position: relative;
       z-index: 10;
-      grid-row: 3;
       grid-column: 2;
+      grid-row: 3;
       max-width: 80%;
       margin-left: calc(-1 * var(--header-footer-border-width));
     }
@@ -195,8 +198,8 @@
 
   .see-more {
     display: block;
-    margin: 2rem auto 0;
     width: fit-content;
+    margin: 2rem auto 0;
 
     &:hover {
       padding: 10px 10px 10px 50px;

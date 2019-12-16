@@ -20,11 +20,11 @@ textarea {
 ====================================*/
 %page-title {
   font-family: $font_source;
-  @include fontSize(30px);
-  line-height: 0.97;
   font-weight: bold;
+  line-height: 0.97;
   letter-spacing: 1.1px;
   text-transform: uppercase;
+  @include fontSize(30px);
 
   @include breakpoint('medium') {
     @include fontSize(72px);
@@ -45,10 +45,10 @@ textarea {
 
 %single-post-title {
   font-family: $font_source;
-  @include fontSize(30px);
-  line-height: 1.13;
   font-weight: 600;
+  line-height: 1.13;
   letter-spacing: 1.1px;
+  @include fontSize(30px);
 
   @include breakpoint('medium') {
     @include fontSize(48px);
@@ -58,10 +58,10 @@ textarea {
 
 %archive-post-title {
   font-family: $font_source;
-  @include fontSize(20px);
-  line-height: 1.22;
   font-weight: 600;
+  line-height: 1.22;
   letter-spacing: 0;
+  @include fontSize(20px);
 
   @include breakpoint('medium') {
     @include fontSize(28px);
@@ -92,11 +92,11 @@ textarea {
 }
 
 %post-meta {
+  color: $gray;
   font-family: $font_source;
-  @include fontSize(14px);
   line-height: 1.5;
   letter-spacing: 1.2px;
-  color: $gray;
+  @include fontSize(14px);
 
   @include breakpoint('medium') {
     @include fontSize(16px);
@@ -106,9 +106,9 @@ textarea {
 
 %post-meta-label {
   font-family: $font_source;
-  @include fontSize(12px);
-  letter-spacing: 1px;
   font-weight: 600;
+  letter-spacing: 1px;
+  @include fontSize(12px);
 
   @include breakpoint('medium') {
     @include fontSize(14px);
@@ -142,9 +142,9 @@ textarea {
 
 %related-post-title {
   font-family: $font_source;
-  @include fontSize(18px);
-  line-height: 1.22;
   font-weight: 600;
+  line-height: 1.22;
+  @include fontSize(18px);
 
   @include breakpoint('medium') {
     @include fontSize(24px);
@@ -160,8 +160,8 @@ textarea {
 
 %link-hover-background {
   background-image: linear-gradient(to top, $yellow 75%, transparent 0%);
-  background-position: unset;
   background-repeat: repeat-x;
+  background-position: unset;
   background-size: 0% 0%;
 
   &:hover {
@@ -171,10 +171,10 @@ textarea {
 
 %featured-post {
   font-family: $font_inconsolata;
-  @include fontSize(13px);
   font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 1.3px;
+  text-transform: uppercase;
+  @include fontSize(13px);
 }
 
 /*================================
@@ -186,11 +186,11 @@ textarea {
 }
 
 %h2 {
+  color: $black;
   font-family: $font_inconsolata;
-  @include fontSize(28px);
   font-weight: normal;
   letter-spacing: 1.6px;
-  color: $black;
+  @include fontSize(28px);
 
   @include breakpoint('medium') {
     @include fontSize(35px);
@@ -199,11 +199,11 @@ textarea {
 }
 
 %h3 {
-  font-family: $font_source;
-  @include fontSize(24px);
-  line-height: 1.33;
-  font-weight: 600;
   color: $black;
+  font-family: $font_source;
+  font-weight: 600;
+  line-height: 1.33;
+  @include fontSize(24px);
 
   @include breakpoint('medium') {
     @include fontSize(28px);
@@ -212,10 +212,10 @@ textarea {
 }
 
 %h4 {
-  font-family: $font_source;
-  @include fontSize(18px);
-  font-weight: 600;
   color: $black;
+  font-family: $font_source;
+  font-weight: 600;
+  @include fontSize(18px);
 
   @include breakpoint('medium') {
     @include fontSize(20px);
@@ -224,9 +224,9 @@ textarea {
 }
 
 %h5 {
+  color: $black;
   font-family: $font_source;
   @include fontSize(16px);
-  color: $black;
 
   @include breakpoint('medium') {
     @include fontSize(18px);
@@ -237,18 +237,22 @@ textarea {
 h1 {
   @extend %h1;
 }
+
 h2 {
   @extend %h2;
   margin: 0;
 }
+
 h3 {
   @extend %h3;
   margin: 0.5rem 0;
 }
+
 h4 {
   @extend %h4;
   margin: 0.5rem 0;
 }
+
 h5 {
   @extend %h5;
   margin: 0.5rem 0;
@@ -275,10 +279,10 @@ p + h3 {
 }
 
 hr {
-  background-color: $black;
-  border: 0;
   height: 1px;
   margin: 2rem 0;
+  background-color: $black;
+  border: 0;
 }
 
 b,
@@ -297,25 +301,25 @@ i {
   display: block;
   margin-top: 0.5rem;
   margin-bottom: 0;
-  @include fontSize(16px);
+  color: $gray;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 1.3px;
   text-transform: uppercase;
-  font-style: normal;
-  color: $gray;
+  @include fontSize(16px);
 }
 
 blockquote {
+  position: relative;
   margin: 2rem 0;
   padding: 0 0 0 2.5rem;
-  position: relative;
 
   &::before {
-    content: '\ebf1';
-    font-family: 'tradeguys';
     position: absolute;
     top: 0;
     left: 0;
+    font-family: 'tradeguys';
+    content: '\ebf1';
   }
 
   p {
@@ -336,15 +340,15 @@ blockquote {
 q {
   quotes: '' '';
 
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: '';
   }
 }
 
 address {
-  font-style: normal;
   margin: 0 0 0.5rem;
+  font-style: normal;
 
   @include breakpoint('medium') {
     margin-bottom: 1rem;
@@ -364,9 +368,10 @@ big {
 }
 
 %external-links {
-  a[href*="//"]:not([href*="tradeguys.csis.org"]) {
+  a[href*='//']:not([href*='tradeguys.csis.org']) {
     position: relative;
     margin-left: 1.5rem;
+
     &::before {
       position: absolute;
       left: -1.5rem;
@@ -383,13 +388,16 @@ a {
 
   &:visited {
   }
+
   &:hover,
   &:focus,
   &:active {
   }
+
   &:focus {
     outline: thin dotted;
   }
+
   &:hover,
   &:active {
     outline: 0;
