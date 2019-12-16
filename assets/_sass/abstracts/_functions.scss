@@ -3,7 +3,7 @@
 =================================*/
 
 $browser-context: 16px;
-@function calculate-rem($size) {
+@function calculate-rem($size) { /* stylelint-disable-line */
   $remSize: $size / $browser-context;
   @return #{$remSize}rem;
 }

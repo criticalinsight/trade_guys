@@ -96,7 +96,7 @@ function webpackTask() {
 }
 
 /*----------  esLint  ----------*/
-const runEslint = function() {
+const runEslint = function () {
   return src([
     config.assets + '/' + config.js.src + '/**/*.js',
     '!node_modules/**'
@@ -214,13 +214,13 @@ function jekyllBuild(done) {
 }
 
 exports.default = series(
-  parallel(series(styleLintTask, sassTask), webpackTask, imagesTask),
+  parallel(sassTask, webpackTask, imagesTask),
   jekyllBuild,
   serve,
   watchTask
 )
 
 exports.build = series(
-  parallel(series(styleLintTask, sassTask), webpackTask, imagesTask),
+  parallel(sassTask, webpackTask, imagesTask),
   jekyllBuild
 )
