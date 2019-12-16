@@ -25,7 +25,7 @@ $ npm start
 
 ### Local Development
 
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting, etc.
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting, etc.  Please note stylelint is included, but does not run automatically. It was added retroactively and requires a more thorough examination of Sass files.
 
 ```shell
 $ npm start
