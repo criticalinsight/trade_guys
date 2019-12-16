@@ -4,44 +4,44 @@
 
 .featured-stat-container {
   position: relative;
-  background-color: $dark-gray;
   padding: 5rem $size_wrapper-padding;
+  background-color: $dark-gray;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     --background-width: 0;
     position: relative;
-    grid-row: 4;
-    grid-column: 1 / -1;
     display: flex;
-    margin-left: calc(-1 * #{$size_wrapper-padding});
+    grid-column: 1 / -1;
+    grid-row: 4;
     margin-right: calc(-1 * #{$size_wrapper-padding});
+    margin-left: calc(-1 * #{$size_wrapper-padding});
 
     &::before {
-      content: '';
-      display: block;
       position: absolute;
       top: 0;
-      left: calc(-1 * #{$size_wrapper-padding});
       bottom: 0;
+      left: calc(-1 * #{$size_wrapper-padding});
       z-index: 1;
+      display: block;
       width: var(--background-width);
       max-width: calc(100% - var(--secondary-column-width) + 1rem);
       background-image: url('/assets/images/home-stat-arrow.svg');
       background-repeat: repeat-x;
-      background-size: auto;
       background-position: center right;
+      background-size: auto;
+      content: '';
     }
   }
 
   .featured-stat-angle {
     display: none;
-    @include breakpoint("medium") {
-      display: block;
+    @include breakpoint('medium') {
       position: absolute;
       top: 0;
-      bottom: 0;
       right: 0;
+      bottom: 0;
       left: 0;
+      display: block;
       width: 100%;
       height: 100%;
       background: $dark-gray;
@@ -52,7 +52,7 @@
 
   .featured-stat,
   .featured-stat-post {
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       position: relative;
       z-index: 5;
     }
@@ -61,7 +61,7 @@
   .featured-stat {
     display: none;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       display: flex;
       flex: 1 1 auto;
       align-items: center;
@@ -69,33 +69,33 @@
 
       &-number {
         @include fontSize(150px);
+        color: $white;
+        font-weight: 600;
         line-height: 1;
         letter-spacing: 0.9px;
-        font-weight: 600;
-        color: $white;
       }
 
       &-desc {
-        margin-left: 1.5rem;
         margin-bottom: 0;
-        @include fontSize(24px);
-        line-height: 1.3;
+        margin-left: 1.5rem;
         color: $white;
+        line-height: 1.3;
+        @include fontSize(24px);
       }
 
       &-source {
         display: block;
         margin-top: 0.5rem;
+        color: $disabled-gray;
         font-family: $font_inconsolata;
         @include fontSize(18px);
-        color: $disabled-gray;
       }
     }
   }
 
   .featured-stat-post {
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       flex: 1 0 var(--secondary-column-width);
       padding-left: 4rem;
     }
@@ -119,10 +119,10 @@
         @include fontSize(16px);
         line-height: 1.5;
 
-        @include breakpoint("medium") {
+        @include breakpoint('medium') {
           @include fontSize(18px);
-          line-height: 1.78;
           color: $off-white-dark;
+          line-height: 1.78;
         }
       }
     }

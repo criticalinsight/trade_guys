@@ -4,13 +4,13 @@
 .page-footer {
   margin-top: 2rem;
   padding-right: var(--header-footer-border-width);
-  padding-left: var(--header-footer-border-width);
   padding-bottom: 1rem;
+  padding-left: var(--header-footer-border-width);
 
   @include breakpoint('medium') {
-    border-left: var(--header-footer-border-width) solid $yellow;
     margin-top: 3rem;
     padding-right: 0;
     padding-left: 1rem;
+    border-left: var(--header-footer-border-width) solid $yellow;
   }
 }

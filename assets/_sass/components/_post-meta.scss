@@ -3,19 +3,19 @@
 =================================*/
 
 .post-meta {
-	@extend %post-meta;
+  @extend %post-meta;
   text-transform: uppercase;
 }
 
 .post-meta-label {
   @extend %post-meta-label;
-  text-transform: uppercase;
   color: $gray;
+  text-transform: uppercase;
 }
 
 .dt-published {
   .podcast .post-info & {
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       font-weight: 600;
     }
   }
@@ -24,7 +24,7 @@
 .episode-num {
   .post-info & {
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       display: block;
     }
 
@@ -32,7 +32,7 @@
       content: '\2014';
       margin-right: 0.25rem;
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         content: '';
       }
     }
@@ -40,9 +40,9 @@
 }
 
 .post-authors {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 
   li {
     &::after {

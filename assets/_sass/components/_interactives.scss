@@ -3,20 +3,20 @@
 ====================================*/
 
 iframe {
-	width: 1px;
-	min-width: 100%;
+  width: 1px;
+  min-width: 100%;
 }
 
 .fullWidthFeatureContent {
-	width: 100vw;
-	position: relative;
-	left: 50%;
-	right: 50%;
-	margin-left: calc(-50vw - (var(--header-footer-border-width) / 2));
-	margin-right: -50vw;
-	text-align: center;
+  position: relative;
+  right: 50%;
+  left: 50%;
+  width: 100vw;
+  margin-right: -50vw;
+  margin-left: calc(-50vw - (var(--header-footer-border-width) / 2));
+  text-align: center;
 
-	.fullWidthInner {
-		margin: 0 auto;
-	}
+  .fullWidthInner {
+    margin: 0 auto;
+  }
 }

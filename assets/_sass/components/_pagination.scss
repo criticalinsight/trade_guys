@@ -4,13 +4,13 @@
 
 .archive-pagination {
   --pagination-prev-next-spacing: 2rem;
-  margin-bottom: 1rem;
   display: flex;
+  margin-bottom: 1rem;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     --pagination-prev-next-spacing: 3rem;
-    margin-top: 2rem;
     display: block;
+    margin-top: 2rem;
   }
 
   button {
@@ -22,7 +22,7 @@
     @extend %btn;
     text-transform: uppercase;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       display: none;
     }
 
@@ -34,11 +34,11 @@
   .page-num {
     display: none;
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       display: inline-block;
-      @include fontSize(18px);
-      line-height: 1;
       margin: 0 1rem;
+      line-height: 1;
+      @include fontSize(18px);
     }
     
     &:not(.is-active) {
@@ -52,14 +52,14 @@
 
   .pagination-prev,
   .pagination-next {
-    flex: 1 0 auto;
     position: relative;
-    @extend %btn;
+    flex: 1 0 auto;
     text-transform: uppercase;
     transition: background-color 0.2s ease-in-out;
+    @extend %btn;
 
     &:not(:disabled):hover {
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         background-color: $yellow;
       }
     }
@@ -76,7 +76,7 @@
   .pagination-prev {
     @include pagination-arrows(left);
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       &::before {
         content: 'Previous';
       }
@@ -86,7 +86,7 @@
   .pagination-next {
     @include pagination-arrows(right);
 
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       &::before {
         content: 'Next';
       }
@@ -96,12 +96,12 @@
 
 .archive-pagination-top {
   margin-top: 1rem;
-  @extend %btn;
-  text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
+  @extend %btn;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     text-align: left;
   }
 

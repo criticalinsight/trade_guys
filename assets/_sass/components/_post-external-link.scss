@@ -5,9 +5,9 @@
   display: table;
   margin: 2rem 0;
   padding: 0.25rem 0.75rem;
+  color: $black;
   font-family: $font_source;
   @include fontSize(18px);
-  color: $black;
 
   @include breakpoint('medium') {
     @include fontSize(20px);

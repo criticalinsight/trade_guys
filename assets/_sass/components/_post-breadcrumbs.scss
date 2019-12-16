@@ -5,15 +5,15 @@
   position: relative;
   left: 2rem;
   display: block;
+  margin: 0;
   padding-left: 0.5rem;
-  @extend %labelsmall;
   line-height: 1;
   text-transform: uppercase;
   transition: background-color 0.2s ease-in-out;
+  @extend %labelsmall;
   @include pagination-arrows(left);
-  margin: 0;
 
-  @include breakpoint("medium") {
+  @include breakpoint('medium') {
     line-height: 1.75;
   }
 
@@ -32,14 +32,14 @@
     .podcast & {
       top: calc(25% + 1px);
 
-      @include breakpoint("medium") {
+      @include breakpoint('medium') {
         top: 1px;
       }
     }
   }
 
   br {
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       display: none;
     }
   }

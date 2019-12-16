@@ -2,21 +2,21 @@
 =            Header            =
 ==============================*/
 .site-header {
-	position: fixed;
-	top: 0;
-	z-index: 50;
-	width: 100%;
-	height: var(--header-height);
-	background-color: $white;
-	padding: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  height: var(--header-height);
+  padding: 1rem;
+  background-color: $white;
 
-	@include breakpoint("medium") {
-		overflow-y: hidden;
-		padding: 1rem 0;
-	}
+  @include breakpoint('medium') {
+    padding: 1rem 0;
+    overflow-y: hidden;
+  }
 
-	.wrapper {
-		display: flex;
-		align-items: center;
-	}
+  .wrapper {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -9,23 +9,23 @@
   }
 
   ul {
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 
     li {
       display: inherit;
       margin: 0;
       padding-right: 0.25rem;
-      text-align: center;
       line-height: 1;
+      text-align: center;
 
       &:hover i {
         background-color: $yellow;
-        transition: 0.2s ease-in-out;
         border-radius: 50%;
+        transition: 0.2s ease-in-out;
       }
 
       i {
@@ -38,7 +38,7 @@
   .single-post .page-footer & {
     margin-bottom: 2rem;
     
-    @include breakpoint("medium") {
+    @include breakpoint('medium') {
       display: none;
     }
   }

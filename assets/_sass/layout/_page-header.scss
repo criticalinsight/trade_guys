@@ -2,121 +2,119 @@
 =            Page Header            =
 ===================================*/
 .page-header {
-	display: grid;
-	grid-template-rows: repeat(2, auto);
-	grid-template-columns: repeat(2, auto);
-	align-items: flex-end;
-	background-color: $yellow;
-	min-height: 150px;
-	margin-bottom: 0.5rem;
-	padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  align-items: flex-end;
+  min-height: 150px;
+  margin-bottom: 0.5rem;
+  padding-top: 3rem;
+  background-color: $yellow;
 
-	@include breakpoint('medium') {
-		margin-bottom: 1rem;
-		grid-template-columns: minmax(auto, calc(100% - #{$size_sidebar-width})) auto;
-	}
+  @include breakpoint('medium') {
+    grid-template-columns: minmax(auto, calc(100% - #{$size_sidebar-width})) auto;
+    margin-bottom: 1rem;
+  }
 
-	.arrow-cutout {
-		--arrow-padding: 1.5rem;
-		--top-padding: 0.5rem;
+  .arrow-cutout {
+    --arrow-padding: 1.5rem;
+    --top-padding: 0.5rem;
 
-		position: relative;
-		grid-row: 1;
-		grid-column: 2;
-		justify-self: flex-end;
-		width: calc(#{$size_sidebar-width} + var(--header-footer-border-width));
-		// width: 100%;
-		// max-width: fit-content;
-		min-height: var(--arrow-padding);
-		margin-right: var(--header-footer-border-width);
-		margin-bottom: -4px;
-		padding-top: var(--top-padding);
-		padding-right: 3rem;
-		background-color: $white;
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    width: calc(#{$size_sidebar-width} + var(--header-footer-border-width));
+    // width: 100%;
+    // max-width: fit-content;
+    min-height: var(--arrow-padding);
+    margin-right: var(--header-footer-border-width);
+    margin-bottom: -4px;
+    padding-top: var(--top-padding);
+    padding-right: 3rem;
+    background-color: $white;
+    justify-self: flex-end;
 
-		@include breakpoint('medium') {
-			--arrow-padding: 2.5rem;
-			min-height: calc(var(--arrow-padding) / 2);
-		}
+    @include breakpoint('medium') {
+      --arrow-padding: 2.5rem;
+      min-height: calc(var(--arrow-padding) / 2);
+    }
 
-		@include breakpoint('large') {
-			margin-bottom: 0;
-		}
+    @include breakpoint('large') {
+      margin-bottom: 0;
+    }
 
-		&::before {
-			content: '';
-			display: inline-block;
-			position: absolute;
-			top: calc(var(--arrow-padding) / -2);
-			right: 100%;
-			border-top: var(--arrow-padding) solid transparent;
-			border-right: calc(var(--arrow-padding) + 1rem) solid $white;
-			border-bottom: var(--arrow-padding) solid transparent;
-		}
-	}
+    &::before {
+      position: absolute;
+      top: calc(var(--arrow-padding) / -2);
+      right: 100%;
+      display: inline-block;
+      border-top: var(--arrow-padding) solid transparent;
+      border-right: calc(var(--arrow-padding) + 1rem) solid $white;
+      border-bottom: var(--arrow-padding) solid transparent;
+      content: '';
+    }
+  }
 
-	&-primary {
-		grid-row: 1;
-		grid-column: 1;
-		z-index: 5;
+  &-primary {
+    z-index: 5;
+    grid-column: 1;
+    grid-row: 1;
 
-		.page-title {
-			margin: 0 0 -4px 0;
-			@extend %page-title;
+    .page-title {
+      margin: 0 0 -4px;
+      @extend %page-title;
 
-			@include breakpoint('medium') {
-				margin-bottom: -6px;
-			}
+      @include breakpoint('medium') {
+        margin-bottom: -6px;
+      }
 
-			.keywords &,
-			.series &,
-			.author & {
-				margin-bottom: -4px;
-				@include fontSize(52px);
-			}
+      .keywords &,
+      .series &,
+      .author & {
+        margin-bottom: -4px;
+        @include fontSize(52px);
+      }
 
-			&-subheading {
-				font-weight: normal;
-				letter-spacing: 0;
-			}
-		}
-	}
+      &-subheading {
+        font-weight: normal;
+        letter-spacing: 0;
+      }
+    }
+  }
 
-	&-secondary {
-		grid-row: 2;
-		grid-column: span 2;
-		background-color: $white;
-		margin-right: var(--header-footer-border-width);
-		padding-top: 1.5rem;
-		padding-right: 1rem;
-		padding-left: 1rem;
-		padding-bottom: 0.5rem;
+  &-secondary {
+    grid-column: span 2;
+    grid-row: 2;
+    margin-right: var(--header-footer-border-width);
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    background-color: $white;
 
-		@include breakpoint('medium') {
-			padding-top: 4rem;
-			padding-right: calc(
-				#{$size_sidebar-width} - calc(var(--header-footer-border-width) * 2)
-			);
-			padding-left: 0;
-			padding-bottom: 0;
-		}
+    @include breakpoint('medium') {
+      padding-top: 4rem;
+      padding-right: calc(#{$size_sidebar-width} - calc(var(--header-footer-border-width) * 2));
+      padding-bottom: 0;
+      padding-left: 0;
+    }
 
-		.page-title {
-			@extend %single-post-title;
-			margin: 0;
-		}
+    .page-title {
+      @extend %single-post-title;
+      margin: 0;
+    }
 
-		p {
-			@extend %page-description;
-			margin-bottom: 0;
-		}
-	}
+    p {
+      @extend %page-description;
+      margin-bottom: 0;
+    }
+  }
 
-	.share {
-		display: none;
+  .share {
+    display: none;
 
-		@include breakpoint('medium') {
-			display: flex;
-		}
-	}
+    @include breakpoint('medium') {
+      display: flex;
+    }
+  }
 }
