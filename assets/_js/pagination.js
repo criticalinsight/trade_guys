@@ -59,9 +59,7 @@ const Pagination = {
     containers.forEach(container => {
       container.innerHTML = `Page
     <span class="pagination-current-page">${this.currentPage}</span> of
-    ${this.numberOfPages} <span class="pagination-total-items">(${
-        this.totalNumPosts
-      } items)</span>`
+    ${this.numberOfPages} <span class="pagination-total-items">(${this.totalNumPosts} items)</span>`
     })
   },
   setupContentFiltering: function() {

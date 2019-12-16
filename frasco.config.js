@@ -74,9 +74,7 @@ module.exports = {
     src: '_sass',
     dest: 'css',
     outputStyle: 'compressed',
-    autoprefixer: {
-      grid: true,
-    }
+    autoprefixer: {}
   },
 
   webpack: {

@@ -71,8 +71,8 @@ function renderTable(sheet) {
                     ', and ' +
                     memberArray.slice(-1)
                 : length === 2
-                  ? memberArray[0] + ' and ' + memberArray.slice(-1)
-                  : c
+                ? memberArray[0] + ' and ' + memberArray.slice(-1)
+                : c
 
             case linkIndex:
               if (!row[linkIndex]) {
