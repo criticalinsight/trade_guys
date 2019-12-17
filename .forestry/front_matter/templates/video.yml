@@ -64,11 +64,11 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
-- _posts/2018-08-22-safeguards-the-dirty-laundry-of-trade-policy.md
-- _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
 - _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
-- _posts/2018-07-10-what-s-the-bretton-woods-system.md
 - _posts/2018-06-26-tariffs-aren-t-the-only-way-to-control-trade-non-tariff-barriers-explained.md
+- _posts/2018-07-10-what-s-the-bretton-woods-system.md
+- _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
+- _posts/2018-08-22-safeguards-the-dirty-laundry-of-trade-policy.md
 - _posts/2018-09-11-a-21st-century-trade-war.md
 - _posts/2018-09-13-what-is-dumping.md
 - _posts/2019-01-04-subsidies-and-trade-a-tricky-combination.md
