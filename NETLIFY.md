@@ -17,11 +17,11 @@ Failed = The update did not publish.
 Usually when a build fails, it's because content is improperly formatted.  To see what is causing the issue do the following.
 - Click on Site Activity (Circle next to the logo in the top left corner)  
 
-  ![Site Activity](site_activity.png)
+  ![Site Activity](https://res.cloudinary.com/csisilab/image/upload/v1578601264/site_activity_azttmh.png)
 
-- If available, click on "Show Log" and review the error message provided by Forestry to determine the error.
+- If available, click on "Show Log" and review the error message provided by Forestry to determine the error. You might need to scroll for a while until the error is visible. The error message will appear towards the end of the log.
 
-  ![Forestry Error](forestry_error.png)
+  ![Forestry Error](https://res.cloudinary.com/csisilab/image/upload/v1578601268/forestry_error_pmwzb0.png)
 
 - Go to the incorrect content and make any necessary adjustments
 - Click "Save"
