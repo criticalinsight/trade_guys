@@ -17,7 +17,7 @@ Failed = The update did not publish.
 Usually when a build fails, it's because content is improperly formatted.  To see what is causing the issue do the following.
 - Click on Site Activity (Circle next to the logo in the top left corner)  
 
-  ![Site Activity](siteActivity.png)
+  ![Site Activity](site_activity.png)
 
 - If available, click on "Show Log" and review the error message provided by Forestry to determine the error.
 
