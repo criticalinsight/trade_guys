@@ -33,7 +33,7 @@ css_files:
   - https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css
   - https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css
   - https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css
-  - wto-tracker
+  - wto-tracker/wto-tracker
 ---
 
 ## The WTO At a Crossroad: Proposals for Reform
