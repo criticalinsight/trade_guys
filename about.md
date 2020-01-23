@@ -11,7 +11,7 @@ the_show: |-
 
   _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 csis: |-
-  Established in Washington, D.C. over 50 years ago, the Center for Strategic and International Studies (CSIS) is a bipartisan, nonprofit policy research organization dedicated to providing strategic insights and policy solutions to help decision makers chart a course toward a better world.
+  Established in Washington, D.C. nearly 60 years ago, the Center for Strategic and International Studies (CSIS) is a bipartisan, nonprofit policy research organization dedicated to advancing practical ideas that address the world’s greatest challenges. To learn more about CSIS, visit [www.CSIS.org](https://www.csis.org "www.CSIS.org")
 
   Trade Guys Scott Miller and Bill Reinsch have both held the Scholl Chair in International Business at CSIS. Bill is the current CSIS Scholl Chair. The Scholl Chair examines critical issues in the global political economy including: international trade, governance, competitiveness, development and meeting the challenges of a changing world economy.
 the_credits: |-
