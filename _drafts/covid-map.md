@@ -1,0 +1,19 @@
+---
+content_type: article
+show_image_on_single_post: true
+title: COVID MAP
+date: 2020-04-17 00:00:00 -0400
+series: []
+keywords: []
+excerpt: ''
+notes: ''
+authors: []
+image: ''
+image_caption: ''
+image_credit: ''
+featured_in_archive: false
+js_files: []
+css_files: []
+
+---
+<iframe width="100%" height="520" frameborder="0" src="[https://csis.carto.com/builder/a20c0036-af0f-4df7-af74-b21f51749a16/embed](https://csis.carto.com/builder/a20c0036-af0f-4df7-af74-b21f51749a16/embed "https://csis.carto.com/builder/a20c0036-af0f-4df7-af74-b21f51749a16/embed")" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
