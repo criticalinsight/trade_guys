@@ -1,5 +1,5 @@
 {% if include.soundcloud_url.size > 0 %}
- <div class="audio-player">
+<div class="audio-player">
 	<div class="progress-bar">
 		<div class="progress"></div>
 	</div>
@@ -8,7 +8,7 @@
 		<button class="action listen" aria-label="Listen to the podcast">
 			<i class="icon-play"></i>
 			<span class="action-label"></span>
-  	</button>
+		</button>
 	</div>
 	<div class="secondary-info">
 		<span class="duration"></span>
@@ -24,13 +24,46 @@
 					</span>
 				</a>
 			</div>
-				{% else %}
-				<div class="transcript no-transcript">
+			{% else %}
+			<div class="transcript no-transcript">
 				<span class="label-transcript">
 					no transcript
 				</span>
 
+			</div>
+			{% endif %}
 		</div>
+	</div>
+</div>
+{% else include.megaphone_url.size > 0 %}
+<div class="audio-player">
+	<audio controls src="{{ include.megaphone_url }}">
+		<!-- <source src="{{ post.megaphone_url}}"> -->
+		Your browser does not support the
+		<code>audio</code> element.
+	</audio>
+	<!-- <iframe frameborder="0" height="200" scrolling="no" src="{{ include.megaphone_url }}" width="100%"></iframe> -->
+	<div class="secondary-info">
+		<span class="duration"></span>
+		<div class="menu">
+			<i class="icon-menu">
+			</i>
+			{% if include.transcript_url.size > 0 %}
+			<div class="transcript">
+				<a class="label-transcript" href={{include.transcript_url}}>
+					<i class="icon-transcript"></i>
+					<span class="label-transcript">
+						transcript
+					</span>
+				</a>
+			</div>
+			{% else %}
+			<div class="transcript no-transcript">
+				<span class="label-transcript">
+					no transcript
+				</span>
+
+			</div>
 			{% endif %}
 		</div>
 	</div>

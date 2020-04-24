@@ -35,6 +35,12 @@ fields:
   name: transcript_url
   label: Transcript URL
   description: URL to the transcript PDF
+  - type: text
+  name: megaphone_url
+  label: Megaphone URL
+  description: URL of the episode on Megaphone
+  config:
+    required: false
 - type: textarea
   name: excerpt
   label: Excerpt
