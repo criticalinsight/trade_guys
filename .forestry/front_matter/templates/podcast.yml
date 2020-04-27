@@ -18,10 +18,17 @@ fields:
   config:
     min: '1'
     step: '1'
+- name: megaphone_url
+  type: text
+  config:
+    required: false
+  description: URL of the episode on Megaphone
+  label: Megaphone URL
 - type: text
   name: soundcloud_url
   label: Soundcloud URL
-  description: URL of the episode on Soundcloud
+  description: URL of the episode on Soundcloud. Use only if you do not have a Megaphone
+    URL
   config:
     required: false
 - type: text
