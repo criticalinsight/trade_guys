@@ -9,25 +9,25 @@ layout: default
       {% include post-tags.html %}
     </aside>
     {% if page.collection == 'podcast' %}
-      {% include audio-player.html soundcloud_url=page.soundcloud_url transcript_url=page.transcript_url %}
+    {% include audio-player.html soundcloud_url=page.soundcloud_url transcript_url=page.transcript_url megaphone_url=page.megaphone_url%}
     {% endif %}
     <div class="post-body">
       {% if page.image != site.logo and page.image != '' and page.show_image_on_single_post %}
-        {% include post-feature-image.html %}
+      {% include post-feature-image.html %}
       {% endif %}
       {% if page.youtube_url %}
-        {% include post-video-embed.html %}
+      {% include post-video-embed.html %}
       {% endif %}
       {{ content }}
       {% if page.statistic_text.size > 0 %}
-        {% include post-featured-stat.html %}
+      {% include post-featured-stat.html %}
       {% endif %}
       <div class="clearfix"></div>
       {% if page.external_url %}
-        {% include post-external-link.html %}
+      {% include post-external-link.html %}
       {% endif %}
       {% if page.notes.size > 0 %}
-        {% include post-notes.html %}
+      {% include post-notes.html %}
       {% endif %}
     </div>
   </main>

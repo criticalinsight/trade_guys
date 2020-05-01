@@ -1,4 +1,5 @@
-.audio-player {
+.audio-player,
+.mega-audio-player {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -8,6 +9,10 @@
 
   @include breakpoint('medium') {
     flex-wrap: nowrap;
+  }
+
+  audio {
+    width: 100%;
   }
 
   .audio-control {

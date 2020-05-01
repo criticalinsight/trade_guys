@@ -1,5 +1,5 @@
 {% if include.soundcloud_url.size > 0 %}
- <div class="audio-player">
+<div class="audio-player">
 	<div class="progress-bar">
 		<div class="progress"></div>
 	</div>
@@ -8,7 +8,7 @@
 		<button class="action listen" aria-label="Listen to the podcast">
 			<i class="icon-play"></i>
 			<span class="action-label"></span>
-  	</button>
+		</button>
 	</div>
 	<div class="secondary-info">
 		<span class="duration"></span>
@@ -24,15 +24,22 @@
 					</span>
 				</a>
 			</div>
-				{% else %}
-				<div class="transcript no-transcript">
+			{% else %}
+			<div class="transcript no-transcript">
 				<span class="label-transcript">
 					no transcript
 				</span>
 
-		</div>
+			</div>
 			{% endif %}
 		</div>
 	</div>
+</div>
+{% else include.megaphone_url.size > 0 %}
+<div class="mega-audio-player">
+	<audio controls controlsList="nodownload" src="{{ include.megaphone_url }}">
+		Your browser does not support the
+		<code>audio</code> element.
+	</audio>
 </div>
 {% endif %}
