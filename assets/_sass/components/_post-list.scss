@@ -82,6 +82,10 @@
       margin-bottom: 0;
       @extend %post-description;
     }
+
+    audio {
+      margin-bottom: 10px;
+    }
   }
 
   &-img {
