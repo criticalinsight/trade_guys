@@ -8,7 +8,7 @@ header:
 - identifier: trade-explained
   url: "/trade-explained"
   weight: 3
-  title: <i class="icon-chart-line"></i>Trade Explained
+  title: <i class="icon-chart-line"></i>Energy Explained
   desc: View all Trade Explained articles
 - identifier: about
   url: "/about"
