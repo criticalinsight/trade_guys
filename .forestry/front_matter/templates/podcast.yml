@@ -56,7 +56,6 @@ fields:
   label: Podcast Produced By Language
   description: Only fill this out if it is different from the standard
 pages:
-- _podcast/232-update-with-jean-simard-and-denis-tremblay-an-11th-hour-deal-and-ongoing-investigation.md
 - _podcast/a-value-based-trade-policy.md
 - _podcast/a-yes-and-strategy-for-trade-with-africa.md
 - _podcast/an-e-commerce-moment.md
