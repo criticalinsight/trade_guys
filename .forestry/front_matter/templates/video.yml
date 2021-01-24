@@ -64,6 +64,5 @@ fields:
   description: If the Image should appear on the single post page, then slide right
     until green.
 pages:
-- _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
 - _posts/2018-08-02-imports-part-of-america-s-secret-sauce.md
 - _posts/2018-09-11-a-21st-century-trade-war.md
