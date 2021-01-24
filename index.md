@@ -1,8 +1,9 @@
 ---
 layout: home
 body_class: body-home
-featured_statistic_post: _posts/2018-09-11-a-21st-century-trade-war.md
+featured_statistic_post: _posts/2020-04-17-covid-map.md
 featured_posts:
+- _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
 - _posts/2018-11-07-crash-course-trade-policy-with-the-trade-guys.md
 - _posts/2017-10-19-50-states-trade.md
 
