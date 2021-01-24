@@ -2,7 +2,7 @@
 content_type: article
 show_image_on_single_post: false
 title: Around the World in 24 Parts
-date: 2019-07-15 00:00:00 -0500
+date: 2019-07-15T00:00:00.000-05:00
 series: []
 keywords:
 - _keywords/eu.md
@@ -10,21 +10,21 @@ keywords:
 - _keywords/korea.md
 - _keywords/china.md
 - _keywords/manufacturing.md
-excerpt: 'Fasten your seatbelts and put your tray tables and seat back in the upright and locked position-let’s take a journey through the Boeing supply chain.'
+excerpt: Fasten your seatbelts and put your tray tables and seat back in the upright
+  and locked position-let’s take a journey through the Boeing supply chain.
 notes: ''
 authors:
 - _authors/jack-caporal.md
 - _authors/jonathan-robison.md
-image: 'uploads/boeing_plane.gif'
+image: uploads/boeing_plane.gif
 image_caption: ''
-image_credit: 'CSIS iDeas Lab'
+image_credit: CSIS iDeas Lab
 featured_in_archive: true
 custom_viz: true
 js_files:
 - boeing/boeing
 css_files:
 - boeing
-published: false
 
 ---
 The Boeing Company is synonymous with American aviation, and a symbol of US innovation, aerospace dominance, and advanced manufacturing know-how.

@@ -77,5 +77,3 @@ fields:
   label: appears on single post?
   name: show_image_on_single_post
   template: appears-on-single-post
-pages:
-- _posts/2018-09-10-aren-t-we-all-free-traders.md
