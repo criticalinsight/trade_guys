@@ -78,5 +78,4 @@ fields:
   name: show_image_on_single_post
   template: appears-on-single-post
 pages:
-- _posts/2018-06-04-china-the-dust-never-settles.md
 - _posts/2018-09-10-aren-t-we-all-free-traders.md
