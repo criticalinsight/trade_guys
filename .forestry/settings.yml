@@ -64,7 +64,7 @@ sections:
   path: _data/trade_guys.yml
   label: Trade Guys
 upload_dir: trade-guys/uploads
-public_path: ''
+public_path: trade-guys/uploads
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
