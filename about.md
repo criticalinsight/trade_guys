@@ -2,13 +2,12 @@
 layout: about
 title: About
 permalink: "/about/"
-introduction: Hi
+introduction: The Power Dialogue is a podcast that demystifies the inner workings
+  of Kenya's energy industry.
 the_show: |-
-  International trade is making headlines a lot these days. And news changes fast. A trade war with China? Bad blood between our closest allies and trading partners, like Canada? It’s hard to keep up.
+  Every week we interview various podcast guest to break down the buzz around energy. Getting at the root at how it impacts your day to day in terms that everyone can understand.
 
-  Trade experts Scott Miller and Bill Reinsch break down the buzz around trade. They get to the root of how it affects policy, and lay out how it impacts your day-to-day. Most importantly, they talk about trade in terms that everyone can understand.
-
-  _The Trade Guys_ is hosted every week by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
+  The power dialogue is hosted by Zeddy Bariti.
 csis: |-
   Established in Washington, D.C. nearly 60 years ago, the Center for Strategic and International Studies (CSIS) is a bipartisan, nonprofit policy research organization dedicated to advancing practical ideas that address the world’s greatest challenges. CSIS is ranked the number one think tank in the United States by the University of Pennsylvania’s annual think tank report. To learn more about CSIS, visit [www.CSIS.org](https://www.csis.org "www.CSIS.org")
 
