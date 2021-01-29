@@ -11,6 +11,9 @@ the_show: |-
 csis: Zeddy Bariti is a renown communication specialist in the energy industry with
   over 10 years experience.
 the_credits: 'Podcast proudly sponsored by:'
-image: "/uploads/Group-2.jpg"
+image: https://res.cloudinary.com/csisideaslab/image/upload/ngong-2.png
+about: Zeddy is a renown communication specialist in the energy industry with a vast
+  knowledge of the field gained from over 10 years of experience.
+sponsors: 'We are sponsored by:'
 
 ---
