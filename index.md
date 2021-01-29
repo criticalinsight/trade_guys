@@ -1,11 +1,11 @@
 ---
 layout: home
 body_class: body-home
-featured_statistic_post: _posts/2020-04-17-covid-map.md
+featured_statistic_post: _posts/2018-11-07-crash-course-trade-policy-with-the-trade-guys.md
 featured_posts:
-- _posts/2018-06-15-made-in-where-rules-of-origin-explained.md
+- _posts/custom-viz/wto-tracker/datatable.html
+- _posts/custom-viz/boeing/counter.html
 - _posts/2018-11-07-crash-course-trade-policy-with-the-trade-guys.md
-- _posts/2017-10-19-50-states-trade.md
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
