@@ -25,22 +25,22 @@ fields:
       format: markdown
   default: ''
 - type: textarea
-  label: CSIS
-  name: csis
+  name: about
   config:
     required: true
     wysiwyg: true
     schema:
       format: markdown
   default: ''
+  label: About
 - type: textarea
-  name: the_credits
-  label: The Credits
+  name: sponsors
   config:
     required: true
     wysiwyg: true
     schema:
       format: markdown
   default: ''
+  label: Sponsors
 pages:
 - about.md
