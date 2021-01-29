@@ -1,10 +1,8 @@
 ---
 layout: home
 body_class: body-home
-featured_statistic_post: _posts/2018-11-07-crash-course-trade-policy-with-the-trade-guys.md
+featured_statistic_post: _posts/custom-viz/boeing/counter.html
 featured_posts:
-- _posts/custom-viz/wto-tracker/datatable.html
-- _posts/custom-viz/boeing/counter.html
 - _posts/2018-11-07-crash-course-trade-policy-with-the-trade-guys.md
 
 ---
