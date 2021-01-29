@@ -65,7 +65,7 @@ sections:
   label: Trade Guys
 upload_dir: trade-guys/uploads
 public_path: trade-guys/uploads
-front_matter_path: ''
+front_matter_path: trade-guys/uploads
 use_front_matter_path: true
 file_template: ":filename:"
 build:
