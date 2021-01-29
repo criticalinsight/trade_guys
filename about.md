@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: "/about/"
-introduction: Trade Guys Scott Miller and Bill Reinsch talk with H. Andrew Schwartz
-  about trade in ways that everyone can understand.
+introduction: Hi
 the_show: |-
   International trade is making headlines a lot these days. And news changes fast. A trade war with China? Bad blood between our closest allies and trading partners, like Canada? It’s hard to keep up.
 
