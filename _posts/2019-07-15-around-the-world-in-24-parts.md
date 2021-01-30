@@ -1,24 +1,23 @@
 ---
 content_type: article
-show_image_on_single_post: false
-title: Around the World in 24 Parts
+show_image_on_single_post: true
+title: 'Kengen CEO Profile : Rebecca Miano'
 date: 2019-07-15T00:00:00.000-05:00
-series: []
-keywords:
-- _keywords/eu.md
-- _keywords/japan.md
-- _keywords/korea.md
-- _keywords/china.md
-- _keywords/manufacturing.md
-excerpt: Fasten your seatbelts and put your tray tables and seat back in the upright
-  and locked position-let’s take a journey through the Boeing supply chain.
+series:
+- _series/trends-in-trade.md
+keywords: []
+excerpt: '**Rebecca Miano**, is a Kenyan lawyer and corporate executive, who, since
+  November 2017, has served as the Managing Director and Chief Executive Officer of
+  [KenGen Plc.](https://en.wikipedia.org/wiki/Kenya_Electricity_Generating_Company
+  "Kenya Electricity Generating Company"), the largest producer of electricity in
+  the East African region.[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1)
+  She was confirmed on 1 November 2017,[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1)
+  having served in acting capacity since 25 August 201'
 notes: ''
-authors:
-- _authors/jack-caporal.md
-- _authors/jonathan-robison.md
-image: uploads/boeing_plane.gif
+authors: []
+image: trade-guys/uploads/masinga2.JPG
 image_caption: ''
-image_credit: CSIS iDeas Lab
+image_credit: ''
 featured_in_archive: true
 custom_viz: true
 js_files:
@@ -27,18 +26,16 @@ css_files:
 - boeing
 
 ---
-The Boeing Company is synonymous with American aviation, and a symbol of US innovation, aerospace dominance, and advanced manufacturing know-how.
+## Background and education\[[edit](https://en.wikipedia.org/w/index.php?title=Rebecca_Miano&action=edit&section=1&editintro=Template:BLP_editintro "Edit section: Background and education")\]
 
-Since it was founded in 1916, just thirteen years after the Wright Brothers’ flight at Kitty Hawk, Boeing has been at the forefront of the aerospace industry. Today they develop commercial aircraft, fighter planes and attack helicopters, satellites and spacecraft. Boeing employs 137,000 people in all 50 states and is the nation’s single largest exporter, sending its aircraft all over the globe.
+She holds a [Bachelor of Laws](https://en.wikipedia.org/wiki/Bachelor_of_Laws "Bachelor of Laws") from the [University of Nairobi](https://en.wikipedia.org/wiki/University_of_Nairobi "University of Nairobi") and attended the [Advocates Training Programme](https://en.wikipedia.org/wiki/Advocate "Advocate") at the [Kenya School of Law](https://en.wikipedia.org/wiki/Kenya_School_of_Law "Kenya School of Law")[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1) She also holds a [Master of Laws](https://en.wikipedia.org/wiki/Master_of_Laws "Master of Laws") in [Comparative Law](https://en.wikipedia.org/wiki/Comparative_Law "Comparative Law"), awarded by the [University of Australia](https://en.wikipedia.org/wiki/University_of_Australia "University of Australia").[\[2\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-Two-2)
 
-Among the most famous aircraft recently developed is the Boeing 787 Dreamliner, a new type of widebody long-haul commercial airplane that is revolutionary for its use of lightweight composite materials. The 787 is manufactured at Boeing’s Everett Factory, the largest building in the world by volume, in Everett, Washington.
+## Career\[[edit](https://en.wikipedia.org/w/index.php?title=Rebecca_Miano&action=edit&section=2&editintro=Template:BLP_editintro "Edit section: Career")\]
 
-While the completed 787 rolls off the assembly line in Everett, large portions of the plane are not made nor even assembled in Washington State or even in the US. In fact, [35 percent](http://old.seattletimes.com/html/businesstechnology/2003707208_787globalbuild15.html) of the 787 is built in Nagoya, Japan.
+Rebecca Miano first worked at a Nairobi-based law firm, "Musyoka Annan & Company Advocates". Later, she worked at "Slater and Gordon", a law firm in Queensland, Australia.[\[2\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-Two-2) In 1998, she joined Kenya Electricity Generating Company (KenGen), as a senior legal officer.[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1) Over time, she rose in rank to become assistant company secretary. At the time of her promotion to Acting Managing Director, in August 2017, she was the Director of Legal Affairs and Company Secretary at KenGen, serving n both roles since 2008.[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1)[\[2\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-Two-2)
 
-Where else do parts come from? Everywhere. At least nine countries and half a dozen states on four continents. Fasten your seatbelts and put your tray tables and seat back in the upright and locked position-let’s take a journey through the Boeing supply chain.
+In November 2017, she beat 90 other applicants and was appointed to her current position, replacing _Albert Mugo_, who retired after attaining the mandatory retirement age of 60 years.[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1)
 
-{% include_relative custom-viz/boeing/boeing-scroll.html %}
+## Other considerations\[[edit](https://en.wikipedia.org/w/index.php?title=Rebecca_Miano&action=edit&section=3&editintro=Template:BLP_editintro "Edit section: Other considerations")\]
 
-All this, however, just covers the empty shell of the aircraft. Additional fittings-the software that runs the computer systems, the lights, the seats, the overhead storage bins, the air-conditioning systems, and the power systems-all come from dozens of different manufacturers also spread around the globe.
-
-So, while Boeing may be emblematic of the spirit of American flight, the processes and parts that allow flight are sourced globally, through complex and intricately timed supply chains. Any disruption to those supply chains-whether from tariffs or the weather-can wreak havoc on Boeing’s delivery timetables to airlines. Delayed deliveries mean delayed payments or even cancelled orders, which ultimately affect the jobs of the 137,000 people Boeing employs in the United States. Next time you sit back, relax, and enjoy your flight remember that these wonderous machines are truly an international effort.
+Miano is the first female chief executive at KenGen. As of November 2017, she is one of the only two women in Kenya who lead a [parastatal](https://en.wikipedia.org/wiki/Parastatal "Parastatal") company, the only other woman being [MaryJane Mwangi](https://en.wikipedia.org/wiki/MaryJane_Mwangi "MaryJane Mwangi"), the CEO of [National Oil Corporation of Kenya](https://en.wikipedia.org/wiki/National_Oil_Corporation_of_Kenya "National Oil Corporation of Kenya").[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1) She is a member of the [Law Society of Kenya](https://en.wikipedia.org/wiki/Law_Society_of_Kenya "Law Society of Kenya"), and a member of the [Institute of Certified Public Secretaries of Kenya](https://www.icpsk.com/).[\[1\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-One-1) In 2010, she was decorated with the **Order of the Grand Warrior of Kenya** (OGW), in recognition of her body of work.[\[2\]](https://en.wikipedia.org/wiki/Rebecca_Miano#cite_note-Two-2)
