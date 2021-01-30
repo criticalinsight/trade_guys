@@ -3,7 +3,9 @@ title: 'Crash Course: Enabling private-sector participation in electricity gener
 content_type: article
 show_image_on_single_post: true
 date: 2021-01-30 05:00:00 +0000
-series: []
+series:
+- _series/trade-terms-explained.md
+- _series/trends-in-trade.md
 keywords: []
 excerpt: 'Kenya: enabling private-sector participation in electricity generation '
 notes: "AICD (Africa Infrastructure Country Diagnostic) (2010). Kenya’s Infrastructure:
