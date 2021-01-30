@@ -2,22 +2,22 @@
 header:
 - identifier: podcast
   url: "/podcast"
-  weight: 2
+  weight: "2"
   title: Podcast
   desc: View all podcast episodes
 - identifier: trade-explained
-  url: "/trade-explained"
-  weight: 3
+  url: "/energy-explained"
+  weight: "3"
   title: <i class="icon-chart-line"></i>Energy Explained
   desc: View all Trade Explained articles
 - identifier: about
   url: "/about"
-  weight: 4
+  weight: "4"
   title: About
   desc: Learn about the Trade Guys
 - identifier: contact
   url: "/#contact"
-  weight: 5
+  weight: "5"
   title: Ask a Question
   class: contact
   desc: Ask a Question
