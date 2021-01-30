@@ -7,8 +7,6 @@ url: "https://demo.thepowerdialogue.com" # the base hostname & protocol for your
 
 date_format: '%B %d, %Y'
 
-cloudinary_url: https://res.cloudinary.com/csisideaslab/image/upload/
-
 collections:
   posts:
     title: Trade Explained
