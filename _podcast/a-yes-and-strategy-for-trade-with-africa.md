@@ -12,14 +12,8 @@ excerpt: The Olkaria 5 project generates 140 MW,[\[5\]](https://en.wikipedia.org
   Company](https://en.wikipedia.org/wiki/Kenya_Electricity_Generating_Company "Kenya
   Electricity Generating Company") (KenGen). The budgeted cost is Sh40 billion (US$400
   million)
-keywords:
-- _keywords/africa.md
-- _keywords/tariffs.md
-- _keywords/services.md
-podcast_produced_by_language: 'Hosted by Jack Caporal and produced by Yumi Araki and
-  Jack Caporal at the Center for Strategic and International Studies in Washington.
-
-'
+keywords: []
+podcast_produced_by_language: ''
 megaphone_url: ''
 
 ---
