@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: Trade Explained & Visualized
-permalink: "/trade-explained/"
+title: Energy Explained & Visualized
+permalink: "/energy-explained/"
 sidebar: sidebar-trade-explained.html
 
 ---
