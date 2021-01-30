@@ -1,16 +1,26 @@
 ---
-title: Are Tariffs the Greatest?
-date: 2018-07-24 15:41:26 +0000
-episode_num: 11
-soundcloud_url: https://soundcloud.com/csis-57169780/are-tariffs-the-greatest?in=csis-57169780/sets/the-trade-guys
-transcript_url: https://csis-prod.s3.amazonaws.com/s3fs-public/publication/180725_The_Trade_Guys_Are_Tariffs_the_Greatest_0.pdf?o5e9dA4J6CXSAet5ArwQlerf079XwVaf
-excerpt: 'The Trade Guys discuss whether this is a harbinger of the president’s latest
-  plan to slap 25 percent tariffs on foreign autos and auto parts as the administration
-  makes the argument that auto imports may be a threat to national security. '
+title: 'KenGEn: A success story'
+date: 2021-01-30 15:41:26 +0000
+episode_num: 3
+soundcloud_url: https://soundcloud.com/984capitalfm/dj-lithium-29th-radioactive-set-3
+transcript_url: ''
+excerpt: '**Kenya Electricity Generating Company** or simply **_KenGen_** is a [parastatal](https://en.wikipedia.org/wiki/State-owned_enterprise
+  "State-owned enterprise") company, and is the largest electric power producer in
+  [Kenya](https://en.wikipedia.org/wiki/Kenya "Kenya") producing about 75% of the
+  electricity consumed in the country.'
 keywords:
 - _keywords/tariffs.md
 - _keywords/eu.md
 - _keywords/232_tariffs.md
+megaphone_url: ''
+podcast_produced_by_language: ''
 
 ---
-Ahead of his meeting with European Commission President Jean-Claude Juncker in Washington, President Trump tweeted, “Tariffs are the greatest!” as a warning to trade partners that they should be negotiating “fair deals.” The Trade Guys discuss whether this is a harbinger of the president’s latest plan to slap 25 percent tariffs on foreign autos and auto parts as the administration makes the argument that auto imports may be a threat to national security. But at a hearing at the Commerce Department last week, representatives from the auto industry appeared to disagree with that assessment. So, who’s right? Who wins and who loses when tariffs are placed on imported cars and car parts?
+**Kenya Electricity Generating Company** or simply **_KenGen_** is a [parastatal](https://en.wikipedia.org/wiki/State-owned_enterprise "State-owned enterprise") company, and is the largest electric power producer in [Kenya](https://en.wikipedia.org/wiki/Kenya "Kenya") producing about 75% of the electricity consumed in the country.
+
+  
+**KenGen** relies on various sources to generate electricity ranging from hydropower, geothermal, thermal and wind. Hydropower is the leading source, with an installed capacity of 818 [MW](https://en.wikipedia.org/wiki/Megawatt "Megawatt"), which is 52.3% of the company's installed capacity
+
+KPC was managed by the [Kenya Power and Lighting Company](https://en.wikipedia.org/wiki/Kenya_Power_and_Lighting_Company "Kenya Power and Lighting Company") under a management contract. In January 1997, the management of KPC was formally separated from Kenya Power as a direct result of reforms being under taken in the energy sector and the entire economy.[\[6\]](https://en.wikipedia.org/wiki/Kenya_Electricity_Generating_Company#cite_note-GSB-6) Subsequently, on 19 January 1998 the company changed its name from Kenya Power Company to Kenya Electricity Generating Company. The trading name **KenGen PLC** was also adopted at this point.
+
+In 2006, KenGen was listed on the [Nairobi Securities Exchange](https://en.wikipedia.org/wiki/Nairobi_Securities_Exchange "Nairobi Securities Exchange") after the Government of Kenya sold 30 percent of its stake in the company through a successful [initial public offering](https://en.wikipedia.org/wiki/Initial_public_offering "Initial public offering") that received over 280,000 applications.
