@@ -1,11 +1,13 @@
-title: "The Power Dialogue"
-email: info.thepowerdialogue.com
+title: "The Trade Guys"
+email: TradeGuys@csis.org
 description: >- # this means to ignore newlines until "baseurl:"
-Zeddy Bariti gets candid with Enegy Exprerts to demystify trends in energy about trade in way
+  Trade Guys Scott Miller and Bill Reinsch explain trade, how it affects policy, and how it impacts your day-to-day in ways that everyone can understand. The Trade Guys is hosted by H. Andrew Schwartz and produced by Yumi Araki at the Center for Strategic and International Studies (CSIS), a nonpartisan think tank in Washington, D.C.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://demo.thepowerdialogue.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tradeguys.csis.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 date_format: '%B %d, %Y'
+
+cloudinary_url: https://res.cloudinary.com/csisideaslab/image/upload/
 
 collections:
   posts:
